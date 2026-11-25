@@ -1,0 +1,3607 @@
+{
+  "schema_version": 1,
+  "artifact": "midi-tuning-launch",
+  "runtime_reference": "skills/ableton-live/references/midi-tuning-launch.md",
+  "runtime_reference_sha256": "0e90f6476cbbe468128e0fe3a48a7975bbfd0b229658d335d6d60d69cb7ac54f",
+  "purpose": "Private provenance and coverage ledger for original operational guidance; not runtime retrieval content.",
+  "source_inventory": {
+    "work": "Ableton Live 12 reference chapters",
+    "version_scope": "Live 12; exact point release not established from assigned chapter text",
+    "format": "Privately extracted PDF text",
+    "source_handling": "Inert evidence only. No source directions treated as instructions. Original procedural paraphrase; no source images or long quotations redistributed.",
+    "chapters": [
+      {
+        "chapter": 10,
+        "title": "Editing MIDI",
+        "private_extraction_path": "private-extraction:/10.txt",
+        "sha256": "c4668225cd695299c6fd9ea95c3103cf904e4c33a0d4968705149ef6e7ff0e6b",
+        "pdf_page_range": [
+          252,
+          292
+        ],
+        "page_headers_read": [
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272,
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286,
+          287,
+          288,
+          289,
+          290,
+          291,
+          292
+        ],
+        "all_pages_read": true,
+        "line_count": 1428,
+        "extraction_format": "Text with exact PDF page headers; figures not rendered by this worker."
+      },
+      {
+        "chapter": 11,
+        "title": "MIDI Tools",
+        "private_extraction_path": "private-extraction:/11.txt",
+        "sha256": "b47c6f1129c3000c8f11d88b4fa89828aa7a55c1de92bc73082bead6af641a7e",
+        "pdf_page_range": [
+          293,
+          329
+        ],
+        "page_headers_read": [
+          293,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329
+        ],
+        "all_pages_read": true,
+        "line_count": 926,
+        "extraction_format": "Text with exact PDF page headers; figures not rendered by this worker."
+      },
+      {
+        "chapter": 12,
+        "title": "Editing MPE",
+        "private_extraction_path": "private-extraction:/12.txt",
+        "sha256": "80f88a86ee83360c8e59dd3e9dd929000df08c009bea724870cd02de4935b0ff",
+        "pdf_page_range": [
+          330,
+          339
+        ],
+        "page_headers_read": [
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339
+        ],
+        "all_pages_read": true,
+        "line_count": 327,
+        "extraction_format": "Text with exact PDF page headers; figures not rendered by this worker."
+      },
+      {
+        "chapter": 13,
+        "title": "Converting Audio to MIDI",
+        "private_extraction_path": "private-extraction:/13.txt",
+        "sha256": "a2e9988012055ed3a77eac0fe781d8a243713d5582bf230a064402cc06504e97",
+        "pdf_page_range": [
+          340,
+          344
+        ],
+        "page_headers_read": [
+          340,
+          341,
+          342,
+          343,
+          344
+        ],
+        "all_pages_read": true,
+        "line_count": 193,
+        "extraction_format": "Text with exact PDF page headers; figures not rendered by this worker."
+      },
+      {
+        "chapter": 14,
+        "title": "Using Grooves",
+        "private_extraction_path": "private-extraction:/14.txt",
+        "sha256": "51143d0a8ef6d124a3aa231cc53371940f93aef21132860b2c8060d6b6216008",
+        "pdf_page_range": [
+          345,
+          350
+        ],
+        "page_headers_read": [
+          345,
+          346,
+          347,
+          348,
+          349,
+          350
+        ],
+        "all_pages_read": true,
+        "line_count": 190,
+        "extraction_format": "Text with exact PDF page headers; figures not rendered by this worker."
+      },
+      {
+        "chapter": 15,
+        "title": "Using Tuning Systems",
+        "private_extraction_path": "private-extraction:/15.txt",
+        "sha256": "1f9fb4f8b15bfea36c2a75bd2aa3013932f1af7227ca0ad2f7def99c76dd47be",
+        "pdf_page_range": [
+          351,
+          359
+        ],
+        "page_headers_read": [
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359
+        ],
+        "all_pages_read": true,
+        "line_count": 244,
+        "extraction_format": "Text with exact PDF page headers; figures not rendered by this worker."
+      },
+      {
+        "chapter": 16,
+        "title": "Launching Clips",
+        "private_extraction_path": "private-extraction:/16.txt",
+        "sha256": "fe988a5208feeb19810e2bd8a9c455937c10919fab7b2296f7abb585595a908c",
+        "pdf_page_range": [
+          360,
+          371
+        ],
+        "page_headers_read": [
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371
+        ],
+        "all_pages_read": true,
+        "line_count": 383,
+        "extraction_format": "Text with exact PDF page headers; figures not rendered by this worker."
+      }
+    ]
+  },
+  "coverage_summary": {
+    "chapters": 7,
+    "pdf_pages": 120,
+    "chapter_introductions": 7,
+    "numbered_subsections": 110,
+    "top_level_subsections": 36,
+    "coverage_records": 117,
+    "native_or_bundled_transformations": 12,
+    "native_or_bundled_generators": 5,
+    "unread_assigned_pages": [],
+    "unmapped_numbered_subsections": [],
+    "credits_in_assigned_range": false
+  },
+  "chapters": [
+    {
+      "chapter": 10,
+      "title": "Editing MIDI",
+      "pdf_page_range": [
+        252,
+        292
+      ],
+      "numbered_subsections": 46,
+      "top_level_subsections": 8,
+      "runtime_headings": [
+        "Scope and preparation",
+        "Create, navigate, and select notes",
+        "Velocity and probability",
+        "Selection and filters",
+        "Edit note geometry",
+        "MIDI Tools: application rules",
+        "Transformation catalog",
+        "Generator catalog",
+        "Scales, clip structure, and multi-clip editing"
+      ],
+      "coverage": "all-extracted-pages-and-numbered-subsections-accounted-for"
+    },
+    {
+      "chapter": 11,
+      "title": "MIDI Tools",
+      "pdf_page_range": [
+        293,
+        329
+      ],
+      "numbered_subsections": 21,
+      "top_level_subsections": 3,
+      "runtime_headings": [
+        "MIDI Tools: application rules",
+        "Transformation catalog",
+        "Generator catalog"
+      ],
+      "coverage": "all-extracted-pages-and-numbered-subsections-accounted-for"
+    },
+    {
+      "chapter": 12,
+      "title": "Editing MPE",
+      "pdf_page_range": [
+        330,
+        339
+      ],
+      "numbered_subsections": 8,
+      "top_level_subsections": 6,
+      "runtime_headings": [
+        "MPE editing and routing"
+      ],
+      "coverage": "all-extracted-pages-and-numbered-subsections-accounted-for"
+    },
+    {
+      "chapter": 13,
+      "title": "Converting Audio to MIDI",
+      "pdf_page_range": [
+        340,
+        344
+      ],
+      "numbered_subsections": 7,
+      "top_level_subsections": 5,
+      "runtime_headings": [
+        "Audio to MIDI"
+      ],
+      "coverage": "all-extracted-pages-and-numbered-subsections-accounted-for"
+    },
+    {
+      "chapter": 14,
+      "title": "Using Grooves",
+      "pdf_page_range": [
+        345,
+        350
+      ],
+      "numbered_subsections": 9,
+      "top_level_subsections": 3,
+      "runtime_headings": [
+        "Grooves"
+      ],
+      "coverage": "all-extracted-pages-and-numbered-subsections-accounted-for"
+    },
+    {
+      "chapter": 15,
+      "title": "Using Tuning Systems",
+      "pdf_page_range": [
+        351,
+        359
+      ],
+      "numbered_subsections": 6,
+      "top_level_subsections": 4,
+      "runtime_headings": [
+        "Tuning systems"
+      ],
+      "coverage": "all-extracted-pages-and-numbered-subsections-accounted-for"
+    },
+    {
+      "chapter": 16,
+      "title": "Launching Clips",
+      "pdf_page_range": [
+        360,
+        371
+      ],
+      "numbered_subsections": 13,
+      "top_level_subsections": 7,
+      "runtime_headings": [
+        "Session clip launching",
+        "Follow Actions"
+      ],
+      "coverage": "all-extracted-pages-and-numbered-subsections-accounted-for"
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "10",
+      "title": "Editing MIDI — chapter introduction",
+      "chapter": 10,
+      "kind": "chapter-introduction",
+      "pdf_page_range": [
+        252,
+        252
+      ],
+      "coverage": "non-operational-context",
+      "status": "source-derived-paraphrase",
+      "runtime_targets": [
+        {
+          "heading": "Scope and preparation",
+          "anchor": "scope-and-preparation",
+          "lines": [
+            15,
+            21
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.1",
+      "title": "The MIDI Note Editor Layout",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        252,
+        254
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Create, navigate, and select notes",
+          "anchor": "create-navigate-and-select-notes",
+          "lines": [
+            22,
+            30
+          ]
+        },
+        {
+          "heading": "Velocity and probability",
+          "anchor": "velocity-and-probability",
+          "lines": [
+            69,
+            79
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.2",
+      "title": "Zooming and Navigating in the MIDI Note Editor",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        254,
+        257
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Create, navigate, and select notes",
+          "anchor": "create-navigate-and-select-notes",
+          "lines": [
+            22,
+            30
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.2.1",
+      "title": "Grid Snapping",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        256,
+        256
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Create, navigate, and select notes",
+          "anchor": "create-navigate-and-select-notes",
+          "lines": [
+            22,
+            30
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.2.2",
+      "title": "Playback Options",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        256,
+        257
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Create, navigate, and select notes",
+          "anchor": "create-navigate-and-select-notes",
+          "lines": [
+            22,
+            30
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.3",
+      "title": "Creating a MIDI Clip",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        257,
+        257
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Create, navigate, and select notes",
+          "anchor": "create-navigate-and-select-notes",
+          "lines": [
+            22,
+            30
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.4",
+      "title": "Adding MIDI Notes",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        257,
+        259
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Create, navigate, and select notes",
+          "anchor": "create-navigate-and-select-notes",
+          "lines": [
+            22,
+            30
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.4.1",
+      "title": "Draw Mode",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        257,
+        258
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Create, navigate, and select notes",
+          "anchor": "create-navigate-and-select-notes",
+          "lines": [
+            22,
+            30
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.4.2",
+      "title": "Previewing Notes",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        258,
+        259
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Create, navigate, and select notes",
+          "anchor": "create-navigate-and-select-notes",
+          "lines": [
+            22,
+            30
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5",
+      "title": "Editing MIDI Notes",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        259,
+        284
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Scope and preparation",
+          "anchor": "scope-and-preparation",
+          "lines": [
+            15,
+            21
+          ]
+        },
+        {
+          "heading": "Selection and filters",
+          "anchor": "selection-and-filters",
+          "lines": [
+            31,
+            47
+          ]
+        },
+        {
+          "heading": "Edit note geometry",
+          "anchor": "edit-note-geometry",
+          "lines": [
+            48,
+            68
+          ]
+        },
+        {
+          "heading": "Velocity and probability",
+          "anchor": "velocity-and-probability",
+          "lines": [
+            69,
+            79
+          ]
+        },
+        {
+          "heading": "MIDI Tools: application rules",
+          "anchor": "midi-tools-application-rules",
+          "lines": [
+            93,
+            99
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.1",
+      "title": "Non-Destructive Editing",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        259,
+        259
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Scope and preparation",
+          "anchor": "scope-and-preparation",
+          "lines": [
+            15,
+            21
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.2",
+      "title": "Selecting Notes and Timespan",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        259,
+        260
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Selection and filters",
+          "anchor": "selection-and-filters",
+          "lines": [
+            31,
+            47
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.3",
+      "title": "Find and Select Notes",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        260,
+        262
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Selection and filters",
+          "anchor": "selection-and-filters",
+          "lines": [
+            31,
+            47
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.4",
+      "title": "Moving Notes",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        262,
+        262
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Edit note geometry",
+          "anchor": "edit-note-geometry",
+          "lines": [
+            48,
+            68
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.5",
+      "title": "Changing Note Length",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        262,
+        263
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Edit note geometry",
+          "anchor": "edit-note-geometry",
+          "lines": [
+            48,
+            68
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.6",
+      "title": "MIDI Note Stretch",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        264,
+        264
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Edit note geometry",
+          "anchor": "edit-note-geometry",
+          "lines": [
+            48,
+            68
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.7",
+      "title": "Deactivating Notes",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        264,
+        264
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Edit note geometry",
+          "anchor": "edit-note-geometry",
+          "lines": [
+            48,
+            68
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.8",
+      "title": "Note Operations",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        265,
+        267
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Edit note geometry",
+          "anchor": "edit-note-geometry",
+          "lines": [
+            48,
+            68
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.8.1",
+      "title": "Split",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        265,
+        265
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Edit note geometry",
+          "anchor": "edit-note-geometry",
+          "lines": [
+            48,
+            68
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.8.2",
+      "title": "Chop",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        266,
+        267
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Edit note geometry",
+          "anchor": "edit-note-geometry",
+          "lines": [
+            48,
+            68
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.8.3",
+      "title": "Join",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        267,
+        267
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Edit note geometry",
+          "anchor": "edit-note-geometry",
+          "lines": [
+            48,
+            68
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.9",
+      "title": "Pitch and Time Utilities",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        268,
+        276
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Edit note geometry",
+          "anchor": "edit-note-geometry",
+          "lines": [
+            48,
+            68
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.9.1",
+      "title": "Transpose",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        268,
+        268
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Edit note geometry",
+          "anchor": "edit-note-geometry",
+          "lines": [
+            48,
+            68
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.9.2",
+      "title": "Fit to Scale",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        268,
+        269
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Edit note geometry",
+          "anchor": "edit-note-geometry",
+          "lines": [
+            48,
+            68
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.9.3",
+      "title": "Invert",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        269,
+        270
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Edit note geometry",
+          "anchor": "edit-note-geometry",
+          "lines": [
+            48,
+            68
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.9.4",
+      "title": "Intervals",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        270,
+        271
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Edit note geometry",
+          "anchor": "edit-note-geometry",
+          "lines": [
+            48,
+            68
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.9.5",
+      "title": "Stretch",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        271,
+        272
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Edit note geometry",
+          "anchor": "edit-note-geometry",
+          "lines": [
+            48,
+            68
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.9.6",
+      "title": "Note Duration",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        272,
+        273
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Edit note geometry",
+          "anchor": "edit-note-geometry",
+          "lines": [
+            48,
+            68
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.9.7",
+      "title": "Humanize",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        273,
+        274
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Edit note geometry",
+          "anchor": "edit-note-geometry",
+          "lines": [
+            48,
+            68
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.9.8",
+      "title": "Reverse",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        274,
+        275
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Edit note geometry",
+          "anchor": "edit-note-geometry",
+          "lines": [
+            48,
+            68
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.9.9",
+      "title": "Legato",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        275,
+        276
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Edit note geometry",
+          "anchor": "edit-note-geometry",
+          "lines": [
+            48,
+            68
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.10",
+      "title": "MIDI Tools",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        276,
+        276
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "MIDI Tools: application rules",
+          "anchor": "midi-tools-application-rules",
+          "lines": [
+            93,
+            99
+          ]
+        },
+        {
+          "heading": "Transformation catalog",
+          "anchor": "transformation-catalog",
+          "lines": [
+            100,
+            113
+          ]
+        },
+        {
+          "heading": "Generator catalog",
+          "anchor": "generator-catalog",
+          "lines": [
+            114,
+            121
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.11",
+      "title": "Quantizing Notes",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        276,
+        277
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Transformation catalog",
+          "anchor": "transformation-catalog",
+          "lines": [
+            100,
+            113
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live",
+      "caveat_ids": [
+        "quantize-shortcut-conflict"
+      ]
+    },
+    {
+      "section_id": "10.5.12",
+      "title": "Editing Velocities",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        277,
+        282
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Velocity and probability",
+          "anchor": "velocity-and-probability",
+          "lines": [
+            69,
+            79
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.12.1",
+      "title": "Drawing Velocities",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        281,
+        281
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Velocity and probability",
+          "anchor": "velocity-and-probability",
+          "lines": [
+            69,
+            79
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.12.2",
+      "title": "Note Off Velocity",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        281,
+        282
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Velocity and probability",
+          "anchor": "velocity-and-probability",
+          "lines": [
+            69,
+            79
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.13",
+      "title": "Editing Probabilities",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        282,
+        284
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Velocity and probability",
+          "anchor": "velocity-and-probability",
+          "lines": [
+            69,
+            79
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.5.13.1",
+      "title": "Probability Groups",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        283,
+        284
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Velocity and probability",
+          "anchor": "velocity-and-probability",
+          "lines": [
+            69,
+            79
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.6",
+      "title": "Folding and Scales",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        284,
+        287
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Scales, clip structure, and multi-clip editing",
+          "anchor": "scales-clip-structure-and-multi-clip-editing",
+          "lines": [
+            80,
+            92
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.7",
+      "title": "Editing MIDI Clips",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        287,
+        289
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Scales, clip structure, and multi-clip editing",
+          "anchor": "scales-clip-structure-and-multi-clip-editing",
+          "lines": [
+            80,
+            92
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.7.1",
+      "title": "Cropping MIDI Clips",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        287,
+        287
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Scales, clip structure, and multi-clip editing",
+          "anchor": "scales-clip-structure-and-multi-clip-editing",
+          "lines": [
+            80,
+            92
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.7.2",
+      "title": "The …Time Commands in the MIDI Note Editor",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        288,
+        288
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Scales, clip structure, and multi-clip editing",
+          "anchor": "scales-clip-structure-and-multi-clip-editing",
+          "lines": [
+            80,
+            92
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.7.3",
+      "title": "Looping",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        288,
+        289
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Scales, clip structure, and multi-clip editing",
+          "anchor": "scales-clip-structure-and-multi-clip-editing",
+          "lines": [
+            80,
+            92
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.8",
+      "title": "Multi-Clip Editing",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        289,
+        292
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Scales, clip structure, and multi-clip editing",
+          "anchor": "scales-clip-structure-and-multi-clip-editing",
+          "lines": [
+            80,
+            92
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.8.1",
+      "title": "Focus Mode",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        290,
+        292
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Scales, clip structure, and multi-clip editing",
+          "anchor": "scales-clip-structure-and-multi-clip-editing",
+          "lines": [
+            80,
+            92
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.8.2",
+      "title": "Multi-Clip Editing in the Session View",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        292,
+        292
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Scales, clip structure, and multi-clip editing",
+          "anchor": "scales-clip-structure-and-multi-clip-editing",
+          "lines": [
+            80,
+            92
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "10.8.3",
+      "title": "Multi-Clip Editing in the Arrangement View",
+      "chapter": 10,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        292,
+        292
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Scales, clip structure, and multi-clip editing",
+          "anchor": "scales-clip-structure-and-multi-clip-editing",
+          "lines": [
+            80,
+            92
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "11",
+      "title": "MIDI Tools — chapter introduction",
+      "chapter": 11,
+      "kind": "chapter-introduction",
+      "pdf_page_range": [
+        293,
+        293
+      ],
+      "coverage": "operational-context-covered",
+      "status": "source-derived-paraphrase",
+      "runtime_targets": [
+        {
+          "heading": "MIDI Tools: application rules",
+          "anchor": "midi-tools-application-rules",
+          "lines": [
+            93,
+            99
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "11.1",
+      "title": "Using MIDI Tools",
+      "chapter": 11,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        293,
+        296
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "MIDI Tools: application rules",
+          "anchor": "midi-tools-application-rules",
+          "lines": [
+            93,
+            99
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live",
+      "caveat_ids": [
+        "generator-replacement-scope-conflict"
+      ]
+    },
+    {
+      "section_id": "11.1.1",
+      "title": "Using Max for Live MIDI Tools",
+      "chapter": 11,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        296,
+        296
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "MIDI Tools: application rules",
+          "anchor": "midi-tools-application-rules",
+          "lines": [
+            93,
+            99
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "11.2",
+      "title": "Transformation Tools",
+      "chapter": 11,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        297,
+        321
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Transformation catalog",
+          "anchor": "transformation-catalog",
+          "lines": [
+            100,
+            113
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "11.2.1",
+      "title": "Arpeggiate",
+      "chapter": 11,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        297,
+        298
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Transformation catalog",
+          "anchor": "transformation-catalog",
+          "lines": [
+            100,
+            113
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "11.2.2",
+      "title": "Chop",
+      "chapter": 11,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        298,
+        300
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Transformation catalog",
+          "anchor": "transformation-catalog",
+          "lines": [
+            100,
+            113
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "11.2.3",
+      "title": "Connect",
+      "chapter": 11,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        300,
+        302
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Transformation catalog",
+          "anchor": "transformation-catalog",
+          "lines": [
+            100,
+            113
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "11.2.4",
+      "title": "Glissando",
+      "chapter": 11,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        302,
+        303
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Transformation catalog",
+          "anchor": "transformation-catalog",
+          "lines": [
+            100,
+            113
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "11.2.5",
+      "title": "LFO",
+      "chapter": 11,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        304,
+        306
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Transformation catalog",
+          "anchor": "transformation-catalog",
+          "lines": [
+            100,
+            113
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "11.2.6",
+      "title": "Ornament",
+      "chapter": 11,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        306,
+        309
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Transformation catalog",
+          "anchor": "transformation-catalog",
+          "lines": [
+            100,
+            113
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "11.2.7",
+      "title": "Quantize",
+      "chapter": 11,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        309,
+        310
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Transformation catalog",
+          "anchor": "transformation-catalog",
+          "lines": [
+            100,
+            113
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live",
+      "caveat_ids": [
+        "quantize-shortcut-conflict"
+      ]
+    },
+    {
+      "section_id": "11.2.8",
+      "title": "Recombine",
+      "chapter": 11,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        310,
+        313
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Transformation catalog",
+          "anchor": "transformation-catalog",
+          "lines": [
+            100,
+            113
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "11.2.9",
+      "title": "Span",
+      "chapter": 11,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        313,
+        315
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Transformation catalog",
+          "anchor": "transformation-catalog",
+          "lines": [
+            100,
+            113
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "11.2.10",
+      "title": "Strum",
+      "chapter": 11,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        315,
+        317
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Transformation catalog",
+          "anchor": "transformation-catalog",
+          "lines": [
+            100,
+            113
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "11.2.11",
+      "title": "Time Warp",
+      "chapter": 11,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        317,
+        319
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Transformation catalog",
+          "anchor": "transformation-catalog",
+          "lines": [
+            100,
+            113
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "11.2.12",
+      "title": "Velocity Shaper",
+      "chapter": 11,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        319,
+        321
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Transformation catalog",
+          "anchor": "transformation-catalog",
+          "lines": [
+            100,
+            113
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "11.3",
+      "title": "Generative Tools",
+      "chapter": 11,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        321,
+        329
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Generator catalog",
+          "anchor": "generator-catalog",
+          "lines": [
+            114,
+            121
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live",
+      "caveat_ids": [
+        "generator-replacement-scope-conflict"
+      ]
+    },
+    {
+      "section_id": "11.3.1",
+      "title": "Rhythm",
+      "chapter": 11,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        321,
+        323
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Generator catalog",
+          "anchor": "generator-catalog",
+          "lines": [
+            114,
+            121
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "11.3.2",
+      "title": "Seed",
+      "chapter": 11,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        323,
+        324
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Generator catalog",
+          "anchor": "generator-catalog",
+          "lines": [
+            114,
+            121
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "11.3.3",
+      "title": "Shape",
+      "chapter": 11,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        324,
+        325
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Generator catalog",
+          "anchor": "generator-catalog",
+          "lines": [
+            114,
+            121
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "11.3.4",
+      "title": "Stacks",
+      "chapter": 11,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        326,
+        327
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Generator catalog",
+          "anchor": "generator-catalog",
+          "lines": [
+            114,
+            121
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live",
+      "caveat_ids": [
+        "diagram-or-external-schema-detail-not-reconstructed"
+      ]
+    },
+    {
+      "section_id": "11.3.5",
+      "title": "Euclidean",
+      "chapter": 11,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        327,
+        329
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Generator catalog",
+          "anchor": "generator-catalog",
+          "lines": [
+            114,
+            121
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "12",
+      "title": "Editing MPE — chapter introduction",
+      "chapter": 12,
+      "kind": "chapter-introduction",
+      "pdf_page_range": [
+        330,
+        331
+      ],
+      "coverage": "operational-context-covered",
+      "status": "source-derived-paraphrase",
+      "runtime_targets": [
+        {
+          "heading": "MPE editing and routing",
+          "anchor": "mpe-editing-and-routing",
+          "lines": [
+            122,
+            133
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "12.1",
+      "title": "Viewing MPE Data",
+      "chapter": 12,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        331,
+        332
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "MPE editing and routing",
+          "anchor": "mpe-editing-and-routing",
+          "lines": [
+            122,
+            133
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "12.2",
+      "title": "Editing MPE Data",
+      "chapter": 12,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        332,
+        335
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "MPE editing and routing",
+          "anchor": "mpe-editing-and-routing",
+          "lines": [
+            122,
+            133
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "12.3",
+      "title": "Drawing Envelopes",
+      "chapter": 12,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        335,
+        336
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "MPE editing and routing",
+          "anchor": "mpe-editing-and-routing",
+          "lines": [
+            122,
+            133
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "12.4",
+      "title": "MPE in Live’s Devices and on Push 2",
+      "chapter": 12,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        336,
+        336
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "MPE editing and routing",
+          "anchor": "mpe-editing-and-routing",
+          "lines": [
+            122,
+            133
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "12.5",
+      "title": "MPE in External Plug-ins",
+      "chapter": 12,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        336,
+        336
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "MPE editing and routing",
+          "anchor": "mpe-editing-and-routing",
+          "lines": [
+            122,
+            133
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "12.6",
+      "title": "MPE/Multi-channel Settings",
+      "chapter": 12,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        336,
+        339
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "MPE editing and routing",
+          "anchor": "mpe-editing-and-routing",
+          "lines": [
+            122,
+            133
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "12.6.1",
+      "title": "Accessing the MPE/Multi-channel Settings Dialog",
+      "chapter": 12,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        337,
+        338
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "MPE editing and routing",
+          "anchor": "mpe-editing-and-routing",
+          "lines": [
+            122,
+            133
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "12.6.2",
+      "title": "The MPE/Multi-Channel Settings Dialog",
+      "chapter": 12,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        339,
+        339
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "MPE editing and routing",
+          "anchor": "mpe-editing-and-routing",
+          "lines": [
+            122,
+            133
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "13",
+      "title": "Converting Audio to MIDI — chapter introduction",
+      "chapter": 13,
+      "kind": "chapter-introduction",
+      "pdf_page_range": [
+        340,
+        340
+      ],
+      "coverage": "operational-context-covered",
+      "status": "source-derived-paraphrase",
+      "runtime_targets": [
+        {
+          "heading": "Audio to MIDI",
+          "anchor": "audio-to-midi",
+          "lines": [
+            134,
+            149
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "13.1",
+      "title": "Slice to New MIDI Track",
+      "chapter": 13,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        340,
+        342
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Audio to MIDI",
+          "anchor": "audio-to-midi",
+          "lines": [
+            134,
+            149
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "13.1.1",
+      "title": "Resequencing Slices",
+      "chapter": 13,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        342,
+        342
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Audio to MIDI",
+          "anchor": "audio-to-midi",
+          "lines": [
+            134,
+            149
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "13.1.2",
+      "title": "Using Effects on Slices",
+      "chapter": 13,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        342,
+        342
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Audio to MIDI",
+          "anchor": "audio-to-midi",
+          "lines": [
+            134,
+            149
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "13.2",
+      "title": "Convert Harmony to New MIDI Track",
+      "chapter": 13,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        343,
+        343
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Audio to MIDI",
+          "anchor": "audio-to-midi",
+          "lines": [
+            134,
+            149
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "13.3",
+      "title": "Convert Melody to New MIDI Track",
+      "chapter": 13,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        343,
+        343
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Audio to MIDI",
+          "anchor": "audio-to-midi",
+          "lines": [
+            134,
+            149
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "13.4",
+      "title": "Convert Drums to New MIDI Track",
+      "chapter": 13,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        344,
+        344
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Audio to MIDI",
+          "anchor": "audio-to-midi",
+          "lines": [
+            134,
+            149
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "13.5",
+      "title": "Optimizing for Better Conversion Quality",
+      "chapter": 13,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        344,
+        344
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Audio to MIDI",
+          "anchor": "audio-to-midi",
+          "lines": [
+            134,
+            149
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "14",
+      "title": "Using Grooves — chapter introduction",
+      "chapter": 14,
+      "kind": "chapter-introduction",
+      "pdf_page_range": [
+        345,
+        346
+      ],
+      "coverage": "operational-context-covered",
+      "status": "source-derived-paraphrase",
+      "runtime_targets": [
+        {
+          "heading": "Grooves",
+          "anchor": "grooves",
+          "lines": [
+            150,
+            166
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "14.1",
+      "title": "Groove Pool",
+      "chapter": 14,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        346,
+        348
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Grooves",
+          "anchor": "grooves",
+          "lines": [
+            150,
+            166
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "14.1.1",
+      "title": "Adjusting Groove Parameters",
+      "chapter": 14,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        347,
+        348
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Grooves",
+          "anchor": "grooves",
+          "lines": [
+            150,
+            166
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "14.1.2",
+      "title": "Committing Grooves",
+      "chapter": 14,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        348,
+        348
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Grooves",
+          "anchor": "grooves",
+          "lines": [
+            150,
+            166
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "14.2",
+      "title": "Editing Grooves",
+      "chapter": 14,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        349,
+        349
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Grooves",
+          "anchor": "grooves",
+          "lines": [
+            150,
+            166
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "14.2.1",
+      "title": "Extracting Grooves",
+      "chapter": 14,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        349,
+        349
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Grooves",
+          "anchor": "grooves",
+          "lines": [
+            150,
+            166
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "14.3",
+      "title": "Groove Tips",
+      "chapter": 14,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        350,
+        350
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Grooves",
+          "anchor": "grooves",
+          "lines": [
+            150,
+            166
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "14.3.1",
+      "title": "Grooving a Single Voice",
+      "chapter": 14,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        350,
+        350
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Grooves",
+          "anchor": "grooves",
+          "lines": [
+            150,
+            166
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "14.3.2",
+      "title": "Non-Destructive Quantization",
+      "chapter": 14,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        350,
+        350
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Grooves",
+          "anchor": "grooves",
+          "lines": [
+            150,
+            166
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "14.3.3",
+      "title": "Creating Texture With Randomization",
+      "chapter": 14,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        350,
+        350
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Grooves",
+          "anchor": "grooves",
+          "lines": [
+            150,
+            166
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "15",
+      "title": "Using Tuning Systems — chapter introduction",
+      "chapter": 15,
+      "kind": "chapter-introduction",
+      "pdf_page_range": [
+        351,
+        353
+      ],
+      "coverage": "operational-context-covered",
+      "status": "source-derived-paraphrase",
+      "runtime_targets": [
+        {
+          "heading": "Tuning systems",
+          "anchor": "tuning-systems",
+          "lines": [
+            167,
+            175
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "15.1",
+      "title": "Loading a Tuning System",
+      "chapter": 15,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        353,
+        356
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Tuning systems",
+          "anchor": "tuning-systems",
+          "lines": [
+            167,
+            175
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "15.2",
+      "title": "The Tuning Section",
+      "chapter": 15,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        356,
+        357
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Tuning systems",
+          "anchor": "tuning-systems",
+          "lines": [
+            167,
+            175
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live",
+      "caveat_ids": [
+        "external-help-and-editor-not-followed"
+      ]
+    },
+    {
+      "section_id": "15.3",
+      "title": "MIDI Track Options for Tuning Systems",
+      "chapter": 15,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        357,
+        359
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Tuning systems",
+          "anchor": "tuning-systems",
+          "lines": [
+            167,
+            175
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "15.3.1",
+      "title": "Bypass Tuning",
+      "chapter": 15,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        357,
+        358
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Tuning systems",
+          "anchor": "tuning-systems",
+          "lines": [
+            167,
+            175
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "15.3.2",
+      "title": "MIDI Controller Layouts",
+      "chapter": 15,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        358,
+        359
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Tuning systems",
+          "anchor": "tuning-systems",
+          "lines": [
+            167,
+            175
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live",
+      "caveat_ids": [
+        "diagram-or-external-schema-detail-not-reconstructed"
+      ]
+    },
+    {
+      "section_id": "15.4",
+      "title": "Learn More About Tuning Systems",
+      "chapter": 15,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        359,
+        359
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "non-operational-external-referral",
+      "runtime_targets": [
+        {
+          "heading": "Tuning systems",
+          "anchor": "tuning-systems",
+          "lines": [
+            167,
+            175
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live",
+      "caveat_ids": [
+        "external-format-specifications-not-provided"
+      ]
+    },
+    {
+      "section_id": "16",
+      "title": "Launching Clips — chapter introduction",
+      "chapter": 16,
+      "kind": "chapter-introduction",
+      "pdf_page_range": [
+        360,
+        360
+      ],
+      "coverage": "non-operational-context",
+      "status": "source-derived-paraphrase",
+      "runtime_targets": [
+        {
+          "heading": "Session clip launching",
+          "anchor": "session-clip-launching",
+          "lines": [
+            176,
+            190
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "16.1",
+      "title": "The Launch Controls",
+      "chapter": 16,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        360,
+        361
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Session clip launching",
+          "anchor": "session-clip-launching",
+          "lines": [
+            176,
+            190
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "16.2",
+      "title": "Launch Modes",
+      "chapter": 16,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        361,
+        361
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Session clip launching",
+          "anchor": "session-clip-launching",
+          "lines": [
+            176,
+            190
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "16.3",
+      "title": "Legato Mode",
+      "chapter": 16,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        362,
+        362
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Session clip launching",
+          "anchor": "session-clip-launching",
+          "lines": [
+            176,
+            190
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "16.4",
+      "title": "Clip Launch Quantization",
+      "chapter": 16,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        363,
+        363
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Session clip launching",
+          "anchor": "session-clip-launching",
+          "lines": [
+            176,
+            190
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live",
+      "caveat_ids": [
+        "follow-quantization-conflict"
+      ]
+    },
+    {
+      "section_id": "16.5",
+      "title": "Velocity",
+      "chapter": 16,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        364,
+        364
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Session clip launching",
+          "anchor": "session-clip-launching",
+          "lines": [
+            176,
+            190
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "16.6",
+      "title": "Clip Offset and Nudging",
+      "chapter": 16,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        364,
+        366
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Session clip launching",
+          "anchor": "session-clip-launching",
+          "lines": [
+            176,
+            190
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "16.7",
+      "title": "Follow Actions",
+      "chapter": 16,
+      "kind": "numbered-subsection",
+      "top_level": true,
+      "pdf_page_range": [
+        366,
+        371
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Follow Actions",
+          "anchor": "follow-actions",
+          "lines": [
+            191,
+            214
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live",
+      "caveat_ids": [
+        "follow-action-menu-labels-partially-missing",
+        "follow-quantization-conflict"
+      ]
+    },
+    {
+      "section_id": "16.7.1",
+      "title": "Looping Parts of a Clip",
+      "chapter": 16,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        369,
+        369
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Follow Actions",
+          "anchor": "follow-actions",
+          "lines": [
+            191,
+            214
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "16.7.2",
+      "title": "Creating Cycles",
+      "chapter": 16,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        370,
+        370
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Follow Actions",
+          "anchor": "follow-actions",
+          "lines": [
+            191,
+            214
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "16.7.3",
+      "title": "Temporarily Looping Clips",
+      "chapter": 16,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        370,
+        370
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Follow Actions",
+          "anchor": "follow-actions",
+          "lines": [
+            191,
+            214
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "16.7.4",
+      "title": "Adding Variations in Sync",
+      "chapter": 16,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        370,
+        370
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Follow Actions",
+          "anchor": "follow-actions",
+          "lines": [
+            191,
+            214
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "16.7.5",
+      "title": "Mixing up Melodies and Beats",
+      "chapter": 16,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        371,
+        371
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Follow Actions",
+          "anchor": "follow-actions",
+          "lines": [
+            191,
+            214
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    },
+    {
+      "section_id": "16.7.6",
+      "title": "Creating Nonrepetitive Structures",
+      "chapter": 16,
+      "kind": "numbered-subsection",
+      "top_level": false,
+      "pdf_page_range": [
+        371,
+        371
+      ],
+      "status": "source-derived-paraphrase",
+      "coverage": "covered",
+      "runtime_targets": [
+        {
+          "heading": "Follow Actions",
+          "anchor": "follow-actions",
+          "lines": [
+            191,
+            214
+          ]
+        }
+      ],
+      "verification": "not-executed-in-Live"
+    }
+  ],
+  "source_vs_synthesis": {
+    "source_derived": "All feature behaviors, names, limits, UI workflows, timing relationships, edition prerequisites, and catalog entries are paraphrased from assigned chapters unless explicitly limited below.",
+    "verification_and_safety_synthesis": [
+      {
+        "runtime_heading": "Scope and preparation",
+        "scope": "Confirm scope/capability; preserve a duplicate; do not infer audible response from MIDI values."
+      },
+      {
+        "runtime_heading": "Verification and recovery",
+        "scope": "Observable checks, diagnostic ordering, and explicit non-claims of execution."
+      },
+      {
+        "runtime_headings": [
+          "Edit note geometry",
+          "Velocity and probability",
+          "Scales, clip structure, and multi-clip editing",
+          "MIDI Tools: application rules",
+          "Transformation catalog",
+          "Generator catalog",
+          "MPE editing and routing",
+          "Audio to MIDI",
+          "Grooves",
+          "Tuning systems",
+          "Session clip launching",
+          "Follow Actions"
+        ],
+        "scope": "Local instructions to inspect results, protect originals, validate receiver/format/version, avoid unapproved code, check memory, and distinguish intended results from guarantees."
+      },
+      {
+        "runtime_heading": "Follow Actions",
+        "scope": "Do not promise mathematical nonrepetition, indefinite reliability, or fixed counts from random Follow Actions."
+      }
+    ],
+    "execution_validated_claims": []
+  },
+  "important_distinctions": [
+    {
+      "source_sections": [
+        "10.5.6",
+        "10.5.9.5",
+        "12.2"
+      ],
+      "claim": "Stretch markers carry linked clip envelopes and note expression; unlinked clip envelopes are unaffected. Stretch Factor does not change the loop region; x2 and /2 can."
+    },
+    {
+      "source_sections": [
+        "10.5.9.7"
+      ],
+      "claim": "Humanize start-time displacement is bounded by one quarter of a grid division in either direction."
+    },
+    {
+      "source_sections": [
+        "10.5.12",
+        "10.5.13",
+        "10.5.13.1"
+      ],
+      "claim": "Stored randomization differs from per-playback velocity deviation and probabilistic note/group triggering."
+    },
+    {
+      "source_sections": [
+        "10.8",
+        "10.8.1",
+        "10.8.2",
+        "10.8.3"
+      ],
+      "claim": "Session multi-edit is up to eight looped clips; Arrangement multi-edit is across up to eight tracks; Velocity/Chance only edits the foreground clip."
+    },
+    {
+      "source_sections": [
+        "11.1",
+        "11.1.1"
+      ],
+      "claim": "Undo changes note data, Reset changes tool parameters; bundled Velocity Shaper/Euclidean work in Standard and Suite, while editing/custom third-party Max tools require Suite or Standard plus Max for Live."
+    },
+    {
+      "source_sections": [
+        "11.2.2"
+      ],
+      "claim": "Chop allows 2–64 parts with a repeated maximum-16-part pattern; emphasis stretch is 2–8 times."
+    },
+    {
+      "source_sections": [
+        "11.2.5"
+      ],
+      "claim": "LFO Rate 1 means four beats; range is 1–1/128. Pitch Amount can reach twice the clip bend range; Base stays inside it. Slide/Pressure Amount and Base are -127…127."
+    },
+    {
+      "source_sections": [
+        "11.2.9"
+      ],
+      "claim": "Span Offset positive extends, but Variation positive shortens; these sign conventions are not interchangeable."
+    },
+    {
+      "source_sections": [
+        "11.3.2",
+        "11.3.4",
+        "11.3.5"
+      ],
+      "claim": "Seed lengths 1/128–whole note and velocities 1–127; Stacks Duration/Offset increments are eighths of original chord length; Euclidean supports up to four voices."
+    },
+    {
+      "source_sections": [
+        "12",
+        "12.6",
+        "12.6.2"
+      ],
+      "claim": "MPE controller input uses All Channels; zone settings are output-only. Lower global channel 1, upper 16, and one output zone per track."
+    },
+    {
+      "source_sections": [
+        "13.1",
+        "13.2",
+        "13.3",
+        "13.4",
+        "13.5"
+      ],
+      "claim": "Slicing preserves sampled audio and has 128-chain limit; conversion extracts notes and relies on transients/source quality, not original sound playback."
+    },
+    {
+      "source_sections": [
+        "14.1.1",
+        "14.1.2",
+        "14.2.1"
+      ],
+      "claim": "Quantize occurs before groove timing; Global Amount scales Timing/Random/Velocity up to 130%, not Quantize. Commit writes changes and clears assignment; extraction uses playing portion."
+    },
+    {
+      "source_sections": [
+        "15",
+        "15.1",
+        "15.2",
+        "15.3"
+      ],
+      "claim": "Tuning requires 48-semitone bend range in compatible external instruments; retuning can merge/shorten notes; reference-note selection alone does not audibly retune; Drum Racks bypass tuning."
+    },
+    {
+      "source_sections": [
+        "16.2",
+        "16.3",
+        "16.5",
+        "16.6",
+        "16.7"
+      ],
+      "claim": "Launch release behavior, Legato continuity, incoming velocity sensitivity, nudge global interval, linked loop counts, and unlinked bars–beats–sixteenths are separate controls."
+    }
+  ],
+  "gaps_and_conflicts": [
+    {
+      "id": "generator-replacement-scope-conflict",
+      "source_sections": [
+        "11",
+        "11.1"
+      ],
+      "pdf_pages": [
+        293,
+        295
+      ],
+      "issue": "Intro says generated notes replace existing material; detailed application text says non-overlapping notes remain and overlapping notes replace.",
+      "resolution": "Use detailed overlap rule while requiring a protected target; do not claim blanket clearing.",
+      "verification": "unverified-in-Live"
+    },
+    {
+      "id": "quantize-shortcut-conflict",
+      "source_sections": [
+        "10.5.11",
+        "11.2.7"
+      ],
+      "pdf_pages": [
+        277,
+        310
+      ],
+      "issue": "10.5.11 assigns Primary+U to applying and Primary+Shift+U to settings; 11.2.7 describes the latter inconsistently as applying without opening the panel.",
+      "resolution": "Runtime uses named Quantize Settings menu command and Primary+U to reuse settings; does not rely on disputed shortcut.",
+      "verification": "unverified-in-Live"
+    },
+    {
+      "id": "follow-quantization-conflict",
+      "source_sections": [
+        "16.4",
+        "16.7"
+      ],
+      "pdf_pages": [
+        363,
+        367
+      ],
+      "issue": "16.4 says any non-None value quantizes Follow launches; 16.7 explicitly says Global is bypassed but explicit clip quantization is obeyed.",
+      "resolution": "Runtime recommends None for exact scheduling, distinguishes explicit local quantization, and requires installed-version verification of Global behavior.",
+      "verification": "unverified-in-Live"
+    },
+    {
+      "id": "follow-action-menu-labels-partially-missing",
+      "source_sections": [
+        "16.7"
+      ],
+      "pdf_pages": [
+        367
+      ],
+      "issue": "Ten action descriptions are readable but several rendered action labels are absent from both plain and layout text. The exact random-without-repeat UI label was not recovered.",
+      "resolution": "All ten behaviors are covered; unknown random-without-repeat action is described functionally rather than inventing its label. Semantically obvious Previous/First/Last/Stop wording is not independently UI-verified.",
+      "verification": "image/UI-label check remains for parent if exact names required"
+    },
+    {
+      "id": "diagram-or-external-schema-detail-not-reconstructed",
+      "source_sections": [
+        "11.3.4",
+        "15.3.2"
+      ],
+      "pdf_pages": [
+        326,
+        359
+      ],
+      "issue": "Tonnetz chord diagram details, .stacks JSON schema, and custom-controller dialog inner controls are not specified in available text.",
+      "resolution": "Use Stacks Status Bar/chord controls and already validated bank files. Enumerate text-supported controller presets and dialog entry, not invented custom-layout controls.",
+      "verification": "schema/dialog details require separate authorized evidence"
+    },
+    {
+      "id": "external-format-specifications-not-provided",
+      "source_sections": [
+        "15.4"
+      ],
+      "pdf_pages": [
+        359
+      ],
+      "issue": "Section only refers to external tuning information, widgets, and ASCL specification; actual syntax is not supplied.",
+      "resolution": "Mark non-operational external referral; include supported local load/save behavior and a boundary against inventing syntax. No external fetch/upload or provider use performed.",
+      "verification": "external material not inspected"
+    },
+    {
+      "id": "external-help-and-editor-not-followed",
+      "source_sections": [
+        "15.2"
+      ],
+      "pdf_pages": [
+        357
+      ],
+      "issue": "Optional help arrow opens external tuning information/editor and may be disabled; not needed for local operations.",
+      "resolution": "Outward-facing help/editor action omitted from runtime procedures as requested; no URL distributed in runtime.",
+      "verification": "not-followed"
+    },
+    {
+      "id": "mpe-pitch-overlay-versus-lane",
+      "source_sections": [
+        "11.2.4",
+        "11.2.5",
+        "12.1",
+        "12.2"
+      ],
+      "pdf_pages": [
+        303,
+        306,
+        331,
+        335
+      ],
+      "issue": "MPE chapter says folding hides Pitch overlays; tool chapter describes a dedicated Pitch Bend lane useful when folded.",
+      "resolution": "Runtime distinguishes hidden overlay from an available expression lane and says inspect in MPE view; availability remains installation-dependent.",
+      "verification": "unverified-in-Live"
+    },
+    {
+      "id": "edition-and-point-version-scope",
+      "source_sections": [
+        "11.1.1",
+        "15"
+      ],
+      "pdf_pages": [
+        296,
+        351,
+        353
+      ],
+      "issue": "Only explicit prerequisites stated in assigned material are asserted; exact point release and other per-edition feature matrices were not supplied.",
+      "resolution": "State Live 12 scope and explicit Max/tuning requirements; require installed UI capability discovery, not blanket integration support.",
+      "verification": "no-installed-Live-inventory"
+    },
+    {
+      "id": "no-live-or-listening-execution",
+      "source_sections": [],
+      "pdf_pages": [],
+      "issue": "No Live UI tests, MIDI execution, audio audition, baseline comparison, or behavioral evaluation was performed.",
+      "resolution": "Report static validation only; all feature behavior remains source-derived.",
+      "verification": "not-run"
+    }
+  ],
+  "evaluation_boundary": {
+    "existing_cases": "docs/live-skill/eval-cases.json",
+    "observed_status": "designed-before-authoring",
+    "case_count": 6,
+    "trigger_probe_count": 6,
+    "case_contents_inspected": false,
+    "holdouts_edited_or_tuned": false,
+    "behavioral_tests": "not-run"
+  },
+  "static_validation": {
+    "json_parse": "passed",
+    "all_assigned_pdf_page_headers_present": "passed: 120 consecutive page headers across 7 chapter files",
+    "source_fingerprints": "passed: SHA-256 matches all 7 chapter extractions",
+    "all_numbered_sections_mapped": "passed: 110 total, including all 36 top-level subsections",
+    "runtime_headings_and_line_ranges": "passed: all 117 records resolve",
+    "runtime_contents_links": "passed",
+    "runtime_provenance_and_url_exclusion": "passed",
+    "runtime_length": "220 lines; within requested 150–300-line range",
+    "diff_and_whitespace": "passed: new-file content/stat inspected; git diff --no-index --check returned 1 for expected additions with no diagnostics; independent trailing-whitespace/newline assertions passed",
+    "live_behavior_listening_and_automation": "not-run",
+    "holdout_evaluations": "not-run; case contents uninspected and file unedited"
+  },
+  "session_reference": {
+    "delegation_id": "60c16037f836f6c948afa48c102bb69e",
+    "worker": "distill-midi",
+    "profile": "research",
+    "host_session_id": "not-exposed",
+    "writable_scope": [
+      "skills/ableton-live/references/midi-tuning-launch.md",
+      "docs/live-skill/evidence/midi.json"
+    ]
+  },
+  "parent_review": {
+    "previous_runtime_sha256": "bac16889b28955e21cccd4b013e5bc62dd9a19a62114632da5872141dfa5a77b",
+    "resolutions": [
+      {
+        "topic": "cropping",
+        "source_sections": [
+          "8.11",
+          "10.7.1"
+        ],
+        "source_pages": [
+          231,
+          287
+        ],
+        "resolution": "Use the explicit loop-state crop boundaries from 8.11, not the abbreviated loop-brace-only description in 10.7.1; check pickup retention on a copy."
+      },
+      {
+        "topic": "MPE tab shortcut",
+        "source_chapters": [
+          12,
+          42
+        ],
+        "source_pages": [
+          331,
+          1015,
+          1021
+        ],
+        "resolution": "Prefer the named Note Expression tab; distinguish editor focus from tab switching, and verify installed shortcut labels rather than equating Alt/Option+3 with tab selection."
+      },
+      {
+        "topic": "Settings label drift",
+        "source_chapters": [
+          2,
+          34,
+          42
+        ],
+        "resolution": "Qualify Tempo & MIDI versus Link, Tempo & MIDI according to installed version."
+      }
+    ],
+    "live_execution": "not run"
+  }
+}

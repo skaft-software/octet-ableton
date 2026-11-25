@@ -1,0 +1,1699 @@
+{
+  "schema_version": 1,
+  "artifact": {
+    "reference_path": "skills/ableton-live/references/max-control.md",
+    "reference_sha256": "9302a7bfffb8b086e400bc2101bf33658f623bd3d4b2c9eb510144a15802b847",
+    "line_count": 267,
+    "word_count": 4584,
+    "scope": "Max for Live setup/editing/indexing/dependencies; all assigned Max instruments/audio and MIDI effects; MIDI/key remote control.",
+    "execution_status": "No Live interaction, audio listening, hardware test, or extension feature exercise performed."
+  },
+  "source_index": {
+    "path": "private-extraction:/chapters.json",
+    "sha256": "48c4c0bf1860c533980bf141b3fc9ffe10df2504f9ad38f7d0eae0d424ac6cc2",
+    "assigned_chapters": [
+      32,
+      33,
+      34
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "live12-ch32",
+      "chapter": 32,
+      "title": "Max for Live",
+      "source_family": "Ableton Live 12 documentation",
+      "version_note": "Material explicitly describes the Live 12.2 Edit in Max change; exact installed Live/Max build was not observed.",
+      "extraction_path": "private-extraction:/32.txt",
+      "extraction_sha256": "7c475c6e53faca5e4375d1f96deb66e8021bd20bc47ef09a7c5fcb25650cb03f",
+      "page_range": [
+        824,
+        829
+      ],
+      "pages_read": [
+        824,
+        825,
+        826,
+        827,
+        828,
+        829
+      ],
+      "page_count": 6,
+      "line_count": 202,
+      "read_line_chunks": [
+        [
+          1,
+          202
+        ]
+      ],
+      "read_completeness": "Every extracted line and PDF page read; tools reported no truncation."
+    },
+    {
+      "source_id": "live12-ch33",
+      "chapter": 33,
+      "title": "Max for Live Devices",
+      "source_family": "Ableton Live 12 documentation",
+      "version_note": "Material explicitly describes the Live 12.2 Edit in Max change; exact installed Live/Max build was not observed.",
+      "extraction_path": "private-extraction:/33.txt",
+      "extraction_sha256": "84783bc17b119cb20ba04d4bb55cce481c3fcb2a47dc4194efd878412f37804f",
+      "page_range": [
+        830,
+        864
+      ],
+      "pages_read": [
+        830,
+        831,
+        832,
+        833,
+        834,
+        835,
+        836,
+        837,
+        838,
+        839,
+        840,
+        841,
+        842,
+        843,
+        844,
+        845,
+        846,
+        847,
+        848,
+        849,
+        850,
+        851,
+        852,
+        853,
+        854,
+        855,
+        856,
+        857,
+        858,
+        859,
+        860,
+        861,
+        862,
+        863,
+        864
+      ],
+      "page_count": 35,
+      "line_count": 1080,
+      "read_line_chunks": [
+        [
+          1,
+          365
+        ],
+        [
+          366,
+          730
+        ],
+        [
+          731,
+          1080
+        ]
+      ],
+      "read_completeness": "Every extracted line and PDF page read; tools reported no truncation."
+    },
+    {
+      "source_id": "live12-ch34",
+      "chapter": 34,
+      "title": "MIDI and Key Remote Control",
+      "source_family": "Ableton Live 12 documentation",
+      "version_note": "Material explicitly describes the Live 12.2 Edit in Max change; exact installed Live/Max build was not observed.",
+      "extraction_path": "private-extraction:/34.txt",
+      "extraction_sha256": "c003b60a2c40cb63165364d53a772aac6a4690e81da6eefd139302d7b67ba97e",
+      "page_range": [
+        865,
+        873
+      ],
+      "pages_read": [
+        865,
+        866,
+        867,
+        868,
+        869,
+        870,
+        871,
+        872,
+        873
+      ],
+      "page_count": 9,
+      "line_count": 394,
+      "read_line_chunks": [
+        [
+          1,
+          394
+        ]
+      ],
+      "read_completeness": "Every extracted line and PDF page read; tools reported no truncation."
+    }
+  ],
+  "coverage": [
+    {
+      "section_id": "32.intro",
+      "section_title": "Max for Live — introduction",
+      "chapter": 32,
+      "source_id": "live12-ch32",
+      "source_page_range": [
+        824,
+        824
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational-context",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Choose a method and confirm availability",
+          "start_line": 17,
+          "end_line": 31
+        },
+        {
+          "heading": "Build, edit, save, and package Max devices",
+          "start_line": 32,
+          "end_line": 47
+        }
+      ],
+      "retained_operational_points": [
+        "Max devices comprise instruments, effects, and MIDI Tools and can be edited in Max.",
+        "The Live API allows Set/control-surface customization; this does not establish extension capability."
+      ]
+    },
+    {
+      "section_id": "32.1",
+      "section_title": "Setting Up Max for Live",
+      "chapter": 32,
+      "source_id": "live12-ch32",
+      "source_page_range": [
+        824,
+        824
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Choose a method and confirm availability",
+          "start_line": 17,
+          "end_line": 31
+        },
+        {
+          "heading": "Build, edit, save, and package Max devices",
+          "start_line": 32,
+          "end_line": 47
+        }
+      ],
+      "retained_operational_points": [
+        "Bundled with Suite or Standard plus Max for Live add-on, without separate Max installation.",
+        "An alternate installed editor is selected in File & Folder Settings and requires restarting Live."
+      ]
+    },
+    {
+      "section_id": "32.2",
+      "section_title": "Using Max for Live Devices",
+      "chapter": 32,
+      "source_id": "live12-ch32",
+      "source_page_range": [
+        825,
+        825
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Choose a method and confirm availability",
+          "start_line": 17,
+          "end_line": 31
+        }
+      ],
+      "retained_operational_points": [
+        "Core Library instruments/effects appear under Instruments, Audio Effects, MIDI Effects, and Modulators.",
+        "Max for Live browser label gathers built-in, installed third-party, saved devices, and MIDI Tools.",
+        "Device presets can be used, created, or edited."
+      ]
+    },
+    {
+      "section_id": "32.3",
+      "section_title": "Editing Max for Live Devices",
+      "chapter": 32,
+      "source_id": "live12-ch32",
+      "source_page_range": [
+        825,
+        827
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Build, edit, save, and package Max devices",
+          "start_line": 32,
+          "end_line": 47
+        }
+      ],
+      "retained_operational_points": [
+        "Object connections determine behavior; the default audio-effect path is plugin~ to plugout~.",
+        "Start with Max Instrument/MIDI Effect/Audio Effect or an existing patch; title-bar context/Show Options exposes Edit in Max.",
+        "Live 12.2 replaced the title-bar Edit button; -MaxForLiveDeveloperMode restores it.",
+        "Save updates all device instances in a Set; Save As prompts for edited-only versus all-instance scope.",
+        "AMXD is stored separately, normally in the relevant User Library device-type folder; File Manager repairs missing references."
+      ]
+    },
+    {
+      "section_id": "32.4",
+      "section_title": "Building Max for Live MIDI Tools",
+      "chapter": 32,
+      "source_id": "live12-ch32",
+      "source_page_range": [
+        828,
+        829
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Build an indexed MIDI Tool",
+          "start_line": 41,
+          "end_line": 47
+        }
+      ],
+      "retained_operational_points": [
+        "Start with a Max MIDI Transformation/Generator template in the corresponding Clip View tools panel, or edit an existing tool using Edit.",
+        "Save/Save As in Max; default folders are User Library/MIDI Tools/Max Transformations and Max Generators.",
+        "Alternative AMXD locations must be inside browser Places for indexing and tool-menu discovery.",
+        "Max Help > Reference > Max for Live > Guides provides object-level MIDI Tool documentation."
+      ]
+    },
+    {
+      "section_id": "32.5",
+      "section_title": "Max Dependencies",
+      "chapter": 32,
+      "source_id": "live12-ch32",
+      "source_page_range": [
+        829,
+        829
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Build, edit, save, and package Max devices",
+          "start_line": 32,
+          "end_line": 47
+        }
+      ],
+      "retained_operational_points": [
+        "Devices may depend on samples, pictures, or other patches; device freezing packages dependencies.",
+        "Max device freezing and Live Freeze Track are distinct; the supplied section does not give the exact Max freezing UI sequence."
+      ]
+    },
+    {
+      "section_id": "32.6",
+      "section_title": "Learning Max Programming",
+      "chapter": 32,
+      "source_id": "live12-ch32",
+      "source_page_range": [
+        829,
+        829
+      ],
+      "coverage_status": "covered",
+      "content_kind": "learning-resource-navigation; external pointers non-operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Build an indexed MIDI Tool",
+          "start_line": 41,
+          "end_line": 47
+        }
+      ],
+      "retained_operational_points": [
+        "Max Help > Reference contains Max and Max for Live learning material.",
+        "Building Max Devices Pack supplies hands-on lessons if available.",
+        "External Production Guidelines and Learn Max links are non-operational resource pointers, not reproduced in the runtime reference."
+      ]
+    },
+    {
+      "section_id": "33.intro",
+      "section_title": "Max for Live Devices — introduction",
+      "chapter": 33,
+      "source_id": "live12-ch33",
+      "source_page_range": [
+        830,
+        830
+      ],
+      "coverage_status": "covered",
+      "content_kind": "prerequisite-context",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Choose a method and confirm availability",
+          "start_line": 17,
+          "end_line": 31
+        }
+      ],
+      "retained_operational_points": [
+        "Built-in Max device families include instruments, effects, and MIDI Tools.",
+        "Suite or Standard plus Max for Live supports opening devices in Max; available devices vary by edition."
+      ]
+    },
+    {
+      "section_id": "33.1",
+      "section_title": "Max for Live Instruments",
+      "chapter": 33,
+      "source_id": "live12-ch33",
+      "source_page_range": [
+        831,
+        838
+      ],
+      "coverage_status": "covered",
+      "content_kind": "family-index; details in child sections",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "DS percussion instruments",
+          "start_line": 48,
+          "end_line": 64
+        }
+      ],
+      "retained_operational_points": [
+        "All eight DS instruments are individually covered, including audition gesture, decay, volume, pitch control, and unique synthesis controls."
+      ]
+    },
+    {
+      "section_id": "33.1.1",
+      "section_title": "DS Clang",
+      "chapter": 33,
+      "source_id": "live12-ch33",
+      "source_page_range": [
+        831,
+        831
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "DS percussion instruments",
+          "start_line": 48,
+          "end_line": 64
+        }
+      ],
+      "retained_operational_points": [
+        "Two independently leveled tones, white noise, high-/band-pass cutoff, Clave-enabled Repeat, Pitch, Decay, Volume, and upper-display audition."
+      ]
+    },
+    {
+      "section_id": "33.1.2",
+      "section_title": "DS Clap",
+      "chapter": 33,
+      "source_id": "live12-ch33",
+      "source_page_range": [
+        832,
+        832
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "DS percussion instruments",
+          "start_line": 48,
+          "end_line": 64
+        }
+      ],
+      "retained_operational_points": [
+        "Filtered noise/impulse through panned delays; Sloppy controls delay separation, Tail adds noise, Spread 0% mono/100% widened, Tone, Tune, Decay, Volume, audition."
+      ]
+    },
+    {
+      "section_id": "33.1.3",
+      "section_title": "DS Cymbal",
+      "chapter": 33,
+      "source_id": "live12-ch33",
+      "source_page_range": [
+        833,
+        833
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "DS percussion instruments",
+          "start_line": 48,
+          "end_line": 64
+        }
+      ],
+      "retained_operational_points": [
+        "Sine/pulse and high-passed-noise design; high-pass Tone cutoff, Pitch, Decay, Volume, audition."
+      ]
+    },
+    {
+      "section_id": "33.1.4",
+      "section_title": "DS FM",
+      "chapter": 33,
+      "source_id": "live12-ch33",
+      "source_page_range": [
+        834,
+        834
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "DS percussion instruments",
+          "start_line": 48,
+          "end_line": 64
+        }
+      ],
+      "retained_operational_points": [
+        "Low-pass Tone, feedback-driven noise via Feedb., FM amount via Amnt, modulation-type blend via Mod, global Pitch, Decay, Volume, audition."
+      ]
+    },
+    {
+      "section_id": "33.1.5",
+      "section_title": "DS HH",
+      "chapter": 33,
+      "source_id": "live12-ch33",
+      "source_page_range": [
+        835,
+        835
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "DS percussion instruments",
+          "start_line": 48,
+          "end_line": 64
+        }
+      ],
+      "retained_operational_points": [
+        "White/pink noise choice, Tone high-pass cutoff, pitched resonant high-pass with 12/24 dB slopes and Attack, global Pitch, Decay, Volume, audition."
+      ]
+    },
+    {
+      "section_id": "33.1.6",
+      "section_title": "DS Kick",
+      "chapter": 33,
+      "source_id": "live12-ch33",
+      "source_page_range": [
+        836,
+        836
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "DS percussion instruments",
+          "start_line": 48,
+          "end_line": 64
+        }
+      ],
+      "retained_operational_points": [
+        "Modulated sine; Pitch in Hz, Drive distortion, OT harmonics, Attack smoothing, Click transient, Env pitch modulation, Decay, Volume, audition."
+      ]
+    },
+    {
+      "section_id": "33.1.7",
+      "section_title": "DS Snare",
+      "chapter": 33,
+      "source_id": "live12-ch33",
+      "source_page_range": [
+        837,
+        837
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "DS percussion instruments",
+          "start_line": 48,
+          "end_line": 64
+        }
+      ],
+      "retained_operational_points": [
+        "Pitched oscillator/noise; Color versus Tone, low/high/band-pass noise filtering, Tune, Decay, Volume, audition."
+      ]
+    },
+    {
+      "section_id": "33.1.8",
+      "section_title": "DS Tom",
+      "chapter": 33,
+      "source_id": "live12-ch33",
+      "source_page_range": [
+        838,
+        838
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "DS percussion instruments",
+          "start_line": 48,
+          "end_line": 64
+        }
+      ],
+      "retained_operational_points": [
+        "Impulse/oscillator design; Pitch in Hz, Color gain/cutoff, Tone resonant band-pass levels, Bend pitch envelope, Decay, Volume, audition."
+      ]
+    },
+    {
+      "section_id": "33.2",
+      "section_title": "Max for Live Audio Effects",
+      "chapter": 33,
+      "source_id": "live12-ch33",
+      "source_page_range": [
+        839,
+        848
+      ],
+      "coverage_status": "covered",
+      "content_kind": "family-index; details in child sections",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Align Delay",
+          "start_line": 65,
+          "end_line": 76
+        },
+        {
+          "heading": "Shared modulator mapping",
+          "start_line": 77,
+          "end_line": 85
+        },
+        {
+          "heading": "Audio-driven and cyclic modulation",
+          "start_line": 86,
+          "end_line": 127
+        }
+      ],
+      "retained_operational_points": [
+        "Align Delay, Envelope Follower, LFO, and Shaper are covered individually; repeated mapping behavior is consolidated without losing per-device differences."
+      ]
+    },
+    {
+      "section_id": "33.2.1",
+      "section_title": "Align Delay",
+      "chapter": 33,
+      "source_id": "live12-ch33",
+      "source_page_range": [
+        839,
+        839
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Align Delay",
+          "start_line": 65,
+          "end_line": 76
+        }
+      ],
+      "retained_operational_points": [
+        "Time milliseconds for A/V or stereo offsets; Samples for latency offsets; Distance meters/feet for physical PA spacing.",
+        "Distance temperature compensation supports Celsius/Fahrenheit.",
+        "Link L/R applies left settings to both channels and disables the right slider."
+      ]
+    },
+    {
+      "section_id": "33.2.2",
+      "section_title": "Envelope Follower",
+      "chapter": 33,
+      "source_id": "live12-ch33",
+      "source_page_range": [
+        840,
+        842
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Shared modulator mapping",
+          "start_line": 77,
+          "end_line": 85
+        },
+        {
+          "heading": "Envelope Follower",
+          "start_line": 88,
+          "end_line": 97
+        }
+      ],
+      "retained_operational_points": [
+        "Audio amplitude becomes a mapped curve; Map/Unmap and eight targets via Multimap.",
+        "Default Modulation preserves base edits, bipolar/unipolar polarity and amount; Remote Control exclusively owns the target within Min/Max.",
+        "Gain, Rise/Fall, time-versus-beat Delay; default track-input detector.",
+        "Audio Routing triangle, Sidechain, Audio From source and Pre FX/Post FX/Post Mixer or Rack channel, Direct/S.C. meters.",
+        "Sidechain Mix 0% track input and 100% external source."
+      ]
+    },
+    {
+      "section_id": "33.2.3",
+      "section_title": "LFO",
+      "chapter": 33,
+      "source_id": "live12-ch33",
+      "source_page_range": [
+        843,
+        845
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Shared modulator mapping",
+          "start_line": 77,
+          "end_line": 85
+        },
+        {
+          "heading": "LFO",
+          "start_line": 98,
+          "end_line": 113
+        }
+      ],
+      "retained_operational_points": [
+        "Eight-target mapping and Modulation/Remote distinction retained.",
+        "Nine waveforms: Sine/Up/Down/Triangle/Square/Random/Bin/Stray/Glider.",
+        "Shape is unavailable for Random/Bin/Stray/Glider; Steps up to 24, unavailable for Random/Bin/Square.",
+        "Jitter, Smooth, Hz versus beat Rate, Hz-only x10, Depth 0/100%, signed Offset centered at 0%.",
+        "Phase 0–100%, Hold retains output and resumes from it; R retriggers from Phase."
+      ]
+    },
+    {
+      "section_id": "33.2.4",
+      "section_title": "Shaper",
+      "chapter": 33,
+      "source_id": "live12-ch33",
+      "source_page_range": [
+        846,
+        848
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Shared modulator mapping",
+          "start_line": 77,
+          "end_line": 85
+        },
+        {
+          "heading": "Shaper",
+          "start_line": 114,
+          "end_line": 127
+        }
+      ],
+      "retained_operational_points": [
+        "Eight-target mapping and Modulation/Remote distinction retained.",
+        "Add breakpoint, Alt/Option-drag curvature, Shift-click removal, Clear, six presets, Grid/Snap, output scope.",
+        "Jitter/Smooth, signed Offset centered at zero, Phase 0–100%, R disabled in Sync Time Mode.",
+        "Loop repeats, 1-Shot uses mappable T, Manual scrubs; Rate Hz/beats, Depth 0/100%."
+      ]
+    },
+    {
+      "section_id": "33.3",
+      "section_title": "Max for Live MIDI Effects",
+      "chapter": 33,
+      "source_id": "live12-ch33",
+      "source_page_range": [
+        848,
+        864
+      ],
+      "coverage_status": "covered",
+      "content_kind": "family-index; details in child sections",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Shared modulator mapping",
+          "start_line": 77,
+          "end_line": 85
+        },
+        {
+          "heading": "Note-driven and expression modulation",
+          "start_line": 128,
+          "end_line": 164
+        },
+        {
+          "heading": "Inspect and transform MIDI/MPE",
+          "start_line": 165,
+          "end_line": 194
+        }
+      ],
+      "retained_operational_points": [
+        "All six named MIDI effects and all three MPE Control sub-sources are covered."
+      ]
+    },
+    {
+      "section_id": "33.3.1",
+      "section_title": "Envelope MIDI",
+      "chapter": 33,
+      "source_id": "live12-ch33",
+      "source_page_range": [
+        848,
+        850
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Shared modulator mapping",
+          "start_line": 77,
+          "end_line": 85
+        },
+        {
+          "heading": "Envelope MIDI",
+          "start_line": 130,
+          "end_line": 142
+        }
+      ],
+      "retained_operational_points": [
+        "Eight-target mapping and Modulation/Remote distinction retained.",
+        "Free note triggers, Sync beat retriggers, Loop Global Time rate, Echo Env Echo Time and Env Feedback.",
+        "Trigger LED, Global Time 1.00 unity and proportional stretching/compression, Amount 0/100%.",
+        "ADSR definitions, ADR slopes and direct display editing, Velocity peak scaling, Sustain hold versus one-shot progression."
+      ]
+    },
+    {
+      "section_id": "33.3.2",
+      "section_title": "Expression Control",
+      "chapter": 33,
+      "source_id": "live12-ch33",
+      "source_page_range": [
+        851,
+        852
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Expression Control",
+          "start_line": 143,
+          "end_line": 156
+        }
+      ],
+      "retained_operational_points": [
+        "Five Mod Source tabs and ten sources: Velocity/Modwheel/Pitchbend/Pressure/Keytrack/Expression/Random/Increment/Slide/Sustain.",
+        "Map target per source; Modulate preserves base-value edits with polarity and Output Range Max, Remote uses Output Range Min/Max and owns values.",
+        "Linear two-point Curve A versus S three-point A/B upper/lower segments, inverse Curve Link, Min/Max, X-Y, direct display edits.",
+        "Increment Steps 1–32 and transport-stop reset to minimum on first note after restart; per-note Random Amount.",
+        "Linear/logarithmic smoothing, separate Rise/Fall 0–1000 ms."
+      ]
+    },
+    {
+      "section_id": "33.3.3",
+      "section_title": "MIDI Monitor",
+      "chapter": 33,
+      "source_id": "live12-ch33",
+      "source_page_range": [
+        853,
+        854
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "MIDI Monitor",
+          "start_line": 167,
+          "end_line": 170
+        }
+      ],
+      "retained_operational_points": [
+        "Note display includes keyboard notes, root/chord, velocity; Flow includes notes, pitch bend, aftertouch, Freeze/Clear.",
+        "MPE display streams note, velocity, slide, pressure, per-note pitch."
+      ]
+    },
+    {
+      "section_id": "33.3.4",
+      "section_title": "MPE Control",
+      "chapter": 33,
+      "source_id": "live12-ch33",
+      "source_page_range": [
+        855,
+        860
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "MPE Control",
+          "start_line": 171,
+          "end_line": 186
+        }
+      ],
+      "retained_operational_points": [
+        "Reshape incoming per-note data or convert to global MIDI for non-MPE devices.",
+        "Press/Slide/NotePB independent enables, selected curve foreground, linear/S curves, Min/Max, linked/unlinked segments, X-Y/direct manipulation.",
+        "Advanced triangle exposes per-source Smooth and Rise/Fall; specialized controls retained in child entries."
+      ]
+    },
+    {
+      "section_id": "33.3.4.1",
+      "section_title": "Press",
+      "chapter": 33,
+      "source_id": "live12-ch33",
+      "source_page_range": [
+        857,
+        858
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "MPE Control",
+          "start_line": 171,
+          "end_line": 186
+        }
+      ],
+      "retained_operational_points": [
+        "Per-note pressure after the strike; Default for notes lacking MPE, Swap to Slide, Press to AT for monophonic aftertouch."
+      ]
+    },
+    {
+      "section_id": "33.3.4.2",
+      "section_title": "Slide",
+      "chapter": 33,
+      "source_id": "live12-ch33",
+      "source_page_range": [
+        858,
+        859
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "MPE Control",
+          "start_line": 171,
+          "end_line": 186
+        }
+      ],
+      "retained_operational_points": [
+        "Vertical expression via CC74; Default, Centered zero at pad center with growth away from center.",
+        "Abs absolute, Rel middle-start regardless of initial touch with held-note movement, Ons updates only at Note On and disables smoothing.",
+        "Slide to Mod converts to CC1."
+      ]
+    },
+    {
+      "section_id": "33.3.4.3",
+      "section_title": "NotePB",
+      "chapter": 33,
+      "source_id": "live12-ch33",
+      "source_page_range": [
+        859,
+        860
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "MPE Control",
+          "start_line": 171,
+          "end_line": 186
+        }
+      ],
+      "retained_operational_points": [
+        "Horizontal per-note pitch bend; Pitch Range 2x example maps controller ±48 semitones to instrument ±24 semitones.",
+        "Higher scaling can increase non-pitch modulation range per gesture; NotePB to PB converts to standard pitch bend."
+      ]
+    },
+    {
+      "section_id": "33.3.5",
+      "section_title": "Note Echo",
+      "chapter": 33,
+      "source_id": "live12-ch33",
+      "source_page_range": [
+        861,
+        862
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Note Echo",
+          "start_line": 187,
+          "end_line": 194
+        }
+      ],
+      "retained_operational_points": [
+        "Added MIDI notes with diminishing velocity; Sync counts sixteenths, 4 equals a quarter note, Delay Time percentage offsets and milliseconds when Sync off.",
+        "Input Thru versus Mute, per-repeat Pitch, Delay velocity amount, Fback feedback.",
+        "MPE toggle retains expression; off filters it. Press/Slide/Note PB feedback below 100% progressively decays each expression stream."
+      ]
+    },
+    {
+      "section_id": "33.3.6",
+      "section_title": "Shaper MIDI",
+      "chapter": 33,
+      "source_id": "live12-ch33",
+      "source_page_range": [
+        862,
+        864
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Shared modulator mapping",
+          "start_line": 77,
+          "end_line": 85
+        },
+        {
+          "heading": "Shaper",
+          "start_line": 114,
+          "end_line": 127
+        },
+        {
+          "heading": "Shaper MIDI",
+          "start_line": 157,
+          "end_line": 164
+        }
+      ],
+      "retained_operational_points": [
+        "Note-triggered eight-target breakpoint modulation with Modulation/Remote distinction.",
+        "Point/curve creation, Shift-click, Clear, six presets, Grid/Snap, scope and trigger LED, Jitter/Smooth, signed Offset.",
+        "Ctrl/Cmd-click creates one larger sustain point, held until release; Loop repeats while held and bypasses sustain.",
+        "Velocity 0% ignores velocity; higher values scale depth. Hz/beats Rate, Depth 0/100%, Echo feedback and Time interval."
+      ]
+    },
+    {
+      "section_id": "34.intro",
+      "section_title": "MIDI and Key Remote Control — introduction",
+      "chapter": 34,
+      "source_id": "live12-ch34",
+      "source_page_range": [
+        865,
+        865
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational-context",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Choose a method and confirm availability",
+          "start_line": 17,
+          "end_line": 31
+        },
+        {
+          "heading": "Create and interpret remote mappings",
+          "start_line": 216,
+          "end_line": 238
+        },
+        {
+          "heading": "Relative Session navigation and Clip View control",
+          "start_line": 239,
+          "end_line": 251
+        }
+      ],
+      "retained_operational_points": [
+        "Targets include Session slots, switches, radio choices including crossfader assignment, continuous mixer controls, and the crossfader.",
+        "Session mappings are slot-bound, not clip-bound."
+      ]
+    },
+    {
+      "section_id": "34.1",
+      "section_title": "MIDI Remote Control",
+      "chapter": 34,
+      "source_id": "live12-ch34",
+      "source_page_range": [
+        865,
+        869
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Choose a method and confirm availability",
+          "start_line": 17,
+          "end_line": 31
+        },
+        {
+          "heading": "Configure hardware control",
+          "start_line": 195,
+          "end_line": 215
+        },
+        {
+          "heading": "Create and interpret remote mappings",
+          "start_line": 216,
+          "end_line": 238
+        }
+      ],
+      "retained_operational_points": [
+        "Hardware remote control is distinct from MIDI-track input; a remotely assigned note no longer plays the track instrument.",
+        "Push 1/2/3 supported; Link, Tempo & MIDI Settings via Ctrl/Cmd comma; observe MIDI indicators."
+      ],
+      "reconciliation_ids": [
+        "R1"
+      ]
+    },
+    {
+      "section_id": "34.1.1",
+      "section_title": "Natively Supported Control Surfaces",
+      "chapter": 34,
+      "source_id": "live12-ch34",
+      "source_page_range": [
+        866,
+        867
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Configure hardware control",
+          "start_line": 195,
+          "end_line": 215
+        }
+      ],
+      "retained_operational_points": [
+        "Select named surface and input/output ports, up to six supported surfaces simultaneously.",
+        "Dump is conditional and requires the hardware to be ready for preset reception; actual manufacturer setup is not supplied."
+      ],
+      "reconciliation_ids": [
+        "R1"
+      ]
+    },
+    {
+      "section_id": "34.1.1.1",
+      "section_title": "Instant Mappings",
+      "chapter": 34,
+      "source_id": "live12-ch34",
+      "source_page_range": [
+        866,
+        867
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Configure hardware control",
+          "start_line": 195,
+          "end_line": 215
+        },
+        {
+          "heading": "Create and interpret remote mappings",
+          "start_line": 216,
+          "end_line": 238
+        }
+      ],
+      "retained_operational_points": [
+        "Mappings follow selected devices and can be manually overridden with relevant Remote ports enabled.",
+        "Device title-bar Lock to menu pins supported surfaces, hand icon marks locking; arming a MIDI track defaults to instrument lock.",
+        "Some surfaces cannot lock; instant mappings do not appear in Mapping Browser."
+      ],
+      "reconciliation_ids": [
+        "R1"
+      ]
+    },
+    {
+      "section_id": "34.1.2",
+      "section_title": "Manual Control Surface Setup",
+      "chapter": 34,
+      "source_id": "live12-ch34",
+      "source_page_range": [
+        867,
+        868
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Configure hardware control",
+          "start_line": 195,
+          "end_line": 215
+        }
+      ],
+      "retained_operational_points": [
+        "Input Remote enables manual mapping for unsupported hardware; any number of MIDI ports can be merged.",
+        "Output Remote is needed for controller LEDs/motor-fader feedback; verify incoming messages with Control Bar indicators."
+      ],
+      "reconciliation_ids": [
+        "R1"
+      ]
+    },
+    {
+      "section_id": "34.1.3",
+      "section_title": "Takeover Mode",
+      "chapter": 34,
+      "source_id": "live12-ch34",
+      "source_page_range": [
+        868,
+        869
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Choose Takeover Mode for absolute controls",
+          "start_line": 207,
+          "end_line": 215
+        }
+      ],
+      "retained_operational_points": [
+        "Absolute bank switching mismatch: None jumps immediately, Pick-Up waits for equal value then follows 1:1, Value Scaling smoothly converges then follows 1:1."
+      ]
+    },
+    {
+      "section_id": "34.2",
+      "section_title": "The Mapping Browser",
+      "chapter": 34,
+      "source_id": "live12-ch34",
+      "source_page_range": [
+        869,
+        873
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Create and interpret remote mappings",
+          "start_line": 216,
+          "end_line": 238
+        }
+      ],
+      "retained_operational_points": [
+        "Manual MIDI/key/Macro modes expose matching mappings, target path/name, source, Min/Max editing and inversion.",
+        "Backspace Windows/Delete macOS removes selected assignments; context-dependent instant mappings are absent."
+      ]
+    },
+    {
+      "section_id": "34.2.1",
+      "section_title": "Assigning MIDI Remote Control",
+      "chapter": 34,
+      "source_id": "live12-ch34",
+      "source_page_range": [
+        870,
+        870
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Create and interpret remote mappings",
+          "start_line": 216,
+          "end_line": 238
+        }
+      ],
+      "retained_operational_points": [
+        "MIDI Map highlights eligible targets blue; click target, send hardware message, inspect Mapping Browser, exit mode.",
+        "Closed browser can be opened with Ctrl+Alt+B Windows/Cmd+Option+B macOS."
+      ],
+      "reconciliation_ids": [
+        "R1"
+      ]
+    },
+    {
+      "section_id": "34.2.2",
+      "section_title": "Mapping to MIDI Notes",
+      "chapter": 34,
+      "source_id": "live12-ch34",
+      "source_page_range": [
+        870,
+        870
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Create and interpret remote mappings",
+          "start_line": 216,
+          "end_line": 238
+        }
+      ],
+      "retained_operational_points": [
+        "Slots follow Launch Mode; Note On toggles switches/cycles radio choices; one note toggles continuous Min/Max, range supplies equally spaced values.",
+        "Chromatic slot assignment uses root held while adding lower and upper range bounds."
+      ]
+    },
+    {
+      "section_id": "34.2.3",
+      "section_title": "Mapping to Absolute MIDI Controllers",
+      "chapter": 34,
+      "source_id": "live12-ch34",
+      "source_page_range": [
+        870,
+        871
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Create and interpret remote mappings",
+          "start_line": 216,
+          "end_line": 238
+        }
+      ],
+      "retained_operational_points": [
+        "Seven-bit 0–127 mapping; slot threshold 63/64, general switches threshold 64, radio/continuous controls span options/range.",
+        "Track/device activators use mapping Min/Max membership, inverted limits reverse on/off membership behavior.",
+        "Pitch bend and 14-bit Absolute use 0–16383, split at 8191/8192."
+      ]
+    },
+    {
+      "section_id": "34.2.4",
+      "section_title": "Mapping to Relative MIDI Controllers",
+      "chapter": 34,
+      "source_id": "live12-ch34",
+      "source_page_range": [
+        871,
+        873
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Choose Takeover Mode for absolute controls",
+          "start_line": 207,
+          "end_line": 215
+        },
+        {
+          "heading": "Create and interpret remote mappings",
+          "start_line": 216,
+          "end_line": 238
+        },
+        {
+          "heading": "Relative Session navigation and Clip View control",
+          "start_line": 239,
+          "end_line": 251
+        }
+      ],
+      "retained_operational_points": [
+        "Relative increments/decrements avoid absolute-position jumps; Signed Bit, Signed Bit 2, Bin Offset, Twos Complement, and linear variants.",
+        "Hardware may accelerate; slow left movement aids automatic type/acceleration detection, with explicit Status Bar mode override.",
+        "Increment/decrement correspond to slot Note On/Off, switch on/off, radio next/previous, and encoding-specific continuous movement."
+      ]
+    },
+    {
+      "section_id": "34.2.4.1",
+      "section_title": "Relative Session View Navigation",
+      "chapter": 34,
+      "source_id": "live12-ch34",
+      "source_page_range": [
+        872,
+        872
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Relative Session navigation and Clip View control",
+          "start_line": 239,
+          "end_line": 251
+        }
+      ],
+      "retained_operational_points": [
+        "Assignable mapping strip supplies scene up/down, scene number scrolling, highlighted scene launch/cancel, and per-track highlighted-row clip launch.",
+        "Select Next Scene on Launch in Record, Warp & Launch enables sequential advance; highlighted scene stays centered."
+      ]
+    },
+    {
+      "section_id": "34.2.4.2",
+      "section_title": "Mapping to Clip View Controls",
+      "chapter": 34,
+      "source_id": "live12-ch34",
+      "source_page_range": [
+        872,
+        873
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Relative Session navigation and Clip View control",
+          "start_line": 239,
+          "end_line": 251
+        }
+      ],
+      "retained_operational_points": [
+        "Mappings follow currently selected/multi-selected clips and can affect any clip in a Set; prefer relative control to avoid parameter jumps."
+      ]
+    },
+    {
+      "section_id": "34.2.5",
+      "section_title": "Computer Keyboard Remote Control",
+      "chapter": 34,
+      "source_id": "live12-ch34",
+      "source_page_range": [
+        873,
+        873
+      ],
+      "coverage_status": "covered",
+      "content_kind": "operational",
+      "evidence_status": "source-derived; paraphrased, not execution-validated",
+      "reference_path": "skills/ableton-live/references/max-control.md",
+      "reference_spans": [
+        {
+          "heading": "Create and interpret remote mappings",
+          "start_line": 216,
+          "end_line": 238
+        }
+      ],
+      "retained_operational_points": [
+        "KEY mode red targets, click target, press key, inspect browser, exit mode; use View menu if browser hidden.",
+        "Keys follow slot Launch Mode, toggle switches, cycle radio choices; this is separate from pseudo-MIDI keyboard note generation."
+      ]
+    }
+  ],
+  "synthesis_policy": "All domain procedures and numerical/UI claims are source-derived paraphrases. Only explicitly listed safety and verification guidance is synthesis. No claim is experiment-backed.",
+  "synthesis": [
+    {
+      "id": "S1",
+      "kind": "safety",
+      "reference_headings": [
+        "Choose a method and confirm availability"
+      ],
+      "rule": "Treat named Live capabilities as UI procedures, not claims that the extension exposes them; confirm tools before automation."
+    },
+    {
+      "id": "S2",
+      "kind": "safety",
+      "reference_headings": [
+        "Build, edit, save, and package Max devices",
+        "Shaper",
+        "Create and interpret remote mappings"
+      ],
+      "rule": "Preserve work before restarting, prefer isolated Save As scope for experiments, preserve custom curves before replacement, and remove only intended mappings."
+    },
+    {
+      "id": "S3",
+      "kind": "verification",
+      "reference_headings": [
+        "Build an indexed MIDI Tool",
+        "DS percussion instruments",
+        "Align Delay"
+      ],
+      "rule": "Confirm indexing/editor launch, compare audition with sequenced input, and verify delay units/channel linkage and intended timing direction."
+    },
+    {
+      "id": "S4",
+      "kind": "verification",
+      "reference_headings": [
+        "Shared modulator mapping",
+        "Envelope Follower",
+        "LFO",
+        "Shaper",
+        "Envelope MIDI",
+        "Expression Control",
+        "Shaper MIDI"
+      ],
+      "rule": "Check visible signal, source, mode, range, global amount, trigger indicators, and Hold/loop state before changing downstream targets."
+    },
+    {
+      "id": "S5",
+      "kind": "verification",
+      "reference_headings": [
+        "MIDI Monitor",
+        "MPE Control",
+        "Note Echo"
+      ],
+      "rule": "Inspect incoming and transformed MIDI/MPE independently; test global-conversion behavior with chords rather than assuming a simultaneous-note arbitration rule."
+    },
+    {
+      "id": "S6",
+      "kind": "safety",
+      "reference_headings": [
+        "Configure hardware control"
+      ],
+      "rule": "Confirm authorization and hardware readiness before a preset dump; do not guess hardware-specific receive setup."
+    },
+    {
+      "id": "S7",
+      "kind": "verification",
+      "reference_headings": [
+        "Relative Session navigation and Clip View control",
+        "Verification and recovery"
+      ],
+      "rule": "Inspect current selections and visible control purposes; test navigation separately from launching and report only observed results."
+    },
+    {
+      "id": "S8",
+      "kind": "verification",
+      "reference_headings": [
+        "Verification and recovery"
+      ],
+      "rule": "The consolidated recovery table is a diagnostic synthesis of the retained causes and conditions; no Live or hardware validation was performed."
+    }
+  ],
+  "gaps_and_unverified_claims": [
+    {
+      "id": "G1",
+      "source_sections": [
+        "32.5"
+      ],
+      "type": "source-detail-gap",
+      "detail": "The text establishes device freezing and its distinction from Freeze Track, but supplies no exact Max freezing command sequence.",
+      "handling": "Runtime states the purpose and boundary, and directs to installed Max Help > Reference rather than inventing controls."
+    },
+    {
+      "id": "G2",
+      "source_sections": [
+        "32.4",
+        "32.6"
+      ],
+      "type": "source-detail-gap",
+      "detail": "Actual Max object recipes, patch wiring tutorials, and external learning resources are delegated to built-in/other documentation.",
+      "handling": "Runtime provides template, edit, persistence, discovery, and built-in help procedures only; no invented patch algorithms or external URLs."
+    },
+    {
+      "id": "G3",
+      "source_sections": [
+        "33.3.4.1",
+        "33.3.4.2",
+        "33.3.4.3"
+      ],
+      "type": "unspecified-behavior",
+      "detail": "The text does not define how conflicting simultaneous per-note values are reduced during conversion to global MIDI.",
+      "handling": "Runtime explains loss of per-note scope and requests a destination-specific chord test; no arbitration rule claimed."
+    },
+    {
+      "id": "G4",
+      "source_sections": [
+        "34.1.1",
+        "34.1.1.1",
+        "34.2.4"
+      ],
+      "type": "hardware-specific-unverified",
+      "detail": "Preset reception, lock support, instant layout, relative encoding, and acceleration depend on hardware; no hardware was connected or tested.",
+      "handling": "Use observed supported-surface menus/status and known controller settings; confirmation before Dump."
+    },
+    {
+      "id": "G5",
+      "source_sections": [
+        "34.2.4.1"
+      ],
+      "type": "figure-layout-limitation",
+      "detail": "The extracted text names the relative mapping strip controls but does not preserve the numbered diagram geometry or icons.",
+      "handling": "All control functions are covered by visible purpose; no pixel coordinates or guessed icon placement. No essential behavioral relationship was lost."
+    },
+    {
+      "id": "G6",
+      "source_sections": [
+        "32.1",
+        "32.3",
+        "33.intro"
+      ],
+      "type": "environment-unverified",
+      "detail": "Installed Live edition, minor build, Max build, device availability, and extension tool coverage were not observed.",
+      "handling": "Runtime requires checking availability/capabilities and retains the 12.2 UI distinction without claiming installed-version compatibility."
+    },
+    {
+      "id": "G7",
+      "source_sections": [
+        "2.3.4",
+        "2.3.5",
+        "34.1"
+      ],
+      "type": "source-label-drift-resolved",
+      "detail": "Settings labels disagree across chapters; the exact release introducing the split is not established by the inspected material.",
+      "handling": "R1 records the observed source-label difference; runtime prefers Tempo & MIDI while recognizing the combined older label."
+    }
+  ],
+  "non_operational_omissions": [
+    {
+      "source_sections": [
+        "32.6"
+      ],
+      "item": "External Max for Live Production Guidelines and Learn Max resource links",
+      "reason": "Non-operational learning pointers; external URLs omitted by contract. Internal Help navigation and Building Max Devices lessons retained."
+    },
+    {
+      "source_sections": [
+        "33.intro"
+      ],
+      "item": "General cross-chapter reading pointers",
+      "reason": "Non-operational navigation; edition prerequisites and the local operational procedures are retained."
+    },
+    {
+      "source_sections": [
+        "32",
+        "33",
+        "34"
+      ],
+      "item": "Screenshots and repeated captions",
+      "reason": "No redistribution; text-defined controls/actions were paraphrased. Geometry limitation recorded separately."
+    }
+  ],
+  "validation": {
+    "source_section_inventory": "passed: all 43 numbered sections plus three chapter introductions mapped",
+    "full_source_read": "passed: all 50 pages, 1676 lines",
+    "runtime_provenance_separation": "passed: no external URLs, PDF/source manual mention, source paths, or page-number citations in runtime",
+    "heading_links_and_spans": "passed: all 12 contents anchors and all coverage heading/start-line mappings resolve",
+    "evaluation_cases": "Existing docs/live-skill/eval-cases.json left unchanged; only document keys and case/probe counts inspected, not holdout case contents.",
+    "behavior_evaluation": "not run",
+    "listening_test": "not run",
+    "live_ui_test": "not run",
+    "hardware_test": "not run",
+    "full_skill_validation": "parent-owned assembled skill; not claimed by this bounded reference worker",
+    "source_fingerprints_and_page_bounds": "passed: extracted-source SHA-256, complete page inventories, all section IDs, and per-record page ranges checked",
+    "device_and_numeric_spot_checks": "passed: all 18 device names and critical numerical/version/control tokens retained; static checks only",
+    "runtime_length_and_whitespace": "passed: 267 lines, within requested 150–300 range, no trailing whitespace",
+    "settings_label_reconciliation": "passed: relevant chapter 2 excerpt read; R1 captures drift and runtime handles current/older labels",
+    "final_reference_review": "passed: entire 267-line reference reread; clarified smoothing as transition time rather than delay",
+    "diff_whitespace_check": "passed: git diff --no-index --check /dev/null for both owned files",
+    "json_parse": "passed: python -m json.tool"
+  },
+  "counts": {
+    "chapters": 3,
+    "source_pages": 50,
+    "source_lines": 1676,
+    "numbered_sections": 43,
+    "top_level_numbered_subsections": 11,
+    "chapter_introductions": 3,
+    "coverage_records": 46,
+    "named_device_sections": 18,
+    "safety_verification_synthesis_records": 8,
+    "gaps_or_unverified_items": 7,
+    "non_operational_omission_groups": 3,
+    "cross_chapter_reconciliation_records": 1,
+    "supplemental_source_pages_partially_inspected": 2
+  },
+  "supplemental_sources": [
+    {
+      "source_id": "live12-ch2-settings",
+      "chapter": 2,
+      "title": "First Steps — Settings label reconciliation",
+      "extraction_path": "private-extraction:/02.txt",
+      "extraction_sha256": "c2f0160092372872cfe7c1679e0c9067d3282721048a8687c6e944eb1f81b473",
+      "section_ids": [
+        "2.3.4",
+        "2.3.5"
+      ],
+      "page_range": [
+        32,
+        33
+      ],
+      "read_line_ranges": [
+        [
+          246,
+          279
+        ]
+      ],
+      "read_scope": "Only the relevant Settings excerpt inspected; no claim of reading all of chapter 2."
+    }
+  ],
+  "cross_chapter_reconciliation": [
+    {
+      "id": "R1",
+      "type": "source-label-drift",
+      "source_sections": [
+        "2.3.4",
+        "2.3.5",
+        "34.1",
+        "34.1.1",
+        "34.1.1.1",
+        "34.1.2",
+        "34.2.1"
+      ],
+      "page_ranges": [
+        [
+          32,
+          33
+        ],
+        [
+          865,
+          870
+        ]
+      ],
+      "reference_heading": "Configure hardware control",
+      "reference_lines": [
+        197,
+        197
+      ],
+      "evidence_status": "source-derived reconciliation, not UI-validated",
+      "conflict": "Chapter 2 separates Link from Tempo & MIDI; chapter 34 retains the combined Link, Tempo & MIDI Settings label.",
+      "resolution": "Prefer Tempo & MIDI and retain Link, Tempo & MIDI as the older-layout fallback; no unsupported exact minor-version boundary asserted."
+    }
+  ]
+}

@@ -1,0 +1,2020 @@
+{
+  "schema_version": 1,
+  "artifact": "routing-recording-mixing source coverage and limitations",
+  "reference_path": "skills/ableton-live/references/routing-recording-mixing.md",
+  "reference_sha256": "0564fb6b2728a50f0ee5d29974cb45cdfb0b00ad9860d47afc9b72e649553c50",
+  "source": {
+    "title": "Ableton Live 12 documentation, provided chapter extractions",
+    "original_pdf_path": null,
+    "original_pdf_fingerprint": null,
+    "original_pdf_note": "Not independently available to this worker; provenance is pinned to the supplied chapter extracts.",
+    "chapter_map_path": "private-extraction:/chapters.json",
+    "chapter_map_sha256": "48c4c0bf1860c533980bf141b3fc9ffe10df2504f9ad38f7d0eae0d424ac6cc2",
+    "classification": "inert source evidence, not executable instructions",
+    "redistribution": "Runtime reference is original procedural paraphrase; source excerpts and figures are not redistributed in it."
+  },
+  "scope": {
+    "chapters": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "page_range": [
+      372,
+      444
+    ],
+    "pages_read": 73,
+    "numbered_sections": 64,
+    "top_level_numbered_sections": 36,
+    "chapter_introductions": 6,
+    "coverage_records_including_introductions": 70,
+    "runtime_line_count": 221,
+    "runtime_byte_count": 38093,
+    "reading_method": "Full sequential reads of every extracted page, with chapters 17-19 split into bounded line chunks; no search-only or summary-only substitution.",
+    "evaluation_holdouts": "Existing docs/live-skill/eval-cases.json was not read, modified or used for tuning."
+  },
+  "derivation_policy": {
+    "operational_claims": "Source-derived unless separately identified as safety/verification synthesis. No claim is execution-validated.",
+    "synthesis_boundary": "Preservation choices, observable checkpoints, failure diagnosis ordering and UI-versus-tool capability boundaries are procedural safety/verification synthesis.",
+    "automation_boundary": "All procedures describe Live UI or explicitly noted Live mapping/API concepts. No extension endpoint or blanket capability is claimed.",
+    "compression": "Examples are converted to reusable procedures; repetitive captions, duplicate UI access paths and optional destructive cleanup keystrokes are not reproduced."
+  },
+  "chapters": [
+    {
+      "chapter": 17,
+      "title": "Routing and I/O",
+      "source_pages": [
+        372,
+        393
+      ],
+      "extraction_path": "private-extraction:/17.txt",
+      "extraction_sha256": "bb9a8e980f6152d7aac40441977c53e26fe1fe6644c03a87183da5febd61dd85",
+      "extraction_line_count": 699,
+      "all_pages_read": true,
+      "intro": {
+        "source_pages": [
+          372,
+          373
+        ],
+        "extraction_lines": [
+          1,
+          42
+        ],
+        "status": "source_derived_context",
+        "reference_headings": [
+          {
+            "heading": "Inputs and monitoring",
+            "anchor": "inputs-and-monitoring",
+            "line": 32
+          }
+        ],
+        "note": "Context, workflow selection or prerequisites incorporated into operational guidance."
+      },
+      "sections": [
+        {
+          "section_id": "17.1",
+          "title": "Monitoring",
+          "level": 1,
+          "source_pages": [
+            374,
+            374
+          ],
+          "extraction_lines": [
+            50,
+            92
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Inputs and monitoring",
+              "anchor": "inputs-and-monitoring",
+              "line": 32
+            }
+          ],
+          "coverage_summary": "In/Auto/Off, clip suppression, reset defaults, multi-selection, recording latency retention and external monitoring."
+        },
+        {
+          "section_id": "17.2",
+          "title": "External Audio In/Out",
+          "level": 1,
+          "source_pages": [
+            375,
+            375
+          ],
+          "extraction_lines": [
+            100,
+            130
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Inputs and monitoring",
+              "anchor": "inputs-and-monitoring",
+              "line": 32
+            }
+          ],
+          "coverage_summary": "Ext. In and physical outputs, activity/overload meters, Configure, enabled mono/stereo channels and device-specific names."
+        },
+        {
+          "section_id": "17.2.1",
+          "title": "Mono/Stereo Conversions",
+          "level": 2,
+          "source_pages": [
+            375,
+            375
+          ],
+          "extraction_lines": [
+            122,
+            130
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Inputs and monitoring",
+              "anchor": "inputs-and-monitoring",
+              "line": 32
+            }
+          ],
+          "coverage_summary": "Mono recording versus stereo processing; duplicated mono and stereo-to-mono sum attenuated by 6 dB."
+        },
+        {
+          "section_id": "17.3",
+          "title": "External MIDI In/Out",
+          "level": 1,
+          "source_pages": [
+            375,
+            380
+          ],
+          "extraction_lines": [
+            135,
+            338
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "MIDI ports, clocks, and external instruments",
+              "anchor": "midi-ports-clocks-and-external-instruments",
+              "line": 49
+            }
+          ],
+          "coverage_summary": "Specific or merged ports/channels, channel meters and multi-track chooser edits."
+        },
+        {
+          "section_id": "17.3.1",
+          "title": "MIDI Port Inputs and Outputs",
+          "level": 2,
+          "source_pages": [
+            376,
+            378
+          ],
+          "extraction_lines": [
+            149,
+            249
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "MIDI ports, clocks, and external instruments",
+              "anchor": "midi-ports-clocks-and-external-instruments",
+              "line": 49
+            }
+          ],
+          "coverage_summary": "Settings port inputs/outputs and independent Track, Sync, Remote responsibilities."
+        },
+        {
+          "section_id": "17.3.1.1",
+          "title": "Track",
+          "level": 3,
+          "source_pages": [
+            376,
+            376
+          ],
+          "extraction_lines": [
+            162,
+            176
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "MIDI ports, clocks, and external instruments",
+              "anchor": "midi-ports-clocks-and-external-instruments",
+              "line": 49
+            }
+          ],
+          "coverage_summary": "Track direction for notes/CC, controllers, virtual MIDI buses, hardware sound generators."
+        },
+        {
+          "section_id": "17.3.1.2",
+          "title": "Sync",
+          "level": 3,
+          "source_pages": [
+            376,
+            378
+          ],
+          "extraction_lines": [
+            179,
+            236
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "MIDI ports, clocks, and external instruments",
+              "anchor": "midi-ports-clocks-and-external-instruments",
+              "line": 49
+            }
+          ],
+          "coverage_summary": "Clock/Timecode direction, millisecond sync delay, Song SPP/Continue versus next-bar Pattern Start, hardware resync modes."
+        },
+        {
+          "section_id": "17.3.1.3",
+          "title": "Remote",
+          "level": 3,
+          "source_pages": [
+            378,
+            378
+          ],
+          "extraction_lines": [
+            239,
+            249
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "MIDI ports, clocks, and external instruments",
+              "anchor": "midi-ports-clocks-and-external-instruments",
+              "line": 49
+            }
+          ],
+          "coverage_summary": "Remote mappings/clip triggering versus output LED and motorized-fader feedback."
+        },
+        {
+          "section_id": "17.3.2",
+          "title": "Playing MIDI With the Computer Keyboard",
+          "level": 2,
+          "source_pages": [
+            378,
+            379
+          ],
+          "extraction_lines": [
+            253,
+            288
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "MIDI ports, clocks, and external instruments",
+              "anchor": "midi-ports-clocks-and-external-instruments",
+              "line": 49
+            }
+          ],
+          "coverage_summary": "Computer MIDI keyboard, C3 white/black rows, octave and 20-step velocity keys, Impulse mapping, shortcut conflicts and Shift workaround."
+        },
+        {
+          "section_id": "17.3.3",
+          "title": "Connecting External Synthesizers",
+          "level": 2,
+          "source_pages": [
+            379,
+            379
+          ],
+          "extraction_lines": [
+            293,
+            308
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "MIDI ports, clocks, and external instruments",
+              "anchor": "midi-ports-clocks-and-external-instruments",
+              "line": 49
+            }
+          ],
+          "coverage_summary": "Hardware synth port/channel, External Instrument return audio, Local Off for shared keyboard/sound generator."
+        },
+        {
+          "section_id": "17.3.4",
+          "title": "MIDI In/Out Indicators",
+          "level": 2,
+          "source_pages": [
+            379,
+            380
+          ],
+          "extraction_lines": [
+            312,
+            338
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "MIDI ports, clocks, and external instruments",
+              "anchor": "midi-ports-clocks-and-external-instruments",
+              "line": 49
+            }
+          ],
+          "coverage_summary": "Three MIDI indicator pairs and receive/send direction; remote-assigned messages do not pass to tracks."
+        },
+        {
+          "section_id": "17.4",
+          "title": "Resampling",
+          "level": 1,
+          "source_pages": [
+            380,
+            380
+          ],
+          "extraction_lines": [
+            343,
+            358
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Internal routing and signal taps",
+              "anchor": "internal-routing-and-signal-taps",
+              "line": 65
+            }
+          ],
+          "coverage_summary": "Main resampling, source selection by mix state, recorder output exclusion, clip recording and storage."
+        },
+        {
+          "section_id": "17.5",
+          "title": "Internal Routings",
+          "level": 1,
+          "source_pages": [
+            380,
+            393
+          ],
+          "extraction_lines": [
+            363,
+            694
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Internal routing and signal taps",
+              "anchor": "internal-routing-and-signal-taps",
+              "line": 65
+            }
+          ],
+          "coverage_summary": "To versus From routing, many-to-one versus one-to-many, feeder/bus solo dependencies."
+        },
+        {
+          "section_id": "17.5.1",
+          "title": "Internal Routing Points",
+          "level": 2,
+          "source_pages": [
+            381,
+            383
+          ],
+          "extraction_lines": [
+            396,
+            451
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Internal routing and signal taps",
+              "anchor": "internal-routing-and-signal-taps",
+              "line": 65
+            }
+          ],
+          "coverage_summary": "Pre FX/Post FX/Post Mixer signal stages and distinct solo consequences."
+        },
+        {
+          "section_id": "17.5.1.1",
+          "title": "Routing Points in Racks",
+          "level": 3,
+          "source_pages": [
+            383,
+            383
+          ],
+          "extraction_lines": [
+            430,
+            451
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Internal routing and signal taps",
+              "anchor": "internal-routing-and-signal-taps",
+              "line": 65
+            }
+          ],
+          "coverage_summary": "Instrument/Effect Rack chain taps, Drum Rack return-chain taps, chain summing boundary and solo behavior."
+        },
+        {
+          "section_id": "17.5.2",
+          "title": "Making Use of Internal Routing",
+          "level": 2,
+          "source_pages": [
+            383,
+            393
+          ],
+          "extraction_lines": [
+            455,
+            694
+          ],
+          "status": "source_derived",
+          "operational_status": "operational_via_children",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Internal routing and signal taps",
+              "anchor": "internal-routing-and-signal-taps",
+              "line": 65
+            }
+          ],
+          "coverage_summary": "Operational routing recipes supplied by the eight descendant subsections."
+        },
+        {
+          "section_id": "17.5.2.1",
+          "title": "Post-Effects Recording",
+          "level": 3,
+          "source_pages": [
+            384,
+            384
+          ],
+          "extraction_lines": [
+            463,
+            484
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Internal routing and signal taps",
+              "anchor": "internal-routing-and-signal-taps",
+              "line": 65
+            }
+          ],
+          "coverage_summary": "Dedicated processing/monitor track In and recorder Off; Post FX versus Post Mixer printing."
+        },
+        {
+          "section_id": "17.5.2.2",
+          "title": "Recording MIDI as Audio",
+          "level": 3,
+          "source_pages": [
+            385,
+            385
+          ],
+          "extraction_lines": [
+            492,
+            507
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Internal routing and signal taps",
+              "anchor": "internal-routing-and-signal-taps",
+              "line": 65
+            }
+          ],
+          "coverage_summary": "Record a virtual instrument, including evolving Absynth-style sound, on an audio receiver rather than treating MIDI as rendered audio."
+        },
+        {
+          "section_id": "17.5.2.3",
+          "title": "Creating Submixes",
+          "level": 3,
+          "source_pages": [
+            386,
+            387
+          ],
+          "extraction_lines": [
+            515,
+            543
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Internal routing and signal taps",
+              "anchor": "internal-routing-and-signal-taps",
+              "line": 65
+            },
+            {
+              "heading": "Groups and shared effects",
+              "anchor": "groups-and-shared-effects",
+              "line": 102
+            }
+          ],
+          "coverage_summary": "Audio bus, automatic Group routing/folding, or Sends Only return submix."
+        },
+        {
+          "section_id": "17.5.2.4",
+          "title": "Several MIDI Tracks Playing the Same Instrument",
+          "level": 3,
+          "source_pages": [
+            387,
+            389
+          ],
+          "extraction_lines": [
+            546,
+            584
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Internal routing and signal taps",
+              "anchor": "internal-routing-and-signal-taps",
+              "line": 65
+            }
+          ],
+          "coverage_summary": "Shared Simpler/other instrument; direct instrument inlet versus Track In; independent feeders, mute consequence and No Input container."
+        },
+        {
+          "section_id": "17.5.2.5",
+          "title": "Tapping Individual Outs From an Instrument",
+          "level": 3,
+          "source_pages": [
+            389,
+            390
+          ],
+          "extraction_lines": [
+            587,
+            609
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Internal routing and signal taps",
+              "anchor": "internal-routing-and-signal-taps",
+              "line": 65
+            }
+          ],
+          "coverage_summary": "Eight Impulse slot outputs, sample labels, removal from Impulse sum and contrast with other plug-ins."
+        },
+        {
+          "section_id": "17.5.2.6",
+          "title": "Using Multi-Timbral Plug-In Instruments",
+          "level": 3,
+          "source_pages": [
+            390,
+            391
+          ],
+          "extraction_lines": [
+            612,
+            651
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Internal routing and signal taps",
+              "anchor": "internal-routing-and-signal-taps",
+              "line": 65
+            }
+          ],
+          "coverage_summary": "Per-part MIDI channels/audio outputs, External Instrument secondary returns, repeat per track or Rack chain, host retains main output."
+        },
+        {
+          "section_id": "17.5.2.7",
+          "title": "Feeding Sidechain Inputs",
+          "level": 3,
+          "source_pages": [
+            392,
+            392
+          ],
+          "extraction_lines": [
+            659,
+            674
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Internal routing and signal taps",
+              "anchor": "internal-routing-and-signal-taps",
+              "line": 65
+            }
+          ],
+          "coverage_summary": "Track output to sidechain inlet versus built-in sidechain choosers; audio sidechain for a vocoder instrument with internal carrier."
+        },
+        {
+          "section_id": "17.5.2.8",
+          "title": "Layering Instruments",
+          "level": 3,
+          "source_pages": [
+            392,
+            393
+          ],
+          "extraction_lines": [
+            677,
+            694
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Internal routing and signal taps",
+              "anchor": "internal-routing-and-signal-taps",
+              "line": 65
+            }
+          ],
+          "coverage_summary": "Instrument layering uses the post-MIDI-effects, pre-instrument MIDI tap despite audio output from source track."
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "title": "Mixing",
+      "source_pages": [
+        394,
+        411
+      ],
+      "extraction_path": "private-extraction:/18.txt",
+      "extraction_sha256": "9d286e98fe412dc03dbee62118b56b2201c3cf04d3af62d8fafed8b04cb65748",
+      "extraction_line_count": 524,
+      "all_pages_read": true,
+      "intro": {
+        "source_pages": [
+          394,
+          394
+        ],
+        "extraction_lines": [
+          1,
+          3
+        ],
+        "status": "non_operational_title",
+        "reference_headings": [
+          {
+            "heading": "Mixer, tracks, groups, and returns",
+            "anchor": "mixer-tracks-groups-and-returns",
+            "line": 92
+          }
+        ],
+        "note": "Title only before the first numbered subsection."
+      },
+      "sections": [
+        {
+          "section_id": "18.1",
+          "title": "The Live Mixer",
+          "level": 1,
+          "source_pages": [
+            394,
+            398
+          ],
+          "extraction_lines": [
+            5,
+            127
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Mixer, tracks, groups, and returns",
+              "anchor": "mixer-tracks-groups-and-returns",
+              "line": 92
+            }
+          ],
+          "coverage_summary": "Mixer availability, peak/RMS input-versus-output meters, volume, stereo/split pan, activator, solo, arm, selection and exclusivity."
+        },
+        {
+          "section_id": "18.1.1",
+          "title": "Additional Mixer Features",
+          "level": 2,
+          "source_pages": [
+            398,
+            398
+          ],
+          "extraction_lines": [
+            102,
+            127
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Mixer, tracks, groups, and returns",
+              "anchor": "mixer-tracks-groups-and-returns",
+              "line": 92
+            }
+          ],
+          "coverage_summary": "Resizable metering, numeric level and resettable peaks, dB scale, 32-bit floating-point headroom versus output/file boundaries."
+        },
+        {
+          "section_id": "18.2",
+          "title": "Audio and MIDI Tracks",
+          "level": 1,
+          "source_pages": [
+            399,
+            400
+          ],
+          "extraction_lines": [
+            135,
+            193
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Mixer, tracks, groups, and returns",
+              "anchor": "mixer-tracks-groups-and-returns",
+              "line": 92
+            }
+          ],
+          "coverage_summary": "Track creation/loading/clip-derived devices, renaming/# numbering/info text, sizing/reorder/selection, relative mixer offsets, saving a track as a Set and Collect Files on Export."
+        },
+        {
+          "section_id": "18.3",
+          "title": "Group Tracks",
+          "level": 1,
+          "source_pages": [
+            400,
+            402
+          ],
+          "extraction_lines": [
+            198,
+            257
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Groups and shared effects",
+              "anchor": "groups-and-shared-effects",
+              "line": 102
+            }
+          ],
+          "coverage_summary": "Grouping/nesting, no clips, audio devices, custom-route exception, folder-only groups, fold/reorder, ungroup versus deletion, Session group slots, view-specific clip colors and descendant solo indicator."
+        },
+        {
+          "section_id": "18.4",
+          "title": "Return Tracks and the Main track",
+          "level": 1,
+          "source_pages": [
+            402,
+            403
+          ],
+          "extraction_lines": [
+            262,
+            304
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Groups and shared effects",
+              "anchor": "groups-and-shared-effects",
+              "line": 102
+            }
+          ],
+          "coverage_summary": "Shared return processing, Pre/Post source controls, separate monitor mixes, feedback-disabled return sends, one Main, return creation and visibility."
+        },
+        {
+          "section_id": "18.5",
+          "title": "Using Live’s Crossfader",
+          "level": 1,
+          "source_pages": [
+            403,
+            406
+          ],
+          "extraction_lines": [
+            309,
+            382
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Crossfading, cueing, delay, and CPU",
+              "anchor": "crossfading-cueing-delay-and-cpu",
+              "line": 111
+            }
+          ],
+          "coverage_summary": "A/B/neither, gain not routing, seven selectable curves, controller mappings and snap-back, X-Fade Assign and Main Crossfade automation."
+        },
+        {
+          "section_id": "18.6",
+          "title": "Soloing and Cueing",
+          "level": 1,
+          "source_pages": [
+            406,
+            407
+          ],
+          "extraction_lines": [
+            387,
+            425
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Crossfading, cueing, delay, and CPU",
+              "anchor": "crossfading-cueing-delay-and-cpu",
+              "line": 111
+            }
+          ],
+          "coverage_summary": "Solo in Place/returns, preserved pan, four-output cue prerequisite, Main/Cue output separation, Cue mode, activator, cue level and browser preview destination."
+        },
+        {
+          "section_id": "18.7",
+          "title": "Track Delays",
+          "level": 1,
+          "source_pages": [
+            408,
+            409
+          ],
+          "extraction_lines": [
+            433,
+            473
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Crossfading, cueing, delay, and CPU",
+              "anchor": "crossfading-cueing-delay-and-cpu",
+              "line": 111
+            }
+          ],
+          "coverage_summary": "Track Delay locations, samples versus milliseconds, live-change clicks, Session clip nudging, automatic compensation distinction, sluggishness and disabled-control dependency."
+        },
+        {
+          "section_id": "18.8",
+          "title": "Keep Monitoring Latency in Recording Track Toggles",
+          "level": 1,
+          "source_pages": [
+            410,
+            410
+          ],
+          "extraction_lines": [
+            481,
+            496
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Inputs and monitoring",
+              "anchor": "inputs-and-monitoring",
+              "line": 32
+            }
+          ],
+          "coverage_summary": "Monitoring latency toggle default with In/Auto, timing intent, software versus acoustic/external monitoring and context-menu access."
+        },
+        {
+          "section_id": "18.9",
+          "title": "Performance Impact Track Indicators",
+          "level": 1,
+          "source_pages": [
+            410,
+            411
+          ],
+          "extraction_lines": [
+            501,
+            519
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Crossfading, cueing, delay, and CPU",
+              "anchor": "crossfading-cueing-delay-and-cpu",
+              "line": 111
+            }
+          ],
+          "coverage_summary": "Six relative Performance Impact rectangles and reversible freezing for expensive tracks."
+        }
+      ]
+    },
+    {
+      "chapter": 19,
+      "title": "Recording New Clips",
+      "source_pages": [
+        412,
+        424
+      ],
+      "extraction_path": "private-extraction:/19.txt",
+      "extraction_sha256": "ef094f57cfbdeb10120f08b6e524e0e0eeb927c0c69f6714edfad4ff67ddd853",
+      "extraction_line_count": 478,
+      "all_pages_read": true,
+      "intro": {
+        "source_pages": [
+          412,
+          412
+        ],
+        "extraction_lines": [
+          1,
+          14
+        ],
+        "status": "source_derived_context",
+        "reference_headings": [
+          {
+            "heading": "Inputs and monitoring",
+            "anchor": "inputs-and-monitoring",
+            "line": 32
+          }
+        ],
+        "note": "Context, workflow selection or prerequisites incorporated into operational guidance."
+      },
+      "sections": [
+        {
+          "section_id": "19.1",
+          "title": "Choosing an Input",
+          "level": 1,
+          "source_pages": [
+            412,
+            413
+          ],
+          "extraction_lines": [
+            19,
+            42
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Inputs and monitoring",
+              "anchor": "inputs-and-monitoring",
+              "line": 32
+            }
+          ],
+          "coverage_summary": "Explicit source choice, default mono hardware versus merged MIDI input, computer keyboard alternative, inter-track inputs."
+        },
+        {
+          "section_id": "19.2",
+          "title": "Arming (Record-Enabling) Tracks",
+          "level": 1,
+          "source_pages": [
+            413,
+            413
+          ],
+          "extraction_lines": [
+            47,
+            67
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Mixer, tracks, groups, and returns",
+              "anchor": "mixer-tracks-groups-and-returns",
+              "line": 92
+            },
+            {
+              "heading": "Record into Arrangement or Session",
+              "anchor": "record-into-arrangement-or-session",
+              "line": 122
+            }
+          ],
+          "coverage_summary": "Shared tracks in both views, arm selection/exclusivity, monitor dependence and supported control-surface instrument lock."
+        },
+        {
+          "section_id": "19.3",
+          "title": "Recording",
+          "level": 1,
+          "source_pages": [
+            413,
+            417
+          ],
+          "extraction_lines": [
+            72,
+            223
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Record into Arrangement or Session",
+              "anchor": "record-into-arrangement-or-session",
+              "line": 122
+            }
+          ],
+          "coverage_summary": "Choose linear/multitrack Arrangement versus separate Session clips while launching material."
+        },
+        {
+          "section_id": "19.3.1",
+          "title": "Recording Into the Arrangement",
+          "level": 2,
+          "source_pages": [
+            414,
+            414
+          ],
+          "extraction_lines": [
+            84,
+            114
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Arrangement procedure",
+              "anchor": "arrangement-procedure",
+              "line": 125
+            }
+          ],
+          "coverage_summary": "Record preference/Shift inversion, all armed tracks, MIDI-only Arrangement overdub, punch endpoints, loop pass retention and sample-marker recovery."
+        },
+        {
+          "section_id": "19.3.2",
+          "title": "Recording Into Session Slots",
+          "level": 2,
+          "source_pages": [
+            414,
+            416
+          ],
+          "extraction_lines": [
+            118,
+            160
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Session procedure",
+              "anchor": "session-procedure",
+              "line": 131
+            }
+          ],
+          "coverage_summary": "Global Quantization, armed slots, scene-level versus individual recording, transition to loop/stop, map-only New, optional recording on scene launch."
+        },
+        {
+          "section_id": "19.3.3",
+          "title": "Overdub Recording MIDI Patterns",
+          "level": 2,
+          "source_pages": [
+            416,
+            416
+          ],
+          "extraction_lines": [
+            164,
+            193
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Session procedure",
+              "anchor": "session-procedure",
+              "line": 131
+            }
+          ],
+          "coverage_summary": "One-bar pattern setup, Record Quantization, default one-bar clip, overdub/rehearsal toggle, Alt/Option creation shortcut and Undo latest pass."
+        },
+        {
+          "section_id": "19.3.4",
+          "title": "MIDI Step Recording",
+          "level": 2,
+          "source_pages": [
+            416,
+            417
+          ],
+          "extraction_lines": [
+            197,
+            223
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Step entry and hands-free recording",
+              "anchor": "step-entry-and-hands-free-recording",
+              "line": 138
+            }
+          ],
+          "coverage_summary": "Stopped transport, arm, Preview, marker/grid, held-note Right insert/extend, Left remove, mappable navigators."
+        },
+        {
+          "section_id": "19.4",
+          "title": "Recording in Sync",
+          "level": 1,
+          "source_pages": [
+            417,
+            419
+          ],
+          "extraction_lines": [
+            228,
+            291
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Timing, quantization, and recording files",
+              "anchor": "timing-quantization-and-recording-files",
+              "line": 142
+            }
+          ],
+          "coverage_summary": "Rhythmic reference despite tempo changes, metronome activation/level, later timing edits without conflating MIDI notes with audio Warp Markers."
+        },
+        {
+          "section_id": "19.4.1",
+          "title": "Metronome Settings",
+          "level": 2,
+          "source_pages": [
+            419,
+            419
+          ],
+          "extraction_lines": [
+            271,
+            291
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Timing, quantization, and recording files",
+              "anchor": "timing-quantization-and-recording-files",
+              "line": 142
+            }
+          ],
+          "coverage_summary": "Count-in/tick/Rhythm, denominator Auto, invalid divisions and restoration, record-only metronome and Punch-In silence before punch."
+        },
+        {
+          "section_id": "19.5",
+          "title": "Recording Quantized MIDI Notes",
+          "level": 1,
+          "source_pages": [
+            419,
+            419
+          ],
+          "extraction_lines": [
+            296,
+            312
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Timing, quantization, and recording files",
+              "anchor": "timing-quantization-and-recording-files",
+              "line": 142
+            }
+          ],
+          "coverage_summary": "Record Quantization setup, Arrangement separate Undo, no mid-normal-recording changes, loop-overdub immediate/non-independent-Undo exception and later Quantize."
+        },
+        {
+          "section_id": "19.6",
+          "title": "Recording with Count-in",
+          "level": 1,
+          "source_pages": [
+            420,
+            420
+          ],
+          "extraction_lines": [
+            320,
+            331
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Timing, quantization, and recording files",
+              "anchor": "timing-quantization-and-recording-files",
+              "line": 142
+            }
+          ],
+          "coverage_summary": "Count-in delays recording, blue negative position display, -2.1.1 two-bar example through 1.1.1."
+        },
+        {
+          "section_id": "19.7",
+          "title": "Setting up File Types",
+          "level": 1,
+          "source_pages": [
+            420,
+            420
+          ],
+          "extraction_lines": [
+            336,
+            349
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Timing, quantization, and recording files",
+              "anchor": "timing-quantization-and-recording-files",
+              "line": 142
+            }
+          ],
+          "coverage_summary": "Recording file type/bit depth and material-appropriate default Warp Mode."
+        },
+        {
+          "section_id": "19.8",
+          "title": "Where are the Recorded Samples?",
+          "level": 1,
+          "source_pages": [
+            420,
+            420
+          ],
+          "extraction_lines": [
+            354,
+            358
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Timing, quantization, and recording files",
+              "anchor": "timing-quantization-and-recording-files",
+              "line": 142
+            }
+          ],
+          "coverage_summary": "Samples/Recorded versus pre-save Temporary Folder and free-space check."
+        },
+        {
+          "section_id": "19.9",
+          "title": "Using Remote Control for Recording",
+          "level": 1,
+          "source_pages": [
+            421,
+            422
+          ],
+          "extraction_lines": [
+            366,
+            399
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Step entry and hands-free recording",
+              "anchor": "step-entry-and-hands-free-recording",
+              "line": 138
+            }
+          ],
+          "coverage_summary": "Key/MIDI mappings for record, transport, arm, Session/New/slots, relative scenes/track launch and foot-controlled step entry."
+        },
+        {
+          "section_id": "19.10",
+          "title": "Capturing MIDI",
+          "level": 1,
+          "source_pages": [
+            422,
+            424
+          ],
+          "extraction_lines": [
+            404,
+            473
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Recover an unrecorded performance with Capture MIDI",
+              "anchor": "recover-an-unrecorded-performance-with-capture-midi",
+              "line": 152
+            }
+          ],
+          "coverage_summary": "Armed/input-monitored MIDI capture and Push 1/2 Record+New versus Push 3 Capture."
+        },
+        {
+          "section_id": "19.10.1",
+          "title": "Starting a New Live Set",
+          "level": 2,
+          "source_pages": [
+            423,
+            423
+          ],
+          "extraction_lines": [
+            430,
+            452
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Recover an unrecorded performance with Capture MIDI",
+              "anchor": "recover-an-unrecorded-performance-with-capture-midi",
+              "line": 152
+            }
+          ],
+          "coverage_summary": "Empty stopped Set focused view, 80-160 BPM inference, next downbeat aid, automatic playback, retained pre-start notes and single-note 1/2/4/8-bar inference."
+        },
+        {
+          "section_id": "19.10.2",
+          "title": "Adding Material to an Existing Live Set",
+          "level": 2,
+          "source_pages": [
+            424,
+            424
+          ],
+          "extraction_lines": [
+            460,
+            473
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Recover an unrecorded performance with Capture MIDI",
+              "anchor": "recover-an-unrecorded-performance-with-capture-midi",
+              "line": 152
+            }
+          ],
+          "coverage_summary": "Running/existing-clips/tempo-automation branch preserves tempo, clip overdub and retained material outside detected phrase."
+        }
+      ]
+    },
+    {
+      "chapter": 20,
+      "title": "Bounce to Audio",
+      "source_pages": [
+        425,
+        430
+      ],
+      "extraction_path": "private-extraction:/20.txt",
+      "extraction_sha256": "02fa225b844018b13f3c6c61193883326c29ea6fff940f8b53d3aedbc6f7ab7e",
+      "extraction_line_count": 155,
+      "all_pages_read": true,
+      "intro": {
+        "source_pages": [
+          425,
+          425
+        ],
+        "extraction_lines": [
+          1,
+          12
+        ],
+        "status": "source_derived_context",
+        "reference_headings": [
+          {
+            "heading": "Bounce or paste rendered audio",
+            "anchor": "bounce-or-paste-rendered-audio",
+            "line": 162
+          }
+        ],
+        "note": "Context, workflow selection or prerequisites incorporated into operational guidance."
+      },
+      "sections": [
+        {
+          "section_id": "20.1",
+          "title": "Bouncing Individual Tracks",
+          "level": 1,
+          "source_pages": [
+            425,
+            427
+          ],
+          "extraction_lines": [
+            17,
+            70
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Bounce or paste rendered audio",
+              "anchor": "bounce-or-paste-rendered-audio",
+              "line": 162
+            }
+          ],
+          "coverage_summary": "In-place versus new-track replacement/muting, post-FX/pre-mixer settings inheritance, both-view difference, multi-track selection, name/color and Bounce storage."
+        },
+        {
+          "section_id": "20.2",
+          "title": "Bouncing Group Tracks",
+          "level": 1,
+          "source_pages": [
+            427,
+            429
+          ],
+          "extraction_lines": [
+            75,
+            120
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Bounce or paste rendered audio",
+              "anchor": "bounce-or-paste-rendered-audio",
+              "line": 162
+            }
+          ],
+          "coverage_summary": "Group in-place/new-track scope, post-mixer effects/sends but no Main processing, external-routing exclusions and final-Main return requirement."
+        },
+        {
+          "section_id": "20.3",
+          "title": "Pasting Bounced Audio",
+          "level": 1,
+          "source_pages": [
+            429,
+            430
+          ],
+          "extraction_lines": [
+            125,
+            150
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Bounce or paste rendered audio",
+              "anchor": "bounce-or-paste-rendered-audio",
+              "line": 162
+            }
+          ],
+          "coverage_summary": "Allowed copy sources/destinations, paste-time live source rendering, empty MIDI conversion and unavailable command after source deletion."
+        }
+      ]
+    },
+    {
+      "chapter": 21,
+      "title": "Comping",
+      "source_pages": [
+        431,
+        436
+      ],
+      "extraction_path": "private-extraction:/21.txt",
+      "extraction_sha256": "20ce75eb35cd58d3c8f1b19bf1481ba959ae1785a7b2c6c31fbb46124686fe65",
+      "extraction_line_count": 206,
+      "all_pages_read": true,
+      "intro": {
+        "source_pages": [
+          431,
+          431
+        ],
+        "extraction_lines": [
+          1,
+          8
+        ],
+        "status": "source_derived_context",
+        "reference_headings": [
+          {
+            "heading": "Build and revise a comp",
+            "anchor": "build-and-revise-a-comp",
+            "line": 178
+          }
+        ],
+        "note": "Context, workflow selection or prerequisites incorporated into operational guidance."
+      },
+      "sections": [
+        {
+          "section_id": "21.1",
+          "title": "Take Lanes",
+          "level": 1,
+          "source_pages": [
+            431,
+            432
+          ],
+          "extraction_lines": [
+            13,
+            49
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Build and revise a comp",
+              "anchor": "build-and-revise-a-comp",
+              "line": 178
+            }
+          ],
+          "coverage_summary": "Main versus auditioned take lanes, visibility/shortcut/left navigation and Automation Mode exclusion."
+        },
+        {
+          "section_id": "21.2",
+          "title": "Inserting and Managing Take Lanes",
+          "level": 1,
+          "source_pages": [
+            433,
+            433
+          ],
+          "extraction_lines": [
+            57,
+            91
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Build and revise a comp",
+              "anchor": "build-and-revise-a-comp",
+              "line": 178
+            }
+          ],
+          "coverage_summary": "Insert/duplicate/reorder/resize/rename and multi-lane handling, cleanup semantics guarded by preservation, Max for Live API claim distinguished from host support."
+        },
+        {
+          "section_id": "21.3",
+          "title": "Recording Takes",
+          "level": 1,
+          "source_pages": [
+            433,
+            434
+          ],
+          "extraction_lines": [
+            96,
+            114
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Build and revise a comp",
+              "anchor": "build-and-revise-a-comp",
+              "line": 178
+            }
+          ],
+          "coverage_summary": "Automatic audio/MIDI lanes, new pass versus reusable lane after punch, newest main-lane copy and random clip colors."
+        },
+        {
+          "section_id": "21.4",
+          "title": "Inserting Samples",
+          "level": 1,
+          "source_pages": [
+            434,
+            434
+          ],
+          "extraction_lines": [
+            119,
+            122
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Build and revise a comp",
+              "anchor": "build-and-revise-a-comp",
+              "line": 178
+            }
+          ],
+          "coverage_summary": "Browser/filesystem audio/MIDI insertion and modifier for distributing multiple samples across sequential tracks."
+        },
+        {
+          "section_id": "21.5",
+          "title": "Auditioning Take Lanes",
+          "level": 1,
+          "source_pages": [
+            434,
+            434
+          ],
+          "extraction_lines": [
+            127,
+            138
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Build and revise a comp",
+              "anchor": "build-and-revise-a-comp",
+              "line": 178
+            }
+          ],
+          "coverage_summary": "Speaker/T audition, one lane per track, multi-track audition and last-selected lane rule."
+        },
+        {
+          "section_id": "21.6",
+          "title": "Creating a Comp",
+          "level": 1,
+          "source_pages": [
+            435,
+            435
+          ],
+          "extraction_lines": [
+            146,
+            177
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Build and revise a comp",
+              "anchor": "build-and-revise-a-comp",
+              "line": 178
+            }
+          ],
+          "coverage_summary": "Enter/context comping, modifier-arrow take switching, Draw Mode, independent originals/copies, normal editing and Session transfer, 4 ms automatic/manual fades."
+        },
+        {
+          "section_id": "21.7",
+          "title": "Source Highlights",
+          "level": 1,
+          "source_pages": [
+            436,
+            436
+          ],
+          "extraction_lines": [
+            185,
+            202
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Build and revise a comp",
+              "anchor": "build-and-revise-a-comp",
+              "line": 178
+            }
+          ],
+          "coverage_summary": "Used versus unused coloring, required matching position/properties and draggable source-highlight split points."
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "title": "Stem Separation",
+      "source_pages": [
+        437,
+        444
+      ],
+      "extraction_path": "private-extraction:/22.txt",
+      "extraction_sha256": "60fa78ac40b6f1048990b48813bde9214087440d2b029c5fca7363920e72597c",
+      "extraction_line_count": 208,
+      "all_pages_read": true,
+      "intro": {
+        "source_pages": [
+          437,
+          437
+        ],
+        "extraction_lines": [
+          1,
+          10
+        ],
+        "status": "source_derived_context",
+        "reference_headings": [
+          {
+            "heading": "Separate stems locally",
+            "anchor": "separate-stems-locally",
+            "line": 194
+          }
+        ],
+        "note": "Context, workflow selection or prerequisites incorporated into operational guidance."
+      },
+      "sections": [
+        {
+          "section_id": "22.1",
+          "title": "How Stem Separation Works in Live",
+          "level": 1,
+          "source_pages": [
+            437,
+            437
+          ],
+          "extraction_lines": [
+            15,
+            28
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Separate stems locally",
+              "anchor": "separate-stems-locally",
+              "line": 194
+            }
+          ],
+          "coverage_summary": "Local learned separation of mono/stereo into Vocals/Drums/Bass/Others, no external installation/network and editable audio results."
+        },
+        {
+          "section_id": "22.2",
+          "title": "Separating Audio Files and Clips",
+          "level": 1,
+          "source_pages": [
+            437,
+            444
+          ],
+          "extraction_lines": [
+            33,
+            203
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Separate stems locally",
+              "anchor": "separate-stems-locally",
+              "line": 194
+            }
+          ],
+          "coverage_summary": "Browser/clip/time-selection procedures, 2-or-3-family merge, playback stop, track/group/color outcomes, region/warp-loop scope, copied effects/automation, source deactivation, focused-view tempo behavior and file storage/format."
+        },
+        {
+          "section_id": "22.2.1",
+          "title": "Separation Speed vs. Quality",
+          "level": 2,
+          "source_pages": [
+            443,
+            444
+          ],
+          "extraction_lines": [
+            158,
+            203
+          ],
+          "status": "source_derived",
+          "operational_status": "operational",
+          "execution_verified": false,
+          "reference_headings": [
+            {
+              "heading": "Separate stems locally",
+              "anchor": "separate-stems-locally",
+              "line": 194
+            }
+          ],
+          "coverage_summary": "Single-pass speed versus dedicated quality passes/SDR, Others processing dependency, hidden stored stems, shortening/cropping, CPU versus Apple-silicon GPU and leakage/quality comparisons."
+        }
+      ]
+    }
+  ],
+  "synthesis_records": [
+    {
+      "id": "S1",
+      "status": "verification_safety_synthesis",
+      "reference_headings": [
+        {
+          "heading": "Choose a workflow and establish boundaries",
+          "anchor": "choose-a-workflow-and-establish-boundaries",
+          "line": 18
+        }
+      ],
+      "rule": "Check installed edition/build, available commands/devices and actual tool support before planning; prefer preserved source/new-track operations.",
+      "basis_sections": [
+        "17.2",
+        "17.3.3",
+        "20.1",
+        "20.2",
+        "21.2",
+        "22.2"
+      ],
+      "execution_verified": false
+    },
+    {
+      "id": "S2",
+      "status": "verification_safety_synthesis",
+      "reference_headings": [
+        {
+          "heading": "Inputs and monitoring",
+          "anchor": "inputs-and-monitoring",
+          "line": 32
+        },
+        {
+          "heading": "Internal routing and signal taps",
+          "anchor": "internal-routing-and-signal-taps",
+          "line": 65
+        }
+      ],
+      "rule": "Check one monitoring path, meter activity, selected tap and test-recorded timing rather than blindly shifting clips or duplicating monitoring.",
+      "basis_sections": [
+        "17.1",
+        "17.2",
+        "17.5.1",
+        "17.5.2.1",
+        "18.8"
+      ],
+      "execution_verified": false
+    },
+    {
+      "id": "S3",
+      "status": "verification_safety_synthesis",
+      "reference_headings": [
+        {
+          "heading": "Groups and shared effects",
+          "anchor": "groups-and-shared-effects",
+          "line": 102
+        },
+        {
+          "heading": "Crossfading, cueing, delay, and CPU",
+          "anchor": "crossfading-cueing-delay-and-cpu",
+          "line": 111
+        }
+      ],
+      "rule": "Audit custom routes, Pre-send mute behavior, cue/Main isolation and hardware resync response; preserve default-disabled feedback.",
+      "basis_sections": [
+        "17.3.1.2",
+        "18.3",
+        "18.4",
+        "18.6",
+        "18.7"
+      ],
+      "execution_verified": false
+    },
+    {
+      "id": "S4",
+      "status": "verification_safety_synthesis",
+      "reference_headings": [
+        {
+          "heading": "Bounce or paste rendered audio",
+          "anchor": "bounce-or-paste-rendered-audio",
+          "line": 162
+        },
+        {
+          "heading": "Build and revise a comp",
+          "anchor": "build-and-revise-a-comp",
+          "line": 178
+        },
+        {
+          "heading": "Separate stems locally",
+          "anchor": "separate-stems-locally",
+          "line": 194
+        }
+      ],
+      "rule": "Preserve originals/alternates, compare source and output without doubling, check fade/transient boundaries and avoid inferring single/merged stem settings from grouped output.",
+      "basis_sections": [
+        "20.1",
+        "20.2",
+        "20.3",
+        "21.6",
+        "21.7",
+        "22.2"
+      ],
+      "execution_verified": false
+    },
+    {
+      "id": "S5",
+      "status": "verification_safety_synthesis",
+      "reference_headings": [
+        {
+          "heading": "Verification and recovery checklist",
+          "anchor": "verification-and-recovery-checklist",
+          "line": 215
+        }
+      ],
+      "rule": "Ordered diagnostic checklist integrates routing, monitor, mapping, latency, render-stage, comp and load dependencies. It is not a report of actual testing.",
+      "basis_sections": [
+        "17.1",
+        "17.3.4",
+        "17.5.1",
+        "18.3",
+        "18.7",
+        "18.9",
+        "20.1",
+        "20.2",
+        "21.1",
+        "21.7",
+        "22.2"
+      ],
+      "execution_verified": false
+    }
+  ],
+  "gaps_and_uncertainties": [
+    {
+      "id": "G1",
+      "severity": "availability_gate",
+      "source_sections": [
+        "17.3.3",
+        "20.1",
+        "21.2",
+        "22.1"
+      ],
+      "gap": "Assigned chapters do not state exact minimum Live minor versions or edition entitlements for Bounce, Stem Separation, External Instrument or Max for Live.",
+      "handling": "Runtime requires checking installed feature/device availability and makes no fabricated version/edition guarantee. Parent may add separately verified availability evidence."
+    },
+    {
+      "id": "G2",
+      "severity": "unrecoverable_figure_detail",
+      "source_sections": [
+        "18.5"
+      ],
+      "source_pages": [
+        404,
+        405
+      ],
+      "gap": "Seven crossfader curves are stated in text, but curve names, plotted power levels and detailed response relationships appear only in unextracted graphics.",
+      "handling": "Runtime preserves the seven-curve selector and A/B semantics, asks to inspect/audition response, and does not invent names, center gain, slopes or numerical curve values. Figure inspection remains for the parent if exact curve specifications are required."
+    },
+    {
+      "id": "G3",
+      "severity": "ui_label_variation",
+      "source_sections": [
+        "17.1",
+        "18.8"
+      ],
+      "source_pages": [
+        374,
+        410
+      ],
+      "gap": "Source varies between Keep Monitoring Latency in Recorded Audio, Record Audio, Recording and the track-toggle heading.",
+      "handling": "Runtime uses Recorded Audio plus the shorter Recording label and specifies the In/Auto context-menu access; installed UI spelling remains unverified."
+    },
+    {
+      "id": "G4",
+      "severity": "source_underspecified_branch",
+      "source_sections": [
+        "22.2"
+      ],
+      "source_pages": [
+        441,
+        442
+      ],
+      "gap": "Effects/track-automation destination is described as a new Group Track, but single-family and merged results have no group. Their exact destination/inheritance is not explained.",
+      "handling": "Runtime states inheritance for grouped results and requires inspection for single/merged results; no destination is guessed."
+    },
+    {
+      "id": "G5",
+      "severity": "source_wording_ambiguity",
+      "source_sections": [
+        "19.4",
+        "19.5"
+      ],
+      "source_pages": [
+        418,
+        419
+      ],
+      "gap": "A general sentence associates Warp Markers with audio or MIDI recordings, without a MIDI Warp Marker procedure.",
+      "handling": "Runtime restricts Warp Marker guidance to audio and refers MIDI timing to MIDI editing/Quantize, which is explicitly supported in 19.5; no new MIDI-warp UI is invented."
+    },
+    {
+      "id": "G6",
+      "severity": "source_scope_limit",
+      "source_sections": [
+        "20.1",
+        "20.2",
+        "20.3"
+      ],
+      "source_pages": [
+        425,
+        430
+      ],
+      "gap": "Assigned bounce text does not specify tail handling, bounce sample format/rate/depth or exhaustive behavior for every custom feedback route.",
+      "handling": "Runtime states documented tap stages and routing exclusions only; output extent and routing are verification requirements, not asserted guarantees."
+    }
+  ],
+  "unverified_claims": [
+    "All Live UI behavior is source-derived and has not been exercised in a running Live instance by this worker.",
+    "No playback, listening, recording, routing, bounce, comping, stem processing, CPU measurement or hardware-clock test was performed.",
+    "No installed edition/build or device entitlement was inspected.",
+    "No extension/API capability has been tested or mapped here; Max for Live lane support is a source claim, not a host automation promise.",
+    "No baseline, task-success comparison, RAG comparison or holdout evaluation has been run."
+  ],
+  "validation": {
+    "source_page_continuity": "passed for all six extraction files",
+    "source_section_inventory_match": "passed: every extracted numbered subsection has a coverage record",
+    "reference_heading_resolution": "passed: every evidence target resolves to an authored heading",
+    "runtime_contents_links": "passed: all 13 contents links resolve",
+    "runtime_source_citation_exclusion": "passed: no URLs, PDF page headers, private source path or original PDF filename in runtime reference",
+    "behavioral_evaluation": "not run",
+    "full_skill_validation": "parent-owned package not validated by this bounded worker"
+  }
+}

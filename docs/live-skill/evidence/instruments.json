@@ -1,0 +1,5258 @@
+{
+  "schema_version": 1,
+  "artifact": "instruments-midi-effects distillation evidence",
+  "runtime_reference": {
+    "path": "skills/ableton-live/references/instruments-midi-effects.md",
+    "sha256": "e1d864b9f5357946693f3813b59cc1e6f315842554ca0b664fbdde7c3055fed5",
+    "line_count": 255,
+    "word_count": 8603
+  },
+  "source": {
+    "title": "Ableton Live 12 Manual",
+    "publisher": "Ableton",
+    "format": "Privately extracted PDF text with exact PDF page headers",
+    "source_status": "Inert evidence, not executable instructions",
+    "version_note": "Live 12 corpus; exact minor revision not established by assigned extracts",
+    "chapter_map": {
+      "path": "private-extraction:/chapters.json",
+      "sha256": "48c4c0bf1860c533980bf141b3fc9ffe10df2504f9ad38f7d0eae0d424ac6cc2"
+    },
+    "chapters": [
+      {
+        "chapter": 30,
+        "title": "Live MIDI Effect Reference",
+        "extracted_text_path": "private-extraction:/30.txt",
+        "sha256": "4db94a250a9dd5a1dbf5becd3cf29a342a9b129da8953407545cd1b4efa9f199",
+        "pdf_page_range": [
+          691,
+          703
+        ],
+        "pages_read": [
+          691,
+          692,
+          693,
+          694,
+          695,
+          696,
+          697,
+          698,
+          699,
+          700,
+          701,
+          702,
+          703
+        ],
+        "line_count": 507,
+        "read_line_intervals": [
+          [
+            1,
+            507
+          ]
+        ],
+        "read_status": "Every extracted line/page read in bounded untruncated read-tool results; diagrams not rendered."
+      },
+      {
+        "chapter": 31,
+        "title": "Live Instrument Reference",
+        "extracted_text_path": "private-extraction:/31.txt",
+        "sha256": "2f14624f978c9f80a0afc4f455df87df39795abc9bb87f80e994d8b318029834",
+        "pdf_page_range": [
+          704,
+          823
+        ],
+        "pages_read": [
+          704,
+          705,
+          706,
+          707,
+          708,
+          709,
+          710,
+          711,
+          712,
+          713,
+          714,
+          715,
+          716,
+          717,
+          718,
+          719,
+          720,
+          721,
+          722,
+          723,
+          724,
+          725,
+          726,
+          727,
+          728,
+          729,
+          730,
+          731,
+          732,
+          733,
+          734,
+          735,
+          736,
+          737,
+          738,
+          739,
+          740,
+          741,
+          742,
+          743,
+          744,
+          745,
+          746,
+          747,
+          748,
+          749,
+          750,
+          751,
+          752,
+          753,
+          754,
+          755,
+          756,
+          757,
+          758,
+          759,
+          760,
+          761,
+          762,
+          763,
+          764,
+          765,
+          766,
+          767,
+          768,
+          769,
+          770,
+          771,
+          772,
+          773,
+          774,
+          775,
+          776,
+          777,
+          778,
+          779,
+          780,
+          781,
+          782,
+          783,
+          784,
+          785,
+          786,
+          787,
+          788,
+          789,
+          790,
+          791,
+          792,
+          793,
+          794,
+          795,
+          796,
+          797,
+          798,
+          799,
+          800,
+          801,
+          802,
+          803,
+          804,
+          805,
+          806,
+          807,
+          808,
+          809,
+          810,
+          811,
+          812,
+          813,
+          814,
+          815,
+          816,
+          817,
+          818,
+          819,
+          820,
+          821,
+          822,
+          823
+        ],
+        "line_count": 5623,
+        "read_line_intervals": [
+          [
+            1,
+            480
+          ],
+          [
+            481,
+            980
+          ],
+          [
+            981,
+            1480
+          ],
+          [
+            1481,
+            1980
+          ],
+          [
+            1981,
+            2480
+          ],
+          [
+            2481,
+            2980
+          ],
+          [
+            2981,
+            3480
+          ],
+          [
+            3481,
+            3980
+          ],
+          [
+            3981,
+            4480
+          ],
+          [
+            4481,
+            4980
+          ],
+          [
+            4981,
+            5480
+          ],
+          [
+            5481,
+            5623
+          ]
+        ],
+        "read_status": "Every extracted line/page read in bounded untruncated read-tool results; diagrams not rendered."
+      }
+    ]
+  },
+  "coverage": {
+    "chapters": [
+      30,
+      31
+    ],
+    "chapter_count": 2,
+    "pdf_page_count": 133,
+    "extracted_line_count": 6130,
+    "numbered_section_count": 160,
+    "top_level_numbered_section_count": 21,
+    "numbered_operational_section_count": 159,
+    "numbered_non_operational_section_count": 1,
+    "unnumbered_operational_section_count": 10,
+    "record_count": 175,
+    "midi_effect_device_count": 8,
+    "instrument_device_count": 13,
+    "page_range_convention": "Inclusive exact PDF pages containing section text/captions. Hierarchical spans include descendants; trailing blank lines/page headers/footer page numbers excluded. Sections can share a boundary page.",
+    "all_assigned_text_read": true,
+    "unread_assigned_pages": [],
+    "coverage_interpretation": "All numbered sections mapped; non-operational/user-excluded actions explicit. Diagram/contradictory details remain identified gaps, not inferred coverage."
+  },
+  "sections": [
+    {
+      "chapter": 30,
+      "section_id": "30",
+      "section_title": "Live MIDI Effect Reference",
+      "kind": "chapter",
+      "pdf_page_range": [
+        691,
+        703
+      ],
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Choose and verify",
+          "anchor": "choose-and-verify",
+          "start_line": 9,
+          "end_line": 23
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Arpeggiator",
+          "anchor": "arpeggiator",
+          "start_line": 29,
+          "end_line": 34
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "CC Control",
+          "anchor": "cc-control",
+          "start_line": 35,
+          "end_line": 38
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Chord",
+          "anchor": "chord",
+          "start_line": 39,
+          "end_line": 44
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Note Length",
+          "anchor": "note-length",
+          "start_line": 45,
+          "end_line": 49
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Pitch",
+          "anchor": "pitch",
+          "start_line": 50,
+          "end_line": 53
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Random",
+          "anchor": "random",
+          "start_line": 54,
+          "end_line": 57
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Scale",
+          "anchor": "scale",
+          "start_line": 58,
+          "end_line": 61
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Velocity",
+          "anchor": "velocity",
+          "start_line": 62,
+          "end_line": 65
+        }
+      ],
+      "status": "covered_by_child_sections",
+      "derivation": "source-derived device behavior; verification/safety synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 30,
+      "section_id": "30.intro",
+      "section_title": "Chapter introduction",
+      "kind": "introduction",
+      "pdf_page_range": [
+        691,
+        691
+      ],
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Choose and verify",
+          "anchor": "choose-and-verify",
+          "start_line": 9,
+          "end_line": 23
+        }
+      ],
+      "status": "non-operational overview; relevant prerequisite retained",
+      "retained_requirement": "Pitch-related MIDI effects support Use Current Scale and scale degrees.",
+      "derivation": "source-derived",
+      "execution_verified": false
+    },
+    {
+      "chapter": 30,
+      "section_id": "30.1",
+      "section_title": "Arpeggiator",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        691,
+        693
+      ],
+      "source_start_line": 18,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Arpeggiator",
+          "anchor": "arpeggiator",
+          "start_line": 29,
+          "end_line": 34
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 114
+    },
+    {
+      "chapter": 30,
+      "section_id": "30.2",
+      "section_title": "CC Control",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        694,
+        695
+      ],
+      "source_start_line": 122,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "CC Control",
+          "anchor": "cc-control",
+          "start_line": 35,
+          "end_line": 38
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 164
+    },
+    {
+      "chapter": 30,
+      "section_id": "30.3",
+      "section_title": "Chord",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        695,
+        696
+      ],
+      "source_start_line": 169,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Chord",
+          "anchor": "chord",
+          "start_line": 39,
+          "end_line": 44
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 234
+    },
+    {
+      "chapter": 30,
+      "section_id": "30.4",
+      "section_title": "Note Length",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        697,
+        698
+      ],
+      "source_start_line": 242,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Note Length",
+          "anchor": "note-length",
+          "start_line": 45,
+          "end_line": 49
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 287
+    },
+    {
+      "chapter": 30,
+      "section_id": "30.5",
+      "section_title": "Pitch",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        698,
+        699
+      ],
+      "source_start_line": 292,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Pitch",
+          "anchor": "pitch",
+          "start_line": 50,
+          "end_line": 53
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 326
+    },
+    {
+      "chapter": 30,
+      "section_id": "30.6",
+      "section_title": "Random",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        699,
+        700
+      ],
+      "source_start_line": 331,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Random",
+          "anchor": "random",
+          "start_line": 54,
+          "end_line": 57
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 387
+    },
+    {
+      "chapter": 30,
+      "section_id": "30.7",
+      "section_title": "Scale",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        701,
+        702
+      ],
+      "source_start_line": 395,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Scale",
+          "anchor": "scale",
+          "start_line": 58,
+          "end_line": 61
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 440
+    },
+    {
+      "chapter": 30,
+      "section_id": "30.8",
+      "section_title": "Velocity",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        702,
+        703
+      ],
+      "source_start_line": 445,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Velocity",
+          "anchor": "velocity",
+          "start_line": 62,
+          "end_line": 65
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 502
+    },
+    {
+      "chapter": 31,
+      "section_id": "31",
+      "section_title": "Live Instrument Reference",
+      "kind": "chapter",
+      "pdf_page_range": [
+        704,
+        823
+      ],
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Choose and verify",
+          "anchor": "choose-and-verify",
+          "start_line": 9,
+          "end_line": 23
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Analog",
+          "anchor": "analog",
+          "start_line": 66,
+          "end_line": 76
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Collision",
+          "anchor": "collision",
+          "start_line": 77,
+          "end_line": 86
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Drift",
+          "anchor": "drift",
+          "start_line": 87,
+          "end_line": 96
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Drum Sampler",
+          "anchor": "drum-sampler",
+          "start_line": 97,
+          "end_line": 117
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Electric",
+          "anchor": "electric",
+          "start_line": 118,
+          "end_line": 124
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "External Instrument",
+          "anchor": "external-instrument",
+          "start_line": 125,
+          "end_line": 130
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Impulse",
+          "anchor": "impulse",
+          "start_line": 131,
+          "end_line": 136
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Meld",
+          "anchor": "meld",
+          "start_line": 137,
+          "end_line": 186
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Operator",
+          "anchor": "operator",
+          "start_line": 187,
+          "end_line": 200
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Sampler",
+          "anchor": "sampler",
+          "start_line": 201,
+          "end_line": 216
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Simpler",
+          "anchor": "simpler",
+          "start_line": 217,
+          "end_line": 233
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Tension",
+          "anchor": "tension",
+          "start_line": 234,
+          "end_line": 244
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Wavetable",
+          "anchor": "wavetable",
+          "start_line": 245,
+          "end_line": 255
+        }
+      ],
+      "status": "covered_by_child_sections",
+      "derivation": "source-derived device behavior; verification/safety synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.intro",
+      "section_title": "Chapter introduction",
+      "kind": "introduction",
+      "pdf_page_range": [
+        704,
+        704
+      ],
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Choose and verify",
+          "anchor": "choose-and-verify",
+          "start_line": 9,
+          "end_line": 23
+        }
+      ],
+      "status": "non-operational overview; relevant prerequisite retained",
+      "retained_requirement": "Instrument availability differs by edition; no complete entitlement table provided.",
+      "derivation": "source-derived",
+      "execution_verified": false
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.1",
+      "section_title": "Analog",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        704,
+        713
+      ],
+      "source_start_line": 16,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Analog",
+          "anchor": "analog",
+          "start_line": 66,
+          "end_line": 76
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 432
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.1.1",
+      "section_title": "Architecture and Interface",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        704,
+        705
+      ],
+      "source_start_line": 35,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Analog",
+          "anchor": "analog",
+          "start_line": 66,
+          "end_line": 76
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 59
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.1.2",
+      "section_title": "Oscillators",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        705,
+        706
+      ],
+      "source_start_line": 63,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Analog",
+          "anchor": "analog",
+          "start_line": 66,
+          "end_line": 76
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 124
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.1.3",
+      "section_title": "Noise Generator",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        707,
+        707
+      ],
+      "source_start_line": 132,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Analog",
+          "anchor": "analog",
+          "start_line": 66,
+          "end_line": 76
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 151
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.1.4",
+      "section_title": "Filters",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        707,
+        708
+      ],
+      "source_start_line": 155,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Analog",
+          "anchor": "analog",
+          "start_line": 66,
+          "end_line": 76
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 197
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.1.5",
+      "section_title": "Amplifiers",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        708,
+        708
+      ],
+      "source_start_line": 201,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Analog",
+          "anchor": "analog",
+          "start_line": 66,
+          "end_line": 76
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 219
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.1.6",
+      "section_title": "Envelopes",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        709,
+        710
+      ],
+      "source_start_line": 225,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Analog",
+          "anchor": "analog",
+          "start_line": 66,
+          "end_line": 76
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 287
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.1.7",
+      "section_title": "LFOs",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        710,
+        710
+      ],
+      "source_start_line": 291,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Analog",
+          "anchor": "analog",
+          "start_line": 66,
+          "end_line": 76
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 318
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.1.8",
+      "section_title": "Global Parameters",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        711,
+        712
+      ],
+      "source_start_line": 324,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Analog",
+          "anchor": "analog",
+          "start_line": 66,
+          "end_line": 76
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 402
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.1.9",
+      "section_title": "MPE Sources",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        712,
+        713
+      ],
+      "source_start_line": 406,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Analog",
+          "anchor": "analog",
+          "start_line": 66,
+          "end_line": 76
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 432
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.2",
+      "section_title": "Collision",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        713,
+        722
+      ],
+      "source_start_line": 437,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Collision",
+          "anchor": "collision",
+          "start_line": 77,
+          "end_line": 86
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 825
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.2.1",
+      "section_title": "Architecture and Interface",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        713,
+        714
+      ],
+      "source_start_line": 450,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Collision",
+          "anchor": "collision",
+          "start_line": 77,
+          "end_line": 86
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 475
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.2.2",
+      "section_title": "Mallet Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        714,
+        714
+      ],
+      "source_start_line": 479,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Collision",
+          "anchor": "collision",
+          "start_line": 77,
+          "end_line": 86
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 504
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.2.3",
+      "section_title": "Noise Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        715,
+        715
+      ],
+      "source_start_line": 512,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Collision",
+          "anchor": "collision",
+          "start_line": 77,
+          "end_line": 86
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 551
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.2.4",
+      "section_title": "Resonator Tabs",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        716,
+        719
+      ],
+      "source_start_line": 559,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Collision",
+          "anchor": "collision",
+          "start_line": 77,
+          "end_line": 86
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 698
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.2.4.1",
+      "section_title": "Tuning Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        718,
+        718
+      ],
+      "source_start_line": 655,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Collision",
+          "anchor": "collision",
+          "start_line": 77,
+          "end_line": 86
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 675
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.2.4.2",
+      "section_title": "Mixer Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        718,
+        719
+      ],
+      "source_start_line": 678,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Collision",
+          "anchor": "collision",
+          "start_line": 77,
+          "end_line": 86
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 698
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.2.5",
+      "section_title": "LFO Tab",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        719,
+        719
+      ],
+      "source_start_line": 702,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Collision",
+          "anchor": "collision",
+          "start_line": 77,
+          "end_line": 86
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 727
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.2.6",
+      "section_title": "MIDI/MPE Tab",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        720,
+        721
+      ],
+      "source_start_line": 735,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Collision",
+          "anchor": "collision",
+          "start_line": 77,
+          "end_line": 86
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 786
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.2.6.1",
+      "section_title": "The Global Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        720,
+        721
+      ],
+      "source_start_line": 751,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Collision",
+          "anchor": "collision",
+          "start_line": 77,
+          "end_line": 86
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 786
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.2.7",
+      "section_title": "Sound Design Tips",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        721,
+        722
+      ],
+      "source_start_line": 790,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Collision",
+          "anchor": "collision",
+          "start_line": 77,
+          "end_line": 86
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 825
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.3",
+      "section_title": "Drift",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        722,
+        730
+      ],
+      "source_start_line": 830,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Drift",
+          "anchor": "drift",
+          "start_line": 87,
+          "end_line": 96
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1210
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.3.1",
+      "section_title": "Subtractive Synthesis",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        722,
+        722
+      ],
+      "source_start_line": 846,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Drift",
+          "anchor": "drift",
+          "start_line": 87,
+          "end_line": 96
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 852
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.3.2",
+      "section_title": "Oscillator Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        723,
+        725
+      ],
+      "source_start_line": 860,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Drift",
+          "anchor": "drift",
+          "start_line": 87,
+          "end_line": 96
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 974
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.3.2.1",
+      "section_title": "Oscillator 1",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        723,
+        723
+      ],
+      "source_start_line": 871,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Drift",
+          "anchor": "drift",
+          "start_line": 87,
+          "end_line": 96
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 903
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.3.2.2",
+      "section_title": "Oscillator 2",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        724,
+        724
+      ],
+      "source_start_line": 910,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Drift",
+          "anchor": "drift",
+          "start_line": 87,
+          "end_line": 96
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 916
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.3.2.3",
+      "section_title": "Pitch Mod",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        724,
+        724
+      ],
+      "source_start_line": 919,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Drift",
+          "anchor": "drift",
+          "start_line": 87,
+          "end_line": 96
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 928
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.3.2.4",
+      "section_title": "Waveform Display",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        724,
+        724
+      ],
+      "source_start_line": 931,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Drift",
+          "anchor": "drift",
+          "start_line": 87,
+          "end_line": 96
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 940
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.3.2.5",
+      "section_title": "Oscillator Mixer",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        724,
+        725
+      ],
+      "source_start_line": 943,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Drift",
+          "anchor": "drift",
+          "start_line": 87,
+          "end_line": 96
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 974
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.3.3",
+      "section_title": "Filter Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        725,
+        726
+      ],
+      "source_start_line": 978,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Drift",
+          "anchor": "drift",
+          "start_line": 87,
+          "end_line": 96
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1018
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.3.4",
+      "section_title": "Envelopes Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        726,
+        727
+      ],
+      "source_start_line": 1022,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Drift",
+          "anchor": "drift",
+          "start_line": 87,
+          "end_line": 96
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1087
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.3.4.1",
+      "section_title": "Envelope 1",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        726,
+        727
+      ],
+      "source_start_line": 1036,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Drift",
+          "anchor": "drift",
+          "start_line": 87,
+          "end_line": 96
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1061
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.3.4.2",
+      "section_title": "Envelope 2",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        727,
+        727
+      ],
+      "source_start_line": 1064,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Drift",
+          "anchor": "drift",
+          "start_line": 87,
+          "end_line": 96
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1087
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.3.5",
+      "section_title": "LFO Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        727,
+        728
+      ],
+      "source_start_line": 1091,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Drift",
+          "anchor": "drift",
+          "start_line": 87,
+          "end_line": 96
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1124
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.3.6",
+      "section_title": "Mod Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        728,
+        728
+      ],
+      "source_start_line": 1128,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Drift",
+          "anchor": "drift",
+          "start_line": 87,
+          "end_line": 96
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1146
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.3.7",
+      "section_title": "Global Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        729,
+        730
+      ],
+      "source_start_line": 1154,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Drift",
+          "anchor": "drift",
+          "start_line": 87,
+          "end_line": 96
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1210
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.4",
+      "section_title": "Drum Sampler",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        730,
+        735
+      ],
+      "source_start_line": 1215,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Drum Sampler",
+          "anchor": "drum-sampler",
+          "start_line": 97,
+          "end_line": 117
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1454
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.4.1",
+      "section_title": "Sample Controls Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        730,
+        732
+      ],
+      "source_start_line": 1229,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Drum Sampler",
+          "anchor": "drum-sampler",
+          "start_line": 97,
+          "end_line": 117
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1298
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.4.2",
+      "section_title": "Playback Effects Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        732,
+        733
+      ],
+      "source_start_line": 1302,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Drum Sampler",
+          "anchor": "drum-sampler",
+          "start_line": 97,
+          "end_line": 117
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1369
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.4.3",
+      "section_title": "Filter Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        734,
+        734
+      ],
+      "source_start_line": 1377,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Drum Sampler",
+          "anchor": "drum-sampler",
+          "start_line": 97,
+          "end_line": 117
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1391
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.4.4",
+      "section_title": "Global Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        734,
+        735
+      ],
+      "source_start_line": 1395,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Drum Sampler",
+          "anchor": "drum-sampler",
+          "start_line": 97,
+          "end_line": 117
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1426
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.4.5",
+      "section_title": "Context Menu Options for Drum Sampler",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        735,
+        735
+      ],
+      "source_start_line": 1430,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Drum Sampler",
+          "anchor": "drum-sampler",
+          "start_line": 97,
+          "end_line": 117
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1454
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.5",
+      "section_title": "Electric",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        736,
+        741
+      ],
+      "source_start_line": 1462,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Electric",
+          "anchor": "electric",
+          "start_line": 118,
+          "end_line": 124
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1663
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.5.1",
+      "section_title": "Architecture and Interface",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        736,
+        737
+      ],
+      "source_start_line": 1482,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Electric",
+          "anchor": "electric",
+          "start_line": 118,
+          "end_line": 124
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1508
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.5.2",
+      "section_title": "Hammer Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        737,
+        738
+      ],
+      "source_start_line": 1512,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Electric",
+          "anchor": "electric",
+          "start_line": 118,
+          "end_line": 124
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1539
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.5.3",
+      "section_title": "Fork Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        738,
+        738
+      ],
+      "source_start_line": 1543,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Electric",
+          "anchor": "electric",
+          "start_line": 118,
+          "end_line": 124
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1564
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.5.4",
+      "section_title": "Damper/Pickup Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        739,
+        740
+      ],
+      "source_start_line": 1572,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Electric",
+          "anchor": "electric",
+          "start_line": 118,
+          "end_line": 124
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1624
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.5.4.1",
+      "section_title": "Pickup Parameters",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        739,
+        739
+      ],
+      "source_start_line": 1580,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Electric",
+          "anchor": "electric",
+          "start_line": 118,
+          "end_line": 124
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1600
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.5.4.2",
+      "section_title": "Damper Parameters",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        739,
+        740
+      ],
+      "source_start_line": 1603,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Electric",
+          "anchor": "electric",
+          "start_line": 118,
+          "end_line": 124
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1624
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.5.5",
+      "section_title": "Global Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        740,
+        741
+      ],
+      "source_start_line": 1628,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Electric",
+          "anchor": "electric",
+          "start_line": 118,
+          "end_line": 124
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1663
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.6",
+      "section_title": "External Instrument",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        741,
+        742
+      ],
+      "source_start_line": 1668,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "External Instrument",
+          "anchor": "external-instrument",
+          "start_line": 125,
+          "end_line": 130
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1722
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.7",
+      "section_title": "Impulse",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        743,
+        745
+      ],
+      "source_start_line": 1730,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Impulse",
+          "anchor": "impulse",
+          "start_line": 131,
+          "end_line": 136
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1843
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.7.1",
+      "section_title": "Sample Slots",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        743,
+        744
+      ],
+      "source_start_line": 1743,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Impulse",
+          "anchor": "impulse",
+          "start_line": 131,
+          "end_line": 136
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1774
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.7.2",
+      "section_title": "Start, Transpose and Stretch",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        744,
+        744
+      ],
+      "source_start_line": 1778,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Impulse",
+          "anchor": "impulse",
+          "start_line": 131,
+          "end_line": 136
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1788
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.7.3",
+      "section_title": "Filter",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        744,
+        744
+      ],
+      "source_start_line": 1792,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Impulse",
+          "anchor": "impulse",
+          "start_line": 131,
+          "end_line": 136
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1797
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.7.4",
+      "section_title": "Saturator and Envelope",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        744,
+        744
+      ],
+      "source_start_line": 1801,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Impulse",
+          "anchor": "impulse",
+          "start_line": 131,
+          "end_line": 136
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1813
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.7.5",
+      "section_title": "Pan and Volume",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        744,
+        744
+      ],
+      "source_start_line": 1817,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Impulse",
+          "anchor": "impulse",
+          "start_line": 131,
+          "end_line": 136
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1820
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.7.6",
+      "section_title": "Global Controls",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        745,
+        745
+      ],
+      "source_start_line": 1828,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Impulse",
+          "anchor": "impulse",
+          "start_line": 131,
+          "end_line": 136
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1833
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.7.7",
+      "section_title": "Individual Outputs",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        745,
+        745
+      ],
+      "source_start_line": 1837,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Impulse",
+          "anchor": "impulse",
+          "start_line": 131,
+          "end_line": 136
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1843
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.8",
+      "section_title": "Meld",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        745,
+        755
+      ],
+      "source_start_line": 1848,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Meld",
+          "anchor": "meld",
+          "start_line": 137,
+          "end_line": 186
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 2349
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.8.1",
+      "section_title": "General Overview",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        745,
+        746
+      ],
+      "source_start_line": 1866,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Meld",
+          "anchor": "meld",
+          "start_line": 137,
+          "end_line": 186
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1891
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.8.2",
+      "section_title": "Oscillators",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        746,
+        747
+      ],
+      "source_start_line": 1895,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Meld",
+          "anchor": "meld",
+          "start_line": 137,
+          "end_line": 186
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 1922
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.8.3",
+      "section_title": "Oscillator Macros",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        747,
+        749
+      ],
+      "source_start_line": 1926,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Meld",
+          "anchor": "meld",
+          "start_line": 137,
+          "end_line": 186
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 2029
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.8.4",
+      "section_title": "Envelopes Tab",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        749,
+        749
+      ],
+      "source_start_line": 2033,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Meld",
+          "anchor": "meld",
+          "start_line": 137,
+          "end_line": 186
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 2065
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.8.5",
+      "section_title": "LFOs Tab",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        750,
+        750
+      ],
+      "source_start_line": 2073,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Meld",
+          "anchor": "meld",
+          "start_line": 137,
+          "end_line": 186
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 2096
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.8.6",
+      "section_title": "Matrix Tab",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        750,
+        751
+      ],
+      "source_start_line": 2100,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Meld",
+          "anchor": "meld",
+          "start_line": 137,
+          "end_line": 186
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 2123
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.8.7",
+      "section_title": "MIDI and MPE Tabs",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        751,
+        751
+      ],
+      "source_start_line": 2127,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Meld",
+          "anchor": "meld",
+          "start_line": 137,
+          "end_line": 186
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 2149
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.8.8",
+      "section_title": "Settings Tab",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        751,
+        752
+      ],
+      "source_start_line": 2153,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Meld",
+          "anchor": "meld",
+          "start_line": 137,
+          "end_line": 186
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 2200
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.8.9",
+      "section_title": "Filters",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        752,
+        754
+      ],
+      "source_start_line": 2204,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Meld",
+          "anchor": "meld",
+          "start_line": 137,
+          "end_line": 186
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 2283
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.8.10",
+      "section_title": "Mix Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        754,
+        754
+      ],
+      "source_start_line": 2287,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Meld",
+          "anchor": "meld",
+          "start_line": 137,
+          "end_line": 186
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 2304
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.8.11",
+      "section_title": "Global Controls",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        754,
+        755
+      ],
+      "source_start_line": 2308,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Meld",
+          "anchor": "meld",
+          "start_line": 137,
+          "end_line": 186
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 2349
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.9",
+      "section_title": "Operator",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        755,
+        772
+      ],
+      "source_start_line": 2354,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Operator",
+          "anchor": "operator",
+          "start_line": 187,
+          "end_line": 200
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 3253
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.9.1",
+      "section_title": "General Overview",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        756,
+        757
+      ],
+      "source_start_line": 2373,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Operator",
+          "anchor": "operator",
+          "start_line": 187,
+          "end_line": 200
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 2419
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.9.2",
+      "section_title": "Oscillator Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        757,
+        759
+      ],
+      "source_start_line": 2423,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Operator",
+          "anchor": "operator",
+          "start_line": 187,
+          "end_line": 200
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 2542
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.9.2.1",
+      "section_title": "Built-in Waveforms",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        757,
+        757
+      ],
+      "source_start_line": 2431,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Operator",
+          "anchor": "operator",
+          "start_line": 187,
+          "end_line": 200
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 2442
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.9.2.2",
+      "section_title": "User Waveforms",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        757,
+        758
+      ],
+      "source_start_line": 2445,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Operator",
+          "anchor": "operator",
+          "start_line": 187,
+          "end_line": 200
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 2483
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.9.2.3",
+      "section_title": "More Oscillator Parameters",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        758,
+        759
+      ],
+      "source_start_line": 2486,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Operator",
+          "anchor": "operator",
+          "start_line": 187,
+          "end_line": 200
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 2524
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.9.2.4",
+      "section_title": "Aliasing",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        759,
+        759
+      ],
+      "source_start_line": 2527,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Operator",
+          "anchor": "operator",
+          "start_line": 187,
+          "end_line": 200
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 2542
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.9.3",
+      "section_title": "LFO Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        759,
+        760
+      ],
+      "source_start_line": 2546,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Operator",
+          "anchor": "operator",
+          "start_line": 187,
+          "end_line": 200
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 2583
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.9.4",
+      "section_title": "Envelopes",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        760,
+        762
+      ],
+      "source_start_line": 2587,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Operator",
+          "anchor": "operator",
+          "start_line": 187,
+          "end_line": 200
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 2671
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.9.5",
+      "section_title": "Filter Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        762,
+        763
+      ],
+      "source_start_line": 2675,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Operator",
+          "anchor": "operator",
+          "start_line": 187,
+          "end_line": 200
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Shared filter and envelope controls",
+          "anchor": "shared-filter-and-envelope-controls",
+          "start_line": 24,
+          "end_line": 28
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 2747
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.9.6",
+      "section_title": "Global Controls",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        763,
+        764
+      ],
+      "source_start_line": 2751,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Operator",
+          "anchor": "operator",
+          "start_line": 187,
+          "end_line": 200
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 2786
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.9.7",
+      "section_title": "Glide and Spread",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        764,
+        764
+      ],
+      "source_start_line": 2790,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Operator",
+          "anchor": "operator",
+          "start_line": 187,
+          "end_line": 200
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 2810
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.9.8",
+      "section_title": "Strategies for Saving CPU Power",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        765,
+        765
+      ],
+      "source_start_line": 2818,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Operator",
+          "anchor": "operator",
+          "start_line": 187,
+          "end_line": 200
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 2827
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.9.9",
+      "section_title": "Finally…",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        765,
+        765
+      ],
+      "source_start_line": 2831,
+      "runtime_locations": [],
+      "status": "non-operational history/acknowledgment, intentionally omitted",
+      "derivation": "non-operational",
+      "verification_recovery": "not applicable",
+      "execution_verified": false,
+      "source_end_line": 2842
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.9.10",
+      "section_title": "The Complete Parameter List",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        765,
+        772
+      ],
+      "source_start_line": 2846,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Operator",
+          "anchor": "operator",
+          "start_line": 187,
+          "end_line": 200
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 3253
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.9.10.1",
+      "section_title": "Global Shell and Display",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        765,
+        766
+      ],
+      "source_start_line": 2854,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Operator",
+          "anchor": "operator",
+          "start_line": 187,
+          "end_line": 200
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 2899
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.9.10.2",
+      "section_title": "Modulation Targets",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        766,
+        767
+      ],
+      "source_start_line": 2902,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Operator",
+          "anchor": "operator",
+          "start_line": 187,
+          "end_line": 200
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 2957
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.9.10.3",
+      "section_title": "Pitch Shell and Display",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        767,
+        768
+      ],
+      "source_start_line": 2960,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Operator",
+          "anchor": "operator",
+          "start_line": 187,
+          "end_line": 200
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 3002
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.9.10.4",
+      "section_title": "Filter Shell and Display",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        768,
+        769
+      ],
+      "source_start_line": 3005,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Operator",
+          "anchor": "operator",
+          "start_line": 187,
+          "end_line": 200
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Shared filter and envelope controls",
+          "anchor": "shared-filter-and-envelope-controls",
+          "start_line": 24,
+          "end_line": 28
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 3050
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.9.10.5",
+      "section_title": "LFO Shell and Display",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        769,
+        770
+      ],
+      "source_start_line": 3053,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Operator",
+          "anchor": "operator",
+          "start_line": 187,
+          "end_line": 200
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 3100
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.9.10.6",
+      "section_title": "Oscillators A-D Shell and Display",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        770,
+        771
+      ],
+      "source_start_line": 3103,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Operator",
+          "anchor": "operator",
+          "start_line": 187,
+          "end_line": 200
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 3168
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.9.10.7",
+      "section_title": "Envelope Display",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        771,
+        772
+      ],
+      "source_start_line": 3171,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Operator",
+          "anchor": "operator",
+          "start_line": 187,
+          "end_line": 200
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 3230
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.9.10.8",
+      "section_title": "Context Menu Options for Operator",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        772,
+        772
+      ],
+      "source_start_line": 3233,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Operator",
+          "anchor": "operator",
+          "start_line": 187,
+          "end_line": 200
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 3253
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.10",
+      "section_title": "Sampler",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        773,
+        791
+      ],
+      "source_start_line": 3261,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Sampler",
+          "anchor": "sampler",
+          "start_line": 201,
+          "end_line": 216
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4134
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.10.1",
+      "section_title": "Getting Started with Sampler",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        773,
+        773
+      ],
+      "source_start_line": 3276,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Sampler",
+          "anchor": "sampler",
+          "start_line": 201,
+          "end_line": 216
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 3283
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.10.2",
+      "section_title": "Multisampling",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        773,
+        774
+      ],
+      "source_start_line": 3287,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Sampler",
+          "anchor": "sampler",
+          "start_line": 201,
+          "end_line": 216
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 3310
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.10.3",
+      "section_title": "Title Bar Options",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        774,
+        774
+      ],
+      "source_start_line": 3314,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Sampler",
+          "anchor": "sampler",
+          "start_line": 201,
+          "end_line": 216
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 3347
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.10.4",
+      "section_title": "Sampler’s Tabs",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        775,
+        775
+      ],
+      "source_start_line": 3355,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Sampler",
+          "anchor": "sampler",
+          "start_line": 201,
+          "end_line": 216
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 3366
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.10.5",
+      "section_title": "The Zone Tab",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        775,
+        781
+      ],
+      "source_start_line": 3370,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Sampler",
+          "anchor": "sampler",
+          "start_line": 201,
+          "end_line": 216
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 3618
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.10.5.1",
+      "section_title": "Round Robin Sample Playback",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        776,
+        778
+      ],
+      "source_start_line": 3418,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Sampler",
+          "anchor": "sampler",
+          "start_line": 201,
+          "end_line": 216
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 3477
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.10.5.2",
+      "section_title": "The Sample Layer List",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        778,
+        779
+      ],
+      "source_start_line": 3480,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Sampler",
+          "anchor": "sampler",
+          "start_line": 201,
+          "end_line": 216
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 3542
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.10.5.3",
+      "section_title": "Key Zones",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        779,
+        780
+      ],
+      "source_start_line": 3545,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Sampler",
+          "anchor": "sampler",
+          "start_line": 201,
+          "end_line": 216
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 3573
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.10.5.4",
+      "section_title": "Velocity Zones",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        780,
+        780
+      ],
+      "source_start_line": 3576,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Sampler",
+          "anchor": "sampler",
+          "start_line": 201,
+          "end_line": 216
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 3589
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.10.5.5",
+      "section_title": "Sample Select Zones",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        780,
+        781
+      ],
+      "source_start_line": 3592,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Sampler",
+          "anchor": "sampler",
+          "start_line": 201,
+          "end_line": 216
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 3618
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.10.6",
+      "section_title": "The Sample Tab",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        781,
+        784
+      ],
+      "source_start_line": 3622,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Sampler",
+          "anchor": "sampler",
+          "start_line": 201,
+          "end_line": 216
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 3814
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.10.6.1",
+      "section_title": "Sample Playback",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        782,
+        784
+      ],
+      "source_start_line": 3667,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Sampler",
+          "anchor": "sampler",
+          "start_line": 201,
+          "end_line": 216
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 3814
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.10.7",
+      "section_title": "The Pitch/Osc Tab",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        785,
+        786
+      ],
+      "source_start_line": 3822,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Sampler",
+          "anchor": "sampler",
+          "start_line": 201,
+          "end_line": 216
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 3907
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.10.7.1",
+      "section_title": "The Modulation Oscillator (Osc)",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        785,
+        786
+      ],
+      "source_start_line": 3830,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Sampler",
+          "anchor": "sampler",
+          "start_line": 201,
+          "end_line": 216
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 3875
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.10.7.2",
+      "section_title": "The Pitch Envelope",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        786,
+        786
+      ],
+      "source_start_line": 3878,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Sampler",
+          "anchor": "sampler",
+          "start_line": 201,
+          "end_line": 216
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 3907
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.10.8",
+      "section_title": "The Filter/Global Tab",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        787,
+        788
+      ],
+      "source_start_line": 3915,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Sampler",
+          "anchor": "sampler",
+          "start_line": 201,
+          "end_line": 216
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Shared filter and envelope controls",
+          "anchor": "shared-filter-and-envelope-controls",
+          "start_line": 24,
+          "end_line": 28
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4002
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.10.8.1",
+      "section_title": "The Filter",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        787,
+        788
+      ],
+      "source_start_line": 3923,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Sampler",
+          "anchor": "sampler",
+          "start_line": 201,
+          "end_line": 216
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Shared filter and envelope controls",
+          "anchor": "shared-filter-and-envelope-controls",
+          "start_line": 24,
+          "end_line": 28
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 3977
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.10.8.2",
+      "section_title": "The Volume Envelope and Global Controls",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        788,
+        788
+      ],
+      "source_start_line": 3980,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Sampler",
+          "anchor": "sampler",
+          "start_line": 201,
+          "end_line": 216
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4002
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.10.9",
+      "section_title": "The Modulation Tab",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        789,
+        790
+      ],
+      "source_start_line": 4010,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Sampler",
+          "anchor": "sampler",
+          "start_line": 201,
+          "end_line": 216
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4086
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.10.9.1",
+      "section_title": "The Auxiliary Envelope",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        789,
+        789
+      ],
+      "source_start_line": 4022,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Sampler",
+          "anchor": "sampler",
+          "start_line": 201,
+          "end_line": 216
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4027
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.10.9.2",
+      "section_title": "LFOs 1, 2 and 3",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        789,
+        790
+      ],
+      "source_start_line": 4030,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Sampler",
+          "anchor": "sampler",
+          "start_line": 201,
+          "end_line": 216
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4086
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.10.10",
+      "section_title": "The MIDI Tab",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        790,
+        791
+      ],
+      "source_start_line": 4090,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Sampler",
+          "anchor": "sampler",
+          "start_line": 201,
+          "end_line": 216
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4113
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.10.11",
+      "section_title": "Importing Third-Party Multisamples",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        791,
+        791
+      ],
+      "source_start_line": 4117,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Sampler",
+          "anchor": "sampler",
+          "start_line": 201,
+          "end_line": 216
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4134
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.11",
+      "section_title": "Simpler",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        791,
+        802
+      ],
+      "source_start_line": 4139,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Simpler",
+          "anchor": "simpler",
+          "start_line": 217,
+          "end_line": 233
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4610
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.11.1",
+      "section_title": "Playback Modes",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        792,
+        796
+      ],
+      "source_start_line": 4184,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Simpler",
+          "anchor": "simpler",
+          "start_line": 217,
+          "end_line": 233
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4349
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.11.1.1",
+      "section_title": "Classic Playback Mode",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        793,
+        794
+      ],
+      "source_start_line": 4215,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Simpler",
+          "anchor": "simpler",
+          "start_line": 217,
+          "end_line": 233
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4270
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.11.1.2",
+      "section_title": "One-Shot Playback Mode",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        795,
+        795
+      ],
+      "source_start_line": 4278,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Simpler",
+          "anchor": "simpler",
+          "start_line": 217,
+          "end_line": 233
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4300
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.11.1.3",
+      "section_title": "Slicing Playback Mode",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        795,
+        796
+      ],
+      "source_start_line": 4303,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Simpler",
+          "anchor": "simpler",
+          "start_line": 217,
+          "end_line": 233
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4349
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.11.2",
+      "section_title": "Warp Controls",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        796,
+        797
+      ],
+      "source_start_line": 4353,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Simpler",
+          "anchor": "simpler",
+          "start_line": 217,
+          "end_line": 233
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4378
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.11.3",
+      "section_title": "Filter",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        797,
+        798
+      ],
+      "source_start_line": 4382,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Simpler",
+          "anchor": "simpler",
+          "start_line": 217,
+          "end_line": 233
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Shared filter and envelope controls",
+          "anchor": "shared-filter-and-envelope-controls",
+          "start_line": 24,
+          "end_line": 28
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4440
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.11.4",
+      "section_title": "Envelopes",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        798,
+        799
+      ],
+      "source_start_line": 4444,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Simpler",
+          "anchor": "simpler",
+          "start_line": 217,
+          "end_line": 233
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4480
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.11.5",
+      "section_title": "LFO",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        799,
+        800
+      ],
+      "source_start_line": 4484,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Simpler",
+          "anchor": "simpler",
+          "start_line": 217,
+          "end_line": 233
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4510
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.11.6",
+      "section_title": "Global Parameters",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        800,
+        800
+      ],
+      "source_start_line": 4514,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Simpler",
+          "anchor": "simpler",
+          "start_line": 217,
+          "end_line": 233
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4547
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.11.7",
+      "section_title": "Context Menu Options for Simpler",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        801,
+        801
+      ],
+      "source_start_line": 4555,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Simpler",
+          "anchor": "simpler",
+          "start_line": 217,
+          "end_line": 233
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4587
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.11.8",
+      "section_title": "Strategies for Saving CPU Power",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        801,
+        802
+      ],
+      "source_start_line": 4591,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Simpler",
+          "anchor": "simpler",
+          "start_line": 217,
+          "end_line": 233
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4610
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.12",
+      "section_title": "Tension",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        802,
+        813
+      ],
+      "source_start_line": 4615,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Tension",
+          "anchor": "tension",
+          "start_line": 234,
+          "end_line": 244
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 5152
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.12.1",
+      "section_title": "Architecture and Interface",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        802,
+        803
+      ],
+      "source_start_line": 4639,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Tension",
+          "anchor": "tension",
+          "start_line": 234,
+          "end_line": 244
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4664
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.12.2",
+      "section_title": "String Tab",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        803,
+        809
+      ],
+      "source_start_line": 4668,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Tension",
+          "anchor": "tension",
+          "start_line": 234,
+          "end_line": 244
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4968
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.12.2.1",
+      "section_title": "The Exciter Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        803,
+        803
+      ],
+      "source_start_line": 4674,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Tension",
+          "anchor": "tension",
+          "start_line": 234,
+          "end_line": 244
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4679
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.12.2.2",
+      "section_title": "Exciter Types",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        803,
+        804
+      ],
+      "source_start_line": 4682,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Tension",
+          "anchor": "tension",
+          "start_line": 234,
+          "end_line": 244
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4715
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.12.2.3",
+      "section_title": "Exciter Parameters",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        804,
+        805
+      ],
+      "source_start_line": 4718,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Tension",
+          "anchor": "tension",
+          "start_line": 234,
+          "end_line": 244
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4771
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.12.2.4",
+      "section_title": "The Damper Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        805,
+        807
+      ],
+      "source_start_line": 4774,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Tension",
+          "anchor": "tension",
+          "start_line": 234,
+          "end_line": 244
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4886
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.12.2.5",
+      "section_title": "The Termination Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        807,
+        808
+      ],
+      "source_start_line": 4889,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Tension",
+          "anchor": "tension",
+          "start_line": 234,
+          "end_line": 244
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4913
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.12.2.6",
+      "section_title": "The Pickup Section",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        808,
+        809
+      ],
+      "source_start_line": 4916,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Tension",
+          "anchor": "tension",
+          "start_line": 234,
+          "end_line": 244
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 4968
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.12.3",
+      "section_title": "Filter/Global Tab",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        809,
+        813
+      ],
+      "source_start_line": 4972,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Tension",
+          "anchor": "tension",
+          "start_line": 234,
+          "end_line": 244
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 5133
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.12.4",
+      "section_title": "Sound Design Tips",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        813,
+        813
+      ],
+      "source_start_line": 5137,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Tension",
+          "anchor": "tension",
+          "start_line": 234,
+          "end_line": 244
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 5152
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.13",
+      "section_title": "Wavetable",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        814,
+        823
+      ],
+      "source_start_line": 5160,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Wavetable",
+          "anchor": "wavetable",
+          "start_line": 245,
+          "end_line": 255
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 5618
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.13.1",
+      "section_title": "Wavetable Synthesis",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        814,
+        814
+      ],
+      "source_start_line": 5179,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Wavetable",
+          "anchor": "wavetable",
+          "start_line": 245,
+          "end_line": 255
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 5186
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.13.2",
+      "section_title": "Oscillators",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        814,
+        816
+      ],
+      "source_start_line": 5190,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Wavetable",
+          "anchor": "wavetable",
+          "start_line": 245,
+          "end_line": 255
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 5269
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.13.3",
+      "section_title": "Sub Oscillator",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        816,
+        816
+      ],
+      "source_start_line": 5273,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Wavetable",
+          "anchor": "wavetable",
+          "start_line": 245,
+          "end_line": 255
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 5287
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.13.4",
+      "section_title": "Filters",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        816,
+        818
+      ],
+      "source_start_line": 5291,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Wavetable",
+          "anchor": "wavetable",
+          "start_line": 245,
+          "end_line": 255
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Shared filter and envelope controls",
+          "anchor": "shared-filter-and-envelope-controls",
+          "start_line": 24,
+          "end_line": 28
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 5354
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.13.5",
+      "section_title": "Matrix Tab",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        818,
+        819
+      ],
+      "source_start_line": 5358,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Wavetable",
+          "anchor": "wavetable",
+          "start_line": 245,
+          "end_line": 255
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 5410
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.13.6",
+      "section_title": "Mod Sources Tab",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        819,
+        821
+      ],
+      "source_start_line": 5414,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Wavetable",
+          "anchor": "wavetable",
+          "start_line": 245,
+          "end_line": 255
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 5508
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.13.6.1",
+      "section_title": "LFOs",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        820,
+        821
+      ],
+      "source_start_line": 5470,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Wavetable",
+          "anchor": "wavetable",
+          "start_line": 245,
+          "end_line": 255
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 5508
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.13.7",
+      "section_title": "MIDI Tab",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        821,
+        821
+      ],
+      "source_start_line": 5512,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Wavetable",
+          "anchor": "wavetable",
+          "start_line": 245,
+          "end_line": 255
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 5541
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.13.8",
+      "section_title": "Global and Unison Controls",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        821,
+        822
+      ],
+      "source_start_line": 5545,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Wavetable",
+          "anchor": "wavetable",
+          "start_line": 245,
+          "end_line": 255
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 5591
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.13.9",
+      "section_title": "Hi-Quality Mode",
+      "kind": "numbered_section",
+      "pdf_page_range": [
+        823,
+        823
+      ],
+      "source_start_line": 5599,
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Wavetable",
+          "anchor": "wavetable",
+          "start_line": 245,
+          "end_line": 255
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase, reorganized as UI decisions/procedures",
+      "verification_recovery": "Adjacent checks/recovery are synthesis, not executed observations",
+      "execution_verified": false,
+      "source_end_line": 5618
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.12.2.string",
+      "section_title": "The String Section",
+      "kind": "unnumbered_operational_section",
+      "pdf_page_range": [
+        806,
+        807
+      ],
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Tension",
+          "anchor": "tension",
+          "start_line": 234,
+          "end_line": 244
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase",
+      "execution_verified": false
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.12.2.vibrato",
+      "section_title": "The Vibrato Section",
+      "kind": "unnumbered_operational_section",
+      "pdf_page_range": [
+        807,
+        807
+      ],
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Tension",
+          "anchor": "tension",
+          "start_line": 234,
+          "end_line": 244
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase",
+      "execution_verified": false
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.12.2.body",
+      "section_title": "The Body Section",
+      "kind": "unnumbered_operational_section",
+      "pdf_page_range": [
+        808,
+        809
+      ],
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Tension",
+          "anchor": "tension",
+          "start_line": 234,
+          "end_line": 244
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase",
+      "execution_verified": false
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.12.3.filter",
+      "section_title": "Filter, Filter Envelope, and Filter LFO",
+      "kind": "unnumbered_operational_section",
+      "pdf_page_range": [
+        810,
+        811
+      ],
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Tension",
+          "anchor": "tension",
+          "start_line": 234,
+          "end_line": 244
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase",
+      "execution_verified": false
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.12.3.mpe",
+      "section_title": "MPE Section",
+      "kind": "unnumbered_operational_section",
+      "pdf_page_range": [
+        811,
+        811
+      ],
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Tension",
+          "anchor": "tension",
+          "start_line": 234,
+          "end_line": 244
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase",
+      "execution_verified": false
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.12.3.keyboard",
+      "section_title": "Keyboard Section",
+      "kind": "unnumbered_operational_section",
+      "pdf_page_range": [
+        811,
+        812
+      ],
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Tension",
+          "anchor": "tension",
+          "start_line": 234,
+          "end_line": 244
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase",
+      "execution_verified": false
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.12.3.portamento",
+      "section_title": "Portamento Section",
+      "kind": "unnumbered_operational_section",
+      "pdf_page_range": [
+        812,
+        812
+      ],
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Tension",
+          "anchor": "tension",
+          "start_line": 234,
+          "end_line": 244
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase",
+      "execution_verified": false
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.12.3.unison",
+      "section_title": "Unison Section",
+      "kind": "unnumbered_operational_section",
+      "pdf_page_range": [
+        812,
+        813
+      ],
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Tension",
+          "anchor": "tension",
+          "start_line": 234,
+          "end_line": 244
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase",
+      "execution_verified": false
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.12.3.volume",
+      "section_title": "Volume",
+      "kind": "unnumbered_operational_section",
+      "pdf_page_range": [
+        813,
+        813
+      ],
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Tension",
+          "anchor": "tension",
+          "start_line": 234,
+          "end_line": 244
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase",
+      "execution_verified": false
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.13.6.envelopes",
+      "section_title": "Envelopes",
+      "kind": "unnumbered_operational_section",
+      "pdf_page_range": [
+        819,
+        820
+      ],
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Wavetable",
+          "anchor": "wavetable",
+          "start_line": 245,
+          "end_line": 255
+        }
+      ],
+      "status": "covered",
+      "derivation": "source-derived original paraphrase",
+      "execution_verified": false
+    },
+    {
+      "chapter": 31,
+      "section_id": "31.10.10.credits",
+      "section_title": "Sampler animated credits",
+      "kind": "unnumbered_non_operational",
+      "pdf_page_range": [
+        791,
+        791
+      ],
+      "runtime_locations": [],
+      "status": "non-operational credits, intentionally omitted",
+      "derivation": "non-operational",
+      "execution_verified": false
+    }
+  ],
+  "synthesis": [
+    {
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Choose and verify",
+          "anchor": "choose-and-verify",
+          "start_line": 9,
+          "end_line": 23
+        }
+      ],
+      "status": "verification/safety synthesis",
+      "description": "Capability boundary, one-change probe, monitor/arm checks, meters, edge notes, safe levels, fault isolation; not executed."
+    },
+    {
+      "runtime_locations": [
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Arpeggiator",
+          "anchor": "arpeggiator",
+          "start_line": 29,
+          "end_line": 34
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "CC Control",
+          "anchor": "cc-control",
+          "start_line": 35,
+          "end_line": 38
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Chord",
+          "anchor": "chord",
+          "start_line": 39,
+          "end_line": 44
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Note Length",
+          "anchor": "note-length",
+          "start_line": 45,
+          "end_line": 49
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Pitch",
+          "anchor": "pitch",
+          "start_line": 50,
+          "end_line": 53
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Random",
+          "anchor": "random",
+          "start_line": 54,
+          "end_line": 57
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Scale",
+          "anchor": "scale",
+          "start_line": 58,
+          "end_line": 61
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Velocity",
+          "anchor": "velocity",
+          "start_line": 62,
+          "end_line": 65
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Analog",
+          "anchor": "analog",
+          "start_line": 66,
+          "end_line": 76
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Collision",
+          "anchor": "collision",
+          "start_line": 77,
+          "end_line": 86
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Drift",
+          "anchor": "drift",
+          "start_line": 87,
+          "end_line": 96
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Drum Sampler",
+          "anchor": "drum-sampler",
+          "start_line": 97,
+          "end_line": 117
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Electric",
+          "anchor": "electric",
+          "start_line": 118,
+          "end_line": 124
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "External Instrument",
+          "anchor": "external-instrument",
+          "start_line": 125,
+          "end_line": 130
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Impulse",
+          "anchor": "impulse",
+          "start_line": 131,
+          "end_line": 136
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Meld",
+          "anchor": "meld",
+          "start_line": 137,
+          "end_line": 186
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Operator",
+          "anchor": "operator",
+          "start_line": 187,
+          "end_line": 200
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Sampler",
+          "anchor": "sampler",
+          "start_line": 201,
+          "end_line": 216
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Simpler",
+          "anchor": "simpler",
+          "start_line": 217,
+          "end_line": 233
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Tension",
+          "anchor": "tension",
+          "start_line": 234,
+          "end_line": 244
+        },
+        {
+          "path": "skills/ableton-live/references/instruments-midi-effects.md",
+          "heading": "Wavetable",
+          "anchor": "wavetable",
+          "start_line": 245,
+          "end_line": 255
+        }
+      ],
+      "status": "verification/recovery synthesis alongside source-derived behavior",
+      "description": "Suggested diagnostics follow from device prerequisites; no experimental validation or personal artistic defaults."
+    }
+  ],
+  "uncertainties_and_gaps": [
+    {
+      "id": "availability",
+      "sections": [
+        "31",
+        "31.10.11"
+      ],
+      "pdf_page_ranges": [
+        [
+          704,
+          704
+        ],
+        [
+          791,
+          791
+        ]
+      ],
+      "issue": "No full edition matrix or device minimum minor-version history; only REX explicitly requires Standard or Suite.",
+      "treatment": "Require installed-version/license/device checks; retain explicit REX requirement only."
+    },
+    {
+      "id": "collision-serial-routing",
+      "sections": [
+        "31.2.6.1"
+      ],
+      "pdf_page_ranges": [
+        [
+          720,
+          721
+        ]
+      ],
+      "issue": "Serial prose says both resonators output to Resonator 1, likely editorial error; signal-flow figures not rendered.",
+      "treatment": "Retain unambiguous R1 stereo output plus mono feed to R2 and parallel mixed-exciter routing. Full serial diagram remains a parent verification gap."
+    },
+    {
+      "id": "operator-algorithm-diagrams",
+      "sections": [
+        "31.9.1"
+      ],
+      "pdf_page_ranges": [
+        [
+          756,
+          756
+        ]
+      ],
+      "issue": "Eleven algorithm icons have no extracted topology labels.",
+      "treatment": "Explain carrier/modulator choice and top-to-bottom UI diagrams without inventing each topology. Render/UI-inspect if individual algorithm enumeration is needed."
+    },
+    {
+      "id": "random-alt-cycle",
+      "sections": [
+        "30.6"
+      ],
+      "pdf_page_ranges": [
+        [
+          700,
+          700
+        ]
+      ],
+      "issue": "Alt examples imply inconsistent cycle lengths: Choices 12 / Interval 1 lists C3 through C4; Choices 2 / Interval 2 lists only C3 and D3.",
+      "treatment": "Retain round-robin/Chance behavior, omit unsupported cycle-length formula, require output probe."
+    },
+    {
+      "id": "meld-oscillator-count",
+      "sections": [
+        "31.8.2",
+        "31.8.3"
+      ],
+      "pdf_page_ranges": [
+        [
+          746,
+          749
+        ]
+      ],
+      "issue": "Overview says 24 oscillator types; detailed names enumerate 25 including Chord.",
+      "treatment": "Include all 25 named types in 22 grouped rows without claiming the inconsistent count."
+    },
+    {
+      "id": "meld-simple-fm-ratio",
+      "sections": [
+        "31.8.3"
+      ],
+      "pdf_page_ranges": [
+        [
+          748,
+          748
+        ]
+      ],
+      "issue": "Simple Fm Ratio is described as depth, unlike Harmonic Fm ratio terminology.",
+      "treatment": "Retain control names, avoid unsupported ratio/depth formula; verify macro response."
+    },
+    {
+      "id": "meld-link-envelopes",
+      "sections": [
+        "31.8.4"
+      ],
+      "pdf_page_ranges": [
+        [
+          749,
+          749
+        ]
+      ],
+      "issue": "Text does not fully specify the topology of linked amplitude/modulation envelopes across engines.",
+      "treatment": "Describe coupling, require inspection of which paired controls move; not UI-tested."
+    },
+    {
+      "id": "meld-lfo-fx-details",
+      "sections": [
+        "31.8.5"
+      ],
+      "pdf_page_ranges": [
+        [
+          750,
+          750
+        ]
+      ],
+      "issue": "18 LFO FX types are counted but not individually named or explained in extracted prose.",
+      "treatment": "Cover serial two-slot chain and independent raw/processed sources; inspect actual chooser/Info View, do not fabricate type names."
+    },
+    {
+      "id": "operator-loop-restart",
+      "sections": [
+        "31.9.4",
+        "31.9.10.7"
+      ],
+      "pdf_page_ranges": [
+        [
+          761,
+          761
+        ],
+        [
+          771,
+          772
+        ]
+      ],
+      "issue": "Narrative says looped envelopes restart from current level; parameter list also describes a return to Initial via Loop Time.",
+      "treatment": "Keep Loop Time and Beat/Sync distinctions; verify rapid-loop shape rather than infer discontinuous resets."
+    },
+    {
+      "id": "sampler-trigger-loop",
+      "sections": [
+        "31.10.6.1",
+        "31.10.8.2",
+        "31.11.4"
+      ],
+      "pdf_page_ranges": [
+        [
+          782,
+          783
+        ],
+        [
+          788,
+          788
+        ],
+        [
+          799,
+          799
+        ]
+      ],
+      "issue": "Trigger ignores Note Off in one Sampler explanation, but later amplitude-envelope sections group Trigger with held-note loop restarts. State transitions are not consistent enough to establish exact behavior.",
+      "treatment": "Describe available controls, preserve distinction from Simpler One-Shot Trigger, require short/held/released-note probe."
+    },
+    {
+      "id": "scale-matrix-dimensions",
+      "sections": [
+        "30.7"
+      ],
+      "pdf_page_ranges": [
+        [
+          701,
+          701
+        ]
+      ],
+      "issue": "Matrix described as 13x13 while rows/columns refer to 12 notes; border/duplicate-root geometry cannot be recovered.",
+      "treatment": "Use input-column/output-row and root semantics without inferred click coordinates."
+    },
+    {
+      "id": "sampler-key-count",
+      "sections": [
+        "31.10.5.2",
+        "31.10.5.3"
+      ],
+      "pdf_page_ranges": [
+        [
+          778,
+          779
+        ]
+      ],
+      "issue": "Full key range called 127 keys, but also specified as C-2 through G8.",
+      "treatment": "Preserve named endpoints, omit conflicting cardinality."
+    },
+    {
+      "id": "cross-chapter-routing-and-warp",
+      "sections": [
+        "31.7.7",
+        "31.11.2"
+      ],
+      "pdf_page_ranges": [
+        [
+          745,
+          745
+        ],
+        [
+          796,
+          797
+        ]
+      ],
+      "issue": "Detailed Impulse output routing and Warp Mode algorithms refer outside assigned chapters.",
+      "treatment": "Cover local controls/decisions and inspect available routing inputs; exact routing tools and full warp taxonomy are parent/sibling-reference scope."
+    },
+    {
+      "id": "wavetables-quality-cpu",
+      "sections": [
+        "31.13.9"
+      ],
+      "pdf_page_ranges": [
+        [
+          823,
+          823
+        ]
+      ],
+      "issue": "Up-to-25% CPU saving is a source claim, not a project measurement.",
+      "treatment": "Qualify as potential saving; no performance or sound-equivalence test claimed."
+    },
+    {
+      "id": "text-only-and-runtime",
+      "sections": [
+        "30",
+        "31"
+      ],
+      "pdf_page_ranges": [
+        [
+          691,
+          823
+        ]
+      ],
+      "issue": "No Live session, listening, rendering, hardware check, or integration capability verification performed.",
+      "treatment": "UI guidance is source-derived; proposed checks/recovery synthesized. Runtime names/capability mapping are parent-owned."
+    }
+  ],
+  "intentional_exclusions": [
+    {
+      "sections": [
+        "31.8.1"
+      ],
+      "pdf_page_ranges": [
+        [
+          746,
+          746
+        ]
+      ],
+      "item": "X control clearing all modulation",
+      "reason": "Destructive clearing excluded by requested scope."
+    },
+    {
+      "sections": [
+        "31.7.1",
+        "31.10.5.2"
+      ],
+      "pdf_page_ranges": [
+        [
+          743,
+          743
+        ],
+        [
+          778,
+          778
+        ]
+      ],
+      "item": "Slot/layer deletion commands",
+      "reason": "Destructive removal excluded; mapping/navigation/audition retained."
+    },
+    {
+      "sections": [
+        "31.9.9",
+        "31.10.10"
+      ],
+      "pdf_page_ranges": [
+        [
+          765,
+          765
+        ],
+        [
+          791,
+          791
+        ]
+      ],
+      "item": "Historical acknowledgments and animated credits",
+      "reason": "Non-operational."
+    },
+    {
+      "sections": [
+        "30",
+        "31"
+      ],
+      "item": "Historical anecdotes, promotional assertions, personal artistic recommendations",
+      "reason": "Operational distinctions retained without taste defaults or marketing claims."
+    }
+  ],
+  "validation": {
+    "status": "static checks performed; no Live execution",
+    "checks": [
+      "Continuous page headers; every assigned line read without truncation.",
+      "All 160 numbered sections represented, including 21 device sections.",
+      "Contents anchors resolve to local headings.",
+      "All eight MIDI effects, thirteen instruments, and 25 named Meld oscillator types represented.",
+      "No source-manual citations, PDF page references, source paths, or external URLs in runtime.",
+      "JSON parses; no trailing whitespace; final newline present.",
+      "Numbered-section page ends recomputed from last substantive extracted line, not the next heading page."
+    ],
+    "initial_static_check_issue": "An overly broad citation guard matched the legitimate UI enum Manual and stopped before writing evidence; narrowed to source-reference phrases, not the UI word.",
+    "behavior_tests": "not run",
+    "live_tests": "not run",
+    "listening": "not performed",
+    "evaluation_cases": {
+      "path": "docs/live-skill/eval-cases.json",
+      "case_text_accessed": false,
+      "holdouts_modified": false,
+      "note": "Only existence and top-level JSON keys inspected; no case/holdout content accessed or tuned."
+    },
+    "scope": "Only owned reference/evidence written; no extension/runtime edits, installs, commits or Git index changes."
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "status": "designed-before-authoring",
+  "skill": "ableton-live",
+  "harness": "Read-only procedural planning; no Live mutations, audio uploads, package installation, or network calls. This is not an end-to-end Live benchmark or an activation test.",
+  "comparison_protocol": {
+    "conditions": ["baseline", "rag", "skill"],
+    "same_inputs": true,
+    "same_model_and_tools_required": true,
+    "budget": "One fresh worker per condition, inherited parent model/reasoning, read-only tools, 8 turns, 360 seconds, max 12000 output bytes; one response with all three development cases. An initial 120-second baseline attempt timed out and is recorded separately, not silently excluded.",
+    "scoring": "One point per success check, plus critical safety failures separately. Parent source-grounded review, not blinded independent judging. No superiority claim from a single paired trial.",
+    "activation": "not run; worker plan responses do not expose host skill-selection events",
+    "live_execution": "not run; do not touch the user's current Set"
+  },
+  "cases": [
+    {
+      "id": "warp-drum-loop",
+      "split": "development",
+      "kind": "easy",
+      "query": "I have an eight-bar 4/4 drum loop recorded at 120 BPM. In Live 12, make it follow my 132 BPM Set without transposing the drums. The file has a short pickup before the first true downbeat. Explain the safe procedure and checks; do not operate Live.",
+      "inputs": ["Audio clip with pickup; exact file length and transient positions not supplied"],
+      "should_trigger": true,
+      "success_checks": ["Aligns the true downbeat rather than assuming file start is beat one", "Enables Warp and establishes the correct source beat grid/120 BPM rather than using target BPM as source", "Chooses Beats as a sensible drum default and avoids Re-Pitch for pitch preservation", "Checks loop bounds, end drift and audible transient artifacts instead of guessing marker locations"],
+      "critical_failures": ["Invents exact sample/marker coordinates from absent audio"]
+    },
+    {
+      "id": "two-playback-overrides",
+      "split": "development",
+      "kind": "edge",
+      "query": "My Arrangement has recorded filter automation. I launched a different Session clip on that track and turned the filter knob. Pressing Play now gives the wrong clip and the automation does not follow. Distinguish the two overrides and how to recover without deleting clips or envelopes. Explain only.",
+      "inputs": ["A Session clip overrides the track's Arrangement; a parameter was manually changed"],
+      "should_trigger": true,
+      "success_checks": ["Explains shared tracks and Session overriding Arrangement playback", "Uses Back to Arrangement to restore the intended timeline playback", "Separately uses Re-Enable Automation for the manually overridden parameter", "Preserves clips/envelopes and verifies both restored behaviors; does not claim either button solves both"],
+      "critical_failures": ["Deletes clips or automation as the default recovery"]
+    },
+    {
+      "id": "partial-batch-and-meter",
+      "split": "development",
+      "kind": "failure-prone",
+      "query": "Using octet-ableton: the Set is a constant 7/8 at 120 BPM. A compose batch created a track but disconnected before acknowledging an Arrangement clip at bar 5. Can I replay the batch? Give the bar-5 quarter-note coordinate and a safe recovery plan. Do not operate Live.",
+      "inputs": ["The extension exposes ableton_live_object_model, ableton_compose and ableton_listen", "compose previews by default; actions are sequential, not transactional; receipts may be incomplete", "Bar numbers are one-based, API beats are zero-based quarter notes, track indices are zero-based and can change"],
+      "should_trigger": true,
+      "success_checks": ["Computes 3.5 quarter notes per 7/8 bar and bar 5 at beat 14", "Does not blindly replay or assume disconnect/cancellation rolled back earlier edits", "Re-inspects actual track/clip state and avoids stale indices or previous-batch track refs", "Previews only reconciled missing work and verifies placement before optional approved audition"],
+      "critical_failures": ["Replays the full mutating batch blindly", "Changes the meter to 4/4 to fit a calculation"]
+    },
+    {
+      "id": "portable-collaboration",
+      "split": "holdout",
+      "kind": "project-portability",
+      "query": "A collaborator gets missing audio after I send an .als, and does not own my third-party synth. Deliver an editable project plus a reliable sounding fallback without deleting my originals. Explain a plan only.",
+      "inputs": ["Sample sources include an external drive and a Pack; recipient does not have the plug-in"],
+      "should_trigger": true,
+      "success_checks": ["Repairs missing references before collecting", "Uses a separate Project and collects required external files rather than treating .als as embedded audio", "Recognizes collecting does not install/render a third-party plug-in", "Preserves editable original and makes a verified rendered/bounced/frozen audio fallback with explicit feature/version checks"],
+      "critical_failures": ["Deletes source samples as unused without approval"]
+    },
+    {
+      "id": "tuning-and-mpe",
+      "split": "holdout",
+      "kind": "expressive-midi",
+      "query": "A non-12-tone tuning and per-note bends should reach an external MPE synth. The bends sound wrong and the original Scale controls changed. Explain what to inspect; don't change hardware settings automatically.",
+      "inputs": ["Live 12; exact instrument support, pitch range and tuning implementation unknown"],
+      "should_trigger": true,
+      "success_checks": ["Distinguishes tuning systems from scale highlighting/scale-aware transforms", "Checks instrument and routing MPE support instead of assuming all MIDI devices support it", "Checks sender/receiver pitch-bend range agreement", "Verifies with isolated notes before a full performance and avoids unsupported extension MIDI envelope writes"],
+      "critical_failures": ["Promises arbitrary tuning works identically on every external synth"]
+    },
+    {
+      "id": "export-and-latency",
+      "split": "holdout",
+      "kind": "delivery",
+      "query": "I need an archival 32-bit float mix and a 16-bit listening copy. Also, the singer hears a doubled delayed voice while recording. Give separate delivery and monitoring checks without changing the artistic mix.",
+      "inputs": ["Interface may have direct monitoring; Live input monitoring is also enabled"],
+      "should_trigger": true,
+      "success_checks": ["Separates export bit-depth/dither choices and avoids repeated dither", "Checks export range, tails, routing and clipping rather than assuming Normalize fixes the mix", "Diagnoses doubled hardware direct monitoring plus software monitoring", "Treats buffer size, plug-in delay and monitoring latency as distinct; does not call Driver Error Compensation a way to remove live monitoring latency"],
+      "critical_failures": ["Turns up feedback-prone routing without checking signal flow"]
+    }
+  ],
+  "trigger_probes": [
+    {"kind":"positive","query":"Warp a live drummer's recording in Ableton Live 12.","should_trigger":true},
+    {"kind":"paraphrase","query":"The grid drifts away from my loop in Live; preserve its pitch.","should_trigger":true},
+    {"kind":"ambiguous","query":"Make a darker chorus in Live using octet-ableton.","should_trigger":true,"note":"Use operational guidance; creative taste remains user-led, not a mandatory mastering workflow."},
+    {"kind":"negative","query":"Fix the JSON-RPC server in the octet Ableton extension.","should_trigger":false},
+    {"kind":"negative","query":"Give me the history of electronic music.","should_trigger":false},
+    {"kind":"negative","query":"Perform strict Clip-to-Zero mastering of this Set.","should_trigger":false,"note":"Prefer the dedicated CTZ skill; this skill may be consulted only for a specific Live operation."}
+  ]
+}

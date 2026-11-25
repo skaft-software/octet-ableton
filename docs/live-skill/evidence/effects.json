@@ -1,0 +1,3431 @@
+{
+  "artifact": "effects",
+  "schema_version": 1,
+  "runtime_file": "skills/ableton-live/references/audio-effects.md",
+  "source": {
+    "title": "Ableton Live 12 — Live Audio Effect Reference",
+    "chapter": 29,
+    "extraction_path": "private-extraction:/29.txt",
+    "sha256": "a7a63f1227789cb9a45e11164f41e923c5b504c7a726345f615f4fa06d52001f",
+    "chapter_map_path": "private-extraction:/chapters.json",
+    "pdf_page_range": [
+      552,
+      690
+    ],
+    "pages_read": [
+      552,
+      553,
+      554,
+      555,
+      556,
+      557,
+      558,
+      559,
+      560,
+      561,
+      562,
+      563,
+      564,
+      565,
+      566,
+      567,
+      568,
+      569,
+      570,
+      571,
+      572,
+      573,
+      574,
+      575,
+      576,
+      577,
+      578,
+      579,
+      580,
+      581,
+      582,
+      583,
+      584,
+      585,
+      586,
+      587,
+      588,
+      589,
+      590,
+      591,
+      592,
+      593,
+      594,
+      595,
+      596,
+      597,
+      598,
+      599,
+      600,
+      601,
+      602,
+      603,
+      604,
+      605,
+      606,
+      607,
+      608,
+      609,
+      610,
+      611,
+      612,
+      613,
+      614,
+      615,
+      616,
+      617,
+      618,
+      619,
+      620,
+      621,
+      622,
+      623,
+      624,
+      625,
+      626,
+      627,
+      628,
+      629,
+      630,
+      631,
+      632,
+      633,
+      634,
+      635,
+      636,
+      637,
+      638,
+      639,
+      640,
+      641,
+      642,
+      643,
+      644,
+      645,
+      646,
+      647,
+      648,
+      649,
+      650,
+      651,
+      652,
+      653,
+      654,
+      655,
+      656,
+      657,
+      658,
+      659,
+      660,
+      661,
+      662,
+      663,
+      664,
+      665,
+      666,
+      667,
+      668,
+      669,
+      670,
+      671,
+      672,
+      673,
+      674,
+      675,
+      676,
+      677,
+      678,
+      679,
+      680,
+      681,
+      682,
+      683,
+      684,
+      685,
+      686,
+      687,
+      688,
+      689,
+      690
+    ],
+    "read_scope": "Every extracted line 1–5526 and every PDF page 552–690; sequential bounded reads with no truncation.",
+    "version_note": "Text includes changes explicitly associated with Live 12.4 in Erosion; minimum builds for other revised devices are not inferred.",
+    "distribution": "Private source extraction is not reproduced; runtime guidance is original paraphrase with exact UI names and necessary factual values."
+  },
+  "coverage_summary": {
+    "chapters_assigned": [
+      29
+    ],
+    "chapters_covered": [
+      29
+    ],
+    "pdf_pages_read": 139,
+    "top_level_device_sections": 42,
+    "numbered_section_records": 158,
+    "non_operational_intro_records": 1,
+    "uncovered_numbered_sections": [],
+    "runtime_lines": 274,
+    "runtime_words": 9623,
+    "source_vs_synthesis": "Device features, ranges, modes, timing distinctions, and examples are source-derived. Verification, permission boundaries, preservation cautions, matched-level comparisons, and recovery ordering are safety/verification synthesis.",
+    "experimental_claims": 0
+  },
+  "sections": [
+    {
+      "chapter": 29,
+      "section_id": "29",
+      "section_title": "Live Audio Effect Reference",
+      "page_range": [
+        552,
+        690
+      ],
+      "source_lines": [
+        3,
+        5526
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#operating-rules-and-routing",
+      "runtime_heading": "Operating rules and routing",
+      "runtime_heading_line": 12,
+      "coverage": "covered chapter index and availability boundary; introductory framing is non-operational",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.1",
+      "section_title": "Amp",
+      "page_range": [
+        552,
+        554
+      ],
+      "source_lines": [
+        16,
+        109
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#amp",
+      "runtime_heading": "Amp",
+      "runtime_heading_line": 20,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.1.1",
+      "section_title": "Amp Tips",
+      "page_range": [
+        553,
+        554
+      ],
+      "source_lines": [
+        73,
+        109
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#amp",
+      "runtime_heading": "Amp",
+      "runtime_heading_line": 20,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.1.1.1",
+      "section_title": "Amps and Cabinets",
+      "page_range": [
+        553,
+        554
+      ],
+      "source_lines": [
+        79,
+        91
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#amp",
+      "runtime_heading": "Amp",
+      "runtime_heading_line": 20,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.1.1.2",
+      "section_title": "Electricity",
+      "page_range": [
+        554,
+        554
+      ],
+      "source_lines": [
+        92,
+        100
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#amp",
+      "runtime_heading": "Amp",
+      "runtime_heading_line": 20,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.1.1.3",
+      "section_title": "More than Guitars",
+      "page_range": [
+        554,
+        554
+      ],
+      "source_lines": [
+        101,
+        109
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#amp",
+      "runtime_heading": "Amp",
+      "runtime_heading_line": 20,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.2",
+      "section_title": "Auto Filter",
+      "page_range": [
+        554,
+        562
+      ],
+      "source_lines": [
+        110,
+        441
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#auto-filter",
+      "runtime_heading": "Auto Filter",
+      "runtime_heading_line": 25,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.2.1",
+      "section_title": "Filter Types",
+      "page_range": [
+        555,
+        556
+      ],
+      "source_lines": [
+        128,
+        208
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#auto-filter",
+      "runtime_heading": "Auto Filter",
+      "runtime_heading_line": 25,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.2.2",
+      "section_title": "Filter Display",
+      "page_range": [
+        556,
+        557
+      ],
+      "source_lines": [
+        209,
+        229
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#auto-filter",
+      "runtime_heading": "Auto Filter",
+      "runtime_heading_line": 25,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.2.3",
+      "section_title": "LFO Controls",
+      "page_range": [
+        557,
+        558
+      ],
+      "source_lines": [
+        230,
+        280
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#auto-filter",
+      "runtime_heading": "Auto Filter",
+      "runtime_heading_line": 25,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.2.4",
+      "section_title": "Envelope Follower Controls",
+      "page_range": [
+        558,
+        559
+      ],
+      "source_lines": [
+        281,
+        315
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#auto-filter",
+      "runtime_heading": "Auto Filter",
+      "runtime_heading_line": 25,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.2.5",
+      "section_title": "Filter Drive and Circuits",
+      "page_range": [
+        559,
+        559
+      ],
+      "source_lines": [
+        316,
+        347
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#auto-filter",
+      "runtime_heading": "Auto Filter",
+      "runtime_heading_line": 25,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.2.6",
+      "section_title": "Global Controls",
+      "page_range": [
+        560,
+        560
+      ],
+      "source_lines": [
+        348,
+        365
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#auto-filter",
+      "runtime_heading": "Auto Filter",
+      "runtime_heading_line": 25,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.2.7",
+      "section_title": "Sidechain Parameters",
+      "page_range": [
+        560,
+        562
+      ],
+      "source_lines": [
+        366,
+        441
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#auto-filter",
+      "runtime_heading": "Auto Filter",
+      "runtime_heading_line": 25,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.2.7.1",
+      "section_title": "Mono Sidechain",
+      "page_range": [
+        562,
+        562
+      ],
+      "source_lines": [
+        433,
+        441
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#auto-filter",
+      "runtime_heading": "Auto Filter",
+      "runtime_heading_line": 25,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.3",
+      "section_title": "Auto Pan-Tremolo",
+      "page_range": [
+        562,
+        566
+      ],
+      "source_lines": [
+        442,
+        565
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#auto-pan-tremolo",
+      "runtime_heading": "Auto Pan-Tremolo",
+      "runtime_heading_line": 33,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.4",
+      "section_title": "Auto Shift",
+      "page_range": [
+        566,
+        573
+      ],
+      "source_lines": [
+        566,
+        839
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#auto-shift",
+      "runtime_heading": "Auto Shift",
+      "runtime_heading_line": 38,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.4.1",
+      "section_title": "Input Section",
+      "page_range": [
+        567,
+        569
+      ],
+      "source_lines": [
+        584,
+        661
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#auto-shift",
+      "runtime_heading": "Auto Shift",
+      "runtime_heading_line": 38,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.4.1.1",
+      "section_title": "MIDI Input",
+      "page_range": [
+        568,
+        569
+      ],
+      "source_lines": [
+        625,
+        661
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#auto-shift",
+      "runtime_heading": "Auto Shift",
+      "runtime_heading_line": 38,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.4.2",
+      "section_title": "Quantizer Tab",
+      "page_range": [
+        569,
+        569
+      ],
+      "source_lines": [
+        662,
+        699
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#auto-shift",
+      "runtime_heading": "Auto Shift",
+      "runtime_heading_line": 38,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.4.3",
+      "section_title": "MIDI Tab",
+      "page_range": [
+        570,
+        570
+      ],
+      "source_lines": [
+        700,
+        739
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#auto-shift",
+      "runtime_heading": "Auto Shift",
+      "runtime_heading_line": 38,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.4.4",
+      "section_title": "LFO Tab",
+      "page_range": [
+        571,
+        571
+      ],
+      "source_lines": [
+        740,
+        778
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#auto-shift",
+      "runtime_heading": "Auto Shift",
+      "runtime_heading_line": 38,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.4.5",
+      "section_title": "Pitch Section",
+      "page_range": [
+        572,
+        572
+      ],
+      "source_lines": [
+        779,
+        808
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#auto-shift",
+      "runtime_heading": "Auto Shift",
+      "runtime_heading_line": 38,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.4.6",
+      "section_title": "Vibrato Section",
+      "page_range": [
+        573,
+        573
+      ],
+      "source_lines": [
+        809,
+        839
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#auto-shift",
+      "runtime_heading": "Auto Shift",
+      "runtime_heading_line": 38,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.5",
+      "section_title": "Beat Repeat",
+      "page_range": [
+        574,
+        575
+      ],
+      "source_lines": [
+        840,
+        909
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#beat-repeat",
+      "runtime_heading": "Beat Repeat",
+      "runtime_heading_line": 46,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.6",
+      "section_title": "Cabinet",
+      "page_range": [
+        576,
+        578
+      ],
+      "source_lines": [
+        910,
+        980
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#cabinet",
+      "runtime_heading": "Cabinet",
+      "runtime_heading_line": 51,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.6.1",
+      "section_title": "Cabinet Tips",
+      "page_range": [
+        577,
+        578
+      ],
+      "source_lines": [
+        952,
+        980
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#cabinet",
+      "runtime_heading": "Cabinet",
+      "runtime_heading_line": 51,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.6.1.1",
+      "section_title": "Amps and Cabinets",
+      "page_range": [
+        577,
+        577
+      ],
+      "source_lines": [
+        957,
+        966
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#cabinet",
+      "runtime_heading": "Cabinet",
+      "runtime_heading_line": 51,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.6.1.2",
+      "section_title": "Multiple mics",
+      "page_range": [
+        578,
+        578
+      ],
+      "source_lines": [
+        967,
+        980
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#cabinet",
+      "runtime_heading": "Cabinet",
+      "runtime_heading_line": 51,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.7",
+      "section_title": "Channel EQ",
+      "page_range": [
+        578,
+        579
+      ],
+      "source_lines": [
+        981,
+        1036
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#channel-eq",
+      "runtime_heading": "Channel EQ",
+      "runtime_heading_line": 55,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.7.1",
+      "section_title": "Channel EQ Tips",
+      "page_range": [
+        579,
+        579
+      ],
+      "source_lines": [
+        1020,
+        1036
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#channel-eq",
+      "runtime_heading": "Channel EQ",
+      "runtime_heading_line": 55,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.8",
+      "section_title": "Chorus-Ensemble",
+      "page_range": [
+        580,
+        583
+      ],
+      "source_lines": [
+        1037,
+        1153
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#chorus-ensemble",
+      "runtime_heading": "Chorus-Ensemble",
+      "runtime_heading_line": 59,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.8.1",
+      "section_title": "Chorus-Ensemble Tips",
+      "page_range": [
+        583,
+        583
+      ],
+      "source_lines": [
+        1142,
+        1153
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#chorus-ensemble",
+      "runtime_heading": "Chorus-Ensemble",
+      "runtime_heading_line": 59,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.9",
+      "section_title": "Compressor",
+      "page_range": [
+        584,
+        589
+      ],
+      "source_lines": [
+        1154,
+        1364
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#compressor",
+      "runtime_heading": "Compressor",
+      "runtime_heading_line": 64,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.9.1",
+      "section_title": "Sidechain Parameters",
+      "page_range": [
+        587,
+        588
+      ],
+      "source_lines": [
+        1283,
+        1323
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#compressor",
+      "runtime_heading": "Compressor",
+      "runtime_heading_line": 64,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.9.2",
+      "section_title": "Compressor Tips",
+      "page_range": [
+        588,
+        589
+      ],
+      "source_lines": [
+        1324,
+        1364
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#compressor",
+      "runtime_heading": "Compressor",
+      "runtime_heading_line": 64,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.9.2.1",
+      "section_title": "Mixing a Voiceover",
+      "page_range": [
+        588,
+        588
+      ],
+      "source_lines": [
+        1330,
+        1338
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#compressor",
+      "runtime_heading": "Compressor",
+      "runtime_heading_line": 64,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.9.2.2",
+      "section_title": "Sidechaining in Dance Music",
+      "page_range": [
+        588,
+        589
+      ],
+      "source_lines": [
+        1339,
+        1364
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#compressor",
+      "runtime_heading": "Compressor",
+      "runtime_heading_line": 64,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.10",
+      "section_title": "Corpus",
+      "page_range": [
+        589,
+        595
+      ],
+      "source_lines": [
+        1365,
+        1593
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#corpus",
+      "runtime_heading": "Corpus",
+      "runtime_heading_line": 71,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.10.1",
+      "section_title": "Resonator Parameters",
+      "page_range": [
+        590,
+        591
+      ],
+      "source_lines": [
+        1382,
+        1468
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#corpus",
+      "runtime_heading": "Corpus",
+      "runtime_heading_line": 71,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.10.2",
+      "section_title": "LFO Section",
+      "page_range": [
+        592,
+        593
+      ],
+      "source_lines": [
+        1469,
+        1512
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#corpus",
+      "runtime_heading": "Corpus",
+      "runtime_heading_line": 71,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.10.3",
+      "section_title": "Filter Section",
+      "page_range": [
+        593,
+        593
+      ],
+      "source_lines": [
+        1513,
+        1531
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#corpus",
+      "runtime_heading": "Corpus",
+      "runtime_heading_line": 71,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.10.4",
+      "section_title": "Global Parameters",
+      "page_range": [
+        594,
+        594
+      ],
+      "source_lines": [
+        1532,
+        1553
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#corpus",
+      "runtime_heading": "Corpus",
+      "runtime_heading_line": 71,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.10.5",
+      "section_title": "Sidechain Parameters",
+      "page_range": [
+        594,
+        595
+      ],
+      "source_lines": [
+        1554,
+        1593
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#corpus",
+      "runtime_heading": "Corpus",
+      "runtime_heading_line": 71,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.11",
+      "section_title": "Delay",
+      "page_range": [
+        595,
+        598
+      ],
+      "source_lines": [
+        1594,
+        1739
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#delay",
+      "runtime_heading": "Delay",
+      "runtime_heading_line": 79,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.11.1",
+      "section_title": "Context Menu Options for Delay",
+      "page_range": [
+        598,
+        598
+      ],
+      "source_lines": [
+        1696,
+        1710
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#delay",
+      "runtime_heading": "Delay",
+      "runtime_heading_line": 79,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.11.2",
+      "section_title": "Delay Tips",
+      "page_range": [
+        598,
+        598
+      ],
+      "source_lines": [
+        1711,
+        1739
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#delay",
+      "runtime_heading": "Delay",
+      "runtime_heading_line": 79,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.11.2.1",
+      "section_title": "Glitch Effect",
+      "page_range": [
+        598,
+        598
+      ],
+      "source_lines": [
+        1716,
+        1724
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#delay",
+      "runtime_heading": "Delay",
+      "runtime_heading_line": 79,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.11.2.2",
+      "section_title": "Chorus Effect",
+      "page_range": [
+        598,
+        598
+      ],
+      "source_lines": [
+        1725,
+        1739
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#delay",
+      "runtime_heading": "Delay",
+      "runtime_heading_line": 79,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.12",
+      "section_title": "Drum Buss",
+      "page_range": [
+        599,
+        600
+      ],
+      "source_lines": [
+        1740,
+        1823
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#drum-buss",
+      "runtime_heading": "Drum Buss",
+      "runtime_heading_line": 85,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.12.0.1",
+      "section_title": "Mid-High Frequency Shaping",
+      "page_range": [
+        600,
+        600
+      ],
+      "source_lines": [
+        1775,
+        1790
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#drum-buss",
+      "runtime_heading": "Drum Buss",
+      "runtime_heading_line": 85,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.12.0.2",
+      "section_title": "Low-End Enhancement",
+      "page_range": [
+        600,
+        600
+      ],
+      "source_lines": [
+        1791,
+        1811
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#drum-buss",
+      "runtime_heading": "Drum Buss",
+      "runtime_heading_line": 85,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.12.0.3",
+      "section_title": "Output",
+      "page_range": [
+        600,
+        600
+      ],
+      "source_lines": [
+        1812,
+        1823
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#drum-buss",
+      "runtime_heading": "Drum Buss",
+      "runtime_heading_line": 85,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.13",
+      "section_title": "Dynamic Tube",
+      "page_range": [
+        601,
+        602
+      ],
+      "source_lines": [
+        1824,
+        1868
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#dynamic-tube",
+      "runtime_heading": "Dynamic Tube",
+      "runtime_heading_line": 90,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.14",
+      "section_title": "Echo",
+      "page_range": [
+        602,
+        606
+      ],
+      "source_lines": [
+        1869,
+        2035
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#echo",
+      "runtime_heading": "Echo",
+      "runtime_heading_line": 94,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.14.1",
+      "section_title": "Echo Tab",
+      "page_range": [
+        603,
+        603
+      ],
+      "source_lines": [
+        1910,
+        1943
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#echo",
+      "runtime_heading": "Echo",
+      "runtime_heading_line": 94,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.14.2",
+      "section_title": "Modulation Tab",
+      "page_range": [
+        604,
+        604
+      ],
+      "source_lines": [
+        1944,
+        1975
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#echo",
+      "runtime_heading": "Echo",
+      "runtime_heading_line": 94,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.14.3",
+      "section_title": "Character Tab",
+      "page_range": [
+        604,
+        605
+      ],
+      "source_lines": [
+        1976,
+        2012
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#echo",
+      "runtime_heading": "Echo",
+      "runtime_heading_line": 94,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.14.4",
+      "section_title": "Global Controls",
+      "page_range": [
+        605,
+        606
+      ],
+      "source_lines": [
+        2013,
+        2035
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#echo",
+      "runtime_heading": "Echo",
+      "runtime_heading_line": 94,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.15",
+      "section_title": "EQ Eight",
+      "page_range": [
+        606,
+        608
+      ],
+      "source_lines": [
+        2036,
+        2126
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#eq-eight",
+      "runtime_heading": "EQ Eight",
+      "runtime_heading_line": 101,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.15.0.1",
+      "section_title": "Context Menu Options for EQ Eight",
+      "page_range": [
+        608,
+        608
+      ],
+      "source_lines": [
+        2116,
+        2126
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#eq-eight",
+      "runtime_heading": "EQ Eight",
+      "runtime_heading_line": 101,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.16",
+      "section_title": "EQ Three",
+      "page_range": [
+        608,
+        609
+      ],
+      "source_lines": [
+        2127,
+        2169
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#eq-three",
+      "runtime_heading": "EQ Three",
+      "runtime_heading_line": 106,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.17",
+      "section_title": "Erosion",
+      "page_range": [
+        609,
+        610
+      ],
+      "source_lines": [
+        2170,
+        2212
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#erosion",
+      "runtime_heading": "Erosion",
+      "runtime_heading_line": 110,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.18",
+      "section_title": "External Audio Effect",
+      "page_range": [
+        610,
+        611
+      ],
+      "source_lines": [
+        2213,
+        2269
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#external-audio-effect",
+      "runtime_heading": "External Audio Effect",
+      "runtime_heading_line": 114,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.19",
+      "section_title": "Filter Delay",
+      "page_range": [
+        612,
+        612
+      ],
+      "source_lines": [
+        2270,
+        2312
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#filter-delay",
+      "runtime_heading": "Filter Delay",
+      "runtime_heading_line": 118,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.20",
+      "section_title": "Gate",
+      "page_range": [
+        613,
+        615
+      ],
+      "source_lines": [
+        2313,
+        2401
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#gate",
+      "runtime_heading": "Gate",
+      "runtime_heading_line": 122,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.21",
+      "section_title": "Glue Compressor",
+      "page_range": [
+        615,
+        617
+      ],
+      "source_lines": [
+        2402,
+        2510
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#glue-compressor",
+      "runtime_heading": "Glue Compressor",
+      "runtime_heading_line": 126,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.21.1",
+      "section_title": "Sidechain Parameters",
+      "page_range": [
+        616,
+        617
+      ],
+      "source_lines": [
+        2457,
+        2510
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#glue-compressor",
+      "runtime_heading": "Glue Compressor",
+      "runtime_heading_line": 126,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.21.1.1",
+      "section_title": "Context Menu Options for Glue Compressor",
+      "page_range": [
+        617,
+        617
+      ],
+      "source_lines": [
+        2497,
+        2510
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#glue-compressor",
+      "runtime_heading": "Glue Compressor",
+      "runtime_heading_line": 126,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.22",
+      "section_title": "Grain Delay",
+      "page_range": [
+        618,
+        619
+      ],
+      "source_lines": [
+        2511,
+        2567
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#grain-delay",
+      "runtime_heading": "Grain Delay",
+      "runtime_heading_line": 131,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.23",
+      "section_title": "Hybrid Reverb",
+      "page_range": [
+        619,
+        625
+      ],
+      "source_lines": [
+        2568,
+        2888
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#hybrid-reverb",
+      "runtime_heading": "Hybrid Reverb",
+      "runtime_heading_line": 135,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.23.1",
+      "section_title": "Signal Flow",
+      "page_range": [
+        620,
+        620
+      ],
+      "source_lines": [
+        2598,
+        2609
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#hybrid-reverb",
+      "runtime_heading": "Hybrid Reverb",
+      "runtime_heading_line": 135,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.23.2",
+      "section_title": "Input Section",
+      "page_range": [
+        620,
+        620
+      ],
+      "source_lines": [
+        2610,
+        2651
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#hybrid-reverb",
+      "runtime_heading": "Hybrid Reverb",
+      "runtime_heading_line": 135,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.23.3",
+      "section_title": "Convolution Reverb Engine",
+      "page_range": [
+        621,
+        621
+      ],
+      "source_lines": [
+        2652,
+        2691
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#hybrid-reverb",
+      "runtime_heading": "Hybrid Reverb",
+      "runtime_heading_line": 135,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.23.4",
+      "section_title": "Algorithmic Reverb Engine",
+      "page_range": [
+        622,
+        624
+      ],
+      "source_lines": [
+        2692,
+        2843
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#hybrid-reverb",
+      "runtime_heading": "Hybrid Reverb",
+      "runtime_heading_line": 135,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.23.4.1",
+      "section_title": "Dark Hall",
+      "page_range": [
+        622,
+        623
+      ],
+      "source_lines": [
+        2720,
+        2747
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#hybrid-reverb",
+      "runtime_heading": "Hybrid Reverb",
+      "runtime_heading_line": 135,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.23.4.2",
+      "section_title": "Quartz",
+      "page_range": [
+        623,
+        623
+      ],
+      "source_lines": [
+        2748,
+        2769
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#hybrid-reverb",
+      "runtime_heading": "Hybrid Reverb",
+      "runtime_heading_line": 135,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.23.4.3",
+      "section_title": "Shimmer",
+      "page_range": [
+        623,
+        624
+      ],
+      "source_lines": [
+        2770,
+        2802
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#hybrid-reverb",
+      "runtime_heading": "Hybrid Reverb",
+      "runtime_heading_line": 135,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.23.4.4",
+      "section_title": "Tides",
+      "page_range": [
+        624,
+        624
+      ],
+      "source_lines": [
+        2803,
+        2819
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#hybrid-reverb",
+      "runtime_heading": "Hybrid Reverb",
+      "runtime_heading_line": 135,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.23.4.5",
+      "section_title": "Prism",
+      "page_range": [
+        624,
+        624
+      ],
+      "source_lines": [
+        2820,
+        2843
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#hybrid-reverb",
+      "runtime_heading": "Hybrid Reverb",
+      "runtime_heading_line": 135,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.23.5",
+      "section_title": "EQ Section",
+      "page_range": [
+        625,
+        625
+      ],
+      "source_lines": [
+        2844,
+        2865
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#hybrid-reverb",
+      "runtime_heading": "Hybrid Reverb",
+      "runtime_heading_line": 135,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.23.6",
+      "section_title": "Output Section",
+      "page_range": [
+        625,
+        625
+      ],
+      "source_lines": [
+        2866,
+        2888
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#hybrid-reverb",
+      "runtime_heading": "Hybrid Reverb",
+      "runtime_heading_line": 135,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.24",
+      "section_title": "Limiter",
+      "page_range": [
+        626,
+        627
+      ],
+      "source_lines": [
+        2889,
+        2971
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#limiter",
+      "runtime_heading": "Limiter",
+      "runtime_heading_line": 151,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.25",
+      "section_title": "Looper",
+      "page_range": [
+        628,
+        631
+      ],
+      "source_lines": [
+        2972,
+        3153
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#looper",
+      "runtime_heading": "Looper",
+      "runtime_heading_line": 157,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.25.1",
+      "section_title": "Feedback Routing",
+      "page_range": [
+        631,
+        631
+      ],
+      "source_lines": [
+        3129,
+        3153
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#looper",
+      "runtime_heading": "Looper",
+      "runtime_heading_line": 157,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.26",
+      "section_title": "Multiband Dynamics",
+      "page_range": [
+        632,
+        636
+      ],
+      "source_lines": [
+        3154,
+        3382
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#multiband-dynamics",
+      "runtime_heading": "Multiband Dynamics",
+      "runtime_heading_line": 166,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.26.1",
+      "section_title": "Dynamics Processing Theory",
+      "page_range": [
+        632,
+        633
+      ],
+      "source_lines": [
+        3169,
+        3217
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#multiband-dynamics",
+      "runtime_heading": "Multiband Dynamics",
+      "runtime_heading_line": 166,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.26.2",
+      "section_title": "Interface and Controls",
+      "page_range": [
+        633,
+        635
+      ],
+      "source_lines": [
+        3218,
+        3301
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#multiband-dynamics",
+      "runtime_heading": "Multiband Dynamics",
+      "runtime_heading_line": 166,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.26.3",
+      "section_title": "Sidechain Parameters",
+      "page_range": [
+        635,
+        635
+      ],
+      "source_lines": [
+        3302,
+        3334
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#multiband-dynamics",
+      "runtime_heading": "Multiband Dynamics",
+      "runtime_heading_line": 166,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.26.4",
+      "section_title": "Multiband Dynamics Tips",
+      "page_range": [
+        636,
+        636
+      ],
+      "source_lines": [
+        3335,
+        3382
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#multiband-dynamics",
+      "runtime_heading": "Multiband Dynamics",
+      "runtime_heading_line": 166,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.26.4.1",
+      "section_title": "Basic Multiband Compression",
+      "page_range": [
+        636,
+        636
+      ],
+      "source_lines": [
+        3342,
+        3349
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#multiband-dynamics",
+      "runtime_heading": "Multiband Dynamics",
+      "runtime_heading_line": 166,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.26.4.2",
+      "section_title": "De-essing",
+      "page_range": [
+        636,
+        636
+      ],
+      "source_lines": [
+        3350,
+        3357
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#multiband-dynamics",
+      "runtime_heading": "Multiband Dynamics",
+      "runtime_heading_line": 166,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.26.4.3",
+      "section_title": "Uncompression",
+      "page_range": [
+        636,
+        636
+      ],
+      "source_lines": [
+        3358,
+        3382
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#multiband-dynamics",
+      "runtime_heading": "Multiband Dynamics",
+      "runtime_heading_line": 166,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.27",
+      "section_title": "Overdrive",
+      "page_range": [
+        637,
+        637
+      ],
+      "source_lines": [
+        3383,
+        3416
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#overdrive",
+      "runtime_heading": "Overdrive",
+      "runtime_heading_line": 173,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.28",
+      "section_title": "Pedal",
+      "page_range": [
+        638,
+        640
+      ],
+      "source_lines": [
+        3417,
+        3540
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#pedal",
+      "runtime_heading": "Pedal",
+      "runtime_heading_line": 176,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.28.1",
+      "section_title": "Pedal Tips",
+      "page_range": [
+        639,
+        640
+      ],
+      "source_lines": [
+        3483,
+        3540
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#pedal",
+      "runtime_heading": "Pedal",
+      "runtime_heading_line": 176,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.28.1.1",
+      "section_title": "Positioning Pedal in the Device Chain",
+      "page_range": [
+        639,
+        639
+      ],
+      "source_lines": [
+        3485,
+        3492
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#pedal",
+      "runtime_heading": "Pedal",
+      "runtime_heading_line": 176,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.28.1.2",
+      "section_title": "Techno Kick",
+      "page_range": [
+        639,
+        639
+      ],
+      "source_lines": [
+        3493,
+        3507
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#pedal",
+      "runtime_heading": "Pedal",
+      "runtime_heading_line": 176,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.28.1.3",
+      "section_title": "Drum Group Fizzle",
+      "page_range": [
+        640,
+        640
+      ],
+      "source_lines": [
+        3508,
+        3519
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#pedal",
+      "runtime_heading": "Pedal",
+      "runtime_heading_line": 176,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.28.1.4",
+      "section_title": "Broken Speaker",
+      "page_range": [
+        640,
+        640
+      ],
+      "source_lines": [
+        3520,
+        3528
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#pedal",
+      "runtime_heading": "Pedal",
+      "runtime_heading_line": 176,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.28.1.5",
+      "section_title": "Sub Warmer",
+      "page_range": [
+        640,
+        640
+      ],
+      "source_lines": [
+        3529,
+        3540
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#pedal",
+      "runtime_heading": "Pedal",
+      "runtime_heading_line": 176,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.29",
+      "section_title": "Phaser-Flanger",
+      "page_range": [
+        641,
+        644
+      ],
+      "source_lines": [
+        3541,
+        3692
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#phaser-flanger",
+      "runtime_heading": "Phaser-Flanger",
+      "runtime_heading_line": 181,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.30",
+      "section_title": "Redux",
+      "page_range": [
+        644,
+        645
+      ],
+      "source_lines": [
+        3693,
+        3764
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#redux",
+      "runtime_heading": "Redux",
+      "runtime_heading_line": 187,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.30.1",
+      "section_title": "Downsampling",
+      "page_range": [
+        645,
+        645
+      ],
+      "source_lines": [
+        3713,
+        3735
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#redux",
+      "runtime_heading": "Redux",
+      "runtime_heading_line": 187,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.30.2",
+      "section_title": "Bit Reduction",
+      "page_range": [
+        645,
+        645
+      ],
+      "source_lines": [
+        3736,
+        3764
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#redux",
+      "runtime_heading": "Redux",
+      "runtime_heading_line": 187,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.31",
+      "section_title": "Resonators",
+      "page_range": [
+        646,
+        647
+      ],
+      "source_lines": [
+        3765,
+        3826
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#resonators",
+      "runtime_heading": "Resonators",
+      "runtime_heading_line": 191,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.32",
+      "section_title": "Reverb",
+      "page_range": [
+        647,
+        651
+      ],
+      "source_lines": [
+        3827,
+        3987
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#reverb",
+      "runtime_heading": "Reverb",
+      "runtime_heading_line": 196,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.32.1",
+      "section_title": "Input Filter",
+      "page_range": [
+        648,
+        648
+      ],
+      "source_lines": [
+        3851,
+        3864
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#reverb",
+      "runtime_heading": "Reverb",
+      "runtime_heading_line": 196,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.32.2",
+      "section_title": "Early Reflections",
+      "page_range": [
+        648,
+        649
+      ],
+      "source_lines": [
+        3865,
+        3894
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#reverb",
+      "runtime_heading": "Reverb",
+      "runtime_heading_line": 196,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.32.3",
+      "section_title": "Diffusion Network",
+      "page_range": [
+        649,
+        649
+      ],
+      "source_lines": [
+        3895,
+        3914
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#reverb",
+      "runtime_heading": "Reverb",
+      "runtime_heading_line": 196,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.32.4",
+      "section_title": "Chorus",
+      "page_range": [
+        649,
+        650
+      ],
+      "source_lines": [
+        3915,
+        3932
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#reverb",
+      "runtime_heading": "Reverb",
+      "runtime_heading_line": 196,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.32.5",
+      "section_title": "Global Settings",
+      "page_range": [
+        650,
+        650
+      ],
+      "source_lines": [
+        3933,
+        3974
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#reverb",
+      "runtime_heading": "Reverb",
+      "runtime_heading_line": 196,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.32.6",
+      "section_title": "Output",
+      "page_range": [
+        651,
+        651
+      ],
+      "source_lines": [
+        3975,
+        3987
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#reverb",
+      "runtime_heading": "Reverb",
+      "runtime_heading_line": 196,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.33",
+      "section_title": "Roar",
+      "page_range": [
+        651,
+        660
+      ],
+      "source_lines": [
+        3988,
+        4383
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#roar",
+      "runtime_heading": "Roar",
+      "runtime_heading_line": 202,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.33.1",
+      "section_title": "Input Section",
+      "page_range": [
+        652,
+        653
+      ],
+      "source_lines": [
+        4008,
+        4075
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#roar",
+      "runtime_heading": "Roar",
+      "runtime_heading_line": 202,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.33.2",
+      "section_title": "Gain Stage Section",
+      "page_range": [
+        653,
+        655
+      ],
+      "source_lines": [
+        4076,
+        4180
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#roar",
+      "runtime_heading": "Roar",
+      "runtime_heading_line": 202,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.33.3",
+      "section_title": "Modulation Section",
+      "page_range": [
+        655,
+        657
+      ],
+      "source_lines": [
+        4181,
+        4276
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#roar",
+      "runtime_heading": "Roar",
+      "runtime_heading_line": 202,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.33.4",
+      "section_title": "Feedback Section",
+      "page_range": [
+        657,
+        658
+      ],
+      "source_lines": [
+        4277,
+        4311
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#roar",
+      "runtime_heading": "Roar",
+      "runtime_heading_line": 202,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.33.5",
+      "section_title": "Global Section",
+      "page_range": [
+        658,
+        658
+      ],
+      "source_lines": [
+        4312,
+        4337
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#roar",
+      "runtime_heading": "Roar",
+      "runtime_heading_line": 202,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.33.6",
+      "section_title": "Sidechain Parameters",
+      "page_range": [
+        659,
+        660
+      ],
+      "source_lines": [
+        4338,
+        4383
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#roar",
+      "runtime_heading": "Roar",
+      "runtime_heading_line": 202,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.34",
+      "section_title": "Saturator",
+      "page_range": [
+        660,
+        663
+      ],
+      "source_lines": [
+        4384,
+        4524
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#saturator",
+      "runtime_heading": "Saturator",
+      "runtime_heading_line": 221,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.34.0.1",
+      "section_title": "Saturator’s Waveshaper Controls",
+      "page_range": [
+        662,
+        663
+      ],
+      "source_lines": [
+        4484,
+        4514
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#saturator",
+      "runtime_heading": "Saturator",
+      "runtime_heading_line": 221,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.34.0.2",
+      "section_title": "Context Menu Options for Saturator",
+      "page_range": [
+        663,
+        663
+      ],
+      "source_lines": [
+        4515,
+        4524
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#saturator",
+      "runtime_heading": "Saturator",
+      "runtime_heading_line": 221,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.35",
+      "section_title": "Shifter",
+      "page_range": [
+        663,
+        668
+      ],
+      "source_lines": [
+        4525,
+        4710
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#shifter",
+      "runtime_heading": "Shifter",
+      "runtime_heading_line": 228,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.35.1",
+      "section_title": "Tuning and Delay Section",
+      "page_range": [
+        664,
+        664
+      ],
+      "source_lines": [
+        4543,
+        4570
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#shifter",
+      "runtime_heading": "Shifter",
+      "runtime_heading_line": 228,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.35.2",
+      "section_title": "LFO Section",
+      "page_range": [
+        665,
+        665
+      ],
+      "source_lines": [
+        4571,
+        4612
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#shifter",
+      "runtime_heading": "Shifter",
+      "runtime_heading_line": 228,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.35.3",
+      "section_title": "Envelope Follower Section",
+      "page_range": [
+        666,
+        666
+      ],
+      "source_lines": [
+        4613,
+        4631
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#shifter",
+      "runtime_heading": "Shifter",
+      "runtime_heading_line": 228,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.35.4",
+      "section_title": "Shifter Mode Section",
+      "page_range": [
+        666,
+        667
+      ],
+      "source_lines": [
+        4632,
+        4660
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#shifter",
+      "runtime_heading": "Shifter",
+      "runtime_heading_line": 228,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.35.5",
+      "section_title": "Sidechain Parameters",
+      "page_range": [
+        667,
+        667
+      ],
+      "source_lines": [
+        4661,
+        4683
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#shifter",
+      "runtime_heading": "Shifter",
+      "runtime_heading_line": 228,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.35.6",
+      "section_title": "Shifter Tips",
+      "page_range": [
+        668,
+        668
+      ],
+      "source_lines": [
+        4684,
+        4710
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#shifter",
+      "runtime_heading": "Shifter",
+      "runtime_heading_line": 228,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.35.6.1",
+      "section_title": "Pitch-shifted Drum Layers",
+      "page_range": [
+        668,
+        668
+      ],
+      "source_lines": [
+        4686,
+        4694
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#shifter",
+      "runtime_heading": "Shifter",
+      "runtime_heading_line": 228,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.35.6.2",
+      "section_title": "Phasing Effects",
+      "page_range": [
+        668,
+        668
+      ],
+      "source_lines": [
+        4695,
+        4701
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#shifter",
+      "runtime_heading": "Shifter",
+      "runtime_heading_line": 228,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.35.6.3",
+      "section_title": "Tremolo Effects",
+      "page_range": [
+        668,
+        668
+      ],
+      "source_lines": [
+        4702,
+        4710
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#shifter",
+      "runtime_heading": "Shifter",
+      "runtime_heading_line": 228,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.36",
+      "section_title": "Spectral Resonator",
+      "page_range": [
+        668,
+        673
+      ],
+      "source_lines": [
+        4711,
+        4914
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#spectral-resonator",
+      "runtime_heading": "Spectral Resonator",
+      "runtime_heading_line": 235,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.36.1",
+      "section_title": "Pitch Mode Section",
+      "page_range": [
+        669,
+        669
+      ],
+      "source_lines": [
+        4734,
+        4769
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#spectral-resonator",
+      "runtime_heading": "Spectral Resonator",
+      "runtime_heading_line": 235,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.36.2",
+      "section_title": "Frequency Section",
+      "page_range": [
+        670,
+        670
+      ],
+      "source_lines": [
+        4770,
+        4813
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#spectral-resonator",
+      "runtime_heading": "Spectral Resonator",
+      "runtime_heading_line": 235,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.36.3",
+      "section_title": "Modulation Section",
+      "page_range": [
+        671,
+        671
+      ],
+      "source_lines": [
+        4814,
+        4839
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#spectral-resonator",
+      "runtime_heading": "Spectral Resonator",
+      "runtime_heading_line": 235,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.36.4",
+      "section_title": "Spectrogram",
+      "page_range": [
+        671,
+        672
+      ],
+      "source_lines": [
+        4840,
+        4867
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#spectral-resonator",
+      "runtime_heading": "Spectral Resonator",
+      "runtime_heading_line": 235,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.36.5",
+      "section_title": "Global Parameters",
+      "page_range": [
+        672,
+        672
+      ],
+      "source_lines": [
+        4868,
+        4893
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#spectral-resonator",
+      "runtime_heading": "Spectral Resonator",
+      "runtime_heading_line": 235,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.36.6",
+      "section_title": "Spectral Resonator Tips",
+      "page_range": [
+        673,
+        673
+      ],
+      "source_lines": [
+        4894,
+        4914
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#spectral-resonator",
+      "runtime_heading": "Spectral Resonator",
+      "runtime_heading_line": 235,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.37",
+      "section_title": "Spectral Time",
+      "page_range": [
+        673,
+        676
+      ],
+      "source_lines": [
+        4915,
+        5068
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#spectral-time",
+      "runtime_heading": "Spectral Time",
+      "runtime_heading_line": 243,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.37.1",
+      "section_title": "Freezer Section",
+      "page_range": [
+        674,
+        675
+      ],
+      "source_lines": [
+        4949,
+        4992
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#spectral-time",
+      "runtime_heading": "Spectral Time",
+      "runtime_heading_line": 243,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.37.2",
+      "section_title": "Delay Section",
+      "page_range": [
+        675,
+        675
+      ],
+      "source_lines": [
+        4993,
+        5034
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#spectral-time",
+      "runtime_heading": "Spectral Time",
+      "runtime_heading_line": 243,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.37.3",
+      "section_title": "Resolution Section",
+      "page_range": [
+        676,
+        676
+      ],
+      "source_lines": [
+        5035,
+        5048
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#spectral-time",
+      "runtime_heading": "Spectral Time",
+      "runtime_heading_line": 243,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.37.4",
+      "section_title": "Global Controls",
+      "page_range": [
+        676,
+        676
+      ],
+      "source_lines": [
+        5049,
+        5068
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#spectral-time",
+      "runtime_heading": "Spectral Time",
+      "runtime_heading_line": 243,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.38",
+      "section_title": "Spectrum",
+      "page_range": [
+        677,
+        678
+      ],
+      "source_lines": [
+        5069,
+        5129
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#spectrum",
+      "runtime_heading": "Spectrum",
+      "runtime_heading_line": 249,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.39",
+      "section_title": "Tuner",
+      "page_range": [
+        678,
+        683
+      ],
+      "source_lines": [
+        5130,
+        5264
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#tuner",
+      "runtime_heading": "Tuner",
+      "runtime_heading_line": 254,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.39.1",
+      "section_title": "View Switches",
+      "page_range": [
+        679,
+        679
+      ],
+      "source_lines": [
+        5153,
+        5165
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#tuner",
+      "runtime_heading": "Tuner",
+      "runtime_heading_line": 254,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.39.2",
+      "section_title": "Classic View",
+      "page_range": [
+        679,
+        680
+      ],
+      "source_lines": [
+        5166,
+        5202
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#tuner",
+      "runtime_heading": "Tuner",
+      "runtime_heading_line": 254,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.39.3",
+      "section_title": "Histogram View",
+      "page_range": [
+        681,
+        681
+      ],
+      "source_lines": [
+        5203,
+        5227
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#tuner",
+      "runtime_heading": "Tuner",
+      "runtime_heading_line": 254,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.39.4",
+      "section_title": "Note Spellings",
+      "page_range": [
+        682,
+        682
+      ],
+      "source_lines": [
+        5228,
+        5247
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#tuner",
+      "runtime_heading": "Tuner",
+      "runtime_heading_line": 254,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.39.5",
+      "section_title": "Reference Slider",
+      "page_range": [
+        683,
+        683
+      ],
+      "source_lines": [
+        5248,
+        5264
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#tuner",
+      "runtime_heading": "Tuner",
+      "runtime_heading_line": 254,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.40",
+      "section_title": "Utility",
+      "page_range": [
+        684,
+        685
+      ],
+      "source_lines": [
+        5265,
+        5330
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#utility",
+      "runtime_heading": "Utility",
+      "runtime_heading_line": 259,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.41",
+      "section_title": "Vinyl Distortion",
+      "page_range": [
+        686,
+        687
+      ],
+      "source_lines": [
+        5331,
+        5372
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#vinyl-distortion",
+      "runtime_heading": "Vinyl Distortion",
+      "runtime_heading_line": 265,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.42",
+      "section_title": "Vocoder",
+      "page_range": [
+        687,
+        690
+      ],
+      "source_lines": [
+        5373,
+        5526
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#vocoder",
+      "runtime_heading": "Vocoder",
+      "runtime_heading_line": 269,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.42.1",
+      "section_title": "Vocoder Tips",
+      "page_range": [
+        689,
+        690
+      ],
+      "source_lines": [
+        5477,
+        5526
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#vocoder",
+      "runtime_heading": "Vocoder",
+      "runtime_heading_line": 269,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.42.1.1",
+      "section_title": "Singing Synthesizer",
+      "page_range": [
+        689,
+        689
+      ],
+      "source_lines": [
+        5482,
+        5504
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#vocoder",
+      "runtime_heading": "Vocoder",
+      "runtime_heading_line": 269,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    },
+    {
+      "chapter": 29,
+      "section_id": "29.42.1.2",
+      "section_title": "Formant Shifter",
+      "page_range": [
+        689,
+        690
+      ],
+      "source_lines": [
+        5505,
+        5526
+      ],
+      "runtime_reference": "skills/ableton-live/references/audio-effects.md#vocoder",
+      "runtime_heading": "Vocoder",
+      "runtime_heading_line": 269,
+      "coverage": "covered",
+      "status": "source-derived operational paraphrase; verification and safety checks are synthesis",
+      "execution_verified": false
+    }
+  ],
+  "non_operational_material": [
+    {
+      "section_id": "29",
+      "page_range": [
+        552,
+        552
+      ],
+      "material": "Introductory overview and cross-chapter pointer",
+      "handling": "Not reproduced as an instruction; edition-availability warning retained."
+    },
+    {
+      "section_ids": [
+        "29.1",
+        "29.6",
+        "29.9.2.2",
+        "29.10",
+        "29.21"
+      ],
+      "material": "Developer/collaborator credits and marketing/history language",
+      "handling": "Credits omitted from operational guidance; relevant model behavior and Live 9 Compressor algorithm-change note retained."
+    }
+  ],
+  "synthesis_records": [
+    {
+      "id": "verify-routing-and-state",
+      "runtime_heading": "Operating rules and routing",
+      "kind": "verification/safety synthesis",
+      "basis": "Cross-device distinction between insert/return, detector and output mix, MIDI gating, latency, and meters.",
+      "validated_by_execution": false
+    },
+    {
+      "id": "protect-level-and-feedback",
+      "runtime_headings": [
+        "Operating rules and routing",
+        "Filter Delay",
+        "Grain Delay",
+        "Phaser-Flanger",
+        "Roar",
+        "Limiter",
+        "Glue Compressor"
+      ],
+      "kind": "verification/safety synthesis",
+      "basis": "Explicit feedback-level hazards, clipper limitations, and final-chain gain constraints.",
+      "validated_by_execution": false
+    },
+    {
+      "id": "preserve-capture-and-modulation",
+      "runtime_headings": [
+        "Looper",
+        "Roar"
+      ],
+      "kind": "verification/safety synthesis",
+      "basis": "Explicit buffer replacement/clear/halve behavior and modulation-matrix erase behavior; no destructive operation executed.",
+      "validated_by_execution": false
+    },
+    {
+      "id": "diagnostic-order",
+      "runtime_headings": [
+        "Auto Shift",
+        "Corpus",
+        "Roar",
+        "Spectral Resonator",
+        "Spectral Time",
+        "Vocoder",
+        "Utility"
+      ],
+      "kind": "verification/recovery synthesis",
+      "basis": "Check gating/routing/mode/disabled controls first using the described state dependencies before adding gain.",
+      "validated_by_execution": false
+    },
+    {
+      "id": "hardware-and-measurement-verification",
+      "runtime_headings": [
+        "External Audio Effect",
+        "Spectrum",
+        "Tuner"
+      ],
+      "kind": "verification synthesis",
+      "basis": "Hardware latency is not automatically known; measurement devices depend on input and analysis settings.",
+      "validated_by_execution": false
+    }
+  ],
+  "gaps_and_uncertainties": [
+    {
+      "id": "AF-SC-TYPES",
+      "section_ids": [
+        "29.2.7"
+      ],
+      "page_range": [
+        561,
+        561
+      ],
+      "issue": "The sidechain chooser enumeration includes band-pass but subsequent prose describes Notch instead of band-pass.",
+      "handling": "Runtime retains the enumerated six choices, requires inspection of the actual chooser, and does not assert a Notch sidechain option.",
+      "status": "source inconsistency; UI not verified"
+    },
+    {
+      "id": "SHIFTER-DELAY-UNIT",
+      "section_ids": [
+        "29.35.1"
+      ],
+      "page_range": [
+        664,
+        664
+      ],
+      "issue": "Free delay time is described as being set in Hertz, which conflicts with ordinary duration terminology; exact installed UI units were not observed.",
+      "handling": "Runtime describes free versus beat-synced delay and requires reading the visible unit; it does not invent a millisecond conversion or automation parameter.",
+      "status": "unresolved unit ambiguity"
+    },
+    {
+      "id": "SPECTRAL-TIME-ORDER",
+      "section_ids": [
+        "29.37",
+        "29.37.2",
+        "29.37.4"
+      ],
+      "page_range": [
+        673,
+        676
+      ],
+      "issue": "Opening and Delay prose describe freezer feeding delay, while Global Controls explicitly provides Frz > Dly and Dly > Frz.",
+      "handling": "Runtime uses the explicit order selectors and avoids asserting a universal fixed order.",
+      "status": "reconciled from explicit control description; execution not verified"
+    },
+    {
+      "id": "SPECTRAL-TIME-XFADE",
+      "section_ids": [
+        "29.37.1"
+      ],
+      "page_range": [
+        674,
+        674
+      ],
+      "issue": "X-Fade description mixes milliseconds with a percentage of Interval and does not fully explain the unit in Onsets mode.",
+      "handling": "Runtime describes a relative-interval crossfade and asks for the displayed unit; no numeric crossfade prescription.",
+      "status": "unresolved unit/context ambiguity"
+    },
+    {
+      "id": "EQ8-MS-ENCODING",
+      "section_ids": [
+        "29.15"
+      ],
+      "page_range": [
+        606,
+        606
+      ],
+      "issue": "The M/S description refers to material recorded using M/S encoding but does not spell out an encoding/decoding workflow.",
+      "handling": "Runtime gives only M/S channel-selection/editing guidance, not a claim that pre-encoded input is required.",
+      "status": "encoding workflow not established by assigned evidence"
+    },
+    {
+      "id": "EXTERNAL-HARDWARE-CALIBRATION",
+      "section_ids": [
+        "29.18"
+      ],
+      "page_range": [
+        611,
+        611
+      ],
+      "issue": "Precise driver/hardware latency calibration is delegated to an external article, outside the assigned extracted chapter.",
+      "handling": "Runtime includes routing, level checks, delay-compensation prerequisite, sample/ms persistence, and measured-transient verification; does not fabricate a calibration value or detailed interface-specific procedure.",
+      "status": "dependency not retrieved; setup-dependent measurement remains"
+    },
+    {
+      "id": "EDITION-VERSION-MATRIX",
+      "section_ids": [
+        "29",
+        "29.17",
+        "29.42"
+      ],
+      "page_range": [
+        552,
+        690
+      ],
+      "issue": "General edition variation, Vocoder exclusion from Intro/Lite, and Erosion Legacy for pre-12.4 Sets are explicit; full per-device edition/minimum-build matrix is not supplied.",
+      "handling": "Runtime validates installed device/version/license and makes no additional entitlement promises.",
+      "status": "full availability matrix unverified"
+    },
+    {
+      "id": "FIGURE-INSPECTION",
+      "section_ids": [
+        "29"
+      ],
+      "page_range": [
+        552,
+        690
+      ],
+      "issue": "Extracted text was read in full; rendered diagrams/screenshots were not inspected.",
+      "handling": "No pixel coordinates or unlabeled diagram geometry is invented. Looper gesture-state transitions and other necessary relationships are recoverable from adjacent prose. No essential text-unrecoverable diagram identified.",
+      "status": "visual layout not independently verified"
+    },
+    {
+      "id": "RUNTIME-AUTOMATION",
+      "section_ids": [
+        "29"
+      ],
+      "page_range": [
+        552,
+        690
+      ],
+      "issue": "Device UI features do not establish integration support or parameter identifiers.",
+      "handling": "Runtime clearly labels UI guidance; no extension/API capability mapping is added. That mapping is parent-owned.",
+      "status": "automation capabilities unverified"
+    },
+    {
+      "id": "EXECUTION-LISTENING",
+      "section_ids": [
+        "29"
+      ],
+      "page_range": [
+        552,
+        690
+      ],
+      "issue": "No Live session, audio audition, device loading, MIDI/hardware route, performance benchmark, or behavioral evaluation was executed.",
+      "handling": "All sound-character and control-behavior claims remain source-derived, never experiment-backed.",
+      "status": "not run"
+    }
+  ],
+  "validation": {
+    "static_checks": {
+      "status": "passed",
+      "checks": [
+        "JSON parses successfully.",
+        "All 42 top-level device sections have runtime headings.",
+        "All 43 contents anchors resolve.",
+        "All 158 numbered source section IDs are represented in source order.",
+        "Every source page 552–690 appears once in contiguous read coverage (139 pages).",
+        "Source SHA256 matches the fully read extraction.",
+        "Section page ranges are ordered and runtime heading line references resolve.",
+        "Runtime contains no source path, external URL, PDF/page citation, or source-manual mention.",
+        "Runtime has 274 lines, within the requested 150–300-line target.",
+        "git diff --no-index --check against /dev/null reports no whitespace errors in either artifact."
+      ],
+      "diff_review": "Reviewed the new-file diff, especially routing, hardware latency, dynamic processors, buffer preservation, Roar, pitch processing, and source-ambiguity handling.",
+      "limitation": "Static structural coverage and review are not a Live behavior, listening, or skill-performance evaluation."
+    },
+    "live_tests": "not run",
+    "listening": "not performed",
+    "behavioral_evaluations": "not run",
+    "holdouts": "not read, edited, or tuned"
+  },
+  "scope": {
+    "exclusive_written_paths": [
+      "skills/ableton-live/references/audio-effects.md",
+      "docs/live-skill/evidence/effects.json"
+    ],
+    "other_repository_paths_modified_by_this_worker": [],
+    "commits_or_index_changes": false
+  },
+  "runtime_sha256": "78b2c439b9110570df3b17e90e1b854e79adb4ccdef220642f0e1a07a9093f54"
+}

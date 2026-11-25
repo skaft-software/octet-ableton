@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ruff_cache/
+.DS_Store
+artifacts/
+*.wav
+*.mp3
+*.als
+.pi/
+.env
+bridge.json
+*.nki
+*.nkx
+*.ncw

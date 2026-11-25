@@ -1,0 +1,20 @@
+[project]
+name = "octet-ableton"
+version = "0.1.0"
+description = "An unofficial music-making extension for octet and Ableton Live"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = [
+    "numpy>=2.2,<3",
+    "pywin32>=311 ; sys_platform == 'win32'",
+]
+
+[dependency-groups]
+dev = ["ruff>=0.11,<1"]
+
+[tool.ruff]
+extend-exclude = ["vendor"]
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

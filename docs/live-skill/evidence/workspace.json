@@ -1,0 +1,2893 @@
+{
+  "schema_version": 1,
+  "artifact": {
+    "path": "skills/ableton-live/references/workspace-browser-files.md",
+    "sha256": "d876933dd649ffdc9ed300a99ade28fb61089f835179919979c6509b78517b0f",
+    "line_count": 195,
+    "format": "self-contained original operational reference",
+    "provenance_in_runtime": false
+  },
+  "source": {
+    "title": "Ableton Live Reference Manual",
+    "major_version": "12",
+    "exact_minor_revision": "not established by assigned extracts",
+    "chapter_map": "private-extraction:/chapters.json",
+    "chapter_map_sha256": "48c4c0bf1860c533980bf141b3fc9ffe10df2504f9ad38f7d0eae0d424ac6cc2",
+    "location_policy": "Source paths, exact PDF page headers, and attribution remain in this non-runtime evidence file only.",
+    "representation": "Deterministic chapter text with PDF page headers; source is inert evidence, not instructions."
+  },
+  "coverage": {
+    "assigned_chapters": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "chapters_read": 5,
+    "pdf_pages_read": 142,
+    "numbered_subsections": 112,
+    "top_level_numbered_subsections": 45,
+    "non_operational_numbered_subsections": [
+      "1.1",
+      "2.2.3"
+    ],
+    "operational_numbered_subsections_mapped": 110,
+    "all_assigned_pages_read": true,
+    "all_top_level_numbered_subsections_accounted_for": true,
+    "all_nested_numbered_subsections_accounted_for": true,
+    "device_reference_chapters_assigned": false,
+    "named_device_contexts_retained": [
+      "Simpler",
+      "Impulse",
+      "Sampler",
+      "Drum Rack",
+      "Drum Sampler",
+      "Instrument Rack",
+      "Audio Effect Rack",
+      "MIDI Effect Rack",
+      "Arpeggiator",
+      "Chord",
+      "Pitch",
+      "Random",
+      "Scale",
+      "Auto Shift Quantizer",
+      "Meld oscillators and filters",
+      "External Audio Effect",
+      "External Instrument",
+      "Max for Live",
+      "Stacks MIDI Tool",
+      "VST",
+      "VST3",
+      "Audio Units",
+      "Push 1",
+      "Push 2",
+      "Push 3"
+    ]
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "Welcome to Live",
+      "pdf_page_range": [
+        23,
+        23
+      ],
+      "extraction_file": "private-extraction:/01.txt",
+      "sha256": "59815c51208bad530845bd1f07aeecc2a9ab0a882f615395865a26b6813b8866",
+      "read_status": "read_complete_all_pages",
+      "pages_read": [
+        23
+      ],
+      "intro_status": "non-operational welcome/acknowledgment",
+      "numbered_subsection_count": 1,
+      "top_level_numbered_subsection_ids": [
+        "1.1"
+      ]
+    },
+    {
+      "chapter": 2,
+      "title": "First Steps",
+      "pdf_page_range": [
+        24,
+        34
+      ],
+      "extraction_file": "private-extraction:/02.txt",
+      "sha256": "c2f0160092372872cfe7c1679e0c9067d3282721048a8687c6e944eb1f81b473",
+      "read_status": "read_complete_all_pages",
+      "pages_read": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "intro_status": "non-operational orientation or section index; operational material mapped below",
+      "numbered_subsection_count": 16,
+      "top_level_numbered_subsection_ids": [
+        "2.1",
+        "2.2",
+        "2.3"
+      ]
+    },
+    {
+      "chapter": 3,
+      "title": "Live Concepts",
+      "pdf_page_range": [
+        35,
+        61
+      ],
+      "extraction_file": "private-extraction:/03.txt",
+      "sha256": "d71d5938e5390c371fa05e68a2bc51b20b9f8fddb2d61542f4914aa3abed62a6",
+      "read_status": "read_complete_all_pages",
+      "pages_read": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "intro_status": "non-operational orientation or section index; operational material mapped below",
+      "numbered_subsection_count": 21,
+      "top_level_numbered_subsection_ids": [
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "3.5",
+        "3.6",
+        "3.7",
+        "3.8",
+        "3.9",
+        "3.10",
+        "3.11",
+        "3.12",
+        "3.13",
+        "3.14",
+        "3.15",
+        "3.16",
+        "3.17",
+        "3.18",
+        "3.19",
+        "3.20",
+        "3.21"
+      ]
+    },
+    {
+      "chapter": 4,
+      "title": "Working with the Browser",
+      "pdf_page_range": [
+        62,
+        121
+      ],
+      "extraction_file": "private-extraction:/04.txt",
+      "sha256": "7ba76793aa5b5b564baeb2e140a8bfbc3b6e2426a464a86ece4112d83d845fc5",
+      "read_status": "read_complete_all_pages",
+      "pages_read": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121
+      ],
+      "intro_status": "non-operational orientation or section index; operational material mapped below",
+      "numbered_subsection_count": 37,
+      "top_level_numbered_subsection_ids": [
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5",
+        "4.6",
+        "4.7",
+        "4.8",
+        "4.9",
+        "4.10"
+      ]
+    },
+    {
+      "chapter": 5,
+      "title": "Managing Files and Sets",
+      "pdf_page_range": [
+        122,
+        164
+      ],
+      "extraction_file": "private-extraction:/05.txt",
+      "sha256": "97ef6bb936486c37fa31246a29541d3a4e065c5db5fbd43d4d4fc60700ed3528",
+      "read_status": "read_complete_all_pages",
+      "pages_read": [
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "intro_status": "non-operational orientation or section index; operational material mapped below",
+      "numbered_subsection_count": 37,
+      "top_level_numbered_subsection_ids": [
+        "5.1",
+        "5.2",
+        "5.3",
+        "5.4",
+        "5.5",
+        "5.6",
+        "5.7",
+        "5.8",
+        "5.9",
+        "5.10"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "1.1",
+      "title": "The Ableton Team Says: Thank You",
+      "chapter": 1,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        23,
+        23
+      ],
+      "reference_headings": [],
+      "status": "non-operational",
+      "treatment": "Acknowledgment and welcome; no operational procedure.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "2.1",
+      "title": "Installation and Authorization",
+      "chapter": 2,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        24,
+        24
+      ],
+      "reference_headings": [
+        {
+          "heading": "Scope and first checks",
+          "line": 14
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Installation/authorization precondition; two computer authorizations with one computer used at a time.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "2.2",
+      "title": "Learning About Live",
+      "chapter": 2,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        24,
+        30
+      ],
+      "reference_headings": [
+        {
+          "heading": "Configure and navigate the workspace",
+          "line": 20
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Choose context help versus guided lessons; external learning promotion is non-operational.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "2.2.1",
+      "title": "Learn View",
+      "chapter": 2,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        24,
+        29
+      ],
+      "reference_headings": [
+        {
+          "heading": "Configure and navigate the workspace",
+          "line": 20
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Learn View access, lesson filtering/completion/navigation, independent module updates, video controls, picture-in-picture and 15-second skipping, session persistence, network reload recovery.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "2.2.2",
+      "title": "Info View",
+      "chapter": 2,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        29,
+        30
+      ],
+      "reference_headings": [
+        {
+          "heading": "Configure and navigate the workspace",
+          "line": 20
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Toggle context help and create saved item Info Text.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "2.2.3",
+      "title": "Other Learning Resources",
+      "chapter": 2,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        30,
+        30
+      ],
+      "reference_headings": [],
+      "status": "non-operational",
+      "treatment": "External learning-resource recommendations and overview cross-references; not needed for a self-contained operational reference.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "2.3",
+      "title": "Live’s Settings",
+      "chapter": 2,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        31,
+        34
+      ],
+      "reference_headings": [
+        {
+          "heading": "Configure and navigate the workspace",
+          "line": 20
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Settings access and task-specific tab routing.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "2.3.1",
+      "title": "Display & Input",
+      "chapter": 2,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        31,
+        31
+      ],
+      "reference_headings": [
+        {
+          "heading": "Configure and navigate the workspace",
+          "line": 20
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Language and three window zoom contexts, zoom update timing, focus outline, scroll/follow/UI labels, keyboard navigation, pen/scrub/pitch-lock options, restore warning dialogs.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "2.3.2",
+      "title": "Theme & Colors",
+      "chapter": 2,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        31,
+        31
+      ],
+      "reference_headings": [
+        {
+          "heading": "Configure and navigate the workspace",
+          "line": 20
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Theme, OS light/dark following, tone/contrast/grid/brightness/hue and automatic/default/reduced track and clip color choices.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "2.3.3",
+      "title": "Audio",
+      "chapter": 2,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        32,
+        32
+      ],
+      "reference_headings": [
+        {
+          "heading": "Configure and navigate the workspace",
+          "line": 20
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Audio device/driver/rate/latency/calibration; macOS CoreAudio/System Device versus Windows ASIO.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "2.3.4",
+      "title": "Link",
+      "chapter": 2,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        32,
+        32
+      ],
+      "reference_headings": [
+        {
+          "heading": "Configure and navigate the workspace",
+          "line": 20
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Link timing versus Link Audio streaming on compatible network devices; no detailed setup inferred.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "2.3.5",
+      "title": "Tempo & MIDI",
+      "chapter": 2,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        33,
+        33
+      ],
+      "reference_headings": [
+        {
+          "heading": "Configure and navigate the workspace",
+          "line": 20
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Tempo/MIDI sync, hardware resync, note input/output and remote-control settings purposes.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "2.3.6",
+      "title": "File & Folder",
+      "chapter": 2,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        33,
+        33
+      ],
+      "reference_headings": [
+        {
+          "heading": "Configure and navigate the workspace",
+          "line": 20
+        },
+        {
+          "heading": "Repair and collect file dependencies",
+          "line": 150
+        }
+      ],
+      "status": "source-derived_with_safety_exclusions",
+      "treatment": "Analysis files, temporary recordings, decoding cache, bundled/external Max, Suite/Standard availability; external destructive editor is only identified as a boundary.",
+      "execution_validated": false,
+      "intentional_exclusion": "Do not operate the destructive external Sample Editor."
+    },
+    {
+      "section_id": "2.3.7",
+      "title": "Library",
+      "chapter": 2,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        33,
+        33
+      ],
+      "reference_headings": [
+        {
+          "heading": "Configure and navigate the workspace",
+          "line": 20
+        },
+        {
+          "heading": "Libraries, Packs, and connected sources",
+          "line": 96
+        },
+        {
+          "heading": "Make dependencies portable without indiscriminate copying",
+          "line": 164
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Library/Pack locations, dependency collection policy and connected-source visibility.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "2.3.8",
+      "title": "Plug-Ins",
+      "chapter": 2,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        34,
+        34
+      ],
+      "reference_headings": [
+        {
+          "heading": "Configure and navigate the workspace",
+          "line": 20
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Plug-in folder activation and window behavior.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "2.3.9",
+      "title": "Record, Warp & Launch",
+      "chapter": 2,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        34,
+        34
+      ],
+      "reference_headings": [
+        {
+          "heading": "Configure and navigate the workspace",
+          "line": 20
+        },
+        {
+          "heading": "Keep playback, signal flow, and automation distinct",
+          "line": 47
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Record format, Warp/Fade, clip/scene/recording defaults and Exclusive Arm context.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "2.3.10",
+      "title": "Licenses & Updates",
+      "chapter": 2,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        34,
+        34
+      ],
+      "reference_headings": [
+        {
+          "heading": "Scope and first checks",
+          "line": 14
+        },
+        {
+          "heading": "Configure and navigate the workspace",
+          "line": 20
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Authorization, automatic update and usage-data settings; no account-policy change performed.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "3.1",
+      "title": "The Control Bar",
+      "chapter": 3,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        35,
+        36
+      ],
+      "reference_headings": [
+        {
+          "heading": "Configure and navigate the workspace",
+          "line": 20
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "All nine Control Bar functional groups retained, with selection-sensitive scale behavior.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "3.2",
+      "title": "The Status Bar",
+      "chapter": 3,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        36,
+        37
+      ],
+      "reference_headings": [
+        {
+          "heading": "Configure and navigate the workspace",
+          "line": 20
+        },
+        {
+          "heading": "Preview, compare, and load sounds",
+          "line": 87
+        },
+        {
+          "heading": "Restore missing media",
+          "line": 158
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Status messages, note metadata, marker coordinates and analysis progress as observable checks.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "3.3",
+      "title": "The Browser",
+      "chapter": 3,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        37,
+        38
+      ],
+      "reference_headings": [
+        {
+          "heading": "Search, filter, and organize browser content",
+          "line": 66
+        },
+        {
+          "heading": "Libraries, Packs, and connected sources",
+          "line": 96
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Browser access/config and asset-location model.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "3.4",
+      "title": "Sound Similarity",
+      "chapter": 3,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        38,
+        39
+      ],
+      "reference_headings": [
+        {
+          "heading": "Preview, compare, and load sounds",
+          "line": 87
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Similarity versus text search; 60-second sample limit, presets, Core/User Library corpus, ranking, reference pinning, background analysis/pause; Drum Rack, Simpler, Drum Sampler swapping.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "3.5",
+      "title": "Live Sets",
+      "chapter": 3,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        40,
+        40
+      ],
+      "reference_headings": [
+        {
+          "heading": "Scope and first checks",
+          "line": 14
+        },
+        {
+          "heading": "Libraries, Packs, and connected sources",
+          "line": 96
+        },
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Set/Project distinction, reopening and Current Project entry.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "3.6",
+      "title": "Arrangement and Session",
+      "chapter": 3,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        40,
+        41
+      ],
+      "reference_headings": [
+        {
+          "heading": "Configure and navigate the workspace",
+          "line": 20
+        },
+        {
+          "heading": "Keep playback, signal flow, and automation distinct",
+          "line": 47
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Session versus Arrangement, view-specific clips with shared tracks, Tab navigation exception and two-window behavior; UI switching does not change playback.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "3.7",
+      "title": "Tracks",
+      "chapter": 3,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        42,
+        45
+      ],
+      "reference_headings": [
+        {
+          "heading": "Keep playback, signal flow, and automation distinct",
+          "line": 47
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "One clip per track; Session precedence, per-track/global Back to Arrangement; Arrangement capture, take/comping and linked-track concepts.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "3.8",
+      "title": "Audio and MIDI",
+      "chapter": 3,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        45,
+        45
+      ],
+      "reference_headings": [
+        {
+          "heading": "Keep playback, signal flow, and automation distinct",
+          "line": 47
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "MIDI requires sound generation; audio/MIDI track compatibility; Simpler chromatic and Impulse per-key roles.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "3.9",
+      "title": "Audio Clips and Samples",
+      "chapter": 3,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        46,
+        47
+      ],
+      "reference_headings": [
+        {
+          "heading": "Preview, compare, and load sounds",
+          "line": 87
+        },
+        {
+          "heading": "Repair and collect file dependencies",
+          "line": 150
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Audio clip references versus real-time playback settings, browser preview, Warp speed/pitch independence.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "3.10",
+      "title": "MIDI Clips and MIDI Files",
+      "chapter": 3,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        47,
+        48
+      ],
+      "reference_headings": [
+        {
+          "heading": "Preview, compare, and load sounds",
+          "line": 87
+        },
+        {
+          "heading": "MIDI file import and export",
+          "line": 194
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "MIDI file data becomes embedded; clip editing and input alternatives are routed to Clip View.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "3.11",
+      "title": "Devices",
+      "chapter": 3,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        48,
+        50
+      ],
+      "reference_headings": [
+        {
+          "heading": "Configure and navigate the workspace",
+          "line": 20
+        },
+        {
+          "heading": "Keep playback, signal flow, and automation distinct",
+          "line": 47
+        },
+        {
+          "heading": "Search, filter, and organize browser content",
+          "line": 66
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Device View/loading, device signal types, native devices versus VST and macOS-only Audio Units.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "3.12",
+      "title": "Clip and Device View",
+      "chapter": 3,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        50,
+        51
+      ],
+      "reference_headings": [
+        {
+          "heading": "Configure and navigate the workspace",
+          "line": 20
+        },
+        {
+          "heading": "Keep playback, signal flow, and automation distinct",
+          "line": 47
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Clip/device view roles, audio/MIDI tool families, view stacking and shortcuts; audio/group/return versus MIDI device eligibility.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "3.13",
+      "title": "Scale Awareness",
+      "chapter": 3,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        51,
+        53
+      ],
+      "reference_headings": [
+        {
+          "heading": "Configure and navigate the workspace",
+          "line": 20
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Scale selection scope, fold/highlight, purple indication, MIDI tool scale use; Arpeggiator/Chord/Pitch/Random/Scale degrees, Auto Shift Quantizer and Meld scale awareness.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "3.14",
+      "title": "The Mixer",
+      "chapter": 3,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        53,
+        56
+      ],
+      "reference_headings": [
+        {
+          "heading": "Keep playback, signal flow, and automation distinct",
+          "line": 47
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Left-to-right stereo device flow, mixer visibility, returns/sends/crossfader, MIDI-to-audio ordering, MIDI-only mixer distinction and CPU limit.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "3.15",
+      "title": "Presets and Racks",
+      "chapter": 3,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        56,
+        56
+      ],
+      "reference_headings": [
+        {
+          "heading": "Keep playback, signal flow, and automation distinct",
+          "line": 47
+        },
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Presets versus multi-device Instrument/Drum/Effect Racks; explicit save destination avoids source default-location ambiguity.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "3.16",
+      "title": "Routing",
+      "chapter": 3,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        56,
+        57
+      ],
+      "reference_headings": [
+        {
+          "heading": "Keep playback, signal flow, and automation distinct",
+          "line": 47
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "I/O source/destination patching, groups, monitoring and External Audio Effect/External Instrument hardware routes.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "3.17",
+      "title": "Recording New Clips",
+      "chapter": 3,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        57,
+        58
+      ],
+      "reference_headings": [
+        {
+          "heading": "Keep playback, signal flow, and automation distinct",
+          "line": 47
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Track/multi-arm and Exclusive Arm, Arrangement versus Session recording, quantized Session stop/launch, overdub versus Record Quantization.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "3.18",
+      "title": "Automation Envelopes",
+      "chapter": 3,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        59,
+        59
+      ],
+      "reference_headings": [
+        {
+          "heading": "Keep playback, signal flow, and automation distinct",
+          "line": 47
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Automation Arm recording contexts; manual override and Re-Enable Automation separated from clip playback override.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "3.19",
+      "title": "Clip Envelopes",
+      "chapter": 3,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        59,
+        59
+      ],
+      "reference_headings": [
+        {
+          "heading": "Keep playback, signal flow, and automation distinct",
+          "line": 47
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Automation/modulation versus audio pitch/volume and MIDI CC envelopes; independent unlinked envelope loop period.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "3.20",
+      "title": "MIDI and Key Remote",
+      "chapter": 3,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        60,
+        60
+      ],
+      "reference_headings": [
+        {
+          "heading": "Keep playback, signal flow, and automation distinct",
+          "line": 47
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "MIDI/key mapping procedure, Session key ranges, mapped MIDI filtered from recording, Push 1/2/3 dedicated support.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "3.21",
+      "title": "Saving and Exporting",
+      "chapter": 3,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        60,
+        61
+      ],
+      "reference_headings": [
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        },
+        {
+          "heading": "Make dependencies portable without indiscriminate copying",
+          "line": 164
+        },
+        {
+          "heading": "Export audio, MIDI, and video",
+          "line": 171
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Saving versus collecting, sample defaults versus Live Clips, audio/MIDI exports and reuse of clip-plus-device settings.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.1",
+      "title": "Content Pane",
+      "chapter": 4,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        64,
+        65
+      ],
+      "reference_headings": [
+        {
+          "heading": "Search, filter, and organize browser content",
+          "line": 66
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Content columns, sorting/reordering and file extension visibility.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.2",
+      "title": "Search Bar",
+      "chapter": 4,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        65,
+        71
+      ],
+      "reference_headings": [
+        {
+          "heading": "Search, filter, and organize browser content",
+          "line": 66
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "All-term search, All focus shortcut, tag autocomplete, text-only clear versus total reset, keyboard search sequence.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.2.1",
+      "title": "Saving Search Results as Custom Labels",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        68,
+        71
+      ],
+      "reference_headings": [
+        {
+          "heading": "Search, filter, and organize browser content",
+          "line": 66
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Save query/tag results as labels, custom-tag curation, rename/icons; no source-file removal implied.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.3",
+      "title": "Browser History",
+      "chapter": 4,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        71,
+        72
+      ],
+      "reference_headings": [
+        {
+          "heading": "Search, filter, and organize browser content",
+          "line": 66
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Browser history of searches and navigation with back/forward shortcuts.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.4",
+      "title": "Filters and Tags",
+      "chapter": 4,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        72,
+        81
+      ],
+      "reference_headings": [
+        {
+          "heading": "Search, filter, and organize browser content",
+          "line": 66
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Filters/tag routing with view/menu visibility controls.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.4.1",
+      "title": "Filter Groups",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        73,
+        74
+      ],
+      "reference_headings": [
+        {
+          "heading": "Search, filter, and organize browser content",
+          "line": 66
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Multi-select tags, label-specific persisted filter state, hidden groups/default reset, result count and custom-label saving.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.4.2",
+      "title": "Tags",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        74,
+        75
+      ],
+      "reference_headings": [
+        {
+          "heading": "Search, filter, and organize browser content",
+          "line": 66
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Factory/third-party tag coverage, immutable factory assignments, user/automatic tagging and 60-second limit, VST3 metadata.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.4.3",
+      "title": "Tag Editor",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        75,
+        79
+      ],
+      "reference_headings": [
+        {
+          "heading": "Search, filter, and organize browser content",
+          "line": 66
+        }
+      ],
+      "status": "source-derived_with_safety_exclusions",
+      "treatment": "Tag editor access, assignment/batch selection, groups, Add Tag/Add Group, folded indicators, nesting, Creator exception, immutable factory taxonomy.",
+      "execution_validated": false,
+      "intentional_exclusion": "Do not give deletion procedures for user taxonomy; retain creation/assignment and immutable-factory distinctions."
+    },
+    {
+      "section_id": "4.4.4",
+      "title": "Quick Tags",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        79,
+        81
+      ],
+      "reference_headings": [
+        {
+          "heading": "Search, filter, and organize browser content",
+          "line": 66
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Quick Tag creation/parent prompts, alphabetic display, factory restrictions, multi-selection asterisk, group status and visibility.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.5",
+      "title": "Collections",
+      "chapter": 4,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        81,
+        83
+      ],
+      "reference_headings": [
+        {
+          "heading": "Search, filter, and organize browser content",
+          "line": 66
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Collections across item types/folders, keys 1-7/0, three displayed colors, rename/visibility and auto-show asymmetry.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.6",
+      "title": "Library",
+      "chapter": 4,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        83,
+        85
+      ],
+      "reference_headings": [
+        {
+          "heading": "Search, filter, and organize browser content",
+          "line": 66
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "All fourteen Library labels and their content distinctions, including Modulators, Max for Live and tuning extensions; Edit/Done visibility.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.7",
+      "title": "Places",
+      "chapter": 4,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        85,
+        116
+      ],
+      "reference_headings": [
+        {
+          "heading": "Libraries, Packs, and connected sources",
+          "line": 96
+        },
+        {
+          "heading": "Splice: distinguish browsing from account actions",
+          "line": 117
+        },
+        {
+          "heading": "Existing Cloud and Push content",
+          "line": 126
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Places versus Library, installed/local/account/device locations and optional label visibility.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.7.1",
+      "title": "Downloading and Installing Packs in the Browser",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        86,
+        90
+      ],
+      "reference_headings": [
+        {
+          "heading": "Libraries, Packs, and connected sources",
+          "line": 96
+        }
+      ],
+      "status": "source-derived_with_safety_exclusions",
+      "treatment": "Pack lists, size preflight, requested download/install, pause/resume/batch/context behavior and downloadable-list visibility; deletion procedure excluded.",
+      "execution_validated": false,
+      "intentional_exclusion": "Installed Pack deletion is out of scope; retain visibility controls and requested installation."
+    },
+    {
+      "section_id": "4.7.2",
+      "title": "Pack Info",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        90,
+        91
+      ],
+      "reference_headings": [
+        {
+          "heading": "Libraries, Packs, and connected sources",
+          "line": 96
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Pack Info/Overview access and Core Library exception.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.7.3",
+      "title": "Splice",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        91,
+        105
+      ],
+      "reference_headings": [
+        {
+          "heading": "Splice: distinguish browsing from account actions",
+          "line": 117
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Splice online-only label and access/visibility boundaries.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.7.3.1",
+      "title": "Logging Into Splice",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        93,
+        95
+      ],
+      "reference_headings": [
+        {
+          "heading": "Splice: distinguish browsing from account actions",
+          "line": 117
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Login prerequisite differences and device-code comparison; authentication remains user-owned.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.7.3.2",
+      "title": "Searching for Splice Samples",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        95,
+        100
+      ],
+      "reference_headings": [
+        {
+          "heading": "Splice: distinguish browsing from account actions",
+          "line": 117
+        }
+      ],
+      "status": "source-derived_with_safety_exclusions",
+      "treatment": "Text/categories/filters/sort, approximately 2500 included free samples; Search with Sound classified as provider processing with 50 suggestions, upload/capture steps excluded.",
+      "execution_validated": false,
+      "intentional_exclusion": "No provider upload or Search with Sound capture/drop procedure; feature and 50-result distinction only."
+    },
+    {
+      "section_id": "4.7.3.3",
+      "title": "Working with Splice Samples",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        100,
+        103
+      ],
+      "reference_headings": [
+        {
+          "heading": "Splice: distinguish browsing from account actions",
+          "line": 117
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Category-scoped search, preview loop/time/key/scale/volume controls, entry metadata, authorized loading targets, Complex Warp override and download location choices.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.7.3.4",
+      "title": "Splice Library",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        103,
+        104
+      ],
+      "reference_headings": [
+        {
+          "heading": "Splice: distinguish browsing from account actions",
+          "line": 117
+        }
+      ],
+      "status": "source-derived_with_safety_exclusions",
+      "treatment": "Provider Library/Collections/Likes versus local Live Collections; user-authorized private organization, with sharing and deletion procedures excluded.",
+      "execution_validated": false,
+      "intentional_exclusion": "No shared-collection publication or deletion procedure."
+    },
+    {
+      "section_id": "4.7.3.5",
+      "title": "Splice Settings",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        104,
+        105
+      ],
+      "reference_headings": [
+        {
+          "heading": "Splice: distinguish browsing from account actions",
+          "line": 117
+        }
+      ],
+      "status": "source-derived_with_safety_exclusions",
+      "treatment": "Identify subscription/display/log/certified-license settings without account-changing, feedback or sharing actions.",
+      "execution_validated": false,
+      "intentional_exclusion": "No subscription changes, account actions, feedback submission, or usage-log transmission."
+    },
+    {
+      "section_id": "4.7.4",
+      "title": "Using Ableton Cloud",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        105,
+        107
+      ],
+      "reference_headings": [
+        {
+          "heading": "Existing Cloud and Push content",
+          "line": 126
+        }
+      ],
+      "status": "source-derived_with_safety_exclusions",
+      "treatment": "Eight Move/Note Sets, incoming-only Live sync, User Library sample dependency, reconnect recovery and local Collect All and Save.",
+      "execution_validated": false,
+      "intentional_exclusion": "No upload or reverse-sync procedure; existing synced content recovery/local preservation only."
+    },
+    {
+      "section_id": "4.7.5",
+      "title": "Transferring Files from Push 3 in Standalone Mode",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        107,
+        110
+      ],
+      "reference_headings": [
+        {
+          "heading": "Existing Cloud and Push content",
+          "line": 126
+        }
+      ],
+      "status": "source-derived_with_safety_exclusions",
+      "treatment": "Push 3 Standalone/same-Wi-Fi pairing, device identity, six-digit code, refresh/disconnect/visibility; return-transfer compatibility preflight only.",
+      "execution_validated": false,
+      "intentional_exclusion": "No return file-transfer procedure; describe prerequisites and explicit-request pairing/read access."
+    },
+    {
+      "section_id": "4.7.6",
+      "title": "User Library",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        110,
+        113
+      ],
+      "reference_headings": [
+        {
+          "heading": "Libraries, Packs, and connected sources",
+          "line": 96
+        }
+      ],
+      "status": "source-derived_with_safety_exclusions",
+      "treatment": "User Library location, backup separation and content roles; no folder deletion guidance.",
+      "execution_validated": false,
+      "intentional_exclusion": "No removal of default library folders."
+    },
+    {
+      "section_id": "4.7.6.1",
+      "title": "ABL Assets",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        111,
+        111
+      ],
+      "reference_headings": [
+        {
+          "heading": "Libraries, Packs, and connected sources",
+          "line": 96
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "ABL Assets for existing Move/Note synced Sets.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.7.6.2",
+      "title": "Chord Banks",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        111,
+        111
+      ],
+      "reference_headings": [
+        {
+          "heading": "Libraries, Packs, and connected sources",
+          "line": 96
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Custom Stacks Chord Banks.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.7.6.3",
+      "title": "Clips Folder",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        111,
+        112
+      ],
+      "reference_headings": [
+        {
+          "heading": "Libraries, Packs, and connected sources",
+          "line": 96
+        },
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        },
+        {
+          "heading": "Make dependencies portable without indiscriminate copying",
+          "line": 164
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Clip settings/MIDI/device retention and conditional dependent-sample collection.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.7.6.4",
+      "title": "Defaults Folder",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        112,
+        112
+      ],
+      "reference_headings": [
+        {
+          "heading": "Libraries, Packs, and connected sources",
+          "line": 96
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Defaults for tracks/devices/effects/Slicing to MIDI and future instantiation.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.7.6.5",
+      "title": "Grooves Folder",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        112,
+        112
+      ],
+      "reference_headings": [
+        {
+          "heading": "Libraries, Packs, and connected sources",
+          "line": 96
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Audio/MIDI timing/volume groove extraction methods and storage.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.7.6.6",
+      "title": "Presets Folder",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        112,
+        112
+      ],
+      "reference_headings": [
+        {
+          "heading": "Libraries, Packs, and connected sources",
+          "line": 96
+        },
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        },
+        {
+          "heading": "Make dependencies portable without indiscriminate copying",
+          "line": 164
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Instrument/Max/MIDI/audio presets and sample dependencies.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.7.6.7",
+      "title": "Samples Folder",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        112,
+        112
+      ],
+      "reference_headings": [
+        {
+          "heading": "Libraries, Packs, and connected sources",
+          "line": 96
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Sample dependency store and recorded/processed subfolders.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.7.6.8",
+      "title": "Templates Folder",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        112,
+        113
+      ],
+      "reference_headings": [
+        {
+          "heading": "Libraries, Packs, and connected sources",
+          "line": 96
+        },
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Default/template Sets and Templates storage.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.7.6.9",
+      "title": "Managing Files in the User Library",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        113,
+        113
+      ],
+      "reference_headings": [
+        {
+          "heading": "Libraries, Packs, and connected sources",
+          "line": 96
+        },
+        {
+          "heading": "Make dependencies portable without indiscriminate copying",
+          "line": 164
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Manage User Library entry for external/missing files.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.7.7",
+      "title": "Current Project",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        113,
+        115
+      ],
+      "reference_headings": [
+        {
+          "heading": "Libraries, Packs, and connected sources",
+          "line": 96
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Current Project contents, Return/Main/grooves, Backup after two saves, ten-version limit/timestamps/trash, unsaved temporary Project, OS reveal.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.7.8",
+      "title": "User Folders",
+      "chapter": 4,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        115,
+        116
+      ],
+      "reference_headings": [
+        {
+          "heading": "Libraries, Packs, and connected sources",
+          "line": 96
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Discrete user-folder indexing without move, spinner, external-drive/reorganization failures, Locate Folder versus sidebar removal.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.8",
+      "title": "Navigating in the Browser",
+      "chapter": 4,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        117,
+        117
+      ],
+      "reference_headings": [
+        {
+          "heading": "Search, filter, and organize browser content",
+          "line": 66
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Arrow/wheel/modified-drag navigation and modifier to retain open folders.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.9",
+      "title": "Previewing Files",
+      "chapter": 4,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        117,
+        120
+      ],
+      "reference_headings": [
+        {
+          "heading": "Preview, compare, and load sounds",
+          "line": 87
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Preview trigger/override, scrub limits, next-bar/Raw timing and looping, cue level and four-output requirement.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "4.10",
+      "title": "Adding Content from the Browser to a Live Set",
+      "chapter": 4,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        120,
+        121
+      ],
+      "reference_headings": [
+        {
+          "heading": "Preview, compare, and load sounds",
+          "line": 87
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Track-specific loading/new-track drops and Simpler-versus-audio-clip import; Explorer/Finder drag.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.1",
+      "title": "Sample Files",
+      "chapter": 5,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        122,
+        133
+      ],
+      "reference_headings": [
+        {
+          "heading": "Repair and collect file dependencies",
+          "line": 150
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Native/compressed audio formats, macOS M4A limit, arbitrary uncompressed length/rate/depth and disk-versus-RAM limitation.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.1.1",
+      "title": "The Decoding Cache",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        122,
+        123
+      ],
+      "reference_headings": [
+        {
+          "heading": "Repair and collect file dependencies",
+          "line": 150
+        }
+      ],
+      "status": "source-derived_with_safety_exclusions",
+      "treatment": "Compressed decoding to WAV, cache location/free-space/maximum controls and automatic eviction; manual Cleanup deletion excluded.",
+      "execution_validated": false,
+      "intentional_exclusion": "Do not instruct Cleanup, which deletes unused cache entries."
+    },
+    {
+      "section_id": "5.1.2",
+      "title": "Analysis Files (.asd)",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        123,
+        126
+      ],
+      "reference_headings": [
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        },
+        {
+          "heading": "Repair and collect file dependencies",
+          "line": 150
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Analysis purpose/sidecar/icon/wait behavior, default clip persistence, reuse and Create Analysis/Auto-Warp exceptions.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.1.3",
+      "title": "Exporting Audio and Video",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        126,
+        133
+      ],
+      "reference_headings": [
+        {
+          "heading": "Export audio, MIDI, and video",
+          "line": 171
+        },
+        {
+          "heading": "Hardware-dependent renders",
+          "line": 190
+        }
+      ],
+      "status": "source-derived_with_safety_exclusions",
+      "treatment": "Local audio/video render route and subsequent selection/rendering/encoding/hardware procedures.",
+      "execution_validated": false,
+      "intentional_exclusion": "No provider upload, distribution, or disc/publication workflow."
+    },
+    {
+      "section_id": "5.1.3.1",
+      "title": "Selection Options",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        126,
+        128
+      ],
+      "reference_headings": [
+        {
+          "heading": "Export audio, MIDI, and video",
+          "line": 171
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Post-fader rendered-source distinctions, equal-length tracks, MIDI-only omission/silence, range controls and actual active Session/Arrangement state.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.1.3.2",
+      "title": "Rendering Options",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        128,
+        129
+      ],
+      "reference_headings": [
+        {
+          "heading": "Export audio, MIDI, and video",
+          "line": 171
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Return/Main processing option, two-pass loop tails, mono/normalize/analysis and sample-rate downsampling distinction.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.1.3.3",
+      "title": "Encoding Options",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        129,
+        130
+      ],
+      "reference_headings": [
+        {
+          "heading": "Export audio, MIDI, and video",
+          "line": 171
+        }
+      ],
+      "status": "source-derived_with_safety_exclusions",
+      "treatment": "PCM formats and 16/24/32-bit, all dither modes/once-only/final-stage restrictions, 320 kbps CBR MP3 leading silence and export enable conditions.",
+      "execution_validated": false,
+      "intentional_exclusion": "Prefer PCM for alignment; no destructive trimming procedure for MP3."
+    },
+    {
+      "section_id": "5.1.3.4",
+      "title": "Video Rendering Options",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        130,
+        131
+      ],
+      "reference_headings": [
+        {
+          "heading": "Export audio, MIDI, and video",
+          "line": 171
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Arrangement video plus PCM prerequisites, installed encoder/config availability, audio-first/multiple passes/resolution/embedded audio.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.1.3.5",
+      "title": "Real-Time Rendering",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        131,
+        133
+      ],
+      "reference_headings": [
+        {
+          "heading": "Hardware-dependent renders",
+          "line": 190
+        }
+      ],
+      "status": "source-derived_with_safety_exclusions",
+      "treatment": "Hardware-routed real-time versus unaffected offline rendering, ten-second wait/extend/restart/skip, dropout auto-restart and retry diagnosis; partial-file-deleting cancellation not instructed.",
+      "execution_validated": false,
+      "intentional_exclusion": "Do not instruct Cancel-and-delete-partial-file behavior; diagnose wait/retry/dropouts instead."
+    },
+    {
+      "section_id": "5.2",
+      "title": "MIDI Files",
+      "chapter": 5,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        133,
+        133
+      ],
+      "reference_headings": [
+        {
+          "heading": "Preview, compare, and load sounds",
+          "line": 87
+        },
+        {
+          "heading": "MIDI file import and export",
+          "line": 194
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "MIDI embedded-data distinction and view-dependent import position.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.2.1",
+      "title": "Exporting MIDI Files",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        133,
+        133
+      ],
+      "reference_headings": [
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        },
+        {
+          "heading": "MIDI file import and export",
+          "line": 194
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Single Standard MIDI export distinct from Live Clip preservation.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.3",
+      "title": "Live Clips",
+      "chapter": 5,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        134,
+        135
+      ],
+      "reference_headings": [
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        },
+        {
+          "heading": "Make dependencies portable without indiscriminate copying",
+          "line": 164
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Clip-plus-devices artifact versus sample defaults, collection, and empty-track requirement for device reconstruction.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.4",
+      "title": "Live Sets",
+      "chapter": 5,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        135,
+        142
+      ],
+      "reference_headings": [
+        {
+          "heading": "Scope and first checks",
+          "line": 14
+        },
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Live Set document versus managing Project folder.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.4.1",
+      "title": "Creating, Opening and Saving Sets",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        135,
+        135
+      ],
+      "reference_headings": [
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "New/open/recent/browser open and Save/Save As/Save a Copy choices.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.4.2",
+      "title": "Accessing a Set’s Undo History",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        135,
+        136
+      ],
+      "reference_headings": [
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Undo History direction/select/reapply, ephemeral session scope and nonundoable initial create/open.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.4.3",
+      "title": "Merging Sets",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        136,
+        139
+      ],
+      "reference_headings": [
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Drag merge retains clips/devices/automation but excludes returns; individual/nested groups, grooves, device chains and Session clip extraction.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.4.4",
+      "title": "Exporting Session Clips as New Sets",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        139,
+        139
+      ],
+      "reference_headings": [
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Multi-selected Session clips export a new Set rather than a single Live Clip.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.4.5",
+      "title": "Template Sets",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        139,
+        140
+      ],
+      "reference_headings": [
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Default and named templates, mappings/I/O/devices, browser default selection, Templates folder and Untitled reopen.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.4.6",
+      "title": "Viewing and Changing a Live Set’s File References",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        140,
+        142
+      ],
+      "reference_headings": [
+        {
+          "heading": "Repair and collect file dependencies",
+          "line": 150
+        },
+        {
+          "heading": "Restore missing media",
+          "line": 158
+        }
+      ],
+      "status": "source-derived_with_safety_exclusions",
+      "treatment": "Reference list/usage/location, Set-wide replacement, hot swap and asymmetric Warp Marker length rules; destructive editor diagnostics without execution steps.",
+      "execution_validated": false,
+      "intentional_exclusion": "External editing is destructive; retain offline/length consequences without operation steps."
+    },
+    {
+      "section_id": "5.5",
+      "title": "Live Projects",
+      "chapter": 5,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        142,
+        147
+      ],
+      "reference_headings": [
+        {
+          "heading": "Scope and first checks",
+          "line": 14
+        },
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        },
+        {
+          "heading": "Repair and collect file dependencies",
+          "line": 150
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Project groups related Sets, samples, presets and clips for File Manager scope.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.5.1",
+      "title": "Projects and Live Sets",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        142,
+        146
+      ],
+      "reference_headings": [
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        },
+        {
+          "heading": "Restore missing media",
+          "line": 158
+        },
+        {
+          "heading": "Make dependencies portable without indiscriminate copying",
+          "line": 164
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Project creation/location/version organization, old Project references after Save As, subfolders/relink and older-major overwrite restriction.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.5.2",
+      "title": "Projects and Presets",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        146,
+        147
+      ],
+      "reference_headings": [
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        },
+        {
+          "heading": "Make dependencies portable without indiscriminate copying",
+          "line": 164
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Explicit preset drag destination and sample collection; unqualified default-save location not relied on.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.5.3",
+      "title": "Managing Files in a Project",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        147,
+        147
+      ],
+      "reference_headings": [
+        {
+          "heading": "Repair and collect file dependencies",
+          "line": 150
+        },
+        {
+          "heading": "Restore missing media",
+          "line": 158
+        },
+        {
+          "heading": "Make dependencies portable without indiscriminate copying",
+          "line": 164
+        },
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Manage Project tools for missing/external/unused files and local Pack creation.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.6",
+      "title": "Locating Missing Files",
+      "chapter": 5,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        147,
+        149
+      ],
+      "reference_headings": [
+        {
+          "heading": "Restore missing media",
+          "line": 158
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Offline/silence warning and File Manager entry path.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.6.1",
+      "title": "Manual Repair",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        148,
+        148
+      ],
+      "reference_headings": [
+        {
+          "heading": "Restore missing media",
+          "line": 158
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Manual row replacement accepts any offered file; verify identity before saving.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.6.2",
+      "title": "Automatic Repair",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        148,
+        149
+      ],
+      "reference_headings": [
+        {
+          "heading": "Restore missing media",
+          "line": 158
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Bounded automatic search scopes and zero/one/many candidate recovery.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.7",
+      "title": "Collecting External Files",
+      "chapter": 5,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        150,
+        155
+      ],
+      "reference_headings": [
+        {
+          "heading": "Make dependencies portable without indiscriminate copying",
+          "line": 164
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Selective copy by external location into Samples/Presets, costs and inspection, File Manager toggles and final confirmation.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.7.1",
+      "title": "Collect Files on Export",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        152,
+        153
+      ],
+      "reference_headings": [
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        },
+        {
+          "heading": "Make dependencies portable without indiscriminate copying",
+          "line": 164
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Always/Ask/Never with final name confirmation, clip/track/preset artifact extensions and dependency folders, sample-preset save application.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.7.2",
+      "title": "Aggregated Locating and Collecting",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        153,
+        155
+      ],
+      "reference_headings": [
+        {
+          "heading": "Make dependencies portable without indiscriminate copying",
+          "line": 164
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Set/Project/User Library/other-Project scope and Collect and Save confirmation.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.8",
+      "title": "Finding Unused Files",
+      "chapter": 5,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        155,
+        159
+      ],
+      "reference_headings": [
+        {
+          "heading": "Make dependencies portable without indiscriminate copying",
+          "line": 164
+        }
+      ],
+      "status": "source-derived_with_safety_exclusions",
+      "treatment": "Read-only unused-file discovery, scope limitation and cross-Project dependence warning; deletion excluded.",
+      "execution_validated": false,
+      "intentional_exclusion": "No Delete key/context action; inspect unused files and explain cross-Project risk."
+    },
+    {
+      "section_id": "5.9",
+      "title": "Packing Projects into Packs",
+      "chapter": 5,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        159,
+        162
+      ],
+      "reference_headings": [
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        }
+      ],
+      "status": "source-derived_with_safety_exclusions",
+      "treatment": "Local Pack create/restore, external collection prerequisite, unchanged original, up-to-50-percent lossless size saving; redistribution/deletion excluded.",
+      "execution_validated": false,
+      "intentional_exclusion": "No redistribution or deletion of the original Project; local archiving and verification only."
+    },
+    {
+      "section_id": "5.10",
+      "title": "File Management FAQs",
+      "chapter": 5,
+      "top_level_numbered_subsection": true,
+      "pdf_page_range": [
+        163,
+        164
+      ],
+      "reference_headings": [
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        },
+        {
+          "heading": "Restore missing media",
+          "line": 158
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "FAQ decisions integrated into creation/version/location/preset/reorganization procedures rather than repeated.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.10.1",
+      "title": "How Do I Create a Project?",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        163,
+        163
+      ],
+      "reference_headings": [
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Automatic Project creation except saving within an existing Project.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.10.2",
+      "title": "How Can I Save Presets Into My Current Project?",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        163,
+        163
+      ],
+      "reference_headings": [
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Device-title drag to Current Project and subsequent collection.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.10.3",
+      "title": "Can I Work On Multiple Versions of a Set?",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        163,
+        163
+      ],
+      "reference_headings": [
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Related versions in same Project with shared sample copies.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.10.4",
+      "title": "Where Should I Save My Live Sets?",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        163,
+        163
+      ],
+      "reference_headings": [
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Unrelated Sets outside existing Project boundaries.",
+      "execution_validated": false
+    },
+    {
+      "section_id": "5.10.5",
+      "title": "Can I Use My Own Folder Structure Within a Project Folder?",
+      "chapter": 5,
+      "top_level_numbered_subsection": false,
+      "pdf_page_range": [
+        163,
+        164
+      ],
+      "reference_headings": [
+        {
+          "heading": "Choose the right saved artifact",
+          "line": 131
+        },
+        {
+          "heading": "Restore missing media",
+          "line": 158
+        }
+      ],
+      "status": "source-derived",
+      "treatment": "Within-Project folder freedom plus Manage Project, Locate, Search Project/Fully Rescan Folders and Collect and Save repair.",
+      "execution_validated": false
+    }
+  ],
+  "synthesis": [
+    {
+      "kind": "safety",
+      "reference_headings": [
+        "Scope and first checks",
+        "Splice: distinguish browsing from account actions",
+        "Existing Cloud and Push content",
+        "Make dependencies portable without indiscriminate copying",
+        "Choose the right saved artifact"
+      ],
+      "rule": "Separate UI guidance from integration capability; preserve originals, request account/network effects, avoid provider uploads/destructive editing/deletion/redistribution."
+    },
+    {
+      "kind": "verification",
+      "reference_headings": [
+        "Configure and navigate the workspace",
+        "Keep playback, signal flow, and automation distinct",
+        "Search, filter, and organize browser content",
+        "Preview, compare, and load sounds",
+        "Libraries, Packs, and connected sources",
+        "Choose the right saved artifact",
+        "Restore missing media",
+        "Export audio, MIDI, and video",
+        "Hardware-dependent renders"
+      ],
+      "rule": "Check actual selection, state indicators, routes, file identity/count/length/format, restored dependencies and render retries rather than asserting an unobserved outcome."
+    },
+    {
+      "kind": "failure_recovery",
+      "reference_headings": [
+        "Keep playback, signal flow, and automation distinct",
+        "Restore missing media",
+        "Make dependencies portable without indiscriminate copying"
+      ],
+      "rule": "Order recovery as state distinction/reconnect/bounded search/identity verification/collection; do not conflate clip override with automation override or infer safe deletion from scoped unused status."
+    },
+    {
+      "kind": "safety",
+      "reference_headings": [
+        "Choose the right saved artifact"
+      ],
+      "rule": "Restore a backup/archive to a separately named or separate local destination before relying on it; preservation checks supplement the source-described save/archive mechanisms."
+    }
+  ],
+  "gaps_and_uncertainty": [
+    {
+      "id": "version-and-edition",
+      "status": "unverified",
+      "detail": "Assigned text includes Learn View, Link Audio, Splice and other newer Live 12 features but gives no exact minor-version matrix. Runtime asks to verify installed build and feature presence; no availability in all Live 12 builds is claimed. Max for Live Suite/Standard and macOS-only M4A/Audio Units distinctions are retained."
+    },
+    {
+      "id": "preset-default-location",
+      "status": "source ambiguity avoided",
+      "source_sections": [
+        "3.15",
+        "5.5.2",
+        "5.7.1",
+        "5.10.2"
+      ],
+      "detail": "5.5.2 describes new presets defaulting to Current Project; other passages describe User Library storage/Save Preset behavior. Runtime uses explicit drag destinations and verification instead of asserting one universal default."
+    },
+    {
+      "id": "single-versus-multiple-clip-export",
+      "status": "context distinction retained",
+      "source_sections": [
+        "5.4.4",
+        "5.7.1"
+      ],
+      "detail": "Single clip export creates .alc; multi-selected Session clips create a new Set. One-at-a-time clip/preset wording is not misapplied to the explicit new-Set workflow."
+    },
+    {
+      "id": "figures",
+      "status": "text-supported, not visually validated",
+      "detail": "Every extracted page was read; figures/screenshots were not rendered. No essential diagram-only relationship was identified. Exact spatial placement beyond text-supported control descriptions is not inferred."
+    },
+    {
+      "id": "remote-service-state",
+      "status": "unverified",
+      "detail": "Splice catalog size is approximate; authorization, ownership, available Packs, service connectivity and current provider behavior were not checked. No upload, account mutation or download was performed."
+    },
+    {
+      "id": "destructive-and-distribution-exclusions",
+      "status": "intentional requested scope exclusion",
+      "detail": "Deletion, destructive external sample editing, provider uploads/capture and redistribution procedures are excluded. Their risk or applicability is retained where operationally necessary, with section-specific exclusions."
+    },
+    {
+      "id": "automation-api",
+      "status": "parent-owned capability mapping",
+      "detail": "No extension tools, endpoint names, or blanket UI-automation equivalence are asserted. The reference supplies UI procedures only."
+    },
+    {
+      "id": "live-validation",
+      "status": "not run",
+      "detail": "No Live UI actions, audio listening, device tests, exports, archive restores, network effects or filesystem media changes were performed."
+    }
+  ],
+  "evaluation": {
+    "existing_cases": "docs/live-skill/eval-cases.json",
+    "existing_cases_read_or_modified": false,
+    "planning_cases_consulted": [
+      "warp-drum-loop",
+      "two-playback-overrides",
+      "partial-batch-and-meter"
+    ],
+    "planning_source": "private-extraction:/planning-cases.json",
+    "holdouts_opened_or_tuned": false,
+    "baseline": "not run",
+    "skill_behavior": "not run",
+    "rag_comparison": "not run",
+    "structural_validation": "passed scoped document/evidence checks; whole-skill validator and behavioral checks not run"
+  },
+  "work_scope": {
+    "exclusive_writable_paths": [
+      "skills/ableton-live/references/workspace-browser-files.md",
+      "docs/live-skill/evidence/workspace.json"
+    ],
+    "runtime_code_changed": false,
+    "git_index_or_branch_changed": false,
+    "installation_performed": false,
+    "claims": "All feature/procedure content is source-derived paraphrase except explicitly identified verification/safety synthesis; no execution-backed claims."
+  },
+  "validation": {
+    "checks": [
+      {
+        "check": "runtime-size-and-contents",
+        "result": "passed",
+        "detail": "195 lines; contents map precedes procedures"
+      },
+      {
+        "check": "runtime-source-separation",
+        "result": "passed",
+        "detail": "No source paths, page citations, source-manual mentions or external URLs in runtime"
+      },
+      {
+        "check": "runtime-fingerprint",
+        "result": "passed",
+        "detail": "Evidence fingerprint matches final runtime text"
+      },
+      {
+        "check": "contents-links",
+        "result": "passed",
+        "detail": "All nine contents links resolve"
+      },
+      {
+        "check": "evidence-heading-lines",
+        "result": "passed",
+        "detail": "All subsection-to-runtime heading locations resolve"
+      },
+      {
+        "check": "chapter-1-integrity",
+        "result": "passed",
+        "detail": "1 consecutive pages; source fingerprint unchanged"
+      },
+      {
+        "check": "chapter-1-section-coverage",
+        "result": "passed",
+        "detail": "All 1 numbered subsections mapped; page ranges in chapter bounds"
+      },
+      {
+        "check": "chapter-2-integrity",
+        "result": "passed",
+        "detail": "11 consecutive pages; source fingerprint unchanged"
+      },
+      {
+        "check": "chapter-2-section-coverage",
+        "result": "passed",
+        "detail": "All 16 numbered subsections mapped; page ranges in chapter bounds"
+      },
+      {
+        "check": "chapter-3-integrity",
+        "result": "passed",
+        "detail": "27 consecutive pages; source fingerprint unchanged"
+      },
+      {
+        "check": "chapter-3-section-coverage",
+        "result": "passed",
+        "detail": "All 21 numbered subsections mapped; page ranges in chapter bounds"
+      },
+      {
+        "check": "chapter-4-integrity",
+        "result": "passed",
+        "detail": "60 consecutive pages; source fingerprint unchanged"
+      },
+      {
+        "check": "chapter-4-section-coverage",
+        "result": "passed",
+        "detail": "All 37 numbered subsections mapped; page ranges in chapter bounds"
+      },
+      {
+        "check": "chapter-5-integrity",
+        "result": "passed",
+        "detail": "43 consecutive pages; source fingerprint unchanged"
+      },
+      {
+        "check": "chapter-5-section-coverage",
+        "result": "passed",
+        "detail": "All 37 numbered subsections mapped; page ranges in chapter bounds"
+      },
+      {
+        "check": "coverage-counts",
+        "result": "passed",
+        "detail": "5 chapters, 142 pages, 112 numbered subsections including all 45 top-level subsections"
+      },
+      {
+        "check": "operational-mapping",
+        "result": "passed",
+        "detail": "110 operational numbered subsections mapped; welcome and external-learning promotion classified non-operational"
+      },
+      {
+        "check": "key-distinction-presence-smoke",
+        "result": "passed",
+        "detail": "31 source-derived key distinctions present; text-presence smoke check, not behavior validation"
+      },
+      {
+        "check": "whitespace-workspace-browser-files.md",
+        "result": "passed",
+        "detail": "No git whitespace diagnostics or trailing whitespace; newline at EOF. --no-index status 1 denotes the new-file difference."
+      },
+      {
+        "check": "whitespace-workspace.json",
+        "result": "passed",
+        "detail": "No git whitespace diagnostics or trailing whitespace; newline at EOF. --no-index status 1 denotes the new-file difference."
+      },
+      {
+        "check": "evaluation-isolation",
+        "result": "passed",
+        "detail": "Only existing planning cases consulted; holdouts not opened or modified by this worker"
+      }
+    ],
+    "passed": 21,
+    "failed": 0,
+    "scope": "Static document/evidence checks only; no Live actions/listening or behavior evaluation",
+    "diff_review": "Both paths are new files; full runtime contents and scoped additions/statistics reviewed, with whitespace checks on both additions.",
+    "harness_correction": "The initial run assumed git diff --no-index --check returns 0 for new files. It returned 1 with no diagnostics. Investigation confirmed clean whitespace and newline EOF; final checks distinguish expected difference status 1 from whitespace diagnostics and also check whitespace directly. No artifact defect was found or bypassed."
+  }
+}

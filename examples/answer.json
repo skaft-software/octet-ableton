@@ -1,0 +1,21 @@
+{
+  "dry_run": true,
+  "actions": [
+    {"op": "create_midi_track", "name": "Answer", "ref": "answer", "volume": 0.6},
+    {"op": "load_device_or_preset", "track_ref": "answer", "query": "Operator", "root": "instruments"},
+    {"op": "load_device_or_preset", "track_ref": "answer", "query": "Redux", "root": "audio_effects"},
+    {
+      "op": "write_arrangement_midi_clip", "track_ref": "answer",
+      "name": "Little response", "start_bar": 6, "length_bars": 2,
+      "notes": [
+        {"pitch": 54, "start_beat": 2.0, "duration_beats": 0.2, "velocity": 98},
+        {"pitch": 61, "start_beat": 2.75, "duration_beats": 0.2, "velocity": 77},
+        {"pitch": 57, "start_beat": 3.25, "duration_beats": 0.5, "velocity": 89},
+        {"pitch": 54, "start_beat": 6.0, "duration_beats": 0.2, "velocity": 102},
+        {"pitch": 66, "start_beat": 6.5, "duration_beats": 0.2, "velocity": 73},
+        {"pitch": 61, "start_beat": 7.25, "duration_beats": 0.5, "velocity": 86}
+      ]
+    },
+    {"op": "set_transport", "loop_start_bar": 6, "loop_length_bars": 2, "loop": true, "playhead_bar": 6}
+  ]
+}

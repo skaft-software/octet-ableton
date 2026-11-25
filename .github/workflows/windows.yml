@@ -1,0 +1,17 @@
+name: Windows compose-first smoke
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  smoke:
+    runs-on: windows-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --locked --python 3.12
+      - run: uv run ruff check .
+      - name: Launcher, setup, private token, MIDI and protocol fixtures (no Live)
+        env:
+          PYTHONPATH: tests
+        run: uv run python -m unittest test_extension.SetupTests.test_install_update_backup_and_private_token test_extension.ProcessSmoke test_bridge_client test_capture_control test_advanced_compose

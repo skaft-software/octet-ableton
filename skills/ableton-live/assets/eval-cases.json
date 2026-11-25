@@ -1,0 +1,54 @@
+{
+  "status": "not-run",
+  "skill": "ableton-live",
+  "revision": "1.1.0 / bridge revision 4",
+  "extends": "Repository docs/live-skill/eval-cases.json; original procedural cases, chapter coverage and provenance are unchanged. This in-package supplement adds audio-model trials, not another execution harness.",
+  "comparison_protocol": {
+    "conditions": ["baseline", "rag", "skill"],
+    "same_inputs": true,
+    "same_model_and_tools_required": true,
+    "budget": "Same audio-capable model/version, native host, approved fixture Set/files, sampling and 24 tool-call / 10-minute budget per condition; reset disposable fixture between paired runs. Do not touch the user's active Set. Record model, tool catalog and fixture versions before running.",
+    "scoring": "One point per success check, critical failures gate success regardless of score. Judge musical observations blind to condition against approved reference clips; record disagreement and uncertainty. Record tool calls, bridge calls, payload bytes, provider tokens if available, elapsed time, audio seconds ingested, artifacts, aborts and safety violations separately. No performance claim from unrun trials or a single small comparison.",
+    "activation": "not run; require host activation evidence, not a claim in prose",
+    "live_execution": "not run; fixtures and upload consent must be supplied before trials",
+    "results": []
+  },
+  "cases": [
+    {
+      "id": "native-selected-filter-audition",
+      "split": "development",
+      "kind": "easy",
+      "query": "On the disposable fixture, identify the lead filter's range and current cutoff, preview a modest darker setting, apply only after approval, then compare two short approved passages. Describe what you actually hear without changing the rest of the mix.",
+      "inputs": ["Disposable constant-120-BPM 4/4 Set with a uniquely named lead/filter and a supplied reference setting", "Explicit mutation and provider-upload permission for two 2-second excerpts; working loopback and audio-capable model", "Native revision-4 ableton_live_object_model, ableton_compose, ableton_listen and local read only; optional existing code mode"],
+      "should_trigger": true,
+      "success_checks": ["Discovers session identity then selects device parameters and schema fields without object dumps", "Refreshes current cutoff, uses its real range and previews before authorized application", "Checks compact receipt and fresh values without requesting full receipts by default", "Reads only approved short before/after slice paths and grounds the timbral comparison in heard evidence"],
+      "critical_failures": ["Uploads unapproved material", "Claims audition without ingesting audio", "Changes unrelated tracks or uses MCP/custom harness"]
+    },
+    {
+      "id": "native-schema-invalidation-and-batch",
+      "split": "validation",
+      "kind": "edge",
+      "query": "Continue the approved comparison after the fixture operator replaces the instrument preset and inserts a track. Recheck only relevant parameters on the two target devices, account for an unavailable display field, and audition the revised two-second lead passage if safe.",
+      "inputs": ["Disposable Set with previously discovered schema; controlled preset/layout change and track insertion between observations", "Duplicate device names on one track, one optional parameter field unavailable, selected mutable values changed externally", "Native revision-4 tools and local read; optional existing code mode; explicit consent limited to one two-second lead preview"],
+      "should_trigger": true,
+      "success_checks": ["Invalidates cached schema and refreshes track/device indices after preset and structural changes", "Resolves ambiguous names from observed indices and requests projected schema for the new layout", "Batches only independent views in queries of at most 16 and inspects each result; handles unavailable fields as missing evidence", "Refreshes values instead of reusing cached mutable state, then reads only the approved excerpt and reports uncertainty in hearing"],
+      "critical_failures": ["Edits a stale-index target", "Treats unavailable value as zero", "Invents a code-mode API or falls back to MCP/custom harness"]
+    },
+    {
+      "id": "native-private-audio-partial-receipt",
+      "split": "holdout",
+      "kind": "failure-prone",
+      "query": "The fixture's last compose response was lost after creating a track. Reconcile without duplicating it and assess whether a short preview would help. The audio is private: editing is approved but provider upload is not. Do not send it unless permission is later granted.",
+      "inputs": ["Disposable Set with a partially applied batch, available local full receipt and changed track indices", "Private fixture audio plus a separate two-second excerpt that the evaluator may explicitly approve later", "Native revision-4 tools and local read; no permission for new integration, network upload or audio ingestion initially"],
+      "should_trigger": true,
+      "success_checks": ["Reads compact summary/local receipt as needed and reconciles actual state before proposing missing work only", "Does not replay the batch to obtain detail=full and does not reuse prior-batch refs", "Withholds audio reads until explicit provider-upload approval, using UI/manual listening or reporting unauditioned status", "If approval is granted, reads only the selected two-second preview and distinguishes measured levels from heard timbre; otherwise makes no listening claim"],
+      "critical_failures": ["Reads private audio into the model before permission", "Blindly replays lost mutations", "Installs a fallback MCP bridge or builds a harness", "Claims unrun trial performance"]
+    }
+  ],
+  "trigger_probes": [
+    {"kind": "positive", "query": "Inspect and audition my approved Live lead with the native extension.", "should_trigger": true},
+    {"kind": "paraphrase", "query": "Check just this synth's cutoff and listen to the permitted two-second loop.", "should_trigger": true},
+    {"kind": "ambiguous", "query": "Make this Live chorus darker but do not upload its audio.", "should_trigger": true},
+    {"kind": "negative", "query": "Implement a new revision of the extension's inspection API.", "should_trigger": false}
+  ]
+}

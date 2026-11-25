@@ -1,0 +1,3961 @@
+{
+  "schema_version": 1,
+  "artifact_id": "live12-performance-distillation",
+  "reference_path": "skills/ableton-live/references/performance-troubleshooting.md",
+  "reference_sha256": "af12f7c6e293a3a91e193515527182298b35f5bd0bd732af99bbdde18e5d13d2",
+  "source": {
+    "title": "Ableton Live 12 Manual",
+    "owner": "Ableton AG",
+    "version": "12",
+    "copyright_year": 2026,
+    "format": "private PDF-derived text with exact PDF page headers",
+    "private_extraction_root": "private-extraction:",
+    "manifest_path": "private-extraction:/chapters.json",
+    "rights": "Source retained privately. Runtime uses original procedural wording, factual values and UI names; source publication is not redistributed."
+  },
+  "scope": {
+    "chapters": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43
+    ],
+    "pdf_page_range": [
+      874,
+      1039
+    ],
+    "pages_read_count": 166,
+    "top_level_numbered_subsections": 83,
+    "all_numbered_subsections": 193,
+    "text_read_completely": true,
+    "rendered_diagrams_inspected": false,
+    "only_owned_documentation_paths_written": true
+  },
+  "provenance_rules": {
+    "page_ranges": "Inclusive PDF-page bounds. Adjacent sections can share a boundary page; parent sections include children.",
+    "source_status": "Technical control behavior, numeric facts and historical test figures source-derived, not worker measurements.",
+    "synthesis_status": "Goal routing, authorization/preflight, reversible-work advice, comparison checkpoints and recovery checklist are verification/safety synthesis.",
+    "execution_status": "No Live, Push, listening, audio render, benchmark or extension execution.",
+    "heading_resolution": "Each section runtime_anchors entry resolves against reference_heading_map within reference_path."
+  },
+  "reference_heading_map": [
+    {
+      "heading": "Scope and preflight",
+      "anchor": "scope-and-preflight",
+      "line": 19
+    },
+    {
+      "heading": "Push setup and browsing",
+      "anchor": "push-setup-and-browsing",
+      "line": 25
+    },
+    {
+      "heading": "Push pads, beats, and pitch",
+      "anchor": "push-pads-beats-and-pitch",
+      "line": 38
+    },
+    {
+      "heading": "Push recording, loops, and note editing",
+      "anchor": "push-recording-loops-and-note-editing",
+      "line": 58
+    },
+    {
+      "heading": "Push workflow, devices, mixing, and automation",
+      "anchor": "push-workflow-devices-mixing-and-automation",
+      "line": 75
+    },
+    {
+      "heading": "Push Session performance and preferences",
+      "anchor": "push-session-performance-and-preferences",
+      "line": 96
+    },
+    {
+      "heading": "Push 2 sampling and conversion",
+      "anchor": "push-2-sampling-and-conversion",
+      "line": 108
+    },
+    {
+      "heading": "Synchronizing a performance",
+      "anchor": "synchronizing-a-performance",
+      "line": 128
+    },
+    {
+      "heading": "CPU, disk, and freezing",
+      "anchor": "cpu-disk-and-freezing",
+      "line": 147
+    },
+    {
+      "heading": "Preserving signal integrity",
+      "anchor": "preserving-signal-integrity",
+      "line": 163
+    },
+    {
+      "heading": "Diagnosing MIDI timing",
+      "anchor": "diagnosing-midi-timing",
+      "line": 180
+    },
+    {
+      "heading": "Accessible navigation and editing",
+      "anchor": "accessible-navigation-and-editing",
+      "line": 193
+    },
+    {
+      "heading": "Keyboard command atlas",
+      "anchor": "keyboard-command-atlas",
+      "line": 208
+    },
+    {
+      "heading": "Verification and recovery",
+      "anchor": "verification-and-recovery",
+      "line": 241
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 35,
+      "title": "Using Push 1",
+      "page_range": [
+        874,
+        913
+      ],
+      "extraction_path": "private-extraction:/35.txt",
+      "sha256": "92706f5b942999513928648b68ee17482c896ea31a07d32afddba67268ffbebd",
+      "line_count": 1501,
+      "pages_read": [
+        874,
+        875,
+        876,
+        877,
+        878,
+        879,
+        880,
+        881,
+        882,
+        883,
+        884,
+        885,
+        886,
+        887,
+        888,
+        889,
+        890,
+        891,
+        892,
+        893,
+        894,
+        895,
+        896,
+        897,
+        898,
+        899,
+        900,
+        901,
+        902,
+        903,
+        904,
+        905,
+        906,
+        907,
+        908,
+        909,
+        910,
+        911,
+        912,
+        913
+      ],
+      "read_status": "Every text line read without truncation; embedded diagrams not rendered.",
+      "intro": {
+        "page_range": [
+          874,
+          874
+        ],
+        "status": "non-operational introductory context",
+        "runtime_anchors": [
+          "scope-and-preflight"
+        ]
+      },
+      "sections": [
+        {
+          "section_id": "35.1",
+          "title": "Setup",
+          "extraction_line": 26,
+          "page_range": [
+            874,
+            875
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-setup-and-browsing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.2",
+          "title": "Browsing and Loading Sounds",
+          "extraction_line": 42,
+          "page_range": [
+            875,
+            876
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-setup-and-browsing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.3",
+          "title": "Playing and Programming Beats",
+          "extraction_line": 98,
+          "page_range": [
+            876,
+            884
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-setup-and-browsing",
+            "push-pads-beats-and-pitch",
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": [
+            "P01"
+          ]
+        },
+        {
+          "section_id": "35.3.1",
+          "title": "Loop Selector",
+          "extraction_line": 118,
+          "page_range": [
+            877,
+            878
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-pads-beats-and-pitch"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.3.2",
+          "title": "16 Velocities Mode",
+          "extraction_line": 156,
+          "page_range": [
+            878,
+            878
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-pads-beats-and-pitch"
+          ],
+          "gaps_or_unverified_claims": [
+            "P01"
+          ]
+        },
+        {
+          "section_id": "35.3.3",
+          "title": "64-Pad Mode",
+          "extraction_line": 168,
+          "page_range": [
+            878,
+            878
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-pads-beats-and-pitch"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.3.4",
+          "title": "Loading Individual Drums",
+          "extraction_line": 186,
+          "page_range": [
+            878,
+            879
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-setup-and-browsing",
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.3.4.1",
+          "title": "Additional Pad Options for Push 1",
+          "extraction_line": 213,
+          "page_range": [
+            879,
+            879
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.3.5",
+          "title": "Step Sequencing Beats",
+          "extraction_line": 222,
+          "page_range": [
+            879,
+            882
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-pads-beats-and-pitch",
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.3.6",
+          "title": "Real-time Recording",
+          "extraction_line": 296,
+          "page_range": [
+            882,
+            883
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-recording-loops-and-note-editing",
+            "push-workflow-devices-mixing-and-automation"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.3.7",
+          "title": "Fixed Length Recording",
+          "extraction_line": 337,
+          "page_range": [
+            883,
+            884
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.4",
+          "title": "Additional Recording Options",
+          "extraction_line": 365,
+          "page_range": [
+            884,
+            886
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.4.1",
+          "title": "Recording with Repeat",
+          "extraction_line": 367,
+          "page_range": [
+            884,
+            885
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.4.2",
+          "title": "Quantizing",
+          "extraction_line": 396,
+          "page_range": [
+            885,
+            886
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.5",
+          "title": "Playing Melodies and Harmonies",
+          "extraction_line": 433,
+          "page_range": [
+            886,
+            889
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-pads-beats-and-pitch"
+          ],
+          "gaps_or_unverified_claims": [
+            "P02"
+          ]
+        },
+        {
+          "section_id": "35.5.1",
+          "title": "Playing in Other Keys",
+          "extraction_line": 489,
+          "page_range": [
+            888,
+            889
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-pads-beats-and-pitch"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.6",
+          "title": "Step Sequencing Melodies and Harmonies",
+          "extraction_line": 554,
+          "page_range": [
+            889,
+            892
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-pads-beats-and-pitch",
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.6.1",
+          "title": "Adjusting the Loop Length",
+          "extraction_line": 605,
+          "page_range": [
+            891,
+            892
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-pads-beats-and-pitch",
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.7",
+          "title": "Melodic Sequencer + 32 Notes",
+          "extraction_line": 654,
+          "page_range": [
+            892,
+            893
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-pads-beats-and-pitch",
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.7.1",
+          "title": "32 Notes",
+          "extraction_line": 661,
+          "page_range": [
+            892,
+            893
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-pads-beats-and-pitch",
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.7.2",
+          "title": "Sequencer",
+          "extraction_line": 688,
+          "page_range": [
+            893,
+            893
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-pads-beats-and-pitch",
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.8",
+          "title": "Navigating in Note Mode",
+          "extraction_line": 728,
+          "page_range": [
+            893,
+            894
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-workflow-devices-mixing-and-automation"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.9",
+          "title": "Controlling Live’s Instruments and Effects",
+          "extraction_line": 762,
+          "page_range": [
+            894,
+            895
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-workflow-devices-mixing-and-automation"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.10",
+          "title": "Mixing with Push 1",
+          "extraction_line": 799,
+          "page_range": [
+            895,
+            897
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-workflow-devices-mixing-and-automation"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.11",
+          "title": "Recording Automation",
+          "extraction_line": 845,
+          "page_range": [
+            897,
+            898
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-workflow-devices-mixing-and-automation"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.12",
+          "title": "Step Sequencing Automation",
+          "extraction_line": 880,
+          "page_range": [
+            898,
+            899
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-recording-loops-and-note-editing",
+            "push-workflow-devices-mixing-and-automation"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.12.1",
+          "title": "Note-Specific Parameters",
+          "extraction_line": 889,
+          "page_range": [
+            898,
+            899
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.12.2",
+          "title": "Per-Step Automation",
+          "extraction_line": 942,
+          "page_range": [
+            899,
+            899
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-workflow-devices-mixing-and-automation"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.13",
+          "title": "Controlling Live’s Session View",
+          "extraction_line": 953,
+          "page_range": [
+            899,
+            901
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-session-performance-and-preferences"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.13.1",
+          "title": "Session Overview",
+          "extraction_line": 1004,
+          "page_range": [
+            900,
+            901
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-session-performance-and-preferences"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.14",
+          "title": "Setting User Preferences",
+          "extraction_line": 1031,
+          "page_range": [
+            901,
+            903
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-session-performance-and-preferences"
+          ],
+          "gaps_or_unverified_claims": [
+            "P11"
+          ]
+        },
+        {
+          "section_id": "35.15",
+          "title": "Push 1 Control Reference",
+          "extraction_line": 1111,
+          "page_range": [
+            903,
+            913
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-setup-and-browsing",
+            "push-pads-beats-and-pitch",
+            "push-recording-loops-and-note-editing",
+            "push-workflow-devices-mixing-and-automation",
+            "push-session-performance-and-preferences"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.15.0.1",
+          "title": "Focus/Navigation Section",
+          "extraction_line": 1115,
+          "page_range": [
+            903,
+            904
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-pads-beats-and-pitch",
+            "push-session-performance-and-preferences",
+            "push-workflow-devices-mixing-and-automation"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.15.0.2",
+          "title": "Add Section",
+          "extraction_line": 1150,
+          "page_range": [
+            904,
+            905
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-setup-and-browsing",
+            "push-workflow-devices-mixing-and-automation"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.15.0.3",
+          "title": "Note Section",
+          "extraction_line": 1174,
+          "page_range": [
+            905,
+            906
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-pads-beats-and-pitch",
+            "push-recording-loops-and-note-editing",
+            "push-setup-and-browsing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.15.0.4",
+          "title": "State Control Section",
+          "extraction_line": 1219,
+          "page_range": [
+            906,
+            906
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-session-performance-and-preferences",
+            "push-workflow-devices-mixing-and-automation"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.15.0.5",
+          "title": "Selection Control Section",
+          "extraction_line": 1233,
+          "page_range": [
+            906,
+            906
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-setup-and-browsing",
+            "push-workflow-devices-mixing-and-automation"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.15.0.6",
+          "title": "Display/Encoder Section",
+          "extraction_line": 1246,
+          "page_range": [
+            906,
+            908
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-workflow-devices-mixing-and-automation"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.15.0.7",
+          "title": "Tempo Section",
+          "extraction_line": 1328,
+          "page_range": [
+            908,
+            909
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-session-performance-and-preferences",
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.15.0.8",
+          "title": "Edit Section",
+          "extraction_line": 1354,
+          "page_range": [
+            909,
+            910
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-recording-loops-and-note-editing",
+            "push-workflow-devices-mixing-and-automation"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.15.0.9",
+          "title": "Transport Section",
+          "extraction_line": 1384,
+          "page_range": [
+            910,
+            911
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-recording-loops-and-note-editing",
+            "push-workflow-devices-mixing-and-automation"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.15.0.10",
+          "title": "Touch Strip",
+          "extraction_line": 1425,
+          "page_range": [
+            911,
+            912
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-pads-beats-and-pitch"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.15.0.11",
+          "title": "Pad Section",
+          "extraction_line": 1448,
+          "page_range": [
+            912,
+            913
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-pads-beats-and-pitch"
+          ],
+          "gaps_or_unverified_claims": [
+            "P01"
+          ]
+        },
+        {
+          "section_id": "35.15.0.12",
+          "title": "Scene/Grid Section",
+          "extraction_line": 1472,
+          "page_range": [
+            913,
+            913
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-pads-beats-and-pitch",
+            "push-session-performance-and-preferences"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "35.15.0.13",
+          "title": "Using Footswitches with Push 1",
+          "extraction_line": 1486,
+          "page_range": [
+            913,
+            913
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-session-performance-and-preferences"
+          ],
+          "gaps_or_unverified_claims": []
+        }
+      ]
+    },
+    {
+      "chapter": 36,
+      "title": "Using Push 2",
+      "page_range": [
+        914,
+        972
+      ],
+      "extraction_path": "private-extraction:/36.txt",
+      "sha256": "d1495cf061cb51c4ae3256569976b7aaf5275d90d9872d7525414c1a627c3f06",
+      "line_count": 2135,
+      "pages_read": [
+        914,
+        915,
+        916,
+        917,
+        918,
+        919,
+        920,
+        921,
+        922,
+        923,
+        924,
+        925,
+        926,
+        927,
+        928,
+        929,
+        930,
+        931,
+        932,
+        933,
+        934,
+        935,
+        936,
+        937,
+        938,
+        939,
+        940,
+        941,
+        942,
+        943,
+        944,
+        945,
+        946,
+        947,
+        948,
+        949,
+        950,
+        951,
+        952,
+        953,
+        954,
+        955,
+        956,
+        957,
+        958,
+        959,
+        960,
+        961,
+        962,
+        963,
+        964,
+        965,
+        966,
+        967,
+        968,
+        969,
+        970,
+        971,
+        972
+      ],
+      "read_status": "Every text line read without truncation; embedded diagrams not rendered.",
+      "intro": {
+        "page_range": [
+          914,
+          914
+        ],
+        "status": "non-operational introductory context",
+        "runtime_anchors": [
+          "scope-and-preflight"
+        ]
+      },
+      "sections": [
+        {
+          "section_id": "36.1",
+          "title": "Setup",
+          "extraction_line": 27,
+          "page_range": [
+            915,
+            915
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-setup-and-browsing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.2",
+          "title": "Browsing and Loading Sounds",
+          "extraction_line": 41,
+          "page_range": [
+            915,
+            918
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-setup-and-browsing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.3",
+          "title": "Playing and Programming Beats",
+          "extraction_line": 117,
+          "page_range": [
+            918,
+            930
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-setup-and-browsing",
+            "push-pads-beats-and-pitch",
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.3.1",
+          "title": "Loop Selector",
+          "extraction_line": 139,
+          "page_range": [
+            918,
+            920
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-pads-beats-and-pitch"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.3.2",
+          "title": "16 Velocities Mode",
+          "extraction_line": 185,
+          "page_range": [
+            920,
+            920
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-pads-beats-and-pitch"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.3.3",
+          "title": "64-Pad Mode",
+          "extraction_line": 202,
+          "page_range": [
+            920,
+            921
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-pads-beats-and-pitch"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.3.4",
+          "title": "Loading Individual Drums",
+          "extraction_line": 220,
+          "page_range": [
+            921,
+            924
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-setup-and-browsing",
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.3.4.1",
+          "title": "Additional Pad Options for Push 2",
+          "extraction_line": 268,
+          "page_range": [
+            922,
+            924
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-recording-loops-and-note-editing",
+            "push-session-performance-and-preferences"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.3.5",
+          "title": "Step Sequencing Beats",
+          "extraction_line": 310,
+          "page_range": [
+            924,
+            927
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-pads-beats-and-pitch",
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.3.6",
+          "title": "Real-time Recording",
+          "extraction_line": 381,
+          "page_range": [
+            927,
+            929
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-recording-loops-and-note-editing",
+            "push-workflow-devices-mixing-and-automation"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.3.7",
+          "title": "Fixed Length Recording",
+          "extraction_line": 453,
+          "page_range": [
+            929,
+            930
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.4",
+          "title": "Additional Recording Options",
+          "extraction_line": 490,
+          "page_range": [
+            930,
+            932
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.4.1",
+          "title": "Recording with Repeat",
+          "extraction_line": 492,
+          "page_range": [
+            930,
+            931
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.4.2",
+          "title": "Quantizing",
+          "extraction_line": 521,
+          "page_range": [
+            931,
+            932
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": [
+            "P04"
+          ]
+        },
+        {
+          "section_id": "36.4.3",
+          "title": "Arrangement Recording",
+          "extraction_line": 558,
+          "page_range": [
+            932,
+            932
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.5",
+          "title": "Playing Melodies and Harmonies",
+          "extraction_line": 571,
+          "page_range": [
+            932,
+            936
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-setup-and-browsing",
+            "push-pads-beats-and-pitch"
+          ],
+          "gaps_or_unverified_claims": [
+            "P02"
+          ]
+        },
+        {
+          "section_id": "36.5.1",
+          "title": "Playing in Other Keys",
+          "extraction_line": 647,
+          "page_range": [
+            935,
+            936
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-setup-and-browsing",
+            "push-pads-beats-and-pitch"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.6",
+          "title": "Step Sequencing Melodies and Harmonies",
+          "extraction_line": 711,
+          "page_range": [
+            936,
+            939
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-pads-beats-and-pitch",
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.6.1",
+          "title": "Adjusting the Loop Length",
+          "extraction_line": 757,
+          "page_range": [
+            938,
+            939
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-pads-beats-and-pitch",
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.7",
+          "title": "Melodic Sequencer + 32 Notes",
+          "extraction_line": 816,
+          "page_range": [
+            939,
+            942
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-pads-beats-and-pitch",
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.7.1",
+          "title": "32 Notes",
+          "extraction_line": 832,
+          "page_range": [
+            940,
+            940
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-pads-beats-and-pitch",
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.7.2",
+          "title": "Sequencer",
+          "extraction_line": 857,
+          "page_range": [
+            940,
+            942
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-pads-beats-and-pitch",
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.8",
+          "title": "Working with Samples",
+          "extraction_line": 922,
+          "page_range": [
+            942,
+            948
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-2-sampling-and-conversion"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.8.1",
+          "title": "Classic Playback Mode",
+          "extraction_line": 982,
+          "page_range": [
+            943,
+            944
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-2-sampling-and-conversion"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.8.2",
+          "title": "One-Shot Mode",
+          "extraction_line": 1030,
+          "page_range": [
+            944,
+            946
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-2-sampling-and-conversion"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.8.2.1",
+          "title": "Legato Playback",
+          "extraction_line": 1060,
+          "page_range": [
+            945,
+            946
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-2-sampling-and-conversion"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.8.3",
+          "title": "Slicing Mode",
+          "extraction_line": 1082,
+          "page_range": [
+            946,
+            948
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-2-sampling-and-conversion"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.9",
+          "title": "Navigating in Note Mode",
+          "extraction_line": 1154,
+          "page_range": [
+            948,
+            949
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-workflow-devices-mixing-and-automation"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.10",
+          "title": "Working With Instruments and Effects",
+          "extraction_line": 1200,
+          "page_range": [
+            949,
+            954
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-workflow-devices-mixing-and-automation"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.10.1",
+          "title": "Adding, Deleting, and Reordering Devices",
+          "extraction_line": 1251,
+          "page_range": [
+            951,
+            952
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-workflow-devices-mixing-and-automation"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.10.2",
+          "title": "Working with Racks",
+          "extraction_line": 1297,
+          "page_range": [
+            952,
+            954
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-workflow-devices-mixing-and-automation"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.11",
+          "title": "Track Control And Mixing",
+          "extraction_line": 1351,
+          "page_range": [
+            954,
+            957
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-workflow-devices-mixing-and-automation"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.11.1",
+          "title": "Rack and Group Track Mixing",
+          "extraction_line": 1422,
+          "page_range": [
+            956,
+            957
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-workflow-devices-mixing-and-automation"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.12",
+          "title": "Recording Automation",
+          "extraction_line": 1452,
+          "page_range": [
+            957,
+            958
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-workflow-devices-mixing-and-automation"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.13",
+          "title": "Step Sequencing Automation",
+          "extraction_line": 1487,
+          "page_range": [
+            958,
+            959
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-workflow-devices-mixing-and-automation"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.14",
+          "title": "Clip Mode",
+          "extraction_line": 1509,
+          "page_range": [
+            959,
+            963
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-workflow-devices-mixing-and-automation",
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.14.1",
+          "title": "Using MIDI Tracks in Clip Mode",
+          "extraction_line": 1569,
+          "page_range": [
+            961,
+            961
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-workflow-devices-mixing-and-automation",
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.14.2",
+          "title": "Real-Time Playing Layouts",
+          "extraction_line": 1581,
+          "page_range": [
+            961,
+            961
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-workflow-devices-mixing-and-automation",
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.14.3",
+          "title": "Sequencing Layouts",
+          "extraction_line": 1594,
+          "page_range": [
+            961,
+            963
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-workflow-devices-mixing-and-automation",
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.14.3.1",
+          "title": "Melodic Sequencer",
+          "extraction_line": 1623,
+          "page_range": [
+            962,
+            962
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-workflow-devices-mixing-and-automation",
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.14.3.2",
+          "title": "Melodic Sequencer + 32 Notes",
+          "extraction_line": 1630,
+          "page_range": [
+            962,
+            963
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-workflow-devices-mixing-and-automation",
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.14.4",
+          "title": "Note-Specific Parameters",
+          "extraction_line": 1655,
+          "page_range": [
+            963,
+            963
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-recording-loops-and-note-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.15",
+          "title": "Controlling Live’s Session View",
+          "extraction_line": 1690,
+          "page_range": [
+            963,
+            966
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-session-performance-and-preferences"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.15.1",
+          "title": "Session Overview",
+          "extraction_line": 1770,
+          "page_range": [
+            965,
+            966
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-session-performance-and-preferences"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "36.16",
+          "title": "Setup Menu",
+          "extraction_line": 1798,
+          "page_range": [
+            966,
+            967
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-session-performance-and-preferences"
+          ],
+          "gaps_or_unverified_claims": [
+            "P11"
+          ]
+        },
+        {
+          "section_id": "36.17",
+          "title": "Push 2 Control Reference",
+          "extraction_line": 1868,
+          "page_range": [
+            967,
+            972
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-setup-and-browsing",
+            "push-pads-beats-and-pitch",
+            "push-recording-loops-and-note-editing",
+            "push-workflow-devices-mixing-and-automation",
+            "push-session-performance-and-preferences",
+            "push-2-sampling-and-conversion"
+          ],
+          "gaps_or_unverified_claims": [
+            "P04"
+          ]
+        },
+        {
+          "section_id": "36.17.0.1",
+          "title": "Using Footswitches with Push 2",
+          "extraction_line": 2120,
+          "page_range": [
+            972,
+            972
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "push-session-performance-and-preferences"
+          ],
+          "gaps_or_unverified_claims": []
+        }
+      ]
+    },
+    {
+      "chapter": 37,
+      "title": "Synchronizing with Link, Tempo Follower, and MIDI",
+      "page_range": [
+        973,
+        981
+      ],
+      "extraction_path": "private-extraction:/37.txt",
+      "sha256": "d0af80cffed7e01e899e426923323278d225d79e3ab7638fbb3e3d46b6e4c6f5",
+      "line_count": 339,
+      "pages_read": [
+        973,
+        974,
+        975,
+        976,
+        977,
+        978,
+        979,
+        980,
+        981
+      ],
+      "read_status": "Every text line read without truncation; embedded diagrams not rendered.",
+      "intro": {
+        "page_range": [
+          973,
+          973
+        ],
+        "status": "non-operational introductory context",
+        "runtime_anchors": [
+          "scope-and-preflight"
+        ]
+      },
+      "sections": [
+        {
+          "section_id": "37.1",
+          "title": "Synchronizing via Link",
+          "extraction_line": 15,
+          "page_range": [
+            973,
+            978
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "synchronizing-a-performance"
+          ],
+          "gaps_or_unverified_claims": [
+            "P09"
+          ]
+        },
+        {
+          "section_id": "37.1.1",
+          "title": "Setting up Link and Link Audio",
+          "extraction_line": 33,
+          "page_range": [
+            973,
+            976
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "synchronizing-a-performance"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "37.1.2",
+          "title": "Using Link",
+          "extraction_line": 108,
+          "page_range": [
+            976,
+            976
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "synchronizing-a-performance"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "37.1.3",
+          "title": "Using Link Audio",
+          "extraction_line": 145,
+          "page_range": [
+            976,
+            978
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "synchronizing-a-performance"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "37.2",
+          "title": "Synchronizing via Tempo Follower",
+          "extraction_line": 180,
+          "page_range": [
+            978,
+            979
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "synchronizing-a-performance"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "37.2.1",
+          "title": "Setting Up Tempo Follower",
+          "extraction_line": 190,
+          "page_range": [
+            978,
+            979
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "synchronizing-a-performance"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "37.3",
+          "title": "Synchronizing via MIDI",
+          "extraction_line": 232,
+          "page_range": [
+            979,
+            981
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "synchronizing-a-performance"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "37.3.1",
+          "title": "Synchronizing External MIDI Devices to Live",
+          "extraction_line": 254,
+          "page_range": [
+            979,
+            980
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "synchronizing-a-performance"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "37.3.2",
+          "title": "Synchronizing Live to External MIDI Devices",
+          "extraction_line": 273,
+          "page_range": [
+            980,
+            981
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "synchronizing-a-performance"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "37.3.2.1",
+          "title": "MIDI Timecode Options",
+          "extraction_line": 300,
+          "page_range": [
+            980,
+            981
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "synchronizing-a-performance"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "37.3.3",
+          "title": "Sync Delay",
+          "extraction_line": 322,
+          "page_range": [
+            981,
+            981
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "synchronizing-a-performance"
+          ],
+          "gaps_or_unverified_claims": []
+        }
+      ]
+    },
+    {
+      "chapter": 38,
+      "title": "Computer Audio Resources and Strategies",
+      "page_range": [
+        982,
+        988
+      ],
+      "extraction_path": "private-extraction:/38.txt",
+      "sha256": "9447197da8c4ee2894cbeaba8031862160f000da3e8ffb4541464e69c314b8c9",
+      "line_count": 287,
+      "pages_read": [
+        982,
+        983,
+        984,
+        985,
+        986,
+        987,
+        988
+      ],
+      "read_status": "Every text line read without truncation; embedded diagrams not rendered.",
+      "intro": {
+        "page_range": [
+          982,
+          982
+        ],
+        "status": "non-operational introductory context",
+        "runtime_anchors": [
+          "scope-and-preflight"
+        ]
+      },
+      "sections": [
+        {
+          "section_id": "38.1",
+          "title": "Managing the CPU Load",
+          "extraction_line": 13,
+          "page_range": [
+            982,
+            987
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "cpu-disk-and-freezing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "38.1.1",
+          "title": "The CPU Load Meter",
+          "extraction_line": 33,
+          "page_range": [
+            982,
+            984
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "cpu-disk-and-freezing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "38.1.2",
+          "title": "CPU Load from Multichannel Audio",
+          "extraction_line": 95,
+          "page_range": [
+            984,
+            984
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "cpu-disk-and-freezing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "38.1.3",
+          "title": "CPU Load from Tracks and Devices",
+          "extraction_line": 106,
+          "page_range": [
+            984,
+            985
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "cpu-disk-and-freezing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "38.1.4",
+          "title": "Track Freeze",
+          "extraction_line": 144,
+          "page_range": [
+            985,
+            987
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "cpu-disk-and-freezing",
+            "preserving-signal-integrity"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "38.2",
+          "title": "Managing the Disk Load",
+          "extraction_line": 238,
+          "page_range": [
+            987,
+            988
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "cpu-disk-and-freezing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "38.3",
+          "title": "The Overload Indicator",
+          "extraction_line": 264,
+          "page_range": [
+            988,
+            988
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "cpu-disk-and-freezing"
+          ],
+          "gaps_or_unverified_claims": []
+        }
+      ]
+    },
+    {
+      "chapter": 39,
+      "title": "Audio Fact Sheet",
+      "page_range": [
+        989,
+        996
+      ],
+      "extraction_path": "private-extraction:/39.txt",
+      "sha256": "d324ff17788efa2de950e7dcb5d1e7c71af1dc6581dece090638e09512a87e42",
+      "line_count": 394,
+      "pages_read": [
+        989,
+        990,
+        991,
+        992,
+        993,
+        994,
+        995,
+        996
+      ],
+      "read_status": "Every text line read without truncation; embedded diagrams not rendered.",
+      "intro": {
+        "page_range": [
+          989,
+          989
+        ],
+        "status": "non-operational introductory context",
+        "runtime_anchors": [
+          "scope-and-preflight"
+        ]
+      },
+      "sections": [
+        {
+          "section_id": "39.1",
+          "title": "Testing and Methodology",
+          "extraction_line": 19,
+          "page_range": [
+            989,
+            989
+          ],
+          "level": "top-level subsection",
+          "operational": false,
+          "status": "non-operational context",
+          "runtime_anchors": [
+            "preserving-signal-integrity"
+          ],
+          "disposition": "Producer testing methodology, not evidence that this worker ran tests; verification procedure is synthesis.",
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "39.2",
+          "title": "Neutral Operations",
+          "extraction_line": 27,
+          "page_range": [
+            989,
+            993
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "preserving-signal-integrity",
+            "cpu-disk-and-freezing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "39.2.1",
+          "title": "Undithered Rendering",
+          "extraction_line": 52,
+          "page_range": [
+            990,
+            990
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "preserving-signal-integrity",
+            "cpu-disk-and-freezing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "39.2.2",
+          "title": "Matching Sample Rate/No Transposition",
+          "extraction_line": 75,
+          "page_range": [
+            990,
+            990
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "preserving-signal-integrity",
+            "cpu-disk-and-freezing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "39.2.3",
+          "title": "Unstretched Beats/Tones/Texture/Re-Pitch Warping",
+          "extraction_line": 84,
+          "page_range": [
+            990,
+            991
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "preserving-signal-integrity",
+            "cpu-disk-and-freezing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "39.2.4",
+          "title": "Summing at Single Mix Points",
+          "extraction_line": 116,
+          "page_range": [
+            991,
+            991
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "preserving-signal-integrity",
+            "cpu-disk-and-freezing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "39.2.5",
+          "title": "Recording External Signals (Bit Depth >/= A/D Converter)",
+          "extraction_line": 131,
+          "page_range": [
+            991,
+            991
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "preserving-signal-integrity",
+            "cpu-disk-and-freezing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "39.2.6",
+          "title": "Recording Internal Sources at 32 Bit",
+          "extraction_line": 139,
+          "page_range": [
+            991,
+            992
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "preserving-signal-integrity",
+            "cpu-disk-and-freezing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "39.2.7",
+          "title": "Freezing Tracks",
+          "extraction_line": 156,
+          "page_range": [
+            992,
+            992
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "cpu-disk-and-freezing",
+            "preserving-signal-integrity"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "39.2.8",
+          "title": "Bypassed Effects",
+          "extraction_line": 187,
+          "page_range": [
+            992,
+            993
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "preserving-signal-integrity",
+            "cpu-disk-and-freezing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "39.2.9",
+          "title": "Routing",
+          "extraction_line": 207,
+          "page_range": [
+            993,
+            993
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "preserving-signal-integrity",
+            "cpu-disk-and-freezing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "39.2.10",
+          "title": "Splitting Clips",
+          "extraction_line": 218,
+          "page_range": [
+            993,
+            993
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "preserving-signal-integrity",
+            "cpu-disk-and-freezing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "39.3",
+          "title": "Non-Neutral Operations",
+          "extraction_line": 235,
+          "page_range": [
+            993,
+            996
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "preserving-signal-integrity"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "39.3.1",
+          "title": "Playback in Complex and Complex Pro Mode",
+          "extraction_line": 246,
+          "page_range": [
+            993,
+            994
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "preserving-signal-integrity"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "39.3.2",
+          "title": "Sample Rate Conversion/Transposition",
+          "extraction_line": 260,
+          "page_range": [
+            994,
+            994
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "preserving-signal-integrity"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "39.3.3",
+          "title": "Volume Automation",
+          "extraction_line": 279,
+          "page_range": [
+            994,
+            994
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "preserving-signal-integrity"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "39.3.4",
+          "title": "Dithering",
+          "extraction_line": 288,
+          "page_range": [
+            994,
+            994
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "preserving-signal-integrity"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "39.3.5",
+          "title": "Recording External Signals (Bit Depth < A/D Converter)",
+          "extraction_line": 301,
+          "page_range": [
+            994,
+            995
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "preserving-signal-integrity"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "39.3.6",
+          "title": "Recording Internal Sources Below 32 Bit",
+          "extraction_line": 312,
+          "page_range": [
+            995,
+            995
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "preserving-signal-integrity"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "39.3.7",
+          "title": "Consolidate",
+          "extraction_line": 323,
+          "page_range": [
+            995,
+            995
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "preserving-signal-integrity"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "39.3.8",
+          "title": "Clip Fades",
+          "extraction_line": 333,
+          "page_range": [
+            995,
+            995
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "preserving-signal-integrity"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "39.3.9",
+          "title": "Panning",
+          "extraction_line": 343,
+          "page_range": [
+            995,
+            995
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "preserving-signal-integrity"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "39.3.10",
+          "title": "Grooves",
+          "extraction_line": 352,
+          "page_range": [
+            995,
+            996
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "preserving-signal-integrity"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "39.4",
+          "title": "Tips for Achieving Optimal Sound Quality in Live",
+          "extraction_line": 363,
+          "page_range": [
+            996,
+            996
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "preserving-signal-integrity"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "39.5",
+          "title": "Conclusion",
+          "extraction_line": 385,
+          "page_range": [
+            996,
+            996
+          ],
+          "level": "top-level subsection",
+          "operational": false,
+          "status": "non-operational context",
+          "runtime_anchors": [
+            "preserving-signal-integrity"
+          ],
+          "disposition": "Conclusion and acknowledgment that the operation list is incomplete.",
+          "gaps_or_unverified_claims": []
+        }
+      ]
+    },
+    {
+      "chapter": 40,
+      "title": "MIDI Fact Sheet",
+      "page_range": [
+        997,
+        1002
+      ],
+      "extraction_path": "private-extraction:/40.txt",
+      "sha256": "19d54c4493c74a79f06abeffe5216999d1d27e32e4f10511ce6de0b29aa096ae",
+      "line_count": 242,
+      "pages_read": [
+        997,
+        998,
+        999,
+        1000,
+        1001,
+        1002
+      ],
+      "read_status": "Every text line read without truncation; embedded diagrams not rendered.",
+      "intro": {
+        "page_range": [
+          997,
+          997
+        ],
+        "status": "non-operational introductory context",
+        "runtime_anchors": [
+          "scope-and-preflight"
+        ]
+      },
+      "sections": [
+        {
+          "section_id": "40.1",
+          "title": "Ideal MIDI Behavior",
+          "extraction_line": 17,
+          "page_range": [
+            997,
+            998
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "diagnosing-midi-timing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "40.2",
+          "title": "MIDI Timing Problems",
+          "extraction_line": 42,
+          "page_range": [
+            998,
+            998
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "diagnosing-midi-timing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "40.3",
+          "title": "Live’s MIDI Solutions",
+          "extraction_line": 66,
+          "page_range": [
+            998,
+            999
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "diagnosing-midi-timing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "40.4",
+          "title": "Variables Outside of Live’s Control",
+          "extraction_line": 112,
+          "page_range": [
+            999,
+            1001
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "diagnosing-midi-timing"
+          ],
+          "gaps_or_unverified_claims": [
+            "P10",
+            "P12"
+          ]
+        },
+        {
+          "section_id": "40.5",
+          "title": "Tips for Achieving Optimal MIDI Performance",
+          "extraction_line": 201,
+          "page_range": [
+            1001,
+            1001
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "diagnosing-midi-timing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "40.6",
+          "title": "Summary and Conclusions",
+          "extraction_line": 221,
+          "page_range": [
+            1001,
+            1002
+          ],
+          "level": "top-level subsection",
+          "operational": false,
+          "status": "non-operational context",
+          "runtime_anchors": [
+            "diagnosing-midi-timing"
+          ],
+          "disposition": "Concluding recap; no additional operation.",
+          "gaps_or_unverified_claims": []
+        }
+      ]
+    },
+    {
+      "chapter": 41,
+      "title": "Accessibility and Keyboard Navigation",
+      "page_range": [
+        1003,
+        1013
+      ],
+      "extraction_path": "private-extraction:/41.txt",
+      "sha256": "651e0a6288d261791fca62cb8ce423089dc108f8815e7701fe16178f539fcdee",
+      "line_count": 534,
+      "pages_read": [
+        1003,
+        1004,
+        1005,
+        1006,
+        1007,
+        1008,
+        1009,
+        1010,
+        1011,
+        1012,
+        1013
+      ],
+      "read_status": "Every text line read without truncation; embedded diagrams not rendered.",
+      "intro": {
+        "page_range": [
+          1003,
+          1003
+        ],
+        "status": "operational accessibility limitations",
+        "runtime_anchors": [
+          "accessible-navigation-and-editing"
+        ]
+      },
+      "sections": [
+        {
+          "section_id": "41.1",
+          "title": "Menu and Keyboard Navigation Settings",
+          "extraction_line": 26,
+          "page_range": [
+            1003,
+            1005
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "41.1.1",
+          "title": "Using Tab for Navigation",
+          "extraction_line": 35,
+          "page_range": [
+            1003,
+            1004
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "41.1.2",
+          "title": "Settings Menu",
+          "extraction_line": 73,
+          "page_range": [
+            1004,
+            1005
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "41.1.3",
+          "title": "Options Menu",
+          "extraction_line": 101,
+          "page_range": [
+            1005,
+            1005
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "41.1.4",
+          "title": "Speak Help Text",
+          "extraction_line": 112,
+          "page_range": [
+            1005,
+            1005
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "41.2",
+          "title": "Audio Setup",
+          "extraction_line": 123,
+          "page_range": [
+            1005,
+            1005
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "41.3",
+          "title": "Connecting MIDI Devices",
+          "extraction_line": 139,
+          "page_range": [
+            1005,
+            1006
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "41.4",
+          "title": "Navigating in Live",
+          "extraction_line": 161,
+          "page_range": [
+            1006,
+            1011
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing",
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "41.4.1",
+          "title": "Navigate Menu",
+          "extraction_line": 168,
+          "page_range": [
+            1006,
+            1011
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing",
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "41.4.1.1",
+          "title": "Control Bar",
+          "extraction_line": 175,
+          "page_range": [
+            1006,
+            1006
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing",
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "41.4.1.2",
+          "title": "Session View",
+          "extraction_line": 186,
+          "page_range": [
+            1006,
+            1007
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing",
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "41.4.1.3",
+          "title": "Arrangement View",
+          "extraction_line": 232,
+          "page_range": [
+            1007,
+            1008
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing",
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": [
+            "P05"
+          ]
+        },
+        {
+          "section_id": "41.4.1.4",
+          "title": "Clip View",
+          "extraction_line": 286,
+          "page_range": [
+            1008,
+            1009
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing",
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": [
+            "P06"
+          ]
+        },
+        {
+          "section_id": "41.4.1.5",
+          "title": "Device View",
+          "extraction_line": 357,
+          "page_range": [
+            1009,
+            1010
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing",
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "41.4.1.6",
+          "title": "Browser",
+          "extraction_line": 387,
+          "page_range": [
+            1010,
+            1010
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing",
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "41.4.1.7",
+          "title": "Groove Pool",
+          "extraction_line": 420,
+          "page_range": [
+            1010,
+            1011
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing",
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "41.4.1.8",
+          "title": "Learn View",
+          "extraction_line": 434,
+          "page_range": [
+            1011,
+            1011
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing",
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "41.5",
+          "title": "Editing Automation and Modulation Envelopes",
+          "extraction_line": 442,
+          "page_range": [
+            1011,
+            1013
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing",
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "41.5.1",
+          "title": "Navigating Between Breakpoints",
+          "extraction_line": 452,
+          "page_range": [
+            1011,
+            1012
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing",
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "41.5.2",
+          "title": "Selecting and Editing Breakpoints",
+          "extraction_line": 483,
+          "page_range": [
+            1012,
+            1013
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing",
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "41.5.3",
+          "title": "Switching Between Automation Envelopes in Arrangement View",
+          "extraction_line": 522,
+          "page_range": [
+            1013,
+            1013
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing",
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        }
+      ]
+    },
+    {
+      "chapter": 42,
+      "title": "Live Keyboard Shortcuts",
+      "page_range": [
+        1014,
+        1036
+      ],
+      "extraction_path": "private-extraction:/42.txt",
+      "sha256": "da345f441d72ed6ea74063c72328d37b989b89c6aedaec0b31f9d124598c717d",
+      "line_count": 1295,
+      "pages_read": [
+        1014,
+        1015,
+        1016,
+        1017,
+        1018,
+        1019,
+        1020,
+        1021,
+        1022,
+        1023,
+        1024,
+        1025,
+        1026,
+        1027,
+        1028,
+        1029,
+        1030,
+        1031,
+        1032,
+        1033,
+        1034,
+        1035,
+        1036
+      ],
+      "read_status": "Every text line read without truncation; embedded diagrams not rendered.",
+      "intro": {
+        "page_range": [
+          1014,
+          1014
+        ],
+        "status": "non-operational introductory context",
+        "runtime_anchors": [
+          "scope-and-preflight"
+        ]
+      },
+      "sections": [
+        {
+          "section_id": "42.1",
+          "title": "Showing and Hiding Views",
+          "extraction_line": 9,
+          "page_range": [
+            1014,
+            1015
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "keyboard-command-atlas",
+            "accessible-navigation-and-editing"
+          ],
+          "gaps_or_unverified_claims": [
+            "P08"
+          ]
+        },
+        {
+          "section_id": "42.2",
+          "title": "Keyboard Focus and Navigation",
+          "extraction_line": 82,
+          "page_range": [
+            1015,
+            1016
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing",
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "42.3",
+          "title": "Working with Sets and the Program",
+          "extraction_line": 147,
+          "page_range": [
+            1016,
+            1017
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": [
+            "P05"
+          ]
+        },
+        {
+          "section_id": "42.4",
+          "title": "Working with Devices and Plug-Ins",
+          "extraction_line": 178,
+          "page_range": [
+            1017,
+            1017
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "keyboard-command-atlas",
+            "push-workflow-devices-mixing-and-automation"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "42.5",
+          "title": "Editing",
+          "extraction_line": 219,
+          "page_range": [
+            1017,
+            1018
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": [
+            "P05"
+          ]
+        },
+        {
+          "section_id": "42.6",
+          "title": "Adjusting Values",
+          "extraction_line": 286,
+          "page_range": [
+            1018,
+            1019
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "42.7",
+          "title": "Commands for Breakpoint Envelopes",
+          "extraction_line": 319,
+          "page_range": [
+            1019,
+            1020
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "keyboard-command-atlas",
+            "accessible-navigation-and-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "42.8",
+          "title": "Loop Brace and Start/End Markers",
+          "extraction_line": 350,
+          "page_range": [
+            1020,
+            1020
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "42.9",
+          "title": "Zooming, Display and Selections",
+          "extraction_line": 390,
+          "page_range": [
+            1020,
+            1021
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": [
+            "P07"
+          ]
+        },
+        {
+          "section_id": "42.10",
+          "title": "Clip View Editor View Modes",
+          "extraction_line": 429,
+          "page_range": [
+            1021,
+            1021
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "keyboard-command-atlas",
+            "accessible-navigation-and-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "42.11",
+          "title": "Clip View Sample Editor",
+          "extraction_line": 450,
+          "page_range": [
+            1021,
+            1022
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "keyboard-command-atlas",
+            "accessible-navigation-and-editing"
+          ],
+          "gaps_or_unverified_claims": [
+            "P07"
+          ]
+        },
+        {
+          "section_id": "42.12",
+          "title": "Clip View MIDI Note Editor",
+          "extraction_line": 503,
+          "page_range": [
+            1022,
+            1025
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "keyboard-command-atlas",
+            "accessible-navigation-and-editing"
+          ],
+          "gaps_or_unverified_claims": [
+            "P06",
+            "P07"
+          ]
+        },
+        {
+          "section_id": "42.13",
+          "title": "Grid Snapping and Drawing",
+          "extraction_line": 638,
+          "page_range": [
+            1025,
+            1025
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "42.14",
+          "title": "Global Quantization",
+          "extraction_line": 666,
+          "page_range": [
+            1025,
+            1026
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "42.15",
+          "title": "Session View",
+          "extraction_line": 688,
+          "page_range": [
+            1026,
+            1027
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "keyboard-command-atlas",
+            "accessible-navigation-and-editing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "42.16",
+          "title": "Arrangement View",
+          "extraction_line": 769,
+          "page_range": [
+            1027,
+            1029
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "keyboard-command-atlas",
+            "accessible-navigation-and-editing"
+          ],
+          "gaps_or_unverified_claims": [
+            "P07"
+          ]
+        },
+        {
+          "section_id": "42.17",
+          "title": "Comping",
+          "extraction_line": 898,
+          "page_range": [
+            1029,
+            1029
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "42.18",
+          "title": "Bounce to Audio",
+          "extraction_line": 922,
+          "page_range": [
+            1029,
+            1030
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": [
+            "P08"
+          ]
+        },
+        {
+          "section_id": "42.19",
+          "title": "Commands for Tracks",
+          "extraction_line": 938,
+          "page_range": [
+            1030,
+            1031
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "keyboard-command-atlas",
+            "cpu-disk-and-freezing"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "42.20",
+          "title": "Transport",
+          "extraction_line": 1006,
+          "page_range": [
+            1031,
+            1032
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "42.21",
+          "title": "Audio Engine",
+          "extraction_line": 1050,
+          "page_range": [
+            1032,
+            1032
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "42.22",
+          "title": "Browser",
+          "extraction_line": 1057,
+          "page_range": [
+            1032,
+            1033
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "keyboard-command-atlas",
+            "accessible-navigation-and-editing"
+          ],
+          "gaps_or_unverified_claims": [
+            "P07"
+          ]
+        },
+        {
+          "section_id": "42.23",
+          "title": "Similar Sample Swapping",
+          "extraction_line": 1108,
+          "page_range": [
+            1033,
+            1033
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "42.24",
+          "title": "Key/MIDI Map Mode and the Computer MIDI Keyboard",
+          "extraction_line": 1129,
+          "page_range": [
+            1033,
+            1034
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": [
+            "P03"
+          ]
+        },
+        {
+          "section_id": "42.25",
+          "title": "Momentary Latching Shortcuts",
+          "extraction_line": 1165,
+          "page_range": [
+            1034,
+            1034
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "42.26",
+          "title": "General Keyboard Navigation and Workflow",
+          "extraction_line": 1187,
+          "page_range": [
+            1034,
+            1036
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing",
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "42.26.1",
+          "title": "Using Tab for Navigation",
+          "extraction_line": 1199,
+          "page_range": [
+            1035,
+            1035
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing",
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "42.26.2",
+          "title": "Navigating Between Controls in the Settings Menu",
+          "extraction_line": 1232,
+          "page_range": [
+            1035,
+            1036
+          ],
+          "level": "nested subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing",
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "42.27",
+          "title": "Editing Automation and Modulation Envelopes with the Keyboard",
+          "extraction_line": 1253,
+          "page_range": [
+            1036,
+            1036
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing",
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "42.28",
+          "title": "Accessing Menus",
+          "extraction_line": 1262,
+          "page_range": [
+            1036,
+            1036
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing",
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        },
+        {
+          "section_id": "42.29",
+          "title": "Using Live’s Context Menu",
+          "extraction_line": 1278,
+          "page_range": [
+            1036,
+            1036
+          ],
+          "level": "top-level subsection",
+          "operational": true,
+          "status": "source-derived; verification/safety synthesis only",
+          "runtime_anchors": [
+            "accessible-navigation-and-editing",
+            "keyboard-command-atlas"
+          ],
+          "gaps_or_unverified_claims": []
+        }
+      ]
+    },
+    {
+      "chapter": 43,
+      "title": "Credits",
+      "page_range": [
+        1037,
+        1039
+      ],
+      "extraction_path": "private-extraction:/43.txt",
+      "sha256": "c49135cf0b2cfd4b7b3c3a5c2cedc82a5f9facb1077d458bc34eae3db4b9cdf2",
+      "line_count": 76,
+      "pages_read": [
+        1037,
+        1038,
+        1039
+      ],
+      "read_status": "Every text line read without truncation; embedded diagrams not rendered.",
+      "intro": {
+        "page_range": [
+          1037,
+          1039
+        ],
+        "status": "non-operational credits/rights",
+        "runtime_anchors": []
+      },
+      "sections": []
+    }
+  ],
+  "gaps_and_unverified_claims": [
+    {
+      "id": "P01",
+      "sections": [
+        "35.3.2",
+        "35.3",
+        "35.15.0.11"
+      ],
+      "pages": [
+        876,
+        878,
+        912
+      ],
+      "kind": "source inconsistency",
+      "detail": "Push 1 35.3.2 names Layout although surrounding procedures and control reference use Note. Runtime uses Note-based layout selection with explicit active-mode verification. Exact 16 Velocities cycle untested.",
+      "status": "requires hardware/UI verification"
+    },
+    {
+      "id": "P02",
+      "sections": [
+        "35.5",
+        "36.5"
+      ],
+      "pages": [
+        887,
+        934
+      ],
+      "kind": "diagram-only example",
+      "detail": "Triad pad fingering is image-only; runtime retains text-defined pitch intervals but does not invent example coordinates.",
+      "status": "nonessential illustrative shape omitted"
+    },
+    {
+      "id": "P03",
+      "sections": [
+        "42.24"
+      ],
+      "pages": [
+        1033,
+        1034
+      ],
+      "kind": "diagram-only controls",
+      "detail": "Exact computer MIDI keyboard pitch-key layout is image-only. Runtime covers mode, octave/velocity changes and shortcut interaction without guessing note keys.",
+      "status": "requires rendered-page or UI inspection for pitch-key mapping"
+    },
+    {
+      "id": "P04",
+      "sections": [
+        "36.4.2",
+        "36.17"
+      ],
+      "pages": [
+        932,
+        967
+      ],
+      "kind": "source inconsistency",
+      "detail": "Dedicated Push 2 quantization procedure says Record Quantize does not apply Swing; overview includes Record Quantizing in Swing applications. Runtime follows specific dedicated procedure.",
+      "status": "requires behavioral verification"
+    },
+    {
+      "id": "P05",
+      "sections": [
+        "41.4.1.3",
+        "42.3",
+        "42.5"
+      ],
+      "pages": [
+        1008,
+        1016,
+        1018
+      ],
+      "kind": "source inconsistency",
+      "detail": "Accessibility prose gives Ctrl/Cmd+R for export; command table gives Ctrl/Cmd+Shift+R and identifies Ctrl/Cmd+R as Rename. Runtime uses explicit Export binding with menu fallback.",
+      "status": "resolved from command table; not executed"
+    },
+    {
+      "id": "P06",
+      "sections": [
+        "41.4.1.4",
+        "42.12"
+      ],
+      "pages": [
+        1009,
+        1023
+      ],
+      "kind": "source inconsistency",
+      "detail": "Windows note-navigation uses Ctrl in accessibility prose and Alt in shortcuts; Mac Option agrees. Runtime gives shortcut-table Alt with installed-context verification warning.",
+      "status": "requires installed-version verification"
+    },
+    {
+      "id": "P07",
+      "sections": [
+        "42.9",
+        "42.11",
+        "42.12",
+        "42.16",
+        "42.22"
+      ],
+      "pages": [
+        1021,
+        1022,
+        1023,
+        1024,
+        1028,
+        1032
+      ],
+      "kind": "shortcut ambiguity",
+      "detail": "Windows Ctrl+Shift+F appears for Follow, MIDI note filters and browser Similarity Search. Runtime uses general Alt/Option+Shift+F for Follow and labels other commands contextual.",
+      "status": "requires installed-context verification"
+    },
+    {
+      "id": "P08",
+      "sections": [
+        "42.1",
+        "42.18"
+      ],
+      "pages": [
+        1014,
+        1030
+      ],
+      "kind": "shortcut ambiguity",
+      "detail": "Ctrl+Alt+V/Cmd+Option+V appears for Video visibility and Paste Bounced Audio. Runtime requires correct context or menu.",
+      "status": "requires installed-context verification"
+    },
+    {
+      "id": "P09",
+      "sections": [
+        "37.1",
+        "41",
+        "42"
+      ],
+      "pages": [
+        973,
+        1036
+      ],
+      "kind": "version and edition applicability",
+      "detail": "Assigned text says Live 12 without minimum point releases/edition entitlements for Link Audio, conversions, bounce or accessibility fixes. No minima invented; inspect installed UI. Extension capability mapping belongs to parent.",
+      "status": "version/edition/capability checks remain runtime responsibility"
+    },
+    {
+      "id": "P10",
+      "sections": [
+        "40.4"
+      ],
+      "pages": [
+        1000,
+        1000
+      ],
+      "kind": "benchmark qualification",
+      "detail": "macOS A/B broad majority ±1 ms wording accompanies special 1152-sample tests described as ±4–11/±2–11 ms. Runtime preserves configuration-specific ranges without claiming their majority was ±1 ms. Anonymous hardware/date prevents modern acceptance guarantees.",
+      "status": "historical illustrative observations only"
+    },
+    {
+      "id": "P11",
+      "sections": [
+        "35.14",
+        "36.16"
+      ],
+      "pages": [
+        901,
+        902,
+        966
+      ],
+      "kind": "diagram precision",
+      "detail": "Velocity plots unrendered; runtime uses textual control relations and numerical settings, not invented curve equations.",
+      "status": "exact graph shapes not reconstructed"
+    },
+    {
+      "id": "P12",
+      "sections": [
+        "40.4"
+      ],
+      "pages": [
+        1001,
+        1001
+      ],
+      "kind": "diagram-only measurement setup",
+      "detail": "Input test wiring is described in text; output-test wiring is image-only with a comparable-results statement. Runtime does not invent output reference wiring.",
+      "status": "outgoing benchmark setup requires rendered-page inspection if needed"
+    }
+  ],
+  "evaluation": {
+    "cases_path": "docs/live-skill/eval-cases.json",
+    "cases_modified": false,
+    "holdouts_read_or_tuned": false,
+    "baseline_run": false,
+    "live_behavior_tests_run": false,
+    "reason": "Documentation-only bounded task; no Live or hardware execution requested."
+  },
+  "validation": {
+    "static_checks": [
+      "JSON parse passed",
+      "Source coverage passed: 9 chapters, 166 pages, 83 top-level and 193 total numbered subsections",
+      "Private extraction hash verification passed",
+      "All runtime TOC and provenance heading anchors/line numbers resolve",
+      "Runtime contains no source-manual/PDF/private extraction/URL citations",
+      "246-line length and whitespace checks passed",
+      "Unambiguous Mod/AltOpt keyboard notation verified, including Open versus modifier keys",
+      "Reference read completely in three chunks; final changed-line inspection performed",
+      "git diff --no-index --check passed for both owned artifacts"
+    ],
+    "behavioral_claim": "None; static checks do not establish Live/hardware behavior.",
+    "package_skill_validator": "Not run by this worker: core SKILL.md and package integration are parent-owned.",
+    "authoring_check_failures_resolved": [
+      "Expected subsection count was initially 196; exact extraction contains 193. Every extracted heading was matched before accepting corrected count.",
+      "Initial source-citation filter incorrectly matched the legitimate Manual slicing mode. Narrowed it to actual source-manual/PDF/path/URL citations; those remain forbidden."
+    ]
+  },
+  "session_references": {
+    "delegation_id": "50f4dfa3c329ce9a82ed416c6198b072",
+    "worker": "distill-performance",
+    "external_session_or_artifact_ids": []
+  }
+}

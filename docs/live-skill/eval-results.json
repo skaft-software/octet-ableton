@@ -1,0 +1,284 @@
+{
+  "schema": 1,
+  "status": "planning-only; real-Live qualification not run",
+  "skill": "ableton-live",
+  "model": "codex/gpt-6-astra",
+  "reasoning": "inherited; not independently recorded",
+  "harness": "Fresh read-only test-analysis worker per condition; same three task inputs, 8-turn/360-second/12000-output-byte ceilings, maximum 450 words per task. One response per condition, one repeat, fixed rather than randomized order.",
+  "score_meaning": "success means all four prewritten procedural-plan checks passed parent source-grounded review and no listed critical failure was observed. It does not mean a Live operation succeeded.",
+  "lifecycle_caveat": "Complete final responses were retained for all three conditions. Later host status reads reported timed_out even for previously completed workers. Scores evaluate the retained response texts, not a clean lifecycle completion rate. No timing, cost or reliability comparison is asserted.",
+  "task_input_sha256": "1273968e687140654f7af223c6be52bdaf02e4f716c3e2d4dcf883baf8ef3b80",
+  "rag": {
+    "kind": "parent-selected original-source page excerpts, not an evaluated retrieval engine",
+    "pages": [
+      197,
+      198,
+      199,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      248,
+      249,
+      250,
+      514,
+      515,
+      516
+    ],
+    "private_input_sha256": "d05f1c37bd8c475cc37df21741456652edda5b9e0b8965cdc971e0113dcba685",
+    "redistributed": false,
+    "note": "All conditions received the extension-contract premises in the task input; no source pages are needed to use the delivered skill. Exact original-source RAG replication would require a separately authorized source."
+  },
+  "runs": [
+    {
+      "task_id": "warp-drum-loop",
+      "repeat_id": 1,
+      "condition": "baseline",
+      "success": true,
+      "checks_passed": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "score": 4,
+      "maximum": 4,
+      "violations": [],
+      "observations": "Preserves the pickup, sets the true downbeat to 1.1.1, maps the source at 120 BPM, uses Beats rather than Re-Pitch, and checks drift, loop joins and transient quality. Does not invent sample coordinates."
+    },
+    {
+      "task_id": "two-playback-overrides",
+      "repeat_id": 1,
+      "condition": "baseline",
+      "success": true,
+      "checks_passed": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "score": 4,
+      "maximum": 4,
+      "violations": [],
+      "observations": "Separates Session playback ownership from manual automation override; uses Back to Arrangement and Re-Enable Automation separately and preserves clips/envelopes."
+    },
+    {
+      "task_id": "partial-batch-and-meter",
+      "repeat_id": 1,
+      "condition": "baseline",
+      "success": true,
+      "checks_passed": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "score": 4,
+      "maximum": 4,
+      "violations": [],
+      "observations": "Calculates 3.5 quarter notes per bar and beat 14, treats the lost acknowledgement as unknown, re-resolves track identity/index, and previews only confirmed missing work."
+    },
+    {
+      "task_id": "warp-drum-loop",
+      "repeat_id": 1,
+      "condition": "rag",
+      "success": true,
+      "checks_passed": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "score": 4,
+      "maximum": 4,
+      "violations": [],
+      "observations": "Uses the true downbeat, source 120 BPM, Beats/Transients and a separate pickup; distinguishes musical eight-bar bounds from the file end and plans drift/artifact checks."
+    },
+    {
+      "task_id": "two-playback-overrides",
+      "repeat_id": 1,
+      "condition": "rag",
+      "success": true,
+      "checks_passed": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "score": 4,
+      "maximum": 4,
+      "violations": [],
+      "observations": "Separates the two controls, prefers scoped recovery, preserves envelopes and explicitly notes that recorded overwrites are different from temporary manual overrides."
+    },
+    {
+      "task_id": "partial-batch-and-meter",
+      "repeat_id": 1,
+      "condition": "rag",
+      "success": true,
+      "checks_passed": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "score": 4,
+      "maximum": 4,
+      "violations": [],
+      "observations": "Computes beat 14, suspends retries, inspects current identities and clips, previews a residual plan and reads back results without inventing execution flags."
+    },
+    {
+      "task_id": "warp-drum-loop",
+      "repeat_id": 1,
+      "condition": "skill",
+      "success": true,
+      "checks_passed": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "score": 4,
+      "maximum": 4,
+      "violations": [],
+      "observations": "Aligns the true downbeat, verifies source 120 BPM, uses Beats/Transients, preserves the pickup, warns that reanalysis resets later markers, and checks loop drift and transient artifacts."
+    },
+    {
+      "task_id": "two-playback-overrides",
+      "repeat_id": 1,
+      "condition": "skill",
+      "success": true,
+      "checks_passed": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "score": 4,
+      "maximum": 4,
+      "violations": [],
+      "observations": "Explains separate playback and parameter ownership, uses track-scoped Back to Arrangement and parameter-scoped Re-Enable Automation, and verifies surviving envelope points and playback."
+    },
+    {
+      "task_id": "partial-batch-and-meter",
+      "repeat_id": 1,
+      "condition": "skill",
+      "success": true,
+      "checks_passed": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "score": 4,
+      "maximum": 4,
+      "violations": [],
+      "observations": "Gives start_beat 14, rejects replay/rollback assumptions, rejects stale indices and old batch refs, refines truncated reads, and uses explicit dry_run true/false for reconciled work only."
+    }
+  ],
+  "holdout_runs": [
+    {
+      "task_id": "portable-collaboration",
+      "repeat_id": 1,
+      "condition": "skill",
+      "success": true,
+      "checks_passed": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "score": 4,
+      "maximum": 4,
+      "violations": [],
+      "observations": "Repairs media first, collects a separate Project, distinguishes collection from plug-in installation/licensing, preserves an editable source and proposes frozen playback plus a rendered reference with portability checks."
+    },
+    {
+      "task_id": "tuning-and-mpe",
+      "repeat_id": 1,
+      "condition": "skill",
+      "success": true,
+      "checks_passed": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "score": 4,
+      "maximum": 4,
+      "violations": [],
+      "observations": "Separates tuning from Scale controls, checks actual hardware MPE support and zones, verifies bend-range interpretation without assuming universal hardware support, and proposes isolated pitch/two-note checks without unsupported envelope writes."
+    },
+    {
+      "task_id": "export-and-latency",
+      "repeat_id": 1,
+      "condition": "skill",
+      "success": true,
+      "checks_passed": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "score": 4,
+      "maximum": 4,
+      "violations": [],
+      "observations": "Uses undithered 32-bit float and once-dithered final 16-bit conversion, checks range/tails/clipping without silent mix changes, identifies dual monitoring, and separates buffer/device/recording-placement concerns without claiming calibration removes monitoring latency."
+    }
+  ],
+  "holdout_protocol": "One fresh worker, same read-only/budget limits; task inputs without rubrics, then SKILL.md and relevant references. One pass after source-review corrections; no subsequent runtime edits based on these results. No matched baseline/RAG holdout was run.",
+  "aborts_and_limits": [
+    {
+      "attempt": "initial-baseline",
+      "budget_seconds": 120,
+      "status": "timed_out",
+      "scored": false,
+      "reason": "No complete scored response retained for this attempt; comparison relaunched with a common larger budget for every condition."
+    },
+    {
+      "attempt": "independent-source-review",
+      "status": "turn_limit_then_resumed",
+      "reason": "Reviewer reached its read-turn ceiling; resumed solely to return already-inspected findings. No further reads permitted by the continuation."
+    }
+  ],
+  "unrun": [
+    "Real Live task execution and audio audition",
+    "Host activation/selection precision, recall and negative-trigger measurements",
+    "Repeated or randomized paired trials and empirical validation-split optimization",
+    "Matched baseline/RAG holdout trials",
+    "Adversarial prompt-injection behavioral trials",
+    "Native Windows execution",
+    "Managed release archive installation/discovery test"
+  ],
+  "metrics_not_collected": [
+    "tokens",
+    "cost",
+    "comparable latency",
+    "tool-call efficiency"
+  ],
+  "release_decision": "Provisional procedural package with passing structural/fixture tests and limited planning evidence; no measured comparative improvement or end-to-end production claim.",
+  "final_runtime_sha256": {
+    "skills/ableton-live/SKILL.md": "db0bb40ebba3e86bfa6a1e0db55670e0ee5fe0dc9c3177bdff8127b68f358556",
+    "skills/ableton-live/references/audio-effects.md": "78b2c439b9110570df3b17e90e1b854e79adb4ccdef220642f0e1a07a9093f54",
+    "skills/ableton-live/references/clips-warping.md": "30f4a095e448f3f9e55eedcae272a0ba86b72a9742ace07f20a757df0772aa54",
+    "skills/ableton-live/references/devices-racks-automation.md": "9c0297dc69f0050b87aa47072e6c856fa25d4699f2b24e1575c5c11123084b58",
+    "skills/ableton-live/references/installed-documentation.md": "c9e2cf3ff761eada1f37378c4302f807009e7b076237c23eabc04fc12a7ab614",
+    "skills/ableton-live/references/instruments-midi-effects.md": "e1d864b9f5357946693f3813b59cc1e6f315842554ca0b664fbdde7c3055fed5",
+    "skills/ableton-live/references/max-control.md": "9302a7bfffb8b086e400bc2101bf33658f623bd3d4b2c9eb510144a15802b847",
+    "skills/ableton-live/references/midi-tuning-launch.md": "0e90f6476cbbe468128e0fe3a48a7975bbfd0b229658d335d6d60d69cb7ac54f",
+    "skills/ableton-live/references/octet-workflow.md": "7154c044a3a15513261bd7b0fdd35efbf27de9c804a6ed9dca4de0f6cb16fdb2",
+    "skills/ableton-live/references/performance-troubleshooting.md": "af12f7c6e293a3a91e193515527182298b35f5bd0bd732af99bbdde18e5d13d2",
+    "skills/ableton-live/references/routing-recording-mixing.md": "0564fb6b2728a50f0ee5d29974cb45cdfb0b00ad9860d47afc9b72e649553c50",
+    "skills/ableton-live/references/workspace-browser-files.md": "d876933dd649ffdc9ed300a99ade28fb61089f835179919979c6509b78517b0f",
+    "skills/ableton-live/scripts/find_live_docs.py": "2c4748bcb15e623c5ae13e88ba1cfdf8087d89439ecbea952b927e9c48a76bbf"
+  },
+  "development_skill_input_sha256": {
+    "skills/ableton-live/SKILL.md": "db0bb40ebba3e86bfa6a1e0db55670e0ee5fe0dc9c3177bdff8127b68f358556",
+    "skills/ableton-live/references/clips-warping.md": "fa53cf2b0e3699b6a6a1eed882162fb0f057715a9b07e251b5df41ebc34e1049",
+    "skills/ableton-live/references/devices-racks-automation.md": "9c0297dc69f0050b87aa47072e6c856fa25d4699f2b24e1575c5c11123084b58",
+    "skills/ableton-live/references/octet-workflow.md": "7154c044a3a15513261bd7b0fdd35efbf27de9c804a6ed9dca4de0f6cb16fdb2"
+  },
+  "revision_note": "The development skill trial preceded review corrections to Humanize/crop/MPE guidance; its relevant clip reference hash is retained separately. The one-pass holdout used the final runtime. The corrections did not alter the three development tasks, but the development trial was not rerun after them."
+}

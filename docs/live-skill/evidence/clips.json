@@ -1,0 +1,1805 @@
+{
+  "schema_version": 1,
+  "artifact": "skills/ableton-live/references/clips-warping.md",
+  "artifact_sha256": "30f4a095e448f3f9e55eedcae272a0ba86b72a9742ace07f20a757df0772aa54",
+  "scope": {
+    "assigned_chapters": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "exclusive_writable_paths": [
+      "skills/ableton-live/references/clips-warping.md",
+      "docs/live-skill/evidence/clips.json"
+    ],
+    "reference_type": "self-contained operational UI guidance",
+    "automation_capability_mapping": "Parent-owned; no runtime/tool-name availability asserted."
+  },
+  "source": {
+    "title": "Ableton Live 12 reference manual",
+    "version": "Live 12; precise point release and edition coverage not established from assigned excerpts",
+    "chapter_index": "private-extraction:/chapters.json",
+    "page_coordinates": "PDF page headers preserved by supplied extraction; all page ranges inclusive",
+    "distribution": "Private extracted text used as evidence only. No full source text or images copied into runtime reference; rights/license not independently established."
+  },
+  "derivation": {
+    "source_derived": "UI names, documented behavior, prerequisites, numerical distinctions, scenario decisions and limitations are original paraphrases of the mapped sections. No Live/audio execution performed.",
+    "synthesis": "Only verification, scope/safety checks, permission gating, and conservative recovery organization are added synthesis. The Verify and recover heading is a checklist synthesis, not an observed result.",
+    "synthesis_reference_headings": [
+      "Choose the working surface",
+      "Verify and recover"
+    ],
+    "safety_synthesis_applies_to": [
+      "preserving originals/versions",
+      "checking selection and linked/shared-object scope",
+      "requiring approval for destructive/all-track/external effects",
+      "checking installed controls and actual automation capabilities",
+      "audition/check instructions without claiming they occurred"
+    ],
+    "runtime_provenance_policy": "Runtime reference contains no source-manual citations, PDF page references, extraction paths, original source filename, or external URLs."
+  },
+  "chapters": [
+    {
+      "chapter": 6,
+      "title": "Arrangement View",
+      "pdf_pages": [
+        165,
+        186
+      ],
+      "extraction_path": "private-extraction:/06.txt",
+      "sha256": "f25b948bc767b785a2bb3123124aacd33914a7c74c08892926e0d08f47a966d1",
+      "read_complete": true,
+      "read_line_ranges": [
+        [
+          1,
+          400
+        ],
+        [
+          401,
+          778
+        ]
+      ],
+      "page_headers_verified": [
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186
+      ],
+      "intro": {
+        "id": "6.intro",
+        "title": "Arrangement View introduction",
+        "pdf_pages": [
+          165,
+          165
+        ],
+        "reference_headings": [
+          "Choose the working surface"
+        ],
+        "status": "source_derived",
+        "coverage": "non_operational_context",
+        "notes": "Conceptual rationale used only to route tasks; no standalone procedure or credits."
+      },
+      "sections": [
+        {
+          "id": "6.1",
+          "pdf_pages": [
+            165,
+            167
+          ],
+          "reference_headings": [
+            "Navigate and audition the Arrangement"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Overview, beat/time rulers, scrub area, locators, automation/lock toggles, main/take lanes, track/mixer/drop area, optimize size, waveform-only zoom.",
+          "title": "Layout",
+          "level": 1
+        },
+        {
+          "id": "6.2",
+          "pdf_pages": [
+            168,
+            168
+          ],
+          "reference_headings": [
+            "Navigate and audition the Arrangement"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Selection zoom, zoom history, pan, per-track vertical zoom, Clip View focus, Follow suspension/restart.",
+          "title": "Navigation and Zooming",
+          "level": 1
+        },
+        {
+          "id": "6.3",
+          "pdf_pages": [
+            168,
+            170
+          ],
+          "reference_headings": [
+            "Navigate and audition the Arrangement"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Transport, key/MIDI mapping, insert/position fields, restart versus resume, reset, quantized scrubbing, Chase MIDI Notes.",
+          "title": "Transport and Playback",
+          "level": 1
+        },
+        {
+          "id": "6.4",
+          "pdf_pages": [
+            170,
+            172
+          ],
+          "reference_headings": [
+            "Locators, meter, and Arrangement loops"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Live/stopped locator placement, quantization, previous/next endpoints, mapping, rename/info, loop-to-next, song-start override.",
+          "title": "Launching the Arrangement with Locators",
+          "level": 1
+        },
+        {
+          "id": "6.5",
+          "pdf_pages": [
+            172,
+            174
+          ],
+          "reference_headings": [
+            "Locators, meter, and Arrangement loops"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Meter bounds and delimiters, fields and indicators, marker movement/editing, fragmentary bars, all-track correction risks, MIDI import.",
+          "title": "Time Signature Changes",
+          "level": 1
+        },
+        {
+          "id": "6.6",
+          "pdf_pages": [
+            174,
+            175
+          ],
+          "reference_headings": [
+            "Locators, meter, and Arrangement loops",
+            "Clip regions, loops, and scrubbing"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Arrangement loop controls, selection shortcut, no-selection span, brace movement/resizing, keyboard interval distinctions, song-start override.",
+          "title": "The Arrangement Loop",
+          "level": 1
+        },
+        {
+          "id": "6.7",
+          "pdf_pages": [
+            175,
+            176
+          ],
+          "reference_headings": [
+            "Select, move, and restructure material"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Clip-bar dragging versus content selection, edge resizing, object/grid snapping, warped-audio/MIDI slip editing and unsnapped modifier.",
+          "title": "Moving and Resizing Clips",
+          "level": 1
+        },
+        {
+          "id": "6.8",
+          "pdf_pages": [
+            177,
+            179
+          ],
+          "reference_headings": [
+            "Audio fades and crossfades"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Reveal fade handles, Automation Mode F, edge/peak/curve controls, selection-created fades/crossfades, 4 ms defaults, overlap/loop constraints, clip not automation property.",
+          "title": "Audio Clip Fades and Crossfades",
+          "level": 1
+        },
+        {
+          "id": "6.9",
+          "pdf_pages": [
+            179,
+            180
+          ],
+          "reference_headings": [
+            "Select, move, and restructure material",
+            "Audio utilities and sample lifecycle"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Point/time/multitrack selection, insert-marker navigation, unfolding/resizing, loop select, deactivation focus, all-audio reverse selection, nudging.",
+          "title": "Selecting Clips and Time",
+          "level": 1
+        },
+        {
+          "id": "6.10",
+          "pdf_pages": [
+            180,
+            180
+          ],
+          "reference_headings": [
+            "Select, move, and restructure material"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Fixed/adaptive grid, density, triplets, snap toggle, temporary inversion and spacing indicator.",
+          "title": "Using the Editing Grid",
+          "level": 1
+        },
+        {
+          "id": "6.11",
+          "pdf_pages": [
+            181,
+            181
+          ],
+          "reference_headings": [
+            "Select, move, and restructure material"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "All-track Time commands, duration changes and meter-marker scope; risk-gated, not executed.",
+          "title": "Using the …Time Commands",
+          "level": 1
+        },
+        {
+          "id": "6.12",
+          "pdf_pages": [
+            181,
+            182
+          ],
+          "reference_headings": [
+            "Select, move, and restructure material"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Split at a point or isolate time selection; resulting independent clip edges.",
+          "title": "Splitting Clips",
+          "level": 1
+        },
+        {
+          "id": "6.13",
+          "pdf_pages": [
+            182,
+            182
+          ],
+          "reference_headings": [
+            "Select, move, and restructure material",
+            "Move between Session and Arrangement"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Per-track Consolidate output, MIDI reuse, audio pre-effects/mixer rendering, clip processing included, export alternative, project/temporary locations.",
+          "title": "Consolidating Clips",
+          "level": 1
+        },
+        {
+          "id": "6.14",
+          "pdf_pages": [
+            183,
+            185
+          ],
+          "reference_headings": [
+            "Linked-track editing"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Linked multitrack editing scope and phase-related use.",
+          "title": "Linked-Track Editing",
+          "level": 1
+        },
+        {
+          "id": "6.14.1",
+          "pdf_pages": [
+            183,
+            184
+          ],
+          "reference_headings": [
+            "Linked-track editing"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Link from headers/groups, one membership per track, indicators, add/relink subset/unlink.",
+          "title": "Linking and Unlinking Tracks",
+          "level": 2
+        },
+        {
+          "id": "6.14.2",
+          "pdf_pages": [
+            184,
+            185
+          ],
+          "reference_headings": [
+            "Linked-track editing"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Supported clip/time/arm/take operations including hidden lanes; simultaneous fade start alignment constraint.",
+          "title": "Editing Linked Tracks",
+          "level": 2
+        },
+        {
+          "id": "6.15",
+          "pdf_pages": [
+            185,
+            186
+          ],
+          "reference_headings": [
+            "Navigate and audition the Arrangement"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Arrangement mixer and track controls, show/hide shortcut, independent visibility, shared values, mixer-only functions.",
+          "title": "The Mixer in Arrangement View",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "title": "Session View",
+      "pdf_pages": [
+        187,
+        199
+      ],
+      "extraction_path": "private-extraction:/07.txt",
+      "sha256": "0b0d251c9c770e4dcb023be523352beb08ea957c602f3cdedd3ff7dfc0a14baf",
+      "read_complete": true,
+      "read_line_ranges": [
+        [
+          1,
+          426
+        ]
+      ],
+      "page_headers_verified": [
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199
+      ],
+      "intro": {
+        "id": "7.intro",
+        "title": "Session View introduction",
+        "pdf_pages": [
+          187,
+          187
+        ],
+        "reference_headings": [
+          "Choose the working surface"
+        ],
+        "status": "source_derived",
+        "coverage": "non_operational_context",
+        "notes": "Conceptual rationale used only to route tasks; no standalone procedure or credits."
+      },
+      "sections": [
+        {
+          "id": "7.1",
+          "pdf_pages": [
+            188,
+            189
+          ],
+          "reference_headings": [
+            "Build and perform a Session",
+            "Open and organize Clip View"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Launch/select/Enter/arrows, clip stop versus transport, deactivation, MIDI-note-range mapping, rename/info/color, reorder and Group slots.",
+          "title": "Session View Clips",
+          "level": 1
+        },
+        {
+          "id": "7.2",
+          "pdf_pages": [
+            189,
+            194
+          ],
+          "reference_headings": [
+            "Build and perform a Session",
+            "Scene tempo, meter, and status"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "One clip per track, width controls, scenes, cancel/next selection, naming/info/color, nonadjacent move behavior, positional numbering.",
+          "title": "Tracks and Scenes",
+          "level": 1
+        },
+        {
+          "id": "7.2.1",
+          "pdf_pages": [
+            191,
+            192
+          ],
+          "reference_headings": [
+            "Scene tempo, meter, and status"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Scene tempo/meter fields, valid ranges, reset/disable, keyboard navigation/Enter distinction, launch color, pre-11 migration.",
+          "title": "Editing Scene Tempo and Time Signature Values",
+          "level": 2
+        },
+        {
+          "id": "7.2.2",
+          "pdf_pages": [
+            192,
+            194
+          ],
+          "reference_headings": [
+            "Scene tempo, meter, and status"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Scene View opening, tempo/signature, Follow Actions, selection count, title rename/color.",
+          "title": "Scene View",
+          "level": 2
+        },
+        {
+          "id": "7.3",
+          "pdf_pages": [
+            194,
+            195
+          ],
+          "reference_headings": [
+            "Scene tempo, meter, and status"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Loop pie counts/length, Group pie, one-shot remaining time, monitoring icons, Arrangement indication.",
+          "title": "The Track Status Fields",
+          "level": 1
+        },
+        {
+          "id": "7.4",
+          "pdf_pages": [
+            195,
+            196
+          ],
+          "reference_headings": [
+            "Build and perform a Session"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Import layouts, raw-file multi-track modifier exception for Live Clips, drag and rubber-band selections.",
+          "title": "Setting Up the Session View Grid",
+          "level": 1
+        },
+        {
+          "id": "7.4.1",
+          "pdf_pages": [
+            196,
+            196
+          ],
+          "reference_headings": [
+            "Build and perform a Session"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Select on Launch and preserving editing focus.",
+          "title": "Select on Launch",
+          "level": 2
+        },
+        {
+          "id": "7.4.2",
+          "pdf_pages": [
+            196,
+            196
+          ],
+          "reference_headings": [
+            "Build and perform a Session"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Remove empty-slot stop button to leave a track unaffected by scene launch.",
+          "title": "Removing Clip Stop Buttons",
+          "level": 2
+        },
+        {
+          "id": "7.4.3",
+          "pdf_pages": [
+            196,
+            196
+          ],
+          "reference_headings": [
+            "Build and perform a Session"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Insert Scene and immediately launched Capture and Insert Scene.",
+          "title": "Editing Scenes",
+          "level": 2
+        },
+        {
+          "id": "7.5",
+          "pdf_pages": [
+            197,
+            199
+          ],
+          "reference_headings": [
+            "Move between Session and Arrangement"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Arrangement capture without new audio data, playback exclusion and Back to Arrangement, Stop All Clips, independent copies, transfer methods and Consolidate Time to New Scene. Legacy scene-name wording conflict recorded separately.",
+          "title": "Recording Sessions into the Arrangement",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "title": "Clip View",
+      "pdf_pages": [
+        200,
+        233
+      ],
+      "extraction_path": "private-extraction:/08.txt",
+      "sha256": "f27ebda529775188d4d6d7bc4fb8933cb41e99f3e83ed17d222c4b163c54f21c",
+      "read_complete": true,
+      "read_line_ranges": [
+        [
+          1,
+          350
+        ],
+        [
+          351,
+          700
+        ],
+        [
+          701,
+          1022
+        ]
+      ],
+      "page_headers_verified": [
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233
+      ],
+      "intro": {
+        "id": "8.intro",
+        "title": "Clip View introduction",
+        "pdf_pages": [
+          200,
+          201
+        ],
+        "reference_headings": [
+          "Open and organize Clip View"
+        ],
+        "status": "source_derived",
+        "coverage": "operationally_distilled",
+        "notes": "Clip View opening, resizing, two-window focus and relocation, selected versus playing clip."
+      },
+      "sections": [
+        {
+          "id": "8.1",
+          "pdf_pages": [
+            201,
+            207
+          ],
+          "reference_headings": [
+            "Open and organize Clip View"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Clip View structure, audio/MIDI panels and editors.",
+          "title": "Clip View Layout",
+          "level": 1
+        },
+        {
+          "id": "8.1.1",
+          "pdf_pages": [
+            202,
+            204
+          ],
+          "reference_headings": [
+            "Open and organize Clip View",
+            "Audio utilities and sample lifecycle"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Title-bar selection state, activation, naming/color, audio sample defaults.",
+          "title": "Clip Title Bar",
+          "level": 2
+        },
+        {
+          "id": "8.1.1.1",
+          "pdf_pages": [
+            202,
+            202
+          ],
+          "reference_headings": [
+            "Open and organize Clip View"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Clip Activator and batch deactivation.",
+          "title": "Clip Activator Toggle",
+          "level": 3
+        },
+        {
+          "id": "8.1.1.2",
+          "pdf_pages": [
+            202,
+            203
+          ],
+          "reference_headings": [
+            "Open and organize Clip View",
+            "Build and perform a Session"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Rename/info text, clip name versus file name, multi-selection count.",
+          "title": "Clip Name",
+          "level": 3
+        },
+        {
+          "id": "8.1.1.3",
+          "pdf_pages": [
+            203,
+            203
+          ],
+          "reference_headings": [
+            "Open and organize Clip View"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Inherited/custom/batch colors, Group color propagation, current-view scope, striped title.",
+          "title": "Clip Color",
+          "level": 3
+        },
+        {
+          "id": "8.1.1.4",
+          "pdf_pages": [
+            203,
+            204
+          ],
+          "reference_headings": [
+            "Audio utilities and sample lifecycle",
+            "Prepare audio for warping"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Save Default Clip and analysis file, multi-sample use, future-import-only effects, Live Clip device distinction.",
+          "title": "Saving Default Audio Clip Settings with the Sample",
+          "level": 3
+        },
+        {
+          "id": "8.1.2",
+          "pdf_pages": [
+            204,
+            206
+          ],
+          "reference_headings": [
+            "Open and organize Clip View"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Shared versus type-specific panels, horizontal/vertical/automatic arrangement, remembered layout, folding.",
+          "title": "Clip Panels",
+          "level": 2
+        },
+        {
+          "id": "8.1.3",
+          "pdf_pages": [
+            206,
+            207
+          ],
+          "reference_headings": [
+            "Open and organize Clip View"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Sample, Envelope, MIDI Note, MPE roles, modes and keyboard cycle.",
+          "title": "Editor View Modes",
+          "level": 2
+        },
+        {
+          "id": "8.2",
+          "pdf_pages": [
+            207,
+            212
+          ],
+          "reference_headings": [
+            "Clip regions, loops, and scrubbing",
+            "Groove, scale, launch, and MIDI programs"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Main properties router: region, loop, meter, groove and scale.",
+          "title": "Main Clip Properties Panel",
+          "level": 1
+        },
+        {
+          "id": "8.2.1",
+          "pdf_pages": [
+            208,
+            209
+          ],
+          "reference_headings": [
+            "Clip regions, loops, and scrubbing"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Start/end units and Set quantization, audio Warp prerequisite, loop position/length, live loop capture branches, MIDI mapping.",
+          "title": "Clip and Loop Region Settings",
+          "level": 2
+        },
+        {
+          "id": "8.2.2",
+          "pdf_pages": [
+            209,
+            210
+          ],
+          "reference_headings": [
+            "Clip regions, loops, and scrubbing"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Clip meter changes display, not playback or project meter; polymetric use.",
+          "title": "Clip Time Signature",
+          "level": 2
+        },
+        {
+          "id": "8.2.3",
+          "pdf_pages": [
+            210,
+            211
+          ],
+          "reference_headings": [
+            "Groove, scale, launch, and MIDI programs"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Groove Pool selection, Hot-Swap pool replacement, Commit and volume-envelope overwrite risk.",
+          "title": "Clip Groove",
+          "level": 2
+        },
+        {
+          "id": "8.2.4",
+          "pdf_pages": [
+            211,
+            212
+          ],
+          "reference_headings": [
+            "Groove, scale, launch, and MIDI programs"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Scale controls, audio forwarding not retuning, MIDI scale-note highlighting.",
+          "title": "Clip Scale",
+          "level": 2
+        },
+        {
+          "id": "8.3",
+          "pdf_pages": [
+            212,
+            214
+          ],
+          "reference_headings": [
+            "Open and organize Clip View",
+            "Groove, scale, launch, and MIDI programs"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Session launch controls versus Arrangement panel availability; MIDI program controls.",
+          "title": "Extended Clip Properties",
+          "level": 1
+        },
+        {
+          "id": "8.3.1",
+          "pdf_pages": [
+            213,
+            213
+          ],
+          "reference_headings": [
+            "Groove, scale, launch, and MIDI programs"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Empty-slot-separated Follow Action groups, launch input/timing/scrub/velocity controls; detailed launch chapter dependency.",
+          "title": "Follow Action and Launch Controls",
+          "level": 2
+        },
+        {
+          "id": "8.3.2",
+          "pdf_pages": [
+            213,
+            214
+          ],
+          "reference_headings": [
+            "Groove, scale, launch, and MIDI programs"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Bank/sub-bank/program message capacity, receiver support prerequisite and no-message sentinel.",
+          "title": "MIDI Clip Bank and Program Change Controls",
+          "level": 2
+        },
+        {
+          "id": "8.4",
+          "pdf_pages": [
+            214,
+            222
+          ],
+          "reference_headings": [
+            "Audio utilities and sample lifecycle",
+            "Prepare audio for warping",
+            "Choose a Warp Mode",
+            "Audio fades and crossfades"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Audio controls router: Warp, Reverse, external Edit boundary, fades, RAM, Hi-Q, gain/pitch.",
+          "title": "Audio Utilities Panel",
+          "level": 1
+        },
+        {
+          "id": "8.4.1",
+          "pdf_pages": [
+            215,
+            216
+          ],
+          "reference_headings": [
+            "Prepare audio for warping"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Warp off original timing versus warped tempo follow and metrical-map requirement.",
+          "title": "Warp Controls",
+          "level": 2
+        },
+        {
+          "id": "8.4.2",
+          "pdf_pages": [
+            216,
+            218
+          ],
+          "reference_headings": [
+            "Audio utilities and sample lifecycle"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "New reversed file, markers/region reversal versus fixed-time envelopes, processing/cache behavior, view-specific multi-reverse limit, performance glitch caution.",
+          "title": "Reversing Samples",
+          "level": 2
+        },
+        {
+          "id": "8.4.3",
+          "pdf_pages": [
+            218,
+            218
+          ],
+          "reference_headings": [
+            "Audio utilities and sample lifecycle"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "External Edit is destructive/shared-file scope, stopped playback, unchanged-length marker prerequisite; no destructive execution procedure.",
+          "title": "Destructive Sample Editing",
+          "level": 2
+        },
+        {
+          "id": "8.4.4",
+          "pdf_pages": [
+            218,
+            219
+          ],
+          "reference_headings": [
+            "Audio fades and crossfades"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Session-only 0-4 ms signal-dependent Clip Fade versus Arrangement handles; default preference.",
+          "title": "Clip Start and End Fades",
+          "level": 2
+        },
+        {
+          "id": "8.4.5",
+          "pdf_pages": [
+            219,
+            220
+          ],
+          "reference_headings": [
+            "Audio utilities and sample lifecycle"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "RAM mode disk/Legato uses, memory budget and swapping/mute/rhythm risks.",
+          "title": "Clip RAM Mode",
+          "level": 2
+        },
+        {
+          "id": "8.4.6",
+          "pdf_pages": [
+            220,
+            221
+          ],
+          "reference_headings": [
+            "Audio utilities and sample lifecycle"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "High Quality sample-rate conversion, CPU cost, high-frequency/transposition use and approximate 19-semitone limit.",
+          "title": "High Quality Interpolation",
+          "level": 2
+        },
+        {
+          "id": "8.4.7",
+          "pdf_pages": [
+            221,
+            222
+          ],
+          "reference_headings": [
+            "Audio utilities and sample lifecycle"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Gain dB/range display, pitch semitones and cents conversion.",
+          "title": "Clip Gain and Pitch",
+          "level": 2
+        },
+        {
+          "id": "8.5",
+          "pdf_pages": [
+            222,
+            225
+          ],
+          "reference_headings": [
+            "MIDI pitch, time, transform, and generate controls"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Selection/time-range scope versus whole-clip button operation.",
+          "title": "Pitch and Time Utilities Panel",
+          "level": 1
+        },
+        {
+          "id": "8.5.1",
+          "pdf_pages": [
+            223,
+            224
+          ],
+          "reference_headings": [
+            "MIDI pitch, time, transform, and generate controls"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Transpose semitones/degrees, Fit to Scale, Invert, Interval Size and Add Interval.",
+          "title": "Pitch Tools",
+          "level": 2
+        },
+        {
+          "id": "8.5.2",
+          "pdf_pages": [
+            224,
+            225
+          ],
+          "reference_headings": [
+            "MIDI pitch, time, transform, and generate controls"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Stretch, double/half, Duration/Set Length, Humanize half-grid bound, note reverse, Legato.",
+          "title": "Time Tools",
+          "level": 2
+        },
+        {
+          "id": "8.6",
+          "pdf_pages": [
+            225,
+            226
+          ],
+          "reference_headings": [
+            "MIDI pitch, time, transform, and generate controls",
+            "Place and maintain Warp Markers"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Warped-audio Quantize/no Generate; MIDI transformation replacement and generation selection/loop/scale boundaries.",
+          "title": "Transform and Generate Panels",
+          "level": 1
+        },
+        {
+          "id": "8.7",
+          "pdf_pages": [
+            226,
+            227
+          ],
+          "reference_headings": [
+            "Open and organize Clip View"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Time-ruler zoom/scroll, Z/X history, selector full-clip overview, Follow pause/resume.",
+          "title": "Zooming and Scrolling in the Clip View’s Editor",
+          "level": 1
+        },
+        {
+          "id": "8.8",
+          "pdf_pages": [
+            227,
+            228
+          ],
+          "reference_headings": [
+            "Clip regions, loops, and scrubbing",
+            "Navigate and audition the Arrangement"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Region markers and modifier movement, scrub areas, quantization shortcuts, held repetition, MIDI chase and hidden-scrub modifier.",
+          "title": "Playing and Scrubbing Clips",
+          "level": 1
+        },
+        {
+          "id": "8.9",
+          "pdf_pages": [
+            228,
+            230
+          ],
+          "reference_headings": [
+            "Clip regions, loops, and scrubbing",
+            "Locators, meter, and Arrangement loops"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Warp prerequisite, loop brace shortcuts, Duplicate Loop content/note shift, independent start allows intro into loop.",
+          "title": "Looping Clips",
+          "level": 1
+        },
+        {
+          "id": "8.10",
+          "pdf_pages": [
+            230,
+            230
+          ],
+          "reference_headings": [
+            "Audio utilities and sample lifecycle"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Sample metadata, mixed-value asterisks, sample count and browser reveal.",
+          "title": "Clip View Sample Details",
+          "level": 1
+        },
+        {
+          "id": "8.11",
+          "pdf_pages": [
+            231,
+            231
+          ],
+          "reference_headings": [
+            "Audio utilities and sample lifecycle"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Crop boundaries for looped/unlooped audio/MIDI, time-selection variants, context-sensitive shortcut, separate generated sample and paths.",
+          "title": "Cropping Clips",
+          "level": 1
+        },
+        {
+          "id": "8.12",
+          "pdf_pages": [
+            231,
+            232
+          ],
+          "reference_headings": [
+            "Audio utilities and sample lifecycle"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Per-clip replacement and retained gain/pitch, equal-length marker prerequisite, similar-file search, Manage Sample File shared scope.",
+          "title": "Replacing and Editing the Sample",
+          "level": 1
+        },
+        {
+          "id": "8.13",
+          "pdf_pages": [
+            232,
+            232
+          ],
+          "reference_headings": [
+            "Open and organize Clip View",
+            "Audio utilities and sample lifecycle"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Multi-selection, shared controls, range adjustment and extreme-value convergence.",
+          "title": "Editing Clip Properties for Multiple Clips",
+          "level": 1
+        },
+        {
+          "id": "8.14",
+          "pdf_pages": [
+            232,
+            233
+          ],
+          "reference_headings": [
+            "Open and organize Clip View"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Clip Update Rate, Launch/Warp Mode new-clip defaults.",
+          "title": "Clip Defaults and Update Rate",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "title": "Audio Clips, Tempo, and Warping",
+      "pdf_pages": [
+        234,
+        251
+      ],
+      "extraction_path": "private-extraction:/09.txt",
+      "sha256": "db923a69b15bcbd3c8c7f0e2adbc84a884d77a2c89965fc51f8cf7172c0bb23b",
+      "read_complete": true,
+      "read_line_ranges": [
+        [
+          1,
+          350
+        ],
+        [
+          351,
+          667
+        ]
+      ],
+      "page_headers_verified": [
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251
+      ],
+      "intro": {
+        "id": "9.intro",
+        "title": "Audio Clips, Tempo, and Warping introduction",
+        "pdf_pages": [
+          234,
+          234
+        ],
+        "reference_headings": [
+          "Choose the working surface"
+        ],
+        "status": "source_derived",
+        "coverage": "non_operational_context",
+        "notes": "Conceptual rationale used only to route tasks; no standalone procedure or credits."
+      },
+      "sections": [
+        {
+          "id": "9.1",
+          "pdf_pages": [
+            234,
+            238
+          ],
+          "reference_headings": [
+            "Set tempo and choose its authority"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Tempo control and authority selection.",
+          "title": "Tempo",
+          "level": 1
+        },
+        {
+          "id": "9.1.1",
+          "pdf_pages": [
+            234,
+            234
+          ],
+          "reference_headings": [
+            "Set tempo and choose its authority"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "BPM hundredths/coarse mapping, automation and synchronization boundaries.",
+          "title": "Setting the Tempo",
+          "level": 2
+        },
+        {
+          "id": "9.1.2",
+          "pdf_pages": [
+            235,
+            235
+          ],
+          "reference_headings": [
+            "Set tempo and choose its authority"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Tap once per beat, key/MIDI mapping, estimate refinement, four-tap 4/4 start and Link position effect.",
+          "title": "Tapping the Tempo",
+          "level": 2
+        },
+        {
+          "id": "9.1.3",
+          "pdf_pages": [
+            236,
+            236
+          ],
+          "reference_headings": [
+            "Set tempo and choose its authority"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Temporary phase nudging against roughly matching external musicians/turntables; mapping.",
+          "title": "Nudging the Tempo",
+          "level": 2
+        },
+        {
+          "id": "9.1.4",
+          "pdf_pages": [
+            236,
+            238
+          ],
+          "reference_headings": [
+            "Set tempo and choose its authority"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Arrangement Lead/Follow, Warp Marker tempo, bottom-track precedence, generated read-only automation, Unfollow conversion, Tempo Follower/EXT precedence.",
+          "title": "Clip Tempo Followers and Leaders",
+          "level": 2
+        },
+        {
+          "id": "9.2",
+          "pdf_pages": [
+            238,
+            249
+          ],
+          "reference_headings": [
+            "Prepare audio for warping",
+            "Place and maintain Warp Markers",
+            "Repair short loops and long recordings"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Warp timing procedures and prerequisites.",
+          "title": "Warping",
+          "level": 1
+        },
+        {
+          "id": "9.2.1",
+          "pdf_pages": [
+            239,
+            240
+          ],
+          "reference_headings": [
+            "Prepare audio for warping"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Four short-sample policies, Auto default, long Auto-Warp default/bar markers, default Beats mode; no numeric short/long threshold.",
+          "title": "Warping Options in Settings",
+          "level": 2
+        },
+        {
+          "id": "9.2.2",
+          "pdf_pages": [
+            240,
+            240
+          ],
+          "reference_headings": [
+            "Prepare audio for warping"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Folder/import routes, listed compressed formats, view-specific placement, analysis gate.",
+          "title": "Importing Samples",
+          "level": 2
+        },
+        {
+          "id": "9.2.3",
+          "pdf_pages": [
+            240,
+            242
+          ],
+          "reference_headings": [
+            "Place and maintain Warp Markers",
+            "Audio utilities and sample lifecycle",
+            "Prepare audio for warping"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Marker placement/movement/deletion, waveform-under-marker Shift action, Follow and saved markers.",
+          "title": "Warp Markers",
+          "level": 2
+        },
+        {
+          "id": "9.2.3.1",
+          "pdf_pages": [
+            241,
+            241
+          ],
+          "reference_headings": [
+            "Place and maintain Warp Markers"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Transient editing/reset, pseudo markers, selection Insert Warp Markers, adjacent transient modifier and tempo-change risk.",
+          "title": "Transients and Pseudo-Warp Markers",
+          "level": 3
+        },
+        {
+          "id": "9.2.3.2",
+          "pdf_pages": [
+            242,
+            242
+          ],
+          "reference_headings": [
+            "Audio utilities and sample lifecycle",
+            "Prepare audio for warping"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Set versus sample saving, own-sample restriction, existing markers supersede Auto-Warp, explicit reanalysis.",
+          "title": "Saving Warp Markers with a Sample File",
+          "level": 3
+        },
+        {
+          "id": "9.2.4",
+          "pdf_pages": [
+            242,
+            244
+          ],
+          "reference_headings": [
+            "Repair short loops and long recordings"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Short-sample correction prerequisites and scenario choices.",
+          "title": "Warping Short Samples",
+          "level": 2
+        },
+        {
+          "id": "9.2.4.1",
+          "pdf_pages": [
+            242,
+            243
+          ],
+          "reference_headings": [
+            "Repair short loops and long recordings"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "1/2/4/8/16-bar assumption, two boundary markers, known/fine BPM, Arrangement edge stretch, factor-two correction.",
+          "title": "Even-Length Loops",
+          "level": 3
+        },
+        {
+          "id": "9.2.4.2",
+          "pdf_pages": [
+            243,
+            243
+          ],
+          "reference_headings": [
+            "Repair short loops and long recordings"
+          ],
+          "status": "source_derived",
+          "coverage": "distilled_with_specific_ambiguity",
+          "notes": "Odd-loop count mismatch and hidden-tail recovery; internally unclear example not reproduced as exact numbered recipe.",
+          "title": "Odd-Length Loops",
+          "level": 3
+        },
+        {
+          "id": "9.2.4.3",
+          "pdf_pages": [
+            243,
+            244
+          ],
+          "reference_headings": [
+            "Repair short loops and long recordings"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "First-downbeat Set 1.1.1 Here, Warp From Here and trailing-silence marker.",
+          "title": "Uneven-Length Loops",
+          "level": 3
+        },
+        {
+          "id": "9.2.4.4",
+          "pdf_pages": [
+            244,
+            244
+          ],
+          "reference_headings": [
+            "Repair short loops and long recordings"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Same-length multi-clip shared Warp Marker editing.",
+          "title": "Multi-Clip Warping",
+          "level": 3
+        },
+        {
+          "id": "9.2.5",
+          "pdf_pages": [
+            244,
+            248
+          ],
+          "reference_headings": [
+            "Repair short loops and long recordings",
+            "Prepare audio for warping"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Long-sample Auto-Warp prerequisite and correction workflow.",
+          "title": "Auto-Warping Long Samples",
+          "level": 2
+        },
+        {
+          "id": "9.2.5.1",
+          "pdf_pages": [
+            245,
+            248
+          ],
+          "reference_headings": [
+            "Repair short loops and long recordings"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Metronome/downbeat checks, Warp Sample/Selection as, left-to-right pinned sections, four distinct Warp From variants.",
+          "title": "Adjusting Auto-Warp Results",
+          "level": 3
+        },
+        {
+          "id": "9.2.6",
+          "pdf_pages": [
+            248,
+            248
+          ],
+          "reference_headings": [
+            "Place and maintain Warp Markers"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Local groove changes with neighboring transients pinned.",
+          "title": "Manipulating Grooves",
+          "level": 2
+        },
+        {
+          "id": "9.2.7",
+          "pdf_pages": [
+            248,
+            249
+          ],
+          "reference_headings": [
+            "Place and maintain Warp Markers",
+            "MIDI pitch, time, transform, and generate controls"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Audio Quantize focus/shortcut, transient alignment, grid/triplet choice and partial Amount.",
+          "title": "Quantizing Audio",
+          "level": 2
+        },
+        {
+          "id": "9.3",
+          "pdf_pages": [
+            249,
+            251
+          ],
+          "reference_headings": [
+            "Choose a Warp Mode"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Warp algorithm choice by material; grain handling affects output.",
+          "title": "Warp Modes",
+          "level": 1
+        },
+        {
+          "id": "9.3.1",
+          "pdf_pages": [
+            249,
+            250
+          ],
+          "reference_headings": [
+            "Choose a Warp Mode"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Beats Preserve, three Transient Loop Modes, Envelope 0/100 behavior and artifacts.",
+          "title": "Beats Mode",
+          "level": 2
+        },
+        {
+          "id": "9.3.2",
+          "pdf_pages": [
+            250,
+            250
+          ],
+          "reference_headings": [
+            "Choose a Warp Mode"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Tones material fit and pitch-influenced grain-size tradeoff.",
+          "title": "Tones Mode",
+          "level": 2
+        },
+        {
+          "id": "9.3.3",
+          "pdf_pages": [
+            250,
+            250
+          ],
+          "reference_headings": [
+            "Choose a Warp Mode"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Texture fixed grain-size behavior, material fit and Fluctuation randomness.",
+          "title": "Texture Mode",
+          "level": 2
+        },
+        {
+          "id": "9.3.4",
+          "pdf_pages": [
+            251,
+            251
+          ],
+          "reference_headings": [
+            "Choose a Warp Mode",
+            "Audio utilities and sample lifecycle"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Re-Pitch rate/pitch coupling, 2x speed octave, disabled transposition.",
+          "title": "Re-Pitch Mode",
+          "level": 2
+        },
+        {
+          "id": "9.3.5",
+          "pdf_pages": [
+            251,
+            251
+          ],
+          "reference_headings": [
+            "Choose a Warp Mode"
+          ],
+          "status": "source_derived",
+          "coverage": "operationally_distilled",
+          "notes": "Complex/Pro mixed material, CPU tradeoff, Formants 100% and no-transpose limitation, Envelope default 128 and pitch-dependent suggestions.",
+          "title": "Complex and Complex Pro Mode",
+          "level": 2
+        }
+      ]
+    }
+  ],
+  "coverage_counts": {
+    "chapters": 4,
+    "pages_read": 87,
+    "top_level_numbered_subsections": 37,
+    "all_numbered_subsections": 89,
+    "intro_records": 4,
+    "non_operational_intro_records": 3,
+    "runtime_content_headings": 20,
+    "warp_modes_covered": [
+      "Beats",
+      "Tones",
+      "Texture",
+      "Re-Pitch",
+      "Complex",
+      "Complex Pro"
+    ]
+  },
+  "gaps_and_uncertainty": [
+    {
+      "id": "odd-loop-example",
+      "source_sections": [
+        "9.2.4.2"
+      ],
+      "pdf_pages": [
+        243,
+        243
+      ],
+      "severity": "localized",
+      "detail": "The odd-length example describes a Warp Marker at the end placed at the beginning of an even bar (bar eight in a nine-bar loop), then says to expose an eighth bar while discussing a missing last bar. The extracted prose is internally unclear as an exact boundary recipe. No diagram needed elsewhere; this one may need rendered-page inspection to resolve exact intended positions.",
+      "handling": "Retained odd-length diagnosis and end-marker reveal technique; withheld the exact bar-number recipe. Count/verify real downbeats rather than guess.",
+      "parent_followup": "If exact example positions are required, inspect the rendered source and test in Live."
+    },
+    {
+      "id": "scene-tempo-recording-wording",
+      "source_sections": [
+        "7.2.1",
+        "7.5"
+      ],
+      "pdf_pages": [
+        191,
+        197
+      ],
+      "severity": "localized",
+      "detail": "7.5 still describes recording scene tempo/meter through scene names; 7.2.1 documents dedicated controls and migration of pre-Live-11 name values.",
+      "handling": "Use explicit scene controls and verify recorded transitions; do not instruct current-version name parsing. Recording behavior itself not tested."
+    },
+    {
+      "id": "fade-terminology",
+      "source_sections": [
+        "6.8",
+        "8.4.4"
+      ],
+      "pdf_pages": [
+        177,
+        219
+      ],
+      "severity": "terminology",
+      "detail": "8.4.4 describes Arrangement fades via envelopes, while 6.8 explicitly distinguishes clip fade handles from automation envelopes.",
+      "handling": "Distinguish Session Clip Fade from Arrangement clip fade handles; do not equate them with track automation."
+    },
+    {
+      "id": "edition-version-availability",
+      "source_sections": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "severity": "scope",
+      "detail": "Assigned chapters do not provide a complete edition/point-release feature matrix, including Complex/Complex Pro or linked-track availability.",
+      "handling": "No edition entitlement inferred. Check actual installed controls; own-sample-only Save Default restriction is retained."
+    },
+    {
+      "id": "short-long-classification",
+      "source_sections": [
+        "9.2.1"
+      ],
+      "pdf_pages": [
+        239,
+        240
+      ],
+      "severity": "numeric-omission-in-source",
+      "detail": "No numeric threshold is specified for short versus long samples.",
+      "handling": "Describe policies without inventing a duration cutoff."
+    },
+    {
+      "id": "ui-and-audio-execution",
+      "severity": "unverified",
+      "detail": "All interface behavior and sound-quality recommendations are source-derived, not observed on the installed Live instance. No listening, Live test, automation capability test, performance benchmark, or edition check was performed."
+    },
+    {
+      "id": "cross-chapter-detail",
+      "severity": "assigned-scope",
+      "detail": "Full MIDI tool algorithms, launch/Follow Action parameter behavior, groove system, automation, MPE, external synchronization and key/MIDI mapping setup beyond what these chapters state belong to other assigned references.",
+      "related_chapters": [
+        10,
+        11,
+        12,
+        14,
+        16,
+        26,
+        27,
+        34,
+        37
+      ],
+      "handling": "Cover the present chapters' panel roles, boundaries and prerequisites without inventing the external chapters' parameter details."
+    }
+  ],
+  "validation": {
+    "source_reads": "All 2,893 extracted lines read through nontruncated tool chunks; all 87 page headers verified contiguous.",
+    "static_checks": {
+      "status": "passed",
+      "assertions_passed": 252,
+      "checks": [
+        "Reference SHA-256 matches evidence",
+        "All 89 numbered subsection IDs mapped exactly, including all 37 top-level subsections",
+        "Complete contiguous source reads and 87 page headers",
+        "All mapped headings exist and all 20 contents links resolve",
+        "224-line reference within requested range",
+        "All evidence page ranges stay within their assigned chapter",
+        "Markdown table field counts consistent",
+        "No runtime source-manual, PDF, temporary extraction path, page-number or URL leakage",
+        "No trailing whitespace",
+        "No normalized 24-word verbatim source runs"
+      ],
+      "whitespace_diff_checks": [
+        {
+          "path": "skills/ableton-live/references/clips-warping.md",
+          "no_index_exit_status": 1,
+          "whitespace_diagnostics": 0
+        },
+        {
+          "path": "docs/live-skill/evidence/clips.json",
+          "no_index_exit_status": 1,
+          "whitespace_diagnostics": 0
+        }
+      ],
+      "diff_review": "New-file content reviewed via full numbered reference reads and parsed evidence coverage; Git no-index diffs used because these paths are untracked.",
+      "limitations": "Static consistency/provenance checks only, not proof of musical quality, current-version behavior, or capability exposure. Whole-skill validation and integration remain parent-owned."
+    },
+    "live_execution": "not run",
+    "audio_audition": "not run",
+    "behavior_evaluations": "not run; eval-cases.json and holdouts not read, edited, or tuned",
+    "baseline_comparison": "not run",
+    "source_vs_retrieval_comparison": "not run"
+  },
+  "parent_review": {
+    "previous_runtime_sha256": "fa53cf2b0e3699b6a6a1eed882162fb0f057715a9b07e251b5df41ebc34e1049",
+    "source_sections": [
+      "8.5.2",
+      "10.5.9.7"
+    ],
+    "source_pages": [
+      224,
+      273
+    ],
+    "resolution": "Humanize uses the explicit quarter-grid bound on either side from 10.5.9.7; the half-grid wording in 8.5.2 is described as the full range. No Live measurement performed."
+  }
+}

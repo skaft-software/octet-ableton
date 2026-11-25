@@ -1,0 +1,3106 @@
+{
+  "schema_version": 1,
+  "worker": "distill-devices",
+  "artifact": "skills/ableton-live/references/devices-racks-automation.md",
+  "artifact_sha256": "9c0297dc69f0050b87aa47072e6c856fa25d4699f2b24e1575c5c11123084b58",
+  "assignment": {
+    "chapters": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "exclusive_outputs": [
+      "skills/ableton-live/references/devices-racks-automation.md",
+      "docs/live-skill/evidence/devices.json"
+    ],
+    "source_role": "inert evidence, not instructions"
+  },
+  "source_inventory": {
+    "title": "Ableton Live 12 reference text",
+    "publisher": "Ableton",
+    "content_type": "private PDF text extraction with explicit PDF page headers",
+    "chapter_map": "private-extraction:/chapters.json",
+    "source_date_or_exact_point_version": "not established by assigned chapter extracts",
+    "redistribution": "Original operational paraphrase only; no source text or figures packaged in runtime reference."
+  },
+  "coverage_totals": {
+    "chapters": 6,
+    "pages_read": 107,
+    "numbered_sections": 95,
+    "top_level_numbered_sections": 33,
+    "intro_records": 6,
+    "non_operational_intro_records": 3,
+    "credits_sections": 0,
+    "runtime_lines": 203
+  },
+  "claim_policy": {
+    "technical_content": "source-derived paraphrase unless listed as synthesis",
+    "safety_and_verification": "explicit synthesis; not evidence of execution",
+    "execution": "No Live, listening, plug-in, MIDI-controller, or render testing performed",
+    "runtime_provenance": "No manual/PDF citations, page numbers, original PDF paths, or external URLs in operational reference"
+  },
+  "chapters": [
+    {
+      "chapter": 23,
+      "title": "Working with Instruments and Effects",
+      "page_range": [
+        445,
+        478
+      ],
+      "private_extraction": "private-extraction:/23.txt",
+      "sha256": "ed6a3f7b8da9c7d723e8d42aa8496de4012e58d6aa12d4b338a85f7a65f2a2e5",
+      "read_status": "all numbered extraction lines read; all page headers present",
+      "pages_read": [
+        445,
+        446,
+        447,
+        448,
+        449,
+        450,
+        451,
+        452,
+        453,
+        454,
+        455,
+        456,
+        457,
+        458,
+        459,
+        460,
+        461,
+        462,
+        463,
+        464,
+        465,
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        472,
+        473,
+        474,
+        475,
+        476,
+        477,
+        478
+      ],
+      "intro": {
+        "page_range": [
+          445,
+          445
+        ],
+        "status": "operational",
+        "mapped_to": [
+          {
+            "file": "skills/ableton-live/references/devices-racks-automation.md",
+            "heading": "Device chains and comparison",
+            "anchor": "device-chains-and-comparison",
+            "line": 23
+          }
+        ],
+        "note": "Contains operative prerequisites/signals/indicators distilled into guidance."
+      },
+      "top_level_sections": 3,
+      "numbered_sections": 17,
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Device chains and comparison",
+          "anchor": "device-chains-and-comparison",
+          "line": 23
+        },
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Presets and defaults",
+          "anchor": "presets-and-defaults",
+          "line": 39
+        }
+      ]
+    },
+    {
+      "chapter": 24,
+      "title": "Using Plug-Ins",
+      "page_range": [
+        479,
+        490
+      ],
+      "private_extraction": "private-extraction:/24.txt",
+      "sha256": "f95d6be838ab75cb7235f8a7e71357e77cee96cadba90f19bd30e4d7b2dbcd75",
+      "read_status": "all numbered extraction lines read; all page headers present",
+      "pages_read": [
+        479,
+        480,
+        481,
+        482,
+        483,
+        484,
+        485,
+        486,
+        487,
+        488,
+        489,
+        490
+      ],
+      "intro": {
+        "page_range": [
+          479,
+          481
+        ],
+        "status": "operational",
+        "mapped_to": [
+          {
+            "file": "skills/ableton-live/references/devices-racks-automation.md",
+            "heading": "Scope and preflight",
+            "anchor": "scope-and-preflight",
+            "line": 17
+          },
+          {
+            "file": "skills/ableton-live/references/devices-racks-automation.md",
+            "heading": "Plug-ins: discovery and control",
+            "anchor": "plug-ins-discovery-and-control",
+            "line": 62
+          }
+        ],
+        "note": "Contains operative prerequisites/signals/indicators distilled into guidance."
+      },
+      "top_level_sections": 4,
+      "numbered_sections": 8,
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Plug-ins: discovery and control",
+          "anchor": "plug-ins-discovery-and-control",
+          "line": 62
+        },
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Presets and defaults",
+          "anchor": "presets-and-defaults",
+          "line": 39
+        }
+      ]
+    },
+    {
+      "chapter": 25,
+      "title": "Instrument, Drum and Effect Racks",
+      "page_range": [
+        491,
+        510
+      ],
+      "private_extraction": "private-extraction:/25.txt",
+      "sha256": "2d40b47038fd8579016f102db488075aa77ae0958d642f2eed2be72f2f9252e8",
+      "read_status": "all numbered extraction lines read; all page headers present",
+      "pages_read": [
+        491,
+        492,
+        493,
+        494,
+        495,
+        496,
+        497,
+        498,
+        499,
+        500,
+        501,
+        502,
+        503,
+        504,
+        505,
+        506,
+        507,
+        508,
+        509,
+        510
+      ],
+      "intro": {
+        "page_range": [
+          491,
+          491
+        ],
+        "status": "contextual_non_operational",
+        "mapped_to": [
+          {
+            "file": "skills/ableton-live/references/devices-racks-automation.md",
+            "heading": "Racks: parallel chains and zones",
+            "anchor": "racks-parallel-chains-and-zones",
+            "line": 79
+          },
+          {
+            "file": "skills/ableton-live/references/devices-racks-automation.md",
+            "heading": "Macros and variations",
+            "anchor": "macros-and-variations",
+            "line": 115
+          }
+        ],
+        "note": "Orientation and cross-references only; no independent executable procedure. Concepts absorbed into mapped headings."
+      },
+      "top_level_sections": 8,
+      "numbered_sections": 22,
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Racks: parallel chains and zones",
+          "anchor": "racks-parallel-chains-and-zones",
+          "line": 79
+        },
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Macros and variations",
+          "anchor": "macros-and-variations",
+          "line": 115
+        },
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Drum Racks and chain extraction",
+          "anchor": "drum-racks-and-chain-extraction",
+          "line": 101
+        }
+      ]
+    },
+    {
+      "chapter": 26,
+      "title": "Automation",
+      "page_range": [
+        511,
+        532
+      ],
+      "private_extraction": "private-extraction:/26.txt",
+      "sha256": "37bf1cdd9a6cb29cbcd7b1a06d65cfce56ac99bfa3b1f4719e1a81c3e18ad8ab",
+      "read_status": "all numbered extraction lines read; all page headers present",
+      "pages_read": [
+        511,
+        512,
+        513,
+        514,
+        515,
+        516,
+        517,
+        518,
+        519,
+        520,
+        521,
+        522,
+        523,
+        524,
+        525,
+        526,
+        527,
+        528,
+        529,
+        530,
+        531,
+        532
+      ],
+      "intro": {
+        "page_range": [
+          511,
+          511
+        ],
+        "status": "operational",
+        "mapped_to": [
+          {
+            "file": "skills/ableton-live/references/devices-racks-automation.md",
+            "heading": "Automation: record, override, and inspect",
+            "anchor": "automation-record-override-and-inspect",
+            "line": 124
+          }
+        ],
+        "note": "Contains operative prerequisites/signals/indicators distilled into guidance."
+      },
+      "top_level_sections": 9,
+      "numbered_sections": 21,
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Automation: record, override, and inspect",
+          "anchor": "automation-record-override-and-inspect",
+          "line": 124
+        },
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Automation: construct and edit",
+          "anchor": "automation-construct-and-edit",
+          "line": 143
+        }
+      ]
+    },
+    {
+      "chapter": 27,
+      "title": "Clip Envelopes",
+      "page_range": [
+        533,
+        545
+      ],
+      "private_extraction": "private-extraction:/27.txt",
+      "sha256": "dde4d07c014e8b41df8f9930d653b836fbd31cfdb7fa1b3100325252871aff72",
+      "read_status": "all numbered extraction lines read; all page headers present",
+      "pages_read": [
+        533,
+        534,
+        535,
+        536,
+        537,
+        538,
+        539,
+        540,
+        541,
+        542,
+        543,
+        544,
+        545
+      ],
+      "intro": {
+        "page_range": [
+          533,
+          533
+        ],
+        "status": "contextual_non_operational",
+        "mapped_to": [
+          {
+            "file": "skills/ableton-live/references/devices-racks-automation.md",
+            "heading": "Clip envelopes: relative control and independent loops",
+            "anchor": "clip-envelopes-relative-control-and-independent-loops",
+            "line": 159
+          }
+        ],
+        "note": "Orientation and cross-references only; no independent executable procedure. Concepts absorbed into mapped headings."
+      },
+      "top_level_sections": 5,
+      "numbered_sections": 18,
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Clip envelopes: relative control and independent loops",
+          "anchor": "clip-envelopes-relative-control-and-independent-loops",
+          "line": 159
+        },
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Automation: construct and edit",
+          "anchor": "automation-construct-and-edit",
+          "line": 143
+        }
+      ]
+    },
+    {
+      "chapter": 28,
+      "title": "Working with Video",
+      "page_range": [
+        546,
+        551
+      ],
+      "private_extraction": "private-extraction:/28.txt",
+      "sha256": "e5dd98a76262e0c5cc3996fa14eb902098dc374f218f45bd9bd3287bb89b99ee",
+      "read_status": "all numbered extraction lines read; all page headers present",
+      "pages_read": [
+        546,
+        547,
+        548,
+        549,
+        550,
+        551
+      ],
+      "intro": {
+        "page_range": [
+          546,
+          546
+        ],
+        "status": "contextual_non_operational",
+        "mapped_to": [
+          {
+            "file": "skills/ableton-live/references/devices-racks-automation.md",
+            "heading": "Video scoring and delivery",
+            "anchor": "video-scoring-and-delivery",
+            "line": 185
+          }
+        ],
+        "note": "Orientation and cross-references only; no independent executable procedure. Concepts absorbed into mapped headings."
+      },
+      "top_level_sections": 4,
+      "numbered_sections": 9,
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Video scoring and delivery",
+          "anchor": "video-scoring-and-delivery",
+          "line": 185
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "23.1",
+      "chapter": 23,
+      "title": "Device View",
+      "top_level": true,
+      "page_range": [
+        445,
+        447
+      ],
+      "extraction_line_range": [
+        27,
+        72
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Device chains and comparison",
+          "anchor": "device-chains-and-comparison",
+          "line": 23
+        }
+      ],
+      "coverage": "Open, stack, hide, and fold Device View without confusing clip focus.",
+      "execution_verified": false
+    },
+    {
+      "id": "23.2",
+      "chapter": 23,
+      "title": "Using Devices",
+      "top_level": true,
+      "page_range": [
+        447,
+        477
+      ],
+      "extraction_line_range": [
+        73,
+        801
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Device chains and comparison",
+          "anchor": "device-chains-and-comparison",
+          "line": 23
+        },
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Presets and defaults",
+          "anchor": "presets-and-defaults",
+          "line": 39
+        }
+      ],
+      "coverage": "Choose valid device signal types, load/order/copy devices, diagnose signal loss, compare states, and persist settings.",
+      "execution_verified": false
+    },
+    {
+      "id": "23.2.1",
+      "chapter": 23,
+      "title": "Device Title Bar",
+      "top_level": false,
+      "page_range": [
+        450,
+        454
+      ],
+      "extraction_line_range": [
+        164,
+        242
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Device chains and comparison",
+          "anchor": "device-chains-and-comparison",
+          "line": 23
+        }
+      ],
+      "coverage": "Activator behavior, expanded panels, device-specific controls, and context menus.",
+      "execution_verified": false
+    },
+    {
+      "id": "23.2.2",
+      "chapter": 23,
+      "title": "Device A/B Comparison",
+      "top_level": false,
+      "page_range": [
+        454,
+        457
+      ],
+      "extraction_line_range": [
+        243,
+        333
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Device chains and comparison",
+          "anchor": "device-chains-and-comparison",
+          "line": 23
+        }
+      ],
+      "coverage": "A/B copy/switch, exclusions, state-specific automation, and selected-state-only persistence.",
+      "execution_verified": false
+    },
+    {
+      "id": "23.2.3",
+      "chapter": 23,
+      "title": "Live Device Presets",
+      "top_level": false,
+      "page_range": [
+        458,
+        459
+      ],
+      "extraction_line_range": [
+        334,
+        371
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Presets and defaults",
+          "anchor": "presets-and-defaults",
+          "line": 39
+        }
+      ],
+      "coverage": "Browse/load defaults and presets; distinguish device folders and Live device file types.",
+      "execution_verified": false
+    },
+    {
+      "id": "23.2.4",
+      "chapter": 23,
+      "title": "Hot-Swapping Presets",
+      "top_level": false,
+      "page_range": [
+        459,
+        462
+      ],
+      "extraction_line_range": [
+        372,
+        466
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Presets and defaults",
+          "anchor": "presets-and-defaults",
+          "line": 39
+        }
+      ],
+      "coverage": "Select the correct Hot-Swap target, replace compatible types, exit, and recognize immediate-load option.",
+      "execution_verified": false
+    },
+    {
+      "id": "23.2.4.1",
+      "chapter": 23,
+      "title": "Hot-Swapping Samples",
+      "top_level": false,
+      "page_range": [
+        460,
+        462
+      ],
+      "extraction_line_range": [
+        417,
+        466
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Presets and defaults",
+          "anchor": "presets-and-defaults",
+          "line": 39
+        }
+      ],
+      "coverage": "Locate sample-specific Hot-Swap in Drum Rack, Drum Sampler, Impulse, Sampler, and Simpler.",
+      "execution_verified": false
+    },
+    {
+      "id": "23.2.5",
+      "chapter": 23,
+      "title": "Saving Presets",
+      "top_level": false,
+      "page_range": [
+        462,
+        464
+      ],
+      "extraction_line_range": [
+        467,
+        511
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Presets and defaults",
+          "anchor": "presets-and-defaults",
+          "line": 39
+        }
+      ],
+      "coverage": "Save settings and Info text to User Library/Places; resolve referenced-sample collection.",
+      "execution_verified": false
+    },
+    {
+      "id": "23.2.6",
+      "chapter": 23,
+      "title": "Defaults",
+      "top_level": false,
+      "page_range": [
+        464,
+        477
+      ],
+      "extraction_line_range": [
+        512,
+        801
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Presets and defaults",
+          "anchor": "presets-and-defaults",
+          "line": 39
+        }
+      ],
+      "coverage": "Choose appropriate default scope and recovery to factory behavior.",
+      "execution_verified": false
+    },
+    {
+      "id": "23.2.6.1",
+      "chapter": 23,
+      "title": "Default Presets",
+      "top_level": false,
+      "page_range": [
+        465,
+        466
+      ],
+      "extraction_line_range": [
+        542,
+        578
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Presets and defaults",
+          "anchor": "presets-and-defaults",
+          "line": 39
+        }
+      ],
+      "coverage": "Save default device/Rack values, preserve required names, and recognize stored sample/overwrite behavior.",
+      "execution_verified": false
+    },
+    {
+      "id": "23.2.6.2",
+      "chapter": 23,
+      "title": "Default Plug-in Configurations",
+      "top_level": false,
+      "page_range": [
+        466,
+        468
+      ],
+      "extraction_line_range": [
+        579,
+        611
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Presets and defaults",
+          "anchor": "presets-and-defaults",
+          "line": 39
+        }
+      ],
+      "coverage": "Save plug-in exposed-control configurations; distinguish configuration from parameter values and AU/VST types.",
+      "execution_verified": false
+    },
+    {
+      "id": "23.2.6.3",
+      "chapter": 23,
+      "title": "Track Defaults",
+      "top_level": false,
+      "page_range": [
+        468,
+        470
+      ],
+      "extraction_line_range": [
+        612,
+        644
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Presets and defaults",
+          "anchor": "presets-and-defaults",
+          "line": 39
+        }
+      ],
+      "coverage": "Save new-track device/mixer state, required folder hierarchy and exact drag-save names.",
+      "execution_verified": false
+    },
+    {
+      "id": "23.2.6.4",
+      "chapter": 23,
+      "title": "Sample Dropping Defaults",
+      "top_level": false,
+      "page_range": [
+        470,
+        472
+      ],
+      "extraction_line_range": [
+        645,
+        677
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Presets and defaults",
+          "anchor": "presets-and-defaults",
+          "line": 39
+        }
+      ],
+      "coverage": "Create Sampler/Simpler drop defaults and default pads; most recently added preset wins.",
+      "execution_verified": false
+    },
+    {
+      "id": "23.2.6.5",
+      "chapter": 23,
+      "title": "Slicing Defaults",
+      "top_level": false,
+      "page_range": [
+        472,
+        474
+      ],
+      "extraction_line_range": [
+        678,
+        711
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Presets and defaults",
+          "anchor": "presets-and-defaults",
+          "line": 39
+        }
+      ],
+      "coverage": "Build one-chain empty-sampler Drum Rack for Slice to New MIDI Track and choose it in slicing dialog.",
+      "execution_verified": false
+    },
+    {
+      "id": "23.2.6.6",
+      "chapter": 23,
+      "title": "Converting Audio to MIDI Defaults",
+      "top_level": false,
+      "page_range": [
+        474,
+        475
+      ],
+      "extraction_line_range": [
+        712,
+        752
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Presets and defaults",
+          "anchor": "presets-and-defaults",
+          "line": 39
+        }
+      ],
+      "coverage": "Differentiate harmony/melody instruments from required top-level drums Rack; latest-added conversion preset wins.",
+      "execution_verified": false
+    },
+    {
+      "id": "23.2.6.7",
+      "chapter": 23,
+      "title": "Project-Specific Defaults",
+      "top_level": false,
+      "page_range": [
+        475,
+        477
+      ],
+      "extraction_line_range": [
+        753,
+        801
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Presets and defaults",
+          "anchor": "presets-and-defaults",
+          "line": 39
+        }
+      ],
+      "coverage": "Project precedence, folder replication, plug-in configuration transfer, and User Library move consequence.",
+      "execution_verified": false
+    },
+    {
+      "id": "23.3",
+      "chapter": 23,
+      "title": "Device Delay Compensation",
+      "top_level": true,
+      "page_range": [
+        477,
+        478
+      ],
+      "extraction_line_range": [
+        802,
+        841
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Device chains and comparison",
+          "anchor": "device-chains-and-comparison",
+          "line": 23
+        }
+      ],
+      "coverage": "Delay compensation, monitored-latency tradeoff, clock-synced-device limitation, Track Delay availability, and CPU cost.",
+      "execution_verified": false
+    },
+    {
+      "id": "24.1",
+      "chapter": 24,
+      "title": "Plug-Ins in the Device View",
+      "top_level": true,
+      "page_range": [
+        481,
+        484
+      ],
+      "extraction_line_range": [
+        65,
+        190
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Plug-ins: discovery and control",
+          "anchor": "plug-ins-discovery-and-control",
+          "line": 62
+        }
+      ],
+      "coverage": "64-parameter threshold, native window, panel unfolding, and two-parameter X-Y assignments.",
+      "execution_verified": false
+    },
+    {
+      "id": "24.1.1",
+      "chapter": 24,
+      "title": "Showing Plug-In Panels in Separate Windows",
+      "top_level": false,
+      "page_range": [
+        482,
+        482
+      ],
+      "extraction_line_range": [
+        95,
+        126
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Plug-ins: discovery and control",
+          "anchor": "plug-ins-discovery-and-control",
+          "line": 62
+        }
+      ],
+      "coverage": "Window preferences, keep-open modifier, pre-opened-window shortcut requirement, and owning-track titles.",
+      "execution_verified": false
+    },
+    {
+      "id": "24.1.2",
+      "chapter": 24,
+      "title": "Plug-In Configure Mode",
+      "top_level": false,
+      "page_range": [
+        483,
+        484
+      ],
+      "extraction_line_range": [
+        127,
+        190
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Plug-ins: discovery and control",
+          "anchor": "plug-ins-discovery-and-control",
+          "line": 62
+        },
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Presets and defaults",
+          "anchor": "presets-and-defaults",
+          "line": 39
+        }
+      ],
+      "coverage": "Configure published controls, per-instance persistence, mapping consequences, native-window exceptions, and implicit exposure.",
+      "execution_verified": false
+    },
+    {
+      "id": "24.2",
+      "chapter": 24,
+      "title": "Sidechain Parameters",
+      "top_level": true,
+      "page_range": [
+        484,
+        485
+      ],
+      "extraction_line_range": [
+        191,
+        219
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Plug-ins: discovery and control",
+          "anchor": "plug-ins-discovery-and-control",
+          "line": 62
+        }
+      ],
+      "coverage": "Route external detector source and distinguish Gain, Mix endpoints, and Mute from audible source mixing.",
+      "execution_verified": false
+    },
+    {
+      "id": "24.3",
+      "chapter": 24,
+      "title": "VST Plug-Ins",
+      "top_level": true,
+      "page_range": [
+        485,
+        489
+      ],
+      "extraction_line_range": [
+        220,
+        343
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Plug-ins: discovery and control",
+          "anchor": "plug-ins-discovery-and-control",
+          "line": 62
+        }
+      ],
+      "coverage": "Enable VST discovery and distinguish instance-local banks from shared Live presets.",
+      "execution_verified": false
+    },
+    {
+      "id": "24.3.1",
+      "chapter": 24,
+      "title": "The VST Plug-In Folder",
+      "top_level": false,
+      "page_range": [
+        485,
+        488
+      ],
+      "extraction_line_range": [
+        222,
+        293
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Plug-ins: discovery and control",
+          "anchor": "plug-ins-discovery-and-control",
+          "line": 62
+        }
+      ],
+      "coverage": "Windows/macOS source folders, activation, aliases, scan-crash exclusion, and scope-limited rescans.",
+      "execution_verified": false
+    },
+    {
+      "id": "24.3.2",
+      "chapter": 24,
+      "title": "VST Presets and Banks",
+      "top_level": false,
+      "page_range": [
+        488,
+        489
+      ],
+      "extraction_line_range": [
+        294,
+        343
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Plug-ins: discovery and control",
+          "anchor": "plug-ins-discovery-and-control",
+          "line": 62
+        }
+      ],
+      "coverage": "Preset selection/rename and import/export of selected program versus whole bank.",
+      "execution_verified": false
+    },
+    {
+      "id": "24.4",
+      "chapter": 24,
+      "title": "Audio Units Plug-Ins",
+      "top_level": true,
+      "page_range": [
+        489,
+        490
+      ],
+      "extraction_line_range": [
+        344,
+        390
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Plug-ins: discovery and control",
+          "anchor": "plug-ins-discovery-and-control",
+          "line": 62
+        }
+      ],
+      "coverage": "macOS AU activation, native-only mode selectors, read-only presets, and manufacturer preset hierarchy.",
+      "execution_verified": false
+    },
+    {
+      "id": "25.1",
+      "chapter": 25,
+      "title": "An Overview of Racks",
+      "top_level": true,
+      "page_range": [
+        491,
+        492
+      ],
+      "extraction_line_range": [
+        18,
+        76
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Racks: parallel chains and zones",
+          "anchor": "racks-parallel-chains-and-zones",
+          "line": 79
+        }
+      ],
+      "coverage": "Choose parallel chains and Macro relationships while retaining serial order within chains.",
+      "execution_verified": false
+    },
+    {
+      "id": "25.1.1",
+      "chapter": 25,
+      "title": "Signal Flow and Parallel Device Chains",
+      "top_level": false,
+      "page_range": [
+        491,
+        492
+      ],
+      "extraction_line_range": [
+        20,
+        52
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Racks: parallel chains and zones",
+          "anchor": "racks-parallel-chains-and-zones",
+          "line": 79
+        }
+      ],
+      "coverage": "Parallel sum, Drum Rack note filtering, nested Rack behavior, and downstream processing.",
+      "execution_verified": false
+    },
+    {
+      "id": "25.1.2",
+      "chapter": 25,
+      "title": "Macro Controls",
+      "top_level": false,
+      "page_range": [
+        492,
+        492
+      ],
+      "extraction_line_range": [
+        53,
+        76
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Macros and variations",
+          "anchor": "macros-and-variations",
+          "line": 115
+        }
+      ],
+      "coverage": "Many-parameter Macro assignment, accessible interface, and optional hardware mapping.",
+      "execution_verified": false
+    },
+    {
+      "id": "25.2",
+      "chapter": 25,
+      "title": "Creating Racks",
+      "top_level": true,
+      "page_range": [
+        493,
+        493
+      ],
+      "extraction_line_range": [
+        77,
+        114
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Racks: parallel chains and zones",
+          "anchor": "racks-parallel-chains-and-zones",
+          "line": 79
+        }
+      ],
+      "coverage": "Four Rack variants, legal devices/order, creation/group/nesting, and scope-aware ungrouping.",
+      "execution_verified": false
+    },
+    {
+      "id": "25.3",
+      "chapter": 25,
+      "title": "Looking at Racks",
+      "top_level": true,
+      "page_range": [
+        494,
+        495
+      ],
+      "extraction_line_range": [
+        115,
+        162
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Racks: parallel chains and zones",
+          "anchor": "racks-parallel-chains-and-zones",
+          "line": 79
+        }
+      ],
+      "coverage": "View selectors, Rack title targeting, Info text/folding, and hierarchical device navigation.",
+      "execution_verified": false
+    },
+    {
+      "id": "25.4",
+      "chapter": 25,
+      "title": "Chain List",
+      "top_level": true,
+      "page_range": [
+        495,
+        497
+      ],
+      "extraction_line_range": [
+        163,
+        226
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Racks: parallel chains and zones",
+          "anchor": "racks-parallel-chains-and-zones",
+          "line": 79
+        }
+      ],
+      "coverage": "Chain creation/navigation/transport, independent controls, browser presets, color and Info text.",
+      "execution_verified": false
+    },
+    {
+      "id": "25.4.1",
+      "chapter": 25,
+      "title": "Auto Select",
+      "top_level": false,
+      "page_range": [
+        496,
+        497
+      ],
+      "extraction_line_range": [
+        206,
+        226
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Racks: parallel chains and zones",
+          "anchor": "racks-parallel-chains-and-zones",
+          "line": 79
+        }
+      ],
+      "coverage": "Signal-responsive chain selection for diagnosis; Drum Rack note behavior differs.",
+      "execution_verified": false
+    },
+    {
+      "id": "25.5",
+      "chapter": 25,
+      "title": "Zones",
+      "top_level": true,
+      "page_range": [
+        497,
+        501
+      ],
+      "extraction_line_range": [
+        227,
+        396
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Racks: parallel chains and zones",
+          "anchor": "racks-parallel-chains-and-zones",
+          "line": 79
+        }
+      ],
+      "coverage": "Applicable zone types, fade/body editing, Audio Effect/Drum Rack exclusions.",
+      "execution_verified": false
+    },
+    {
+      "id": "25.5.1",
+      "chapter": 25,
+      "title": "Signal Flow through Zones",
+      "top_level": false,
+      "page_range": [
+        497,
+        497
+      ],
+      "extraction_line_range": [
+        246,
+        272
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Racks: parallel chains and zones",
+          "anchor": "racks-parallel-chains-and-zones",
+          "line": 79
+        }
+      ],
+      "coverage": "Each applicable zone must admit a note before it reaches a parallel chain.",
+      "execution_verified": false
+    },
+    {
+      "id": "25.5.2",
+      "chapter": 25,
+      "title": "Key Zones",
+      "top_level": false,
+      "page_range": [
+        498,
+        498
+      ],
+      "extraction_line_range": [
+        273,
+        288
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Racks: parallel chains and zones",
+          "anchor": "racks-parallel-chains-and-zones",
+          "line": 79
+        }
+      ],
+      "coverage": "Keyboard splits across MIDI range and incoming-velocity attenuation by key fades.",
+      "execution_verified": false
+    },
+    {
+      "id": "25.5.3",
+      "chapter": 25,
+      "title": "Velocity Zones",
+      "top_level": false,
+      "page_range": [
+        498,
+        498
+      ],
+      "extraction_line_range": [
+        289,
+        310
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Racks: parallel chains and zones",
+          "anchor": "racks-parallel-chains-and-zones",
+          "line": 79
+        }
+      ],
+      "coverage": "Velocity 1-127 acceptance and incoming-velocity fade behavior.",
+      "execution_verified": false
+    },
+    {
+      "id": "25.5.4",
+      "chapter": 25,
+      "title": "Chain Select Zones",
+      "top_level": false,
+      "page_range": [
+        499,
+        501
+      ],
+      "extraction_line_range": [
+        311,
+        396
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Racks: parallel chains and zones",
+          "anchor": "racks-parallel-chains-and-zones",
+          "line": 79
+        }
+      ],
+      "coverage": "Chain selector 0-127, optional CC filtering, MIDI-versus-audio fade behavior, and tail preservation distinction.",
+      "execution_verified": false
+    },
+    {
+      "id": "25.5.4.1",
+      "chapter": 25,
+      "title": "Making Preset Banks Using Chain Select",
+      "top_level": false,
+      "page_range": [
+        500,
+        500
+      ],
+      "extraction_line_range": [
+        347,
+        371
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Racks: parallel chains and zones",
+          "anchor": "racks-parallel-chains-and-zones",
+          "line": 79
+        }
+      ],
+      "coverage": "Discrete one-value chain zones for a switchable bank; default zone at zero.",
+      "execution_verified": false
+    },
+    {
+      "id": "25.5.4.2",
+      "chapter": 25,
+      "title": "Crossfading Preset Banks Using Fade Ranges",
+      "top_level": false,
+      "page_range": [
+        500,
+        501
+      ],
+      "extraction_line_range": [
+        372,
+        396
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Racks: parallel chains and zones",
+          "anchor": "racks-parallel-chains-and-zones",
+          "line": 79
+        }
+      ],
+      "coverage": "Overlapping zones/fades for crossfades, exclusive positions, and selectable transition width.",
+      "execution_verified": false
+    },
+    {
+      "id": "25.6",
+      "chapter": 25,
+      "title": "Drum Racks",
+      "top_level": true,
+      "page_range": [
+        501,
+        503
+      ],
+      "extraction_line_range": [
+        397,
+        515
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Drum Racks and chain extraction",
+          "anchor": "drum-racks-and-chain-extraction",
+          "line": 101
+        }
+      ],
+      "coverage": "Receive/Play/Choke/Preview, All Notes exception, 16 choke groups, six post-fader-fed returns and output routing.",
+      "execution_verified": false
+    },
+    {
+      "id": "25.6.1",
+      "chapter": 25,
+      "title": "Pad View",
+      "top_level": false,
+      "page_range": [
+        502,
+        503
+      ],
+      "extraction_line_range": [
+        439,
+        515
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Drum Racks and chain extraction",
+          "anchor": "drum-racks-and-chain-extraction",
+          "line": 101
+        }
+      ],
+      "coverage": "128 note pads, 16-pad banks, row modifiers, drop/layer/swap behavior, Multi limits, D Hot-Swap target and supported controller follow.",
+      "execution_verified": false
+    },
+    {
+      "id": "25.7",
+      "chapter": 25,
+      "title": "Using the Macro Controls",
+      "top_level": true,
+      "page_range": [
+        504,
+        508
+      ],
+      "extraction_line_range": [
+        516,
+        644
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Macros and variations",
+          "anchor": "macros-and-variations",
+          "line": 115
+        }
+      ],
+      "coverage": "16 available/eight visible Macros and Set-persisted visibility.",
+      "execution_verified": false
+    },
+    {
+      "id": "25.7.1",
+      "chapter": 25,
+      "title": "Map Mode",
+      "top_level": false,
+      "page_range": [
+        504,
+        505
+      ],
+      "extraction_line_range": [
+        529,
+        581
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Macros and variations",
+          "anchor": "macros-and-variations",
+          "line": 115
+        }
+      ],
+      "coverage": "Map selection, Min/Max inversion, disabled mapped target, naming/units, and Mapping Browser maintenance.",
+      "execution_verified": false
+    },
+    {
+      "id": "25.7.2",
+      "chapter": 25,
+      "title": "Randomizing Macro Controls",
+      "top_level": false,
+      "page_range": [
+        505,
+        506
+      ],
+      "extraction_line_range": [
+        582,
+        606
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Macros and variations",
+          "anchor": "macros-and-variations",
+          "line": 115
+        }
+      ],
+      "coverage": "Rand, per-Macro exclusion, and limited default protection for Instrument Rack volume Macros.",
+      "execution_verified": false
+    },
+    {
+      "id": "25.7.3",
+      "chapter": 25,
+      "title": "Macro Control Variations",
+      "top_level": false,
+      "page_range": [
+        507,
+        508
+      ],
+      "extraction_line_range": [
+        607,
+        644
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Macros and variations",
+          "anchor": "macros-and-variations",
+          "line": 115
+        }
+      ],
+      "coverage": "New/Launch/Overwrite variation snapshots and separate variation exclusions.",
+      "execution_verified": false
+    },
+    {
+      "id": "25.8",
+      "chapter": 25,
+      "title": "Mixing With Racks",
+      "top_level": true,
+      "page_range": [
+        508,
+        510
+      ],
+      "extraction_line_range": [
+        645,
+        696
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Drum Racks and chain extraction",
+          "anchor": "drum-racks-and-chain-extraction",
+          "line": 101
+        }
+      ],
+      "coverage": "Session mixer chain visibility, mirrored controls, no clip slots, and mixer-only linked multi-adjustment.",
+      "execution_verified": false
+    },
+    {
+      "id": "25.8.1",
+      "chapter": 25,
+      "title": "Extracting Chains",
+      "top_level": false,
+      "page_range": [
+        509,
+        510
+      ],
+      "extraction_line_range": [
+        673,
+        696
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Drum Racks and chain extraction",
+          "anchor": "drum-racks-and-chain-extraction",
+          "line": 101
+        }
+      ],
+      "coverage": "Mixer drum-chain extraction carries MIDI; Chain List extraction carries only devices; return extraction creates return tracks.",
+      "execution_verified": false
+    },
+    {
+      "id": "26.1",
+      "chapter": 26,
+      "title": "Recording Automation in Session View",
+      "top_level": true,
+      "page_range": [
+        512,
+        513
+      ],
+      "extraction_line_range": [
+        32,
+        91
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Automation: record, override, and inspect",
+          "anchor": "automation-record-override-and-inspect",
+          "line": 124
+        }
+      ],
+      "coverage": "Session Automation Arm, armed/all-playing-track scope, Session Record, and Session-to-Arrangement transfer.",
+      "execution_verified": false
+    },
+    {
+      "id": "26.2",
+      "chapter": 26,
+      "title": "Recording Automation in Arrangement View",
+      "top_level": true,
+      "page_range": [
+        513,
+        514
+      ],
+      "extraction_line_range": [
+        92,
+        129
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Automation: record, override, and inspect",
+          "anchor": "automation-record-override-and-inspect",
+          "line": 124
+        }
+      ],
+      "coverage": "Arrangement automation across all tracks without track arming, recording/stop alternatives, and lane inspection.",
+      "execution_verified": false
+    },
+    {
+      "id": "26.3",
+      "chapter": 26,
+      "title": "Overwriting Automation",
+      "top_level": true,
+      "page_range": [
+        514,
+        515
+      ],
+      "extraction_line_range": [
+        130,
+        153
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Automation: record, override, and inspect",
+          "anchor": "automation-record-override-and-inspect",
+          "line": 124
+        }
+      ],
+      "coverage": "Overwrite on further movement; Session touch/latch distinction and first-pass latch exception.",
+      "execution_verified": false
+    },
+    {
+      "id": "26.4",
+      "chapter": 26,
+      "title": "Overriding Automation",
+      "top_level": true,
+      "page_range": [
+        515,
+        515
+      ],
+      "extraction_line_range": [
+        154,
+        181
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Automation: record, override, and inspect",
+          "anchor": "automation-record-override-and-inspect",
+          "line": 124
+        }
+      ],
+      "coverage": "Nonrecording overrides, gray indicator, all-versus-one restoration, and Session relaunch.",
+      "execution_verified": false
+    },
+    {
+      "id": "26.5",
+      "chapter": 26,
+      "title": "Viewing Automation",
+      "top_level": true,
+      "page_range": [
+        515,
+        522
+      ],
+      "extraction_line_range": [
+        182,
+        405
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Automation: record, override, and inspect",
+          "anchor": "automation-record-override-and-inspect",
+          "line": 124
+        }
+      ],
+      "coverage": "Interpret time/value axes and envelope/LED state; choose correct viewing location.",
+      "execution_verified": false
+    },
+    {
+      "id": "26.5.1",
+      "chapter": 26,
+      "title": "Viewing Automation in Session View",
+      "top_level": false,
+      "page_range": [
+        516,
+        517
+      ],
+      "extraction_line_range": [
+        198,
+        253
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Automation: record, override, and inspect",
+          "anchor": "automation-record-override-and-inspect",
+          "line": 124
+        }
+      ],
+      "coverage": "Session Automation toggle, Device/Control and filtered choosers, dashed unautomated state, and stacked-view selection.",
+      "execution_verified": false
+    },
+    {
+      "id": "26.5.2",
+      "chapter": 26,
+      "title": "Viewing Automation in Arrangement View",
+      "top_level": false,
+      "page_range": [
+        518,
+        522
+      ],
+      "extraction_line_range": [
+        254,
+        405
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Automation: record, override, and inspect",
+          "anchor": "automation-record-override-and-inspect",
+          "line": 124
+        }
+      ],
+      "coverage": "Arrangement mode, parameter selection, None, filtered-control limitation, additional/duplicate lanes, navigation and removal.",
+      "execution_verified": false
+    },
+    {
+      "id": "26.5.2.1",
+      "chapter": 26,
+      "title": "Context Menu Options for Automation Lanes",
+      "top_level": false,
+      "page_range": [
+        522,
+        522
+      ],
+      "extraction_line_range": [
+        385,
+        405
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Automation: record, override, and inspect",
+          "anchor": "automation-record-override-and-inspect",
+          "line": 124
+        }
+      ],
+      "coverage": "Context-menu add/all/remove lane commands distinguished from envelope clearing.",
+      "execution_verified": false
+    },
+    {
+      "id": "26.6",
+      "chapter": 26,
+      "title": "Creating Automation Envelopes",
+      "top_level": true,
+      "page_range": [
+        523,
+        526
+      ],
+      "extraction_line_range": [
+        406,
+        533
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Automation: construct and edit",
+          "anchor": "automation-construct-and-edit",
+          "line": 143
+        }
+      ],
+      "coverage": "Choose explicit points, freehand Draw, or shapes.",
+      "execution_verified": false
+    },
+    {
+      "id": "26.6.1",
+      "chapter": 26,
+      "title": "Adding Automation Envelope Breakpoints",
+      "top_level": false,
+      "page_range": [
+        523,
+        524
+      ],
+      "extraction_line_range": [
+        413,
+        449
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Automation: construct and edit",
+          "anchor": "automation-construct-and-edit",
+          "line": 143
+        }
+      ],
+      "coverage": "Point insertion, exact Add Value, fine/grid modifiers, and discrete-state steps.",
+      "execution_verified": false
+    },
+    {
+      "id": "26.6.2",
+      "chapter": 26,
+      "title": "Drawing Automation Envelopes with Draw Mode",
+      "top_level": false,
+      "page_range": [
+        524,
+        525
+      ],
+      "extraction_line_range": [
+        450,
+        486
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Automation: construct and edit",
+          "anchor": "automation-construct-and-edit",
+          "line": 143
+        }
+      ],
+      "coverage": "Persistent/temporary B Draw mode, grid-width steps, and disabled/temporarily bypassed snapping.",
+      "execution_verified": false
+    },
+    {
+      "id": "26.6.3",
+      "chapter": 26,
+      "title": "Inserting Automation Shapes",
+      "top_level": false,
+      "page_range": [
+        525,
+        526
+      ],
+      "extraction_line_range": [
+        487,
+        533
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Automation: construct and edit",
+          "anchor": "automation-construct-and-edit",
+          "line": 143
+        }
+      ],
+      "coverage": "Time/range scaling of shapes, boundary-dependent ramps, and square-only discrete controls.",
+      "execution_verified": false
+    },
+    {
+      "id": "26.7",
+      "chapter": 26,
+      "title": "Editing Automation",
+      "top_level": true,
+      "page_range": [
+        527,
+        530
+      ],
+      "extraction_line_range": [
+        534,
+        676
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Automation: construct and edit",
+          "anchor": "automation-construct-and-edit",
+          "line": 143
+        }
+      ],
+      "coverage": "Choose point/segment editing, stretch/skew, or simplification.",
+      "execution_verified": false
+    },
+    {
+      "id": "26.7.1",
+      "chapter": 26,
+      "title": "Editing Breakpoints and Segments",
+      "top_level": false,
+      "page_range": [
+        527,
+        528
+      ],
+      "extraction_line_range": [
+        541,
+        622
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Automation: construct and edit",
+          "anchor": "automation-construct-and-edit",
+          "line": 143
+        }
+      ],
+      "coverage": "Point and segment moves, selection-edge points, replacement on drop, curves, exact values and relative multi-point shifts.",
+      "execution_verified": false
+    },
+    {
+      "id": "26.7.2",
+      "chapter": 26,
+      "title": "Stretching and Skewing Envelopes",
+      "top_level": false,
+      "page_range": [
+        529,
+        529
+      ],
+      "extraction_line_range": [
+        623,
+        659
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Automation: construct and edit",
+          "anchor": "automation-construct-and-edit",
+          "line": 143
+        }
+      ],
+      "coverage": "Center/corner transform handles, fine/grid modifiers, mirrored movement, and overwrite outside selection.",
+      "execution_verified": false
+    },
+    {
+      "id": "26.7.3",
+      "chapter": 26,
+      "title": "Simplifying Envelopes",
+      "top_level": false,
+      "page_range": [
+        530,
+        530
+      ],
+      "extraction_line_range": [
+        660,
+        676
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Automation: construct and edit",
+          "anchor": "automation-construct-and-edit",
+          "line": 143
+        }
+      ],
+      "coverage": "Selection-scoped Simplify Envelope reduces redundant points using lines/curves.",
+      "execution_verified": false
+    },
+    {
+      "id": "26.8",
+      "chapter": 26,
+      "title": "Deleting Automation",
+      "top_level": true,
+      "page_range": [
+        530,
+        530
+      ],
+      "extraction_line_range": [
+        677,
+        700
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Automation: construct and edit",
+          "anchor": "automation-construct-and-edit",
+          "line": 143
+        }
+      ],
+      "coverage": "Parameter deletion resets default and LED; narrow versus device/Set clearing scope with safety gates.",
+      "execution_verified": false
+    },
+    {
+      "id": "26.9",
+      "chapter": 26,
+      "title": "Additional Tips for Working with Automation",
+      "top_level": true,
+      "page_range": [
+        531,
+        532
+      ],
+      "extraction_line_range": [
+        701,
+        757
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Automation: construct and edit",
+          "anchor": "automation-construct-and-edit",
+          "line": 143
+        }
+      ],
+      "coverage": "Tempo envelopes, movement locking, and selection-scoped Edit menu operations.",
+      "execution_verified": false
+    },
+    {
+      "id": "26.9.1",
+      "chapter": 26,
+      "title": "Automating the Tempo",
+      "top_level": false,
+      "page_range": [
+        531,
+        531
+      ],
+      "extraction_line_range": [
+        704,
+        724
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Automation: construct and edit",
+          "anchor": "automation-construct-and-edit",
+          "line": 143
+        }
+      ],
+      "coverage": "Main/Mixer/Song Tempo, recording control-bar changes, BPM display range also affects mapped MIDI range.",
+      "execution_verified": false
+    },
+    {
+      "id": "26.9.2",
+      "chapter": 26,
+      "title": "Locking Envelopes in Automation Lanes",
+      "top_level": false,
+      "page_range": [
+        531,
+        532
+      ],
+      "extraction_line_range": [
+        725,
+        741
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Automation: construct and edit",
+          "anchor": "automation-construct-and-edit",
+          "line": 143
+        }
+      ],
+      "coverage": "Lock Envelopes keeps timeline positions fixed when clips move.",
+      "execution_verified": false
+    },
+    {
+      "id": "26.9.3",
+      "chapter": 26,
+      "title": "Using Edit Menu Commands",
+      "top_level": false,
+      "page_range": [
+        532,
+        532
+      ],
+      "extraction_line_range": [
+        742,
+        757
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Automation: construct and edit",
+          "anchor": "automation-construct-and-edit",
+          "line": 143
+        }
+      ],
+      "coverage": "Automation-lane time selections isolate envelope edits; cross-parameter paste needs destination inspection.",
+      "execution_verified": false
+    },
+    {
+      "id": "27.1",
+      "chapter": 27,
+      "title": "The Clip Envelope Editor",
+      "top_level": true,
+      "page_range": [
+        533,
+        534
+      ],
+      "extraction_line_range": [
+        13,
+        64
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Clip envelopes: relative control and independent loops",
+          "anchor": "clip-envelopes-relative-control-and-independent-loops",
+          "line": 159
+        },
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Automation: construct and edit",
+          "anchor": "automation-construct-and-edit",
+          "line": 143
+        }
+      ],
+      "coverage": "Clip-dependent categories, automation/modulation view distinction, adjusted-only filtering, clear and MIDI reset options.",
+      "execution_verified": false
+    },
+    {
+      "id": "27.2",
+      "chapter": 27,
+      "title": "Audio Clip Envelopes",
+      "top_level": true,
+      "page_range": [
+        534,
+        537
+      ],
+      "extraction_line_range": [
+        65,
+        190
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Clip envelopes: relative control and independent loops",
+          "anchor": "clip-envelopes-relative-control-and-independent-loops",
+          "line": 159
+        }
+      ],
+      "coverage": "Choose non-destructive audio pitch/gain/offset modulation and reusable clip templates.",
+      "execution_verified": false
+    },
+    {
+      "id": "27.2.1",
+      "chapter": 27,
+      "title": "Clip Envelopes are Non-Destructive",
+      "top_level": false,
+      "page_range": [
+        534,
+        534
+      ],
+      "extraction_line_range": [
+        73,
+        87
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Clip envelopes: relative control and independent loops",
+          "anchor": "clip-envelopes-relative-control-and-independent-loops",
+          "line": 159
+        }
+      ],
+      "coverage": "Realtime modulation leaves source audio intact; printing choices include render, resample, and Consolidate.",
+      "execution_verified": false
+    },
+    {
+      "id": "27.2.2",
+      "chapter": 27,
+      "title": "Changing Pitch and Tuning per Note",
+      "top_level": false,
+      "page_range": [
+        535,
+        536
+      ],
+      "extraction_line_range": [
+        88,
+        124
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Clip envelopes: relative control and independent loops",
+          "anchor": "clip-envelopes-relative-control-and-independent-loops",
+          "line": 159
+        }
+      ],
+      "coverage": "Warp-enabled transposition, response versus granulation, fine tuning/scroll modifiers, additive -48..48-semitone cap.",
+      "execution_verified": false
+    },
+    {
+      "id": "27.2.3",
+      "chapter": 27,
+      "title": "Muting or Attenuating Notes in a Sample",
+      "top_level": false,
+      "page_range": [
+        536,
+        536
+      ],
+      "extraction_line_range": [
+        125,
+        141
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Clip envelopes: relative control and independent loops",
+          "anchor": "clip-envelopes-relative-control-and-independent-loops",
+          "line": 159
+        }
+      ],
+      "coverage": "Relative Clip Gain can attenuate to zero but cannot exceed base gain.",
+      "execution_verified": false
+    },
+    {
+      "id": "27.2.4",
+      "chapter": 27,
+      "title": "Scrambling Beats",
+      "top_level": false,
+      "page_range": [
+        536,
+        537
+      ],
+      "extraction_line_range": [
+        142,
+        178
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Clip envelopes: relative control and independent loops",
+          "anchor": "clip-envelopes-relative-control-and-independent-loops",
+          "line": 159
+        }
+      ],
+      "coverage": "Beats-only offset in +/-8 sixteenths, signed direction, repetition/slur gestures, precise-edit alternative.",
+      "execution_verified": false
+    },
+    {
+      "id": "27.2.5",
+      "chapter": 27,
+      "title": "Using Clips as Templates",
+      "top_level": false,
+      "page_range": [
+        537,
+        537
+      ],
+      "extraction_line_range": [
+        179,
+        190
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Clip envelopes: relative control and independent loops",
+          "anchor": "clip-envelopes-relative-control-and-independent-loops",
+          "line": 159
+        }
+      ],
+      "coverage": "Replacing the sample in Clip View retains clip settings/envelopes.",
+      "execution_verified": false
+    },
+    {
+      "id": "27.3",
+      "chapter": 27,
+      "title": "Mixer and Device Clip Envelopes",
+      "top_level": true,
+      "page_range": [
+        537,
+        541
+      ],
+      "extraction_line_range": [
+        191,
+        299
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Clip envelopes: relative control and independent loops",
+          "anchor": "clip-envelopes-relative-control-and-independent-loops",
+          "line": 159
+        }
+      ],
+      "coverage": "Absolute automation versus relative modulation, visual indicators, simultaneous layers, and Session/Arrangement ownership.",
+      "execution_verified": false
+    },
+    {
+      "id": "27.3.1",
+      "chapter": 27,
+      "title": "Modulating Mixer Volumes and Sends",
+      "top_level": false,
+      "page_range": [
+        539,
+        541
+      ],
+      "extraction_line_range": [
+        242,
+        275
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Clip envelopes: relative control and independent loops",
+          "anchor": "clip-envelopes-relative-control-and-independent-loops",
+          "line": 159
+        }
+      ],
+      "coverage": "Pre-effect Clip Gain versus post-effect Track Volume, fader dot, relative sends and -infinity lower bound.",
+      "execution_verified": false
+    },
+    {
+      "id": "27.3.2",
+      "chapter": 27,
+      "title": "Modulating Pan",
+      "top_level": false,
+      "page_range": [
+        541,
+        541
+      ],
+      "extraction_line_range": [
+        276,
+        285
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Clip envelopes: relative control and independent loops",
+          "anchor": "clip-envelopes-relative-control-and-independent-loops",
+          "line": 159
+        }
+      ],
+      "coverage": "Base pan constrains relative modulation; centered full travel, hard-left zero depth.",
+      "execution_verified": false
+    },
+    {
+      "id": "27.3.3",
+      "chapter": 27,
+      "title": "Modulating Device Controls",
+      "top_level": false,
+      "page_range": [
+        541,
+        541
+      ],
+      "extraction_line_range": [
+        286,
+        299
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Clip envelopes: relative control and independent loops",
+          "anchor": "clip-envelopes-relative-control-and-independent-loops",
+          "line": 159
+        }
+      ],
+      "coverage": "Device clip modulation depends on current control values and is not a preset.",
+      "execution_verified": false
+    },
+    {
+      "id": "27.4",
+      "chapter": 27,
+      "title": "MIDI Controller Clip Envelopes",
+      "top_level": true,
+      "page_range": [
+        542,
+        542
+      ],
+      "extraction_line_range": [
+        300,
+        325
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Clip envelopes: relative control and independent loops",
+          "anchor": "clip-envelopes-relative-control-and-independent-loops",
+          "line": 159
+        }
+      ],
+      "coverage": "MIDI Ctrl editing of drawn/recorded/imported controller data; most controller numbers through 119 and destination-specific meanings.",
+      "execution_verified": false
+    },
+    {
+      "id": "27.5",
+      "chapter": 27,
+      "title": "Unlinking Clip Envelopes From Clips",
+      "top_level": true,
+      "page_range": [
+        542,
+        545
+      ],
+      "extraction_line_range": [
+        326,
+        437
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Clip envelopes: relative control and independent loops",
+          "anchor": "clip-envelopes-relative-control-and-independent-loops",
+          "line": 159
+        }
+      ],
+      "coverage": "Unlinked envelopes use independent region/loop settings.",
+      "execution_verified": false
+    },
+    {
+      "id": "27.5.1",
+      "chapter": 27,
+      "title": "Programming a Fade-Out for a Live Set",
+      "top_level": false,
+      "page_range": [
+        543,
+        543
+      ],
+      "extraction_line_range": [
+        337,
+        361
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Clip envelopes: relative control and independent loops",
+          "anchor": "clip-envelopes-relative-control-and-independent-loops",
+          "line": 159
+        }
+      ],
+      "coverage": "Eight-bar one-shot gain fade over a one-bar looping sample.",
+      "execution_verified": false
+    },
+    {
+      "id": "27.5.2",
+      "chapter": 27,
+      "title": "Creating Long Loops from Short Loops",
+      "top_level": false,
+      "page_range": [
+        543,
+        544
+      ],
+      "extraction_line_range": [
+        362,
+        396
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Clip envelopes: relative control and independent loops",
+          "anchor": "clip-envelopes-relative-control-and-independent-loops",
+          "line": 159
+        }
+      ],
+      "coverage": "Looped long envelope over shorter audio, numerical region editing, odd lengths and common launch references.",
+      "execution_verified": false
+    },
+    {
+      "id": "27.5.3",
+      "chapter": 27,
+      "title": "Imposing Rhythm Patterns onto Samples",
+      "top_level": false,
+      "page_range": [
+        544,
+        544
+      ],
+      "extraction_line_range": [
+        397,
+        407
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Clip envelopes: relative control and independent loops",
+          "anchor": "clip-envelopes-relative-control-and-independent-loops",
+          "line": 159
+        }
+      ],
+      "coverage": "Short repeating volume envelope imposes rhythm on long audio.",
+      "execution_verified": false
+    },
+    {
+      "id": "27.5.4",
+      "chapter": 27,
+      "title": "Clip Envelopes as LFOs",
+      "top_level": false,
+      "page_range": [
+        544,
+        544
+      ],
+      "extraction_line_range": [
+        408,
+        419
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Clip envelopes: relative control and independent loops",
+          "anchor": "clip-envelopes-relative-control-and-independent-loops",
+          "line": 159
+        }
+      ],
+      "coverage": "Locally looped envelopes as tempo-relative control oscillations; off-grid lengths and shape tools.",
+      "execution_verified": false
+    },
+    {
+      "id": "27.5.5",
+      "chapter": 27,
+      "title": "Warping Linked Envelopes",
+      "top_level": false,
+      "page_range": [
+        544,
+        545
+      ],
+      "extraction_line_range": [
+        420,
+        437
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Clip envelopes: relative control and independent loops",
+          "anchor": "clip-envelopes-relative-control-and-independent-loops",
+          "line": 159
+        }
+      ],
+      "coverage": "Linked envelopes follow Warp Marker edits; editing markers within envelope view.",
+      "execution_verified": false
+    },
+    {
+      "id": "28.1",
+      "chapter": 28,
+      "title": "Importing Video",
+      "top_level": true,
+      "page_range": [
+        546,
+        546
+      ],
+      "extraction_line_range": [
+        17,
+        26
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Video scoring and delivery",
+          "anchor": "video-scoring-and-delivery",
+          "line": 185
+        }
+      ],
+      "coverage": "QuickTime MOV import; Arrangement video versus Session audio-only behavior.",
+      "execution_verified": false
+    },
+    {
+      "id": "28.2",
+      "chapter": 28,
+      "title": "The Appearance of Video in Live",
+      "top_level": true,
+      "page_range": [
+        546,
+        548
+      ],
+      "extraction_line_range": [
+        27,
+        114
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Video scoring and delivery",
+          "anchor": "video-scoring-and-delivery",
+          "line": 185
+        }
+      ],
+      "coverage": "Recognize video clips, manage picture window, and inspect leader/warp state.",
+      "execution_verified": false
+    },
+    {
+      "id": "28.2.1",
+      "chapter": 28,
+      "title": "Video Clips in the Arrangement View",
+      "top_level": false,
+      "page_range": [
+        546,
+        547
+      ],
+      "extraction_line_range": [
+        29,
+        49
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Video scoring and delivery",
+          "anchor": "video-scoring-and-delivery",
+          "line": 185
+        }
+      ],
+      "coverage": "Filmstrip title and edge trimming; Consolidate/Reverse/Crop make the Set clip audio-only without altering original movie.",
+      "execution_verified": false
+    },
+    {
+      "id": "28.2.2",
+      "chapter": 28,
+      "title": "The Video Window",
+      "top_level": false,
+      "page_range": [
+        547,
+        548
+      ],
+      "extraction_line_range": [
+        50,
+        78
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Video scoring and delivery",
+          "anchor": "video-scoring-and-delivery",
+          "line": 185
+        }
+      ],
+      "coverage": "Floating persistent window geometry, full-screen/second-monitor use and original-size modifier.",
+      "execution_verified": false
+    },
+    {
+      "id": "28.2.2.1",
+      "chapter": 28,
+      "title": "Movies with Partial Tracks",
+      "top_level": false,
+      "page_range": [
+        548,
+        548
+      ],
+      "extraction_line_range": [
+        71,
+        78
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Video scoring and delivery",
+          "anchor": "video-scoring-and-delivery",
+          "line": 185
+        }
+      ],
+      "coverage": "Partial video/audio components explain black/silent gaps.",
+      "execution_verified": false
+    },
+    {
+      "id": "28.2.3",
+      "chapter": 28,
+      "title": "Clip View",
+      "top_level": false,
+      "page_range": [
+        548,
+        548
+      ],
+      "extraction_line_range": [
+        79,
+        114
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Video scoring and delivery",
+          "anchor": "video-scoring-and-delivery",
+          "line": 185
+        }
+      ],
+      "coverage": "Warp prerequisite for video tempo leadership and bottom-most-playing-leader precedence.",
+      "execution_verified": false
+    },
+    {
+      "id": "28.2.3.1",
+      "chapter": 28,
+      "title": "Warp Markers",
+      "top_level": false,
+      "page_range": [
+        548,
+        548
+      ],
+      "extraction_line_range": [
+        100,
+        114
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Video scoring and delivery",
+          "anchor": "video-scoring-and-delivery",
+          "line": 185
+        }
+      ],
+      "coverage": "Frame updates while dragging Warp Markers and embedded QuickTime cues.",
+      "execution_verified": false
+    },
+    {
+      "id": "28.3",
+      "chapter": 28,
+      "title": "Matching Sound to Video",
+      "top_level": true,
+      "page_range": [
+        549,
+        549
+      ],
+      "extraction_line_range": [
+        115,
+        143
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Video scoring and delivery",
+          "anchor": "video-scoring-and-delivery",
+          "line": 185
+        }
+      ],
+      "coverage": "Arrangement movie/music setup, video leader, hit-point warp alignment, local looping and export.",
+      "execution_verified": false
+    },
+    {
+      "id": "28.4",
+      "chapter": 28,
+      "title": "Video Trimming Tricks",
+      "top_level": true,
+      "page_range": [
+        549,
+        551
+      ],
+      "extraction_line_range": [
+        144,
+        198
+      ],
+      "status": "source-derived operational paraphrase",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Video scoring and delivery",
+          "anchor": "video-scoring-and-delivery",
+          "line": 185
+        }
+      ],
+      "coverage": "Temporary pre-roll trim, approved whole-composition offset, restoring left edge and matching export duration.",
+      "execution_verified": false
+    }
+  ],
+  "synthesis": [
+    {
+      "id": "S1",
+      "class": "verification/safety synthesis",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Scope and preflight",
+          "anchor": "scope-and-preflight",
+          "line": 17
+        },
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Verification and recovery",
+          "anchor": "verification-and-recovery",
+          "line": 197
+        }
+      ],
+      "basis_sections": [
+        "23.2",
+        "23.3",
+        "24.1.2",
+        "25.5",
+        "25.6",
+        "26.4",
+        "27.3",
+        "28.2.3"
+      ],
+      "description": "Preflight actual version/edition/tool capability, preserve recoverable state, scope edits, diagnose first failed stage, and report only observed results. Not an observed execution outcome."
+    },
+    {
+      "id": "S2",
+      "class": "verification/safety synthesis",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Presets and defaults",
+          "anchor": "presets-and-defaults",
+          "line": 39
+        },
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Plug-ins: discovery and control",
+          "anchor": "plug-ins-discovery-and-control",
+          "line": 62
+        },
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Automation: construct and edit",
+          "anchor": "automation-construct-and-edit",
+          "line": 143
+        }
+      ],
+      "basis_sections": [
+        "23.2.6",
+        "23.2.6.7",
+        "24.1.2",
+        "24.3.1",
+        "26.8"
+      ],
+      "description": "Approval/preservation gates on default overwrite/removal, configuration transfer, database reset, mapped-control removal, and broad envelope clears."
+    },
+    {
+      "id": "S3",
+      "class": "verification/safety synthesis",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Racks: parallel chains and zones",
+          "anchor": "racks-parallel-chains-and-zones",
+          "line": 79
+        },
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Drum Racks and chain extraction",
+          "anchor": "drum-racks-and-chain-extraction",
+          "line": 101
+        },
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Macros and variations",
+          "anchor": "macros-and-variations",
+          "line": 115
+        }
+      ],
+      "basis_sections": [
+        "25.5.4.2",
+        "25.6.1",
+        "25.7.2",
+        "25.7.3",
+        "25.8.1"
+      ],
+      "description": "Inspect crossfade sum, pad replacement range, MIDI ownership after extraction, and distinct Macro exclusions rather than assuming safe/default behavior."
+    },
+    {
+      "id": "S4",
+      "class": "cross-section procedural synthesis",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Clip envelopes: relative control and independent loops",
+          "anchor": "clip-envelopes-relative-control-and-independent-loops",
+          "line": 159
+        }
+      ],
+      "basis_sections": [
+        "26.6",
+        "26.7",
+        "27.5.1",
+        "27.5.2",
+        "27.5.3",
+        "27.5.4"
+      ],
+      "description": "Combine local-loop procedures with envelope drawing/shapes and explicitly separate sample-loop and envelope-loop states; check launch and repeated cycles."
+    },
+    {
+      "id": "S5",
+      "class": "verification/safety synthesis",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Video scoring and delivery",
+          "anchor": "video-scoring-and-delivery",
+          "line": 185
+        }
+      ],
+      "basis_sections": [
+        "26.9.2",
+        "28.2.1",
+        "28.2.3",
+        "28.3",
+        "28.4"
+      ],
+      "description": "Before restoring pre-roll, preserve state, obtain approval for the whole-composition move, inspect Lock Envelopes, verify selection endpoints and local codec/export availability."
+    },
+    {
+      "id": "S6",
+      "class": "source disambiguation/safety synthesis",
+      "mapped_to": [
+        {
+          "file": "skills/ableton-live/references/devices-racks-automation.md",
+          "heading": "Plug-ins: discovery and control",
+          "anchor": "plug-ins-discovery-and-control",
+          "line": 62
+        }
+      ],
+      "basis_sections": [
+        "24.3.1",
+        "24.3.2",
+        "24.4"
+      ],
+      "description": "Do not generalize the VST folder and bank UI to all VST3 builds; do not normalize the uncertain AU filename extension without evidence."
+    }
+  ],
+  "gaps_and_unverified_claims": [
+    {
+      "id": "G1",
+      "sections": [
+        "25.5.4.2"
+      ],
+      "pages": [
+        500,
+        501
+      ],
+      "kind": "diagram_detail_not_reconstructed",
+      "impact": "Exact four-chain example zone coordinates are conveyed by a figure, not extracted text. Text supplies eight-step crossfade and exclusive positions; runtime uses a generic overlap/fade procedure instead of guessing endpoints. No essential procedure blocked."
+    },
+    {
+      "id": "G2",
+      "sections": [
+        "24.4"
+      ],
+      "pages": [
+        490,
+        490
+      ],
+      "kind": "ambiguous_filename_text",
+      "impact": "Extraction prints the AU extension as .au preset. Runtime retains preset directory/behavior and instructs inspection of actual files; no guessed normalized extension."
+    },
+    {
+      "id": "G3",
+      "sections": [
+        "24.3.1",
+        "24.3.2"
+      ],
+      "pages": [
+        485,
+        489
+      ],
+      "kind": "format_specificity_unverified",
+      "impact": "VST discovery and preset-bank instructions use generic VST terminology despite supporting VST2/VST3. Runtime explicitly avoids asserting a VST3 folder or identical program/bank controls for every plug-in."
+    },
+    {
+      "id": "G4",
+      "sections": [
+        "23.2.2",
+        "25.7",
+        "28.1",
+        "28.3"
+      ],
+      "pages": [
+        445,
+        551
+      ],
+      "kind": "edition_point_release_platform_requirements_not_exhaustive",
+      "impact": "Assigned chapters do not establish complete edition entitlements, introduction point releases for A/B/Macro features, current architecture requirements, or OS/codec availability for video. Runtime requires local verification; AU macOS-only and AU3 >=11.2 are retained as explicit evidence."
+    },
+    {
+      "id": "G5",
+      "sections": [
+        "23.2.2"
+      ],
+      "pages": [
+        457,
+        457
+      ],
+      "kind": "capability_mapping_deferred",
+      "impact": "Text notes A/B access through the Live API with Max for Live. Integration/runtime capability mapping is parent-owned and intentionally not invented here; no tool names claimed."
+    },
+    {
+      "id": "G6",
+      "sections": [
+        "26.6.1",
+        "26.7.1"
+      ],
+      "pages": [
+        524,
+        528
+      ],
+      "kind": "cross_chapter_dependency",
+      "impact": "Keyboard-only breakpoint procedures are cross-referenced to chapter 41, outside this assignment. Mouse/numeric/menu workflows are self-contained here; parent must supply any keyboard-accessibility details from that chapter."
+    },
+    {
+      "id": "G7",
+      "sections": [
+        "24.2",
+        "26.8",
+        "27.1"
+      ],
+      "pages": [
+        485,
+        534
+      ],
+      "kind": "unverified_UI_scope_semantics",
+      "impact": "Sidechain Mute and Clear All Envelopes wording follow the supplied text, but UI execution is unverified. Runtime gates broad clears, uses unambiguous Clear Envelope UI rather than the chapter-27 shortcut wording, and makes no proof-of-execution claim."
+    }
+  ],
+  "validation": {
+    "all_assigned_pages_read": true,
+    "all_numbered_sections_mapped": true,
+    "holdouts": "Not inspected or changed. Only eval artifact top-level keys inspected; no case contents used.",
+    "behavior_evaluations": "not run",
+    "static_checks": {
+      "status": "passed",
+      "checks": [
+        "Reference 203 lines; contents map at start",
+        "Runtime has no source-manual/PDF/page-path provenance or external URLs",
+        "All 12 contents anchors and 129 provenance heading/line mappings resolve",
+        "All 107 consecutive source pages, six fingerprints, 95 numbered sections and 33 top-level sections validated",
+        "18 targeted format/count/range/timing distinctions present; manually compared with assigned text",
+        "New-file diffs reviewed; git diff --no-index --check emitted no whitespace errors (status 1 denotes additions)"
+      ],
+      "limits": "Static coverage/structure/fidelity checks only; no behavioral benchmark, full-skill validator, Live execution, listening, or render test.",
+      "check_harness_correction": "Initial provenance regex falsely matched manually; word-boundary fix distinguishes manual provenance from ordinary UI wording. Corrected check passed without removing valid content."
+    },
+    "runtime_or_extension_files_changed": false,
+    "other_repository_paths_written": false,
+    "audit_changes": [
+      "Clarified selected-device removal scope; preserved bypass alternative.",
+      "Added Configure removal action and temporary-parameter lifetime.",
+      "Warned that Multi pad removal affects all represented chains.",
+      "Made Automation Arm explicit for Session-to-Arrangement recording.",
+      "Made Linked toggle and independent-region visual state explicit."
+    ]
+  }
+}

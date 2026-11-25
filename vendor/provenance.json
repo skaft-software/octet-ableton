@@ -1,0 +1,18 @@
+{
+  "project": "https://github.com/skaft-software/octet",
+  "sdk_version": "0.10.4",
+  "source": "installed octet source SDK, byte-for-byte copy; not a published SDK release",
+  "license": "MIT",
+  "sha256": {
+    "octet_extension/__init__.py": "40e050f8e517a5627a8e189466736a97abeccad958cf56311d9f44d493d5d255",
+    "octet_extension/api_v03.py": "c55f25f312ab1ebdc21ad95f245754988696786a6871295eeb5d39903f227220",
+    "octet_extension/bulk.py": "c5c4f87689bb8b85ba1b02407e9e58bb19a55ae4b165938257d923c94f5fc3c2",
+    "octet_extension/cache_warming.py": "80a35afc84d737d4e2700699d05414b64b602bc92b94c9d925f81e0729ff2dc4",
+    "octet_extension/diagnostics.py": "6ac4b4e2a9675ea66f467407226f27ebbdc34ff9d4896fd7ddff97570504c470",
+    "octet_extension/event_bus.py": "d4f5b8474a32a17260734b6bd6b2ae1d2cb97dd241ea8b4ee8afb62de1d1c875",
+    "octet_extension/extension.py": "52f3296cfd29adb9c2b44420ad3c24de6de925577ac1d62e80ff81737cdf321f",
+    "octet_extension/protocol.py": "44eaa235b16cc4991c2ef4d695b466a3ce84fb22ea0b12ce3776bebaa7448e02",
+    "octet_extension/resources.py": "9262a86fa86f8179099a550e64e60c16cae96cbe4388cefd4f022fe4ce5a0d41",
+    "octet_extension/typed.py": "7ff0581dd00ce80175a1384fbda70d0f20885ba47a441e98a401d75a1dfe4269"
+  }
+}
