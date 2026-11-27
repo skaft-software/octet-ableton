@@ -7,7 +7,7 @@ from pathlib import Path
 import numpy as np
 
 from .audio_capture import AudioError, listen_file
-from .live_audio import CaptureRecorder, SAMPLE_RATE
+from .live_audio import CaptureRecorder, DEFAULT_DEVICE, SAMPLE_RATE
 from .telemetry import analyze_pcm
 
 
@@ -75,7 +75,7 @@ def listen_live(arguments, *, bridge, scratch: Path, check_cancel, recorder_clas
         params = {"capture_id": capture_id, "start_beat": start_beat, "duration_sec": duration}
         if "solo_tracks" in spec:
             params["solo_tracks"] = spec["solo_tracks"]
-        with recorder_class(scratch=scratch, device=arguments.get("device", "BlackHole 2ch"), max_seconds=14) as recorder:
+        with recorder_class(scratch=scratch, device=arguments.get("device", DEFAULT_DEVICE), max_seconds=14) as recorder:
             recorder.start(check_cancel)
             anchor_frame, anchor_time = recorder.frames_written(), time.monotonic()
             started = None

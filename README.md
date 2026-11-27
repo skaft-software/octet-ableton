@@ -14,7 +14,7 @@ The intended loop is **listen → read selected previews together → compose �
 
 ## Windows: compose for a game with Kontakt / Spectres
 
-Use native Windows Octet (extension API 0.4), Python 3.11+ on PATH, Git, uv, and Ableton Live 12. Install FFmpeg and ffprobe on PATH for listening to exported files. **Windows is a compose-first preview**: inspection, MIDI composition and file listening are the intended workflow. Live loopback capture is macOS-only. Automated checks do not qualify a particular Live or Kontakt installation.
+Use native Windows Octet (extension API 0.4), Python 3.11+ on PATH, Git, uv, and Ableton Live 12. For listening, put FFmpeg 6+ (with DirectShow and `libmp3lame`) and ffprobe on PATH. You can capture short Arrangement ranges directly through VB-CABLE or listen to an exported WAV without a virtual driver.
 
 In a **non-elevated PowerShell**, clone into a dedicated extensions directory. Start Octet from your game workspace so its project context stays there:
 
@@ -29,9 +29,18 @@ octet --extension-dir "$extensions" --enable-extension octet-ableton --skill-dir
 1. Run `/ableton setup` and check the proposed destination against Live's **Settings → Library → Location of User Library** before confirming. For a custom library, supply its quoted absolute path. Save your Set, restart Live, select **OctetBridge** as a Control Surface with Input/Output **None**, then check `/ableton status` for revision **6**. The bridge token stays in your Windows user profile with a user-only file ACL; do not copy a token from another machine.
 2. In a disposable Set, create a MIDI track, load your **locally licensed Kontakt and Spectres** patch, and name the track `Spectres`. Expose any plug-in parameters you want to automate to Live. Save the Set as a template. The extension writes MIDI to the track; it does not install the library, browse Kontakt's internal presets, or assume macro names.
 3. Give Octet a bounded cue brief, for example: *Inspect the Spectres track. Preview an eight-bar exploration loop in an empty range: a low D pedal with a sparse E-flat pulse, then two bars of silence for a game transition. Show me the notes and placement before applying. Leave the tempo and other tracks alone.*
-4. Export the cue as a WAV in Live. Pass its absolute path to `ableton_listen` with a short seconds range. Use `attach_audio: true` only if you approve sharing that preview with your model provider. No audio, Kontakt assets or game projects are included in this repository.
+4. For direct playback previews, route the cue through **VB-CABLE** as described below. Alternatively, export a WAV in Live and pass its absolute path to `ableton_listen` with a short seconds range. Use `attach_audio: true` only if you approve sharing that preview with your model provider. No audio, Kontakt assets or game projects are included in this repository.
 
 To update, `git -C "$extensions\octet-ableton" pull --ff-only`, repeat `uv sync --locked --project "$extensions\octet-ableton"`, and `/reload` in Octet. If the bridge revision changes, repeat setup and restart Live.
+
+### Route Live to VB-CABLE on Windows
+
+1. Install [VB-Audio Virtual Cable](https://vb-audio.com/Cable/) separately if needed and follow its restart instructions. Leave your Windows default playback device alone so other apps are not mixed into the preview.
+2. In Live's **Settings → Audio**, note your current output so you can restore it. Select **CABLE Input (VB-Audio Virtual Cable)** as the **playback/output** device. If your interface's ASIO driver doesn't expose the cable, select **MME/DirectX** and the cable output there, or keep ASIO and audition an exported WAV. Send the track through Main to that stereo output. Do not monitor the cable's recording endpoint back into the cable.
+3. In Octet run `/ableton devices`. The **recording/input** endpoint to capture is **`CABLE Output (VB-Audio Virtual Cable)`** — the opposite end of the cable, not `CABLE Input`. That's the exact Windows default. If it is renamed or localized, pass the exact listed loopback `name` as `device`. An absent or duplicate name fails; no system-default or microphone fallback.
+4. Put a known sounding clip at bar 1 in a disposable Arrangement. Stop recording, then call `ableton_listen` with `{"slices":[{"start_bar":1,"end_bar":2}]}` (one bar at 120 BPM). Check `capture.device`, `capture.transport_restored` and `telemetry.peak_dbfs`. Play the local MP3 to confirm it contains your clip. Silence is not a routing pass: check Live's Main meter, the Windows recording meter for **CABLE Output**, and that the chosen bars actually contain audio. Restore your original output when done.
+
+The Windows smoke workflow exercises DirectShow discovery and the recorder/encoder with a synthetic signal. It does **not** run Live, install a virtual driver, or verify a physical machine's routing or latency.
 
 ## Setup (macOS)
 
@@ -64,7 +73,7 @@ The bridge uses **127.0.0.1:9878**, deliberately separate from Ableton MCP's 987
 
 Install BlackHole 2ch separately if needed (`brew install blackhole-2ch`), then route Live's output to it. To hear playback yourself too, create a Multi-Output Device in Audio MIDI Setup with your headphones and BlackHole, and select that as Live's output.
 
-The extension **never falls back to a microphone**, never installs a driver silently, and never changes routing for you. Capture defaults to the exact device `BlackHole 2ch`; `device` can select another explicitly named loopback input. Other audio routed to that device will also be captured.
+The extension **never falls back to a microphone**, never installs a driver silently, and never changes routing for you. On macOS capture defaults to the exact device `BlackHole 2ch`; `device` can select another explicitly named loopback input. Other audio routed to that device will also be captured.
 
 ```json
 {
@@ -163,7 +172,7 @@ uv run python -m unittest discover -s tests -v
 uv run ruff check .
 ```
 
-- **175 automated tests passed:** synthetic audio, fake Live operations, real FFmpeg recording/encoding, loopback orchestration, automation staging, transport restoration, cancellation, protocol behavior, bundled-skill contracts and installed-document discovery.
+- **Automated tests cover:** synthetic audio, fake Live operations, real FFmpeg recording/encoding, loopback orchestration, automation staging, transport restoration, cancellation, protocol behavior, bundled-skill contracts and installed-document discovery.
 - **Real octet native host passed:** discovery, arbitrary-cwd launcher, API 0.4, file-audio tool, errors, responsiveness and shutdown. [Evidence and rerun](docs/native-host-check.md).
 - **Real BlackHole recording passed:** frames recorded and decoded; no test signal was playing, so this does not establish Live signal routing.
 - **Real Live composition passed:** the native octet host created six instrument tracks, 46 clips / 523 notes and 1,679 envelope steps in Live 12.4.16; playback meters and moving filter values were read back. This is not a subjective audition or a Live loopback-capture pass. Revision-2 compact session inspection also passed through the ordinary conversation's native tool. Audio-informed revision remains unqualified.

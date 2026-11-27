@@ -20,7 +20,8 @@ def noop():
     pass
 
 
-DEVICES = [{"index": 1, "name": "BlackHole 2ch", "is_default": True}]
+MAC_ROW = {"index": 1, "name": "BlackHole 2ch", "is_default": True}
+DEVICES = [{"index": 1, "name": live_audio.DEFAULT_DEVICE, "is_default": True}]
 DEVICE_TEXT = """[AVFoundation indev @ 0x1] AVFoundation video devices:
 [AVFoundation indev @ 0x1] [0] Camera
 [AVFoundation indev @ 0x1] AVFoundation audio devices:
@@ -36,18 +37,44 @@ class RecorderTests(unittest.TestCase):
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
 
-    def discovery(self, code, check_cancel=noop):
+    def discovery(self, code, check_cancel=noop, backend="avfoundation"):
         spawn = live_audio._spawn
-        with patch.object(live_audio, "_spawn", side_effect=lambda _: spawn([sys.executable, "-c", code])):
+        with patch.object(live_audio, "INPUT_FORMAT", backend), \
+                patch.object(live_audio, "_spawn", side_effect=lambda _: spawn([sys.executable, "-c", code])):
             return discover_devices(check_cancel)
 
     def test_discovery_expected_nonzero_and_audio_only(self):
         for code in (1, 251):
             result = self.discovery(f"import sys; sys.stderr.write({DEVICE_TEXT!r}); sys.exit({code})")
             self.assertEqual(result, [
-                {"index": 0, "name": "MacBook Microphone", "is_default": False}, DEVICES[0],
+                {"index": 0, "name": "MacBook Microphone", "is_default": False}, MAC_ROW,
             ])
         self.assertEqual(self.discovery("import sys; sys.stderr.write('AVFoundation audio devices:\\n'); sys.exit(1)"), [])
+
+    def test_dshow_parses_typed_audio_names_not_cameras_or_alternative_ids(self):
+        listing = ('[dshow @ 0x123] "Camera" (video)\r\n'
+                   '[dshow @ 0x123] "CABLE Output (VB-Audio Virtual Cable)" (audio)\r\n'
+                   '[dshow @ 0x123]   Alternative name "@device_cm_ABC"\r\n'
+                   '[dshow @ 0x123] "Other endpoint" (video, audio)\r\n')
+        devices = self.discovery(f"import sys; sys.stderr.buffer.write({listing.encode()!r}); sys.exit(0)", backend="dshow")
+        self.assertEqual(devices, [{"name": live_audio.WINDOWS_DEVICE, "is_default": True},
+                                   {"name": "Other endpoint", "is_default": False}])
+        with self.assertRaisesRegex(AudioError, "Cannot discover DirectShow"):
+            self.discovery("import sys; sys.stderr.write('Unknown input format'); sys.exit(1)", backend="dshow")
+
+    def test_dshow_selects_exact_audio_endpoint_or_refuses_before_recording(self):
+        device = {"name": "Custom VB-CABLE Output"}
+        with patch.object(live_audio, "INPUT_FORMAT", "dshow"), CaptureRecorder(scratch=self.root, device=device["name"]) as recorder:
+            command = recorder._command(device)
+            self.assertIn("dshow", command)
+            self.assertEqual(command[command.index("-i") + 1], "audio=Custom VB-CABLE Output")
+            with self.assertRaisesRegex(AudioError, "Rename"):
+                recorder._command({"name": "name:audio=Microphone"})
+            for listed in ([device, device], [{"name": "Microphone"}]):
+                with patch.object(live_audio, "discover_devices", return_value=listed), patch.object(live_audio, "_spawn") as spawn:
+                    with self.assertRaisesRegex(AudioError, "not uniquely available"):
+                        recorder.start(noop)
+                    spawn.assert_not_called()
 
     def test_discovery_unavailable_and_bounded_diagnostics(self):
         with self.assertRaisesRegex(AudioError, "Cannot discover"):
@@ -67,8 +94,8 @@ class RecorderTests(unittest.TestCase):
         self.assertEqual(list(self.root.iterdir()), [])
 
     def test_exact_selection_and_finite_local_command(self):
-        with CaptureRecorder(scratch=self.root, max_seconds=14) as recorder:
-            command = recorder._command(1)
+        with patch.object(live_audio, "INPUT_FORMAT", "avfoundation"), CaptureRecorder(scratch=self.root, max_seconds=14) as recorder:
+            command = recorder._command(DEVICES[0])
             self.assertEqual(command[command.index("-i") + 1], ":1")
             self.assertIn("file", command)
             self.assertIn("f32le", command)
@@ -89,8 +116,9 @@ class RecorderTests(unittest.TestCase):
 
     def assert_reaped(self, process):
         self.assertIsNotNone(process.returncode)
-        with self.assertRaises(ProcessLookupError):
-            os.kill(process.pid, 0)
+        if os.name != "nt":  # Windows os.kill(pid, 0) is not a liveness probe.
+            with self.assertRaises(ProcessLookupError):
+                os.kill(process.pid, 0)
         self.assertTrue(process.stderr.closed)
 
     def test_start_waits_for_actual_complete_frames(self):
@@ -101,7 +129,8 @@ class RecorderTests(unittest.TestCase):
         self.assertGreaterEqual(time.monotonic() - before, .1)
         self.assertEqual(recorder.frames_written(), 10)
         self.assertGreaterEqual(recorder.ready_at, recorder.started_at)
-        self.assertEqual(recorder.directory.stat().st_mode & 0o777, 0o700)
+        if os.name != "nt":
+            self.assertEqual(recorder.directory.stat().st_mode & 0o777, 0o700)
         process = recorder.process
         recorder.abort()
         self.assert_reaped(process)
@@ -112,7 +141,7 @@ class RecorderTests(unittest.TestCase):
                               ("import sys; sys.stderr.write('device busy'); sys.exit(2)", "device busy"),
                               ("pass", "without audio frames")):
             with self.subTest(code=code):
-                recorder = self.run_fake(code, startup_timeout=.15)
+                recorder = self.run_fake(code, startup_timeout=.5)
                 processes = []
                 spawn = live_audio._spawn
                 def remember(command):
@@ -219,7 +248,7 @@ class SyntheticIntegrationTests(unittest.TestCase):
                 patch.object(live_audio, "discover_devices", return_value=DEVICES), \
                 CaptureRecorder(scratch=Path(directory), max_seconds=.5) as recorder:
             # Never opens any real audio device. Amplitude > 1 tests float preservation.
-            command = recorder._command(1)
+            command = recorder._command(DEVICES[0])
             start = command.index("-protocol_whitelist")
             end = command.index("-map")
             command[start:end] = ["-re", "-f", "lavfi", "-i",

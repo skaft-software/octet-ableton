@@ -12,6 +12,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from octet_ableton.bridge_client import BridgeClient  # noqa: E402
+from octet_ableton.live_audio import DEFAULT_DEVICE  # noqa: E402
 from octet_ableton.live_listen import listen_live  # noqa: E402
 
 
@@ -20,10 +21,10 @@ def main():
     parser.add_argument("--apply", action="store_true", help="Authorize adding a test track to the named scratch set")
     parser.add_argument("--expect-marker", required=True, help="Exact name of a marker track you created in the disposable set")
     parser.add_argument("--output", type=Path, required=True, help="New evidence directory")
-    parser.add_argument("--device", default="BlackHole 2ch")
+    parser.add_argument("--device", default=DEFAULT_DEVICE)
     args = parser.parse_args()
-    if sys.platform != "darwin":
-        parser.error("This fixture uses macOS loopback capture. Use the compose-first Windows procedure in README.md.")
+    if sys.platform not in ("darwin", "win32"):
+        parser.error("This fixture requires a routed Windows or macOS loopback input; see README.md.")
     if not args.apply:
         parser.error("This test modifies the scratch set. Pass --apply explicitly.")
     client = BridgeClient()

@@ -1,4 +1,4 @@
-name: Windows compose-first smoke
+name: Windows capture and composition smoke
 on: [push, pull_request]
 permissions:
   contents: read
@@ -9,8 +9,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v6
-      - run: uv sync --locked --python 3.12
+      - run: uv sync --locked --python 3.11
       - run: uv run ruff check .
+      - name: Install FFmpeg for native Windows capture tests
+        run: choco install ffmpeg --yes --no-progress
+      - name: Enumerate actual DirectShow inputs (empty is OK; no recording)
+        run: |
+          ffprobe -version
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          uv run python -c "from octet_ableton.live_audio import discover_devices; print(discover_devices(lambda: None))"
+      - name: Device selection, bounded capture, synthetic PCM to MP3 and restoration
+        env:
+          PYTHONPATH: tests
+        run: uv run python -m unittest -v test_live_audio test_live_listen
       - name: Launcher, setup, private token, MIDI and protocol fixtures (no Live)
         env:
           PYTHONPATH: tests

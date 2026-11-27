@@ -1,4 +1,4 @@
-"""Bounded macOS loopback capture. No device routing or installation is changed.
+"""Bounded AVFoundation / DirectShow loopback capture. No device routing or installation is changed.
 
 Use ``with CaptureRecorder(scratch=...) as recorder:`` then start(check_cancel),
 wait_frames(target, check_cancel), finish(check_cancel) -> float WAV Path.
@@ -13,6 +13,7 @@ import re
 import shutil
 import struct
 import subprocess
+import sys
 import tempfile
 import time
 from collections.abc import Callable
@@ -20,7 +21,10 @@ from pathlib import Path
 
 from .audio_capture import AudioError, PROCESS_OUTPUT_LIMIT, SAMPLE_RATE
 
-DEFAULT_DEVICE = "BlackHole 2ch"
+MAC_DEVICE = "BlackHole 2ch"
+WINDOWS_DEVICE = "CABLE Output (VB-Audio Virtual Cable)"
+INPUT_FORMAT = "dshow" if sys.platform == "win32" else "avfoundation"
+DEFAULT_DEVICE = WINDOWS_DEVICE if INPUT_FORMAT == "dshow" else MAC_DEVICE
 MAX_CAPTURE_SECONDS = 14
 FRAME_BYTES = 8  # stereo float32
 
@@ -31,14 +35,31 @@ def _spawn(command: list[str]) -> subprocess.Popen:
                                    stdout=subprocess.DEVNULL, stderr=subprocess.PIPE)
     except OSError as exc:
         raise AudioError(f"Cannot start {command[0]}: {exc}") from exc
-    os.set_blocking(process.stderr.fileno(), False)
+    if os.name != "nt":
+        os.set_blocking(process.stderr.fileno(), False)
     return process
 
 
 def _diagnostics(process: subprocess.Popen, buffer: bytearray) -> str:
     while True:
+        size = min(4096, PROCESS_OUTPUT_LIMIT + 1 - len(buffer))
+        if os.name == "nt":
+            # Python 3.11 cannot set Windows pipes nonblocking. Only read bytes
+            # already in the anonymous pipe so cancellation/deadlines still run.
+            import msvcrt
+            import win32pipe
+            import pywintypes
+            try:
+                _, available, _ = win32pipe.PeekNamedPipe(msvcrt.get_osfhandle(process.stderr.fileno()), 1)
+            except pywintypes.error as exc:
+                if exc.winerror == 109:  # ERROR_BROKEN_PIPE: writer closed
+                    break
+                raise AudioError(f"Cannot read FFmpeg diagnostics: {exc}") from exc
+            if not available:
+                break
+            size = min(size, available)
         try:
-            chunk = os.read(process.stderr.fileno(), min(4096, PROCESS_OUTPUT_LIMIT + 1 - len(buffer)))
+            chunk = os.read(process.stderr.fileno(), size)
         except BlockingIOError:
             break
         if not chunk:
@@ -62,14 +83,10 @@ def _stop(process: subprocess.Popen | None) -> None:
 
 
 def discover_devices(check_cancel: Callable[[], None], *, ffmpeg: str = "ffmpeg") -> list[dict]:
-    """List AVFoundation AUDIO devices; enumeration normally exits nonzero.
-
-    Names/indices are observations, not authorization to use a microphone.
-    Only the exact default name BlackHole 2ch is marked as the default.
-    """
+    """Enumerate audio inputs without recording; only flag the exact loopback default."""
     check_cancel()
-    process = _spawn([ffmpeg, "-nostdin", "-hide_banner", "-f", "avfoundation",
-                      "-list_devices", "true", "-i", ""])
+    process = _spawn([ffmpeg, "-nostdin", "-hide_banner", "-f", INPUT_FORMAT,
+                      "-list_devices", "true", "-i", "dummy" if INPUT_FORMAT == "dshow" else ""])
     diagnostics = bytearray()
     deadline = time.monotonic() + 5
     try:
@@ -82,6 +99,16 @@ def discover_devices(check_cancel: Callable[[], None], *, ffmpeg: str = "ffmpeg"
             if time.monotonic() >= deadline:
                 raise AudioError("Audio device discovery timed out")
             time.sleep(0.02)
+        check_cancel()
+        if INPUT_FORMAT == "dshow":
+            # FFmpeg 6+ prints one typed row per endpoint, followed by its
+            # alternative ID. Neither that ID nor a video-only row is an input name.
+            rows = re.findall(r'^\[dshow @ [^\]]+\] "([^"\r\n]+)" \(([^)]+)\)\r?$', text, re.M)
+            if (process.returncode not in (0, 1) or
+                    (not rows and "Could not enumerate audio only devices (or none found)" not in text)):
+                raise AudioError(f"Cannot discover DirectShow audio devices (use FFmpeg 6+ with dshow): {text[-1200:]}")
+            return [{"name": name, "is_default": name == WINDOWS_DEVICE} for name, types in rows
+                    if "audio" in types.split(", ")]
         # Older ffmpeg exits 1; ffmpeg 7.1 returns AVERROR(EIO) modulo 256 (251).
         if process.returncode not in (0, 1, 251) or "AVFoundation audio devices:" not in text:
             raise AudioError(f"Cannot discover AVFoundation audio devices: {text[-1200:]}")
@@ -89,7 +116,7 @@ def discover_devices(check_cancel: Callable[[], None], *, ffmpeg: str = "ffmpeg"
         devices = []
         for index, name in re.findall(r"^\[[^\n]+?\]\s+\[(\d+)\]\s+([^\r\n]+)", audio, re.M):
             devices.append({"index": int(index), "name": name,
-                            "is_default": name == DEFAULT_DEVICE})
+                            "is_default": name == MAC_DEVICE})
         check_cancel()
         return devices
     finally:
@@ -138,9 +165,16 @@ class CaptureRecorder:
     def __exit__(self, *_):
         self.close()
 
-    def _command(self, index: int) -> list[str]:
+    def _command(self, device: dict) -> list[str]:
+        if INPUT_FORMAT == "dshow":
+            # ':' separates additional inputs in DirectShow's URL grammar.
+            if ":" in device["name"]:
+                raise AudioError("Rename the loopback endpoint without ':' for DirectShow capture.")
+            source = ["-f", "dshow", "-audio_buffer_size", "50", "-i", "audio=" + device["name"]]
+        else:
+            source = ["-f", "avfoundation", "-i", f":{device['index']}"]
         return [self.ffmpeg, "-nostdin", "-hide_banner", "-v", "error", "-n",
-                "-protocol_whitelist", "file", "-f", "avfoundation", "-i", f":{index}",
+                "-protocol_whitelist", "file", *source,
                 "-map", "0:a:0", "-vn", "-sn", "-dn", "-threads", "1",
                 "-t", f"{self.max_seconds:.12f}", "-ar", str(SAMPLE_RATE), "-ac", "2",
                 "-c:a", "pcm_f32le", "-f", "f32le", "-flush_packets", "1",
@@ -152,9 +186,9 @@ class CaptureRecorder:
             matches = [item for item in discover_devices(check_cancel, ffmpeg=self.ffmpeg)
                        if item["name"] == self.device]
             if len(matches) != 1:
-                raise AudioError(f"Audio device {self.device!r} not uniquely available; no microphone fallback")
+                raise AudioError(f"Audio device {self.device!r} not uniquely available; check /ableton devices for the exact loopback name; no microphone fallback")
             self.started_at = time.monotonic()
-            self.process = _spawn(self._command(matches[0]["index"]))
+            self.process = _spawn(self._command(matches[0]))
             while True:
                 check_cancel()
                 if self.frames_written() > 0:
@@ -232,14 +266,15 @@ class CaptureRecorder:
                              b"fmt ", 18, 3, 2, SAMPLE_RATE, SAMPLE_RATE * FRAME_BYTES,
                              FRAME_BYTES, 32, 0, b"fact", 4, frame_count, b"data", len(data))
         wav_path = Path(wav_path)
-        with wav_path.open("xb") as output:
-            try:
+        output = wav_path.open("xb")
+        try:
+            with output:
                 output.write(header)
                 output.write(data)
                 check_cancel()
-            except BaseException:
-                wav_path.unlink(missing_ok=True)
-                raise
+        except BaseException:
+            wav_path.unlink(missing_ok=True)
+            raise
         return wav_path
 
     def close(self) -> None:

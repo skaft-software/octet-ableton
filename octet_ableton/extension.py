@@ -12,11 +12,11 @@ from octet_extension import CancelledError, Extension, RpcError, audio_content, 
 from .audio_capture import AudioError, listen_file
 from .bridge_client import BRIDGE_REVISION, BridgeClient, BridgeError
 from .installer import default_user_library, setup
-from .live_audio import discover_devices
+from .live_audio import DEFAULT_DEVICE, discover_devices
 from .live_listen import listen_live
 from .presentation import ToolRun, compact_compose
 
-NO_LOOPBACK = "Live loopback capture is macOS-only. Export a WAV from Live and pass its absolute file_path instead."
+NO_LOOPBACK = "Live loopback capture needs Windows or macOS. Export a WAV from Live and pass its absolute file_path instead."
 
 LISTEN_SCHEMA = {
     "type": "object",
@@ -25,7 +25,7 @@ LISTEN_SCHEMA = {
         "attach_audio": {"type": "boolean", "default": False, "description": "Ask for confirmation to send the requested MP3 previews to the active model as native audio."},
         "file_path": {
             "type": "string",
-            "description": "Local WAV/MP3/etc. Omit to record Live through BlackHole 2ch (or an explicitly selected loopback device).",
+            "description": "Local WAV/MP3/etc. Omit to record Live through the selected loopback device.",
         },
         "tempo": {
             "type": "number",
@@ -46,7 +46,7 @@ LISTEN_SCHEMA = {
             "description": "Time of bar 1 in the file; assumes constant tempo/meter.",
         },
         "include_session_state": {"type": "boolean", "default": False, "description": "Opt in to a full session snapshot; use ableton_live_object_model view=session for compact inspection."},
-        "device": {"type": "string", "description": "Live capture only: exact loopback audio device name; default BlackHole 2ch. Never falls back to microphone."},
+        "device": {"type": "string", "description": f"Live capture only: exact loopback audio device name; default {DEFAULT_DEVICE}. Never falls back to microphone."},
         "latency_ms": {"type": "number", "minimum": 0, "maximum": 1000, "description": "Live capture only: measured loopback delay compensation; default 0 is uncalibrated."},
         "slices": {
             "type": "array",
@@ -184,7 +184,7 @@ def build_extension(*, client=None, scratch=None):
             if attach and "artifacts" not in ext.negotiated_features:
                 raise ValueError("Host did not negotiate audio artifacts. Omit attach_audio for local previews.")
             if "file_path" not in args:
-                if sys.platform == "win32":
+                if sys.platform not in ("darwin", "win32"):
                     raise AudioError(NO_LOOPBACK)
                 output = listen_live(args, bridge=run, scratch=audio_scratch(), check_cancel=ext.cancellation.raise_if_cancelled)
             else:
@@ -287,7 +287,7 @@ def build_extension(*, client=None, scratch=None):
                 )
                 return json.dumps(outcome, indent=2)
             if arguments == ["devices"]:
-                if sys.platform == "win32":
+                if sys.platform not in ("darwin", "win32"):
                     return NO_LOOPBACK
                 return json.dumps(discover_devices(ext.cancellation.raise_if_cancelled), indent=2)
             if arguments == ["status"] or not arguments:
@@ -311,7 +311,7 @@ def build_extension(*, client=None, scratch=None):
                         "bridge": state,
                         "status": cached_status,
                         "file_audio_ready": ffmpeg,
-                        "live_capture": NO_LOOPBACK if sys.platform == "win32" else "Route Live output to BlackHole 2ch; /ableton devices lists exact capture device names. Capture does not alter audio routing.",
+                        "live_capture": NO_LOOPBACK if sys.platform not in ("darwin", "win32") else f"Route Live output to the loopback playback endpoint. Default capture input: {DEFAULT_DEVICE}; /ableton devices lists exact names. Capture does not alter routing.",
                     },
                     indent=2,
                 )

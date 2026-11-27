@@ -6,7 +6,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 from octet_ableton.audio_capture import AudioError
-from octet_ableton.live_audio import CaptureRecorder
+from octet_ableton.live_audio import CaptureRecorder, DEFAULT_DEVICE
 from octet_ableton.live_listen import _validate_playhead, listen_live
 
 
@@ -113,7 +113,7 @@ class LiveListenTests(unittest.TestCase):
         self.bridge = Bridge()
 
     def run_listen(self, cancel=lambda: None, start_bar=2, length_bars=0.125):
-        with patch("octet_ableton.live_audio.discover_devices", return_value=[{"name": "BlackHole 2ch", "index": 1}]):
+        with patch("octet_ableton.live_audio.discover_devices", return_value=[{"name": DEFAULT_DEVICE, "index": 1}]):
             return listen_live({"slices": [{"start_bar": start_bar, "end_bar": start_bar + length_bars}]},
                                bridge=self.bridge, scratch=self.path,
                                check_cancel=cancel, recorder_class=SyntheticRecorder)

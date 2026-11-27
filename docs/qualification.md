@@ -50,7 +50,7 @@ The inspection tool has been renamed to `ableton_live_object_model` (Ableton Liv
 
 1. Save your work. Create a **disposable new Live Set** in 4/4 at >=60 BPM. Operator is required (Live Suite).
 2. Add an empty track named **OCTET QUALIFICATION ONLY**. This explicit marker guards the test; Live's documented API does not reliably provide a saved set name.
-3. Enable OctetBridge as described in the README. Route output to BlackHole 2ch (or a Multi-Output Device containing it). Record the original routing and restore it afterward. Stop playback/recording and return to Arrangement playback.
+3. Enable OctetBridge as described in the README. On macOS route output to BlackHole 2ch (or a Multi-Output Device containing it); on Windows route to VB-CABLE’s **CABLE Input** and capture **CABLE Output** (see README). Record the original routing and restore it afterward. Stop playback/recording and return to Arrangement playback.
 4. Run from the extension checkout:
 
 ```sh

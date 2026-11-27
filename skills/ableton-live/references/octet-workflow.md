@@ -98,7 +98,7 @@ The operation catalog above does not expose arbitrary Session clip launching, Wa
 
 - File-duration checks allow one output sample of ffprobe metadata rounding, but decoding must still cover all requested frames; genuinely truncated previews are rejected.
 - Local-file slices use seconds **or** bars, not both. File bars need a known constant tempo; default signature is 4/4 and origin is zero only when correct for that file.
-- Live slices use bars and require explicit working loopback routing. Default capture device is exactly `BlackHole 2ch`; no microphone fallback is appropriate. Driver/routing setup needs the user's authorization.
+- Live slices use bars and require explicit working loopback routing. Default capture input is exactly `BlackHole 2ch` on macOS or `CABLE Output (VB-Audio Virtual Cable)` on Windows. Route Live playback to **CABLE Input** on Windows. Use `/ableton devices` for renamed endpoints; never substitute a microphone. Driver/routing setup needs the user's authorization.
 - At most four slices per call, each at most eight seconds **and** eight bars. A musically short passage can still exceed the seconds limit at low tempo.
 - Omit `solo_tracks` to preserve current solos. An empty list temporarily clears solos; supplied indices request temporary isolation. Live recording and Session overrides must be stopped/resolved before timeline capture.
 - Transport and solos are intended to be restored after capture, including cancellation. Verify after failures; capture restoration does not undo prior composition edits.
