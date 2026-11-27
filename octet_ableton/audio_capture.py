@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import json
 import math
+import os
 import shutil
 import subprocess
 import tempfile
@@ -25,6 +26,31 @@ PROCESS_OUTPUT_LIMIT = 64 * 1024
 
 class AudioError(ValueError):
     """An expected input, media, or local audio-tool failure."""
+
+
+def stop_process(process: subprocess.Popen) -> None:
+    if process.poll() is not None:
+        return
+    if os.name == "nt":
+        # A PATH entry may be a launcher (e.g. Chocolatey ShimGen). Stopping
+        # only that PID leaves FFmpeg recording and the private PCM file locked.
+        from win32api import GetSystemDirectory
+        command = [str(Path(GetSystemDirectory()) / "taskkill.exe"), "/pid", str(process.pid), "/t", "/f"]
+        try:
+            killed = subprocess.run(command, stdin=subprocess.DEVNULL, stdout=subprocess.DEVNULL,
+                                    stderr=subprocess.DEVNULL, timeout=3)
+            if killed.returncode and process.poll() is None:
+                raise AudioError(f"Could not stop audio process tree (taskkill exit {killed.returncode}).")
+            process.wait(timeout=2)
+        except subprocess.TimeoutExpired as exc:
+            raise AudioError("Timed out stopping audio process tree.") from exc
+    else:
+        process.terminate()
+        try:
+            process.wait(timeout=0.5)
+        except subprocess.TimeoutExpired:
+            process.kill()
+            process.wait(timeout=2)
 
 
 def _run(
@@ -65,13 +91,7 @@ def _run(
                 raise AudioError(f"{command[0]} failed: {error[-1200:].strip()}")
             return text
         finally:
-            if process.poll() is None:
-                process.terminate()
-                try:
-                    process.wait(timeout=0.5)
-                except subprocess.TimeoutExpired:
-                    process.kill()
-                    process.wait(timeout=2)
+            stop_process(process)
 
 
 def _probe(path: Path, check_cancel: Callable[[], None]) -> tuple[float, int]:

@@ -165,6 +165,15 @@ class RecorderTests(unittest.TestCase):
         self.assert_reaped(process)
         self.assertFalse(recorder.directory.exists())
 
+    @unittest.skipUnless(os.name == "nt", "Windows launcher process tree")
+    def test_abort_stops_recorder_behind_launcher_before_removing_pcm(self):
+        # Like a package-manager shim, the direct child waits for the writer.
+        writer = "import sys,time; f=open(sys.argv[1], 'wb', buffering=0); f.write(bytes(80)); time.sleep(20)"
+        recorder = self.run_fake(f"import subprocess,sys; subprocess.call([sys.executable, '-c', {writer!r}, sys.argv[1]])")
+        recorder.start(noop)
+        recorder.abort()
+        self.assertFalse(recorder.directory.exists(), "writer still holds the PCM file open")
+
     def test_start_cancellation_reaps(self):
         recorder = self.run_fake("import time; time.sleep(10)")
         processes = []

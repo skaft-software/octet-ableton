@@ -19,7 +19,7 @@ import time
 from collections.abc import Callable
 from pathlib import Path
 
-from .audio_capture import AudioError, PROCESS_OUTPUT_LIMIT, SAMPLE_RATE
+from .audio_capture import AudioError, PROCESS_OUTPUT_LIMIT, SAMPLE_RATE, stop_process
 
 MAC_DEVICE = "BlackHole 2ch"
 WINDOWS_DEVICE = "CABLE Output (VB-Audio Virtual Cable)"
@@ -72,13 +72,7 @@ def _diagnostics(process: subprocess.Popen, buffer: bytearray) -> str:
 
 def _stop(process: subprocess.Popen | None) -> None:
     if process is not None:
-        if process.poll() is None:
-            process.terminate()
-            try:
-                process.wait(timeout=0.5)
-            except subprocess.TimeoutExpired:
-                process.kill()
-                process.wait(timeout=2)
+        stop_process(process)
         process.stderr.close()
 
 
